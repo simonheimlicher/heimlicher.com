@@ -1,0 +1,115 @@
+# [[main]]
+#   name = "Simon Heimlicher"
+#   url = ""
+#   weight = -110
+
+# Submenus are done this way: parent -> identifier
+# [[main]]
+#   name = "About"
+#   url = "/about/"
+#   weight = -109
+
+# [[main]]
+#   identifier = "articles"
+#   name = "Articles"
+#   url = "/articles/"
+#   weight = -108
+
+[[main]]
+  identifier = "leadership"
+  name = "Leadership"
+  url = "/leadership/"
+  weight = 100
+
+[[main]]
+  identifier = "organizational-transformation"
+  name = "Transformation"
+  url = "/organizational-transformation/"
+  weight = 200
+
+# [[main]]
+#   identifier = "digital-transformation"
+#   name = "Digitization"
+#   url = "/digital-transformation/"
+#   weight = 300
+
+[[main]]
+  identifier = "technology"
+  name = "Technology"
+  url = "/technology/"
+  weight = 500
+
+[[main]]
+  identifier = "research"
+  name = "Research"
+  url = "/research/"
+  weight = 900
+
+# [[main]]
+#   identifier = "technology"
+#   name = "Technology"
+#   url = "/technology/"
+#   weight = 500
+
+# [[main]]
+#   identifier = "books"
+#   name = "Books"
+#   url = "/categories/book/"
+#   weight = -106
+
+# [[main]]
+#   parent = "articles"
+#   name = "Tags"
+#   url = "/tags/"
+#   weight = -107
+
+# [[main]]
+#   parent = "articles"
+#   name = "Categories"
+#   url = "/categories/"
+#   weight = -106
+
+# social menu links
+
+# [[main]]
+#   name = "Links"
+#   identifier = "Links"
+#   weight = -107
+# [[main]]
+#   parent = "Links"
+#   name = "LinkedIn"
+#   url = "https://www.linkedin.com/in/simonheimlicher/"
+# [[main]]
+#   parent = "Links"
+#   name = "Twitter"
+#   url = "https://twitter.com/simihomer"
+
+# [[social]]
+#   name = "GitHub"
+#   type = "social"
+#   weight = 1
+#   url = "https://github.com/#"
+# [[social]]
+#   name = "Twitter"
+#   weight = 2
+#   url = "https://twitter.com/#"
+# [[social]]
+#   name = "LinkedIn"
+#   weight = 3
+#   url = "https://www.linkedin.com/in/simonheimlicher/"
+# [[social]]
+#   name = "RSS"
+#   weight = 4
+#   url = "index.xml"
+
+# other supported social links
+# name = "youtube"
+# url = "https://www.youtube.com/#"
+# name = "facebook"
+# url = "https://facebook.com/#"
+# name = "instagram"
+# url = "https://instagram.com/#"
+# name = "stackoverflow"
+# url = "https://stackoverflow.com/#"
+# name = "gitlab"
+# url = "https://gitlab.com/#"

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "content",
+      "path": "[[workspace]]"
+    }
+  ],
+  "frontMatter.taxonomy.tags": [
+    "CSS",
+    "Communication",
+    "Culture",
+    "HTML",
+    "Leadership",
+    "Markdown",
+    "OKR",
+    "Performance",
+    "Product Management",
+    "Project Management",
+    "Talent",
+    "Themes",
+    "macOS"
+  ],
+  "frontMatter.taxonomy.categories": [
+    "Book",
+    "Communication",
+    "Culture",
+    "Methodology",
+    "Syntax",
+    "Themes",
+    "macOS"
+  ],
+  "frontMatter.content.autoUpdateDate": true
+}

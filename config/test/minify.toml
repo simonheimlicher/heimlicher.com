@@ -1,0 +1,29 @@
+[minify]
+  disableCSS = true
+  disableHTML = true
+  disableJS = true
+  disableJSON = true
+  disableSVG = true
+  disableXML = true
+  minifyOutput = false
+  [minify.tdewolff]
+    [minify.tdewolff.css]
+      keepCSS2 = true
+      precision = 0
+    [minify.tdewolff.html]
+      keepComments = true
+      keepConditionalComments = true
+      keepDefaultAttrVals = true
+      keepDocumentTags = true
+      keepEndTags = true
+      keepQuotes = true
+      keepWhitespace = true
+    [minify.tdewolff.js]
+      keepVarNames = true
+      precision = 0
+    [minify.tdewolff.json]
+      precision = 0
+    [minify.tdewolff.svg]
+      precision = 0
+    [minify.tdewolff.xml]
+      keepWhitespace = true

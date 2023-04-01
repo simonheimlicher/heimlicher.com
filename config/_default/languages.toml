@@ -1,0 +1,11 @@
+
+# [en]
+#   title = "simi.sh"
+#   LanguageName = "English"
+#   weight = 1
+
+# [de]
+#   title = "simi.sh" # just for the sake of showing this is possible
+#   LanguageName = "Deutsch"
+#   weight = 2
+  

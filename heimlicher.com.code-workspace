@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "./config"
+		},
+		{
+			"path": "./content"
+		},
+		{
+			"path": "assets"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.html": "go-template"
+		},
+		"frontMatter.content.autoUpdateDate": false,
+        "evenBetterToml.schema.associations": {
+			"*.toml": "https://json.schemastore.org/hugo.json",
+        }
+	}
+}

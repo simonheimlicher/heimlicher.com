@@ -1,0 +1,15 @@
+/local/
+/public/
+/output/
+/cache/
+/validation/
+/content-off/
+/logs/
+/resources/
+.DS_Store
+/node_modules/
+/assets/jsconfig.json
+/assets/data/claris/private/
+/.hugo_build.lock
+/.env
+serve_env.sh
