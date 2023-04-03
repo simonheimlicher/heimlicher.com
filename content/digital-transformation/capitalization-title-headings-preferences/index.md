@@ -18,9 +18,9 @@ featureImage: "images/amador-loureiro-BVyNlchWqzs-unsplash"
 
 Capitalization in English is a matter that confuses not only the non-native speakers. In my experience, preferences vary between organizations and countries around the world. In an attempt to remain consistent in my own writing, I have found the [Microsoft Style Guide]( https://docs.microsoft.com/en-us/style-guide/capitalization#title-style-capitalization)'s treatise of this topic to be quite helpful and would like to summarize it for the benefit of others in their quest for a universal set of rules.
 
-{{< responsive-image src="images/ubs.png" lightbox=true float="left" caption="UBS" attr="UBS AG" attrlink="https://www.ubs.com/" >}}
+{{< responsive-image resource="images/ubs.png" lightbox=true float="left" caption="UBS" attr="UBS AG" attrlink="https://www.ubs.com/" >}}
 
-{{< responsive-image src="images/microsoft.png" lightbox=true float="right" caption="Microsoft" attr="Microsoft Ltd." attrlink="https://microsoft.com/" >}}
+{{< responsive-image resource="images/microsoft.png" lightbox=true float="right" caption="Microsoft" attr="Microsoft Ltd." attrlink="https://microsoft.com/" >}}
 
 Since I first published this article in 2008, more and more organizations have changed their style guide to use sentence case for titles and headings. Two examples are [UBS](https://www.ubs.com/) and [Microsoft](https://microsoft.com), as seen on their websites.
 
