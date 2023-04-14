@@ -176,14 +176,13 @@ footerSection = "footer"
 # sidebarTaxonomies = ["tags"]
 
 # directories to hide from sitemap
-hiddenSections = ["confidential", "obsolete", "error", "home", "about", "footer"]
+hiddenSections = ["error", "home", "footer"]
 
 # list pages in current section in navigation for these types
 navListCurrentSectionForTypes = ["vitae"]
 navListCurrentSectionInSection = ["confidential", "application"]
 
 assetDownloadFolders = ["downloads"]
-downloadBaseNames = ["resume", "CV", "Lebenslauf"]
 
 themeColorLit = "hsl(42, 20%, 97%)"
 themeColorDim = "hsl(208, 20%, 25%)"
