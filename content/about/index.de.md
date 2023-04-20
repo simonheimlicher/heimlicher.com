@@ -1,12 +1,12 @@
 +++
 supertitle = "Über"
 title = "Simon Heimlicher"
-subtitle = "Transformativer Leader"
+subtitle = "Passionierter Leader"
 section = "Über mich"
 weight = 10
-lastmod = 2023-04-19T00:00:00Z
+lastmod = 2023-04-21T00:00:00Z
 keywords = ["heimlicher", "simon", "simon heimlicher", "über", "professionelle website"]
-description = "Über Simon Heimlicher, ein Transformativer Leader, der über Führung, organisatorische Entwicklung und Technologie schreibt"
+description = "Ein kurzes Profil von Simon Heimlicher, einem erfahrenen Leader mit einer Leidenschaft für Führung, Transformation und Strategieumsetzung."
 [schemaOrg]
   entityType = "ProfilePage"
 [image]
@@ -14,12 +14,22 @@ description = "Über Simon Heimlicher, ein Transformativer Leader, der über Fü
   thumbnail = "images/portrait"
 +++
 
-{{< responsive-image alt="Portrait of Simon Heimlicher" relative-width="40" lazy=false shape="round" float="right" resource="images/portrait" >}}
+In den letzten zehn Jahren hatte ich das Privileg, wertvolle Einsichten von einigen der erfahrensten Führungskräfte in den Bereichen **Leadership,** **Organisationsentwicklung** und **Strategieumsetzung** in einem globalen Kontext zu gewinnen.
 
-Simon Heimlicher hat ein Jahrzehnt Erfahrung in den Bereichen digitale Transformation, Strategieumsetzung und  Organisationsentwicklung in aus verschiedenen Unternehmen — von einem 30-Personen-Start-up bis zu einem globalen Vermögensverwalter.
+{{< responsive-image alt="Portrait of Simon Heimlicher" relative-width="20" lazy=false shape="round" float="left" resource="images/portrait" >}}
 
-Die Superkraft von Simon Heimlicher ist seine Fähigkeit, komplexe Probleme zu identifizieren und Teams zu mobilisieren, um deren Ursachen auf eine strukturierte Weise anzugehen. Er ist der Meinung, dass in der heutigen Wirtschaft transformative Führung entscheidend für die Leistung von Organisationen ist. Simons Leidenschaft, seine Erfahrungen zu teilen, hat ihn zu einem geschätzten Berater für aufstrebende Führungskräfte gemacht.
+Diese Erfahrungen konnte ich bei der Zusammenarbeit mit Menschen auf allen Führungsebenen in Unternehmen von kleinen Start-ups bis hin zu globalen Vermögensverwaltern sammeln.
 
-Als begeisterter Leser hält er seine Erkenntnisse in Rezensionen von Büchern über [Führung und Transformation](/categories/book) fest.
+## Potenzial von Menschen entfesseln
 
-Sie können ihn unter {{< obfuscated-email >}} erreichen.
+In dieser Zeit habe ich eine Leidenschaft dafür entwickelt, meinen Kollegen zu helfen, ihr volles Potenzial zu entfesseln, unabhängig von ihrer Spezialisierung, Position oder ihrem Alter. 
+
+Ich bin fest davon überzeugt, dass Leadership heute wichtiger ist als je zuvor, insbesondere aufgrund des raschen Wandels in Bereichen wie Machine Learning.
+
+## Vertrauenswürdiger Berater für aufstrebende Leader
+
+Es ehrt mich besonders, wenn angehende Führungskräfte mich um Rat und Unterstützung bitten, insbesondere in neuen und besonders schwierigen Situationen. Es bereitet mir große Freude, meine Einsichten zu Leadership und Transformation durch meine Schreibarbeiten und Buchempfehlungen zu teilen, die auf meiner Website zu finden sind.
+
+Ich bin ein begeisterter Leser und teile meine Erkenntnisse über Bücher zu [Leadership und Transformation](/categories/book) auf dieser Website.
+
+Als jemand, der stets auf der Suche nach neuen Herausforderungen und Möglichkeiten zur Weiterentwicklung seines Denkens ist, ermutige ich Sie, mich unter {{< obfuscated-email >}} zu kontaktieren, um Ihre eigenen Gedanken und Ideen zu teilen.

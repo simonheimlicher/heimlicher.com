@@ -141,6 +141,13 @@ paginate = 20
     ".DS_Store"
   ]
 
+[[module.mounts]]
+  source = "sites/heimlicher.com/i18n"
+  target = "i18n"
+  excludeFiles = [
+    ".DS_Store"
+  ]
+
 # FIXME: If using excludeFiles, these files are also not available for .Resources.Get
 [[module.mounts]]
   source = "sites/heimlicher.com/content"

@@ -1,16 +1,11 @@
 +++
 author = "Simon Heimlicher"
-title = "Simon Heimlicher"
-subtitle= "leadership & organizational transformation"
+title = "Simon Heimlicher: leadership & organizational transformation"
 date = "1999-03-19T00:00:00+0200"
 lastmod = "2023-03-22T10:08:52.500Z"
-aliases = [
-  "/home",
-  "/home/",
-]
-keywords = [ "simon", "heimlicher", "professional website", "blog" ]
+keywords = [ "simon", "heimlicher", "professionelle website", "blog" ]
 genre = "Professional website"
-description = "Professional website of Simon Heimlicher – a passionate leader who writes about leadership, organizational transformation and technology"
+description = "Professionelle Website von Simon Heimlicher: ein leidenschaftlichen Leader, der über Führung, organisatorische Entwicklung und Technologie schreibt"
 sectionsToShow = [
   "leadership",
   "organizational-transformation",

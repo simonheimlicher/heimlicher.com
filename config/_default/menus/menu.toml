@@ -39,11 +39,11 @@
   url = "/technology/"
   weight = 500
 
-[[main]]
-  identifier = "research"
-  name = "Research"
-  url = "/research/"
-  weight = 700
+# [[main]]
+#   identifier = "research"
+#   name = "Research"
+#   url = "/research/"
+#   weight = 700
 
 [[main]]
   identifier = "about"

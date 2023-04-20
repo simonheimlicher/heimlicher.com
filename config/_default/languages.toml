@@ -8,3 +8,9 @@
   # title = "Simon Heimlicher"
   LanguageName = "Deutsch"
   weight = 2
+
+
+[fr]
+  # title = "Simon Heimlicher"
+  LanguageName = "Français"
+  weight = 2

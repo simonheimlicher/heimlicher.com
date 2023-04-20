@@ -1,12 +1,12 @@
 +++
 supertitle = "About"
 title = "Simon Heimlicher"
-subtitle = "A transformational leader"
+subtitle = "A passionate leader"
 section = "About"
 weight = 10
-lastmod = 2023-04-19T00:00:00Z
+lastmod = 2023-04-21T00:00:00Z
 keywords = ["heimlicher", "simon", "simon heimlicher", "about", "professional website"]
-description = "About Simon Heimlicher, a transformational leader who writes about leadership, organizational transformation and technology"
+description = "A short profile of Simon Heimlicher, a senior executive with a passion for leadership, transformation, and strategy execution"
 [schemaOrg]
   entityType = "ProfilePage"
 [image]
@@ -14,12 +14,22 @@ description = "About Simon Heimlicher, a transformational leader who writes abou
   thumbnail = "images/portrait"
 +++
 
-{{< responsive-image alt="Portrait of Simon Heimlicher" relative-width="40" lazy=false shape="round" float="right" resource="images/portrait" >}}
+{{< responsive-image alt="Portrait of Simon Heimlicher" relative-width="30" lazy=false shape="round" float="left" resource="images/portrait" >}}
 
-Simon Heimlicher has a decade of experience in the fields of **organizational transformation,** **digital transformation** and **strategy execution** in a number of companies from a 30-person startup to a global wealth manager.
+Over the past ten years, I have had the privilege to gain valuable insights from some of the most accomplished leaders in the fields of **leadership,** **organizational transformation,** and **strategy execution at a global scale.** 
 
-Simon Heimlicher’s super power is his ability to **identify complex problems** and **rally teams** to address their **root cause** in a **structured manner**. He believes that in today’s economy, **transformational leadership** is critical to organizational performance. Simon’s passion for sharing his experience has made him a trusted advisor for aspiring leaders.
+These experiences have been gained through my work with companies ranging from [small startups](https://nine.ch/) to [global wealth managers](https://www.ubs.com).
 
-As an avid reader, he captures his insights in reviews of books on [leadership and transformation](/categories/book).
+## Unleashing potential
 
-You can reach him at {{< obfuscated-email >}}.
+During this time, I have developed a passion for helping my colleagues unleash their full potential, regardless of their background, position, or age. 
+
+I firmly believe that leadership is more crucial now than ever, especially given the rapid pace of change in fields such as [machine learning](/research/machine-learning).
+
+## Trusted advisor
+
+I feel particularly honored when aspiring leaders reach out to me for guidance and advice, especially when they face new and particularly difficult situations. I take great pleasure in sharing my insights on leadership and transformation through my writings and recommendations of books, which can be found on my website.
+
+I am an avid reader and like to captures my insights of books on [leadership and transformation](/categories/book) on this website.
+
+As someone who is always seeking new challenges and opportunities to evolve my thinking, I encourage you to contact me at {{< obfuscated-email >}} to share your own thoughts and ideas.
