@@ -9,10 +9,18 @@ toc: true
 summary: Objectives and Key Results (OKRs) are a methodology to align and keep an
   entire organization focused on its agreed upon goals. But do OKRs compete with
   or rather complement widely established performance review processes?
-featureImage: images/kelly-sikkema-4TBOXap8qg4-unsplash.jpg
-codeMaxLines: 10
-codeLineNumbers: false
-figurePositionShow: true
+image:
+  feature:
+    resource: "images/kelly-sikkema-4TBOXap8qg4-unsplash.jpg"
+    position: "center center"
+  # thumbnail:
+  #   resource: "images/hugo_theme_claris-thumbnail"
+  # search:
+  #   - resource: "images/hugo_theme_claris-feature"
+  #   - resource: "images/hugo_theme_claris-thumbnail"
+  #   - resource: "images/hugo_theme_claris-share"
+  # share:
+  #   resource: "images/hugo_theme_claris-share"
 aliases:
   - /articles/okrs-vs-performance-management/
   - /articles/okrs-vs.-performance-management/

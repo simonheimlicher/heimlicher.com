@@ -1,8 +1,8 @@
 ---
 title: Leadership
 weight: 100
-featureImage: images/andreas-dress-oOqUs-ZcE9A-unsplash
-# featureImagePosition: center 47% # Sets the alignment of the feature image
+image:
+  feature: images/andreas-dress-oOqUs-ZcE9A-unsplash
 description: On leadership that wins hearts, changes minds and delivers results
 aliases:
   - /articles/

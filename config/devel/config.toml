@@ -1,6 +1,6 @@
 # set `baseurl` to your root domain
 # if you set it to "/" share icons won't work properly on production
 baseurl = "https://devel.heimlicher.com.local/"  # Include trailing slash
-title = "devel.heimlicher.com.local"
+title = "Simon Heimlicher"
 
 disableAliases = false

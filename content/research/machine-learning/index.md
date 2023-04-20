@@ -3,9 +3,10 @@ title = "Machine learning"
 description = "Machine learning for movie recommendations – preserving privacy"
 weight = 100
 date = "2023-03-12T13:20:20Z"
-thumbnail = "images/robynne-hu-HOrhCnQsxnQ-unsplash-square"
-featureImage = "images/robynne-hu-HOrhCnQsxnQ-unsplash-original"
 lastmod = "2023-03-16T17:58:36.115Z"
+[image]
+  thumbnail = "images/robynne-hu-HOrhCnQsxnQ-unsplash-square"
+  feature = "images/robynne-hu-HOrhCnQsxnQ-unsplash-original"
 +++
 
 At Technicolor, we designed and evaluated a distributed inference algorithm to provide recommendations for media such as movies or TV shows. 

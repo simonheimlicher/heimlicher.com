@@ -43,6 +43,12 @@
   identifier = "research"
   name = "Research"
   url = "/research/"
+  weight = 700
+
+[[main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
   weight = 900
 
 # [[main]]

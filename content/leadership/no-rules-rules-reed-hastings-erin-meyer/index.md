@@ -9,8 +9,10 @@ featured: true # Sets if post is a featured post, making appear on the home page
 draft: true # Sets whether to render this page. Draft of true will not be rendered.
 # toc: true # Controls if a table of contents should be generated for first-level links automatically.
 # menu: main
-featureImage: "images/no-rules-rules-reed-hastings-erin-meyer-feature" # Sets featured image on blog post.
-featureImagePosition: "50% 20%"
+image:
+  feature:
+    - resource: images/no-rules-rules-reed-hastings-erin-meyer-feature
+      position: 50% 20%
 categories:
   - Book
 tags:

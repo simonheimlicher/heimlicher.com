@@ -12,8 +12,10 @@ draft: false
 aliases:
   - /articles/powerful-patty-mccord/
 # menu: main
-featureImage: images/powerful-patty-mccord-feature
-featureImagePosition: center 47%
+image:
+  feature:
+    - resource: images/powerful-patty-mccord-feature
+      position: center 47%
 categories:
   - Book
 tags:

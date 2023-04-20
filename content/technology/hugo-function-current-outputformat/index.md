@@ -7,7 +7,8 @@ description: Hugo does not currently provide a function to obtain the current Ou
 featured: false
 draft: false
 # toc: true # Controls if a table of contents should be generated for first-level links automatically.
-featureImage: images/keith-misner-h0Vxgz5tyXA-unsplash.jpg
+image:
+  feature: images/keith-misner-h0Vxgz5tyXA-unsplash.jpg
 # thumbnail: images/thumbnail.png
 # shareImage: images/share.png
 # codeMaxLines: 10 # Override global value for how many lines within a code block before auto-collapsing.

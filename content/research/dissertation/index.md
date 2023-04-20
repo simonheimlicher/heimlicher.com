@@ -4,10 +4,11 @@ slug = "dissertation"
 date = "2010-11-23T17:44:14Z"
 alias = "publications/dissertation"
 description = "Ph.D. dissertation of Simon Heimlicher entitled “Wireless Communication Among Mobile Nodes: From Paths to Clusters to Connectivity”"
-featureImage = "images/dissertation-front"
-thumbnail = "images/dissertation-front"
 lastmod = "2023-03-16T21:05:55.258Z"
 weight = 900
+[image]
+  feature = "images/dissertation-front"
+  thumbnail = "images/dissertation-front"
 +++
 
 

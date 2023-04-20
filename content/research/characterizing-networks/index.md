@@ -4,8 +4,9 @@ weight = 500
 date = "2012-01-29T04:21:00Z"
 lastmod = "2023-03-18T16:44:06.415Z"
 summary = "A methodology and its empirical validation based on GPS traces from taxi cabs that  characterizes mobile networks via the size of clusters of connected nodes"
-thumbnail = "images/ferdinand-stohr-nKg8IsVFMV8-unsplash-square"
-featureImage = "images/ferdinand-stohr-nKg8IsVFMV8-unsplash"
+[image]
+  thumbnail = "images/ferdinand-stohr-nKg8IsVFMV8-unsplash-square"
+  feature = "images/ferdinand-stohr-nKg8IsVFMV8-unsplash"
 +++
 
 Are all computers in a network always able to communicate with each other? Yes, at least when we consider the Internet or your home Wi-Fi. However, when we study communication among mobile devices carried by people, this assumption no longer holds. We have developed a methodology to characterize such networks. The initial publication received the award for the best paper at the *ACM MobiHoc* conference, a top-tier conference for mobile networking, in 2010.

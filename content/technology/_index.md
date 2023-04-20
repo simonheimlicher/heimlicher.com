@@ -1,7 +1,8 @@
 ---
 title: Technology
 weight: 500
-featureImage: images/Time Machine - UUID of disk changed
+image:
+  feature: 'images/Time Machine - UUID of disk changed'
 description: On solving challenging problems with and in technology
 aliases:
   - /articles/comodo-ssl-certificate-with-nginx/

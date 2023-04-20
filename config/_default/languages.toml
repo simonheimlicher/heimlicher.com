@@ -1,11 +1,10 @@
 
-# [en]
-#   title = "simi.sh"
-#   LanguageName = "English"
-#   weight = 1
+[en]
+  # title = "Simon Heimlicher"
+  LanguageName = "English"
+  weight = 1
 
-# [de]
-#   title = "simi.sh" # just for the sake of showing this is possible
-#   LanguageName = "Deutsch"
-#   weight = 2
-  
+[de]
+  # title = "Simon Heimlicher"
+  LanguageName = "Deutsch"
+  weight = 2

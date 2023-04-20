@@ -3,8 +3,9 @@
 title = "Publications"
 date = "2014-08-27T07:50:12Z"
 description= "Book chapters, journal and conference papers"
-thumbnail = "images/ron-dyar-V29UWcALNko-unsplash-thumbnail"
-featureImage = "images/ron-dyar-V29UWcALNko-unsplash-feature"
+[image]
+  thumbnail = "images/ron-dyar-V29UWcALNko-unsplash-thumbnail"
+  feature = "images/ron-dyar-V29UWcALNko-unsplash-feature"
 +++
 
 ## Conference and Workshop Papers

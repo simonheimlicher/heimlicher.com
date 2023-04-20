@@ -3,9 +3,10 @@ title = "Forwarding paradigms in mobile wireless networks"
 weight = 600
 date = "2012-01-29T04:21:00Z"
 summary = "On leveraging partial connectivity for multi-hop forwarding in mobile networks"
-featureImage = "images/4973677407_aaef445b5b_o"
-thumbnail = "images/4973677407_aaef445b5b_o-square"
 lastmod = "2023-03-18T16:44:28.292Z"
+[image]
+  feature = "images/4973677407_aaef445b5b_o"
+  thumbnail = "images/4973677407_aaef445b5b_o-square"
 +++
 
 Research abounds on how to communicate in networks that are either almost always connected or where links between nodes only appear sporadically. In contrast, to leverage opportunities from partial paths has not been investitgated in any comparable depth.

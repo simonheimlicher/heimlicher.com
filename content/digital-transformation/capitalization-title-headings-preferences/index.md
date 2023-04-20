@@ -13,7 +13,8 @@ tags:
     - Communication
 disqusurl: https://simon.heimlicher.com/articles/2008/01/03/capitalization
 summary: Preferences for capitalization vary between organizations and countries around the world. In an attempt to remain consistent in my own writing, I have found the Microsoft Style Guides treatise of the topics to be quite helpful and would like to summarize it for the benefit of others in their quest for a universal set of rules
-featureImage: "images/amador-loureiro-BVyNlchWqzs-unsplash"
+image:
+  feature: "images/amador-loureiro-BVyNlchWqzs-unsplash"
 ---
 
 Capitalization in English is a matter that confuses not only the non-native speakers. In my experience, preferences vary between organizations and countries around the world. In an attempt to remain consistent in my own writing, I have found the [Microsoft Style Guide]( https://docs.microsoft.com/en-us/style-guide/capitalization#title-style-capitalization)'s treatise of this topic to be quite helpful and would like to summarize it for the benefit of others in their quest for a universal set of rules.

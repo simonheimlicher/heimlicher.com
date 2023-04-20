@@ -11,8 +11,9 @@ categories = [ "macOS" ]
 tags = [ "macOS" ]
 disqusurl = "https://simon.heimlicher.com/articles/2011/02/18/time-machine-volume-uuid"
 summary = "If you clone a volume that you backup with Time Machine, its UUID will change and Time Machine will no longer be able to back it up. Use the following script to change the UUID of the existing backups, leading Time Machine to backup as if the volume's UUID had never changed"
-thumbnail = "images/thumbnail"
-featureImage = "images/Time Machine - UUID of disk changed"
+[image]
+  feature = "images/Time Machine - UUID of disk changed"
+  thumbnail = "images/thumbnail"
 +++
 
 If you clone a volume that you backup with Time Machine, its UUID will change and Time Machine will no longer be able to make backups of it. However, it won't tell you directly what the problem is. Rather, you will find entries like the following in `/var/log/system.log`:

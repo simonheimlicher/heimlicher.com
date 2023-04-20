@@ -6,10 +6,18 @@ description: Do you need Objectives and Key Results (OKRs)? There is the most po
 featured: false
 draft: false
 toc: true
-# menu: main
-featureImage: images/charles-deluvio-Wd3DG2ABwzE-unsplash.jpg
-# thumbnail: "images/thumbnail.png" # Sets thumbnail image appearing inside card on homepage.
-# shareImage: "images/share.png" # Designate a separate image for social media sharing.
+image:
+  feature:
+    resource: "images/charles-deluvio-Wd3DG2ABwzE-unsplash"
+    position: "center center"
+  # thumbnail:
+  #   resource: "images/hugo_theme_claris-thumbnail"
+  # search:
+  #   - resource: "images/hugo_theme_claris-feature"
+  #   - resource: "images/hugo_theme_claris-thumbnail"
+  #   - resource: "images/hugo_theme_claris-share"
+  # share:
+  #   resource: "images/hugo_theme_claris-share"
 categories:
   - Methodology
 tags:

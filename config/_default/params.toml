@@ -9,7 +9,10 @@ largeTwitterCard = false # set to true if you want to show a large twitter card 
 introDescription =   "Transformational leader with a background in technology and experience in leadership and strategy execution at a global scale"
 # introURL = "about" # set the url for the 'read more' button below the introDescription, or set to false to not show the button
 # description = "" # set your site's description here. will be use for home page content meta tags (seo). Alternatively set this description in your homepage content file i.e content/_index.md. Whatever is set in the latter will take precedence
-description = "Simon Heimlicher is a transformational leader with a background in technology and experience in leadership and strategy execution at a global scale"
+description = "Professional website of Simon Heimlicher – a transformational leader who writes about leadership, organizational transformation and technology."
+
+# Alternative headline for Schema.org
+alternativeHeadline = "Leadership and organizational transformation through technology"
 
 showShare = false # Uncomment to not show share buttons on each post. Also available in each post's front matter.
 
@@ -97,10 +100,6 @@ numberOfRelatedArticles = 5
 # dateFormat = "2006-01-02" # Default to "Jan 2, 2006".
 # customFonts = true # toggle to true if you want to use custom fonts only.
 
-# The year when ths website was created, this value is used in the copyright
-# notice of the footer.
-since = 1999
-
 # tell hugo where you store your icons e.g favicons. This is useful if you're using an apache server and there are conflicts >> see issue https://github.com/chipzoller/hugo-clarity/issues/74. If this is applicable to you, be sure to copy the contents of https://github.com/chipzoller/hugo-clarity/tree/master/static/icons to your preferred icons directory
 iconsDir = "/" # without a leading forward slash
 
@@ -169,14 +168,14 @@ fontsSelfHosted = true
 # Support IE 11 with JS polyfills / ponyfills
 supportIE11 = true
 
-homeSection = "home"
+homeSection = "_home"
 
-footerSection = "footer"
+footerSection = "_footer"
 
 # sidebarTaxonomies = ["tags"]
 
 # directories to hide from sitemap
-hiddenSections = ["error", "home", "footer"]
+hiddenSections = ["_error", "_home", "_footer"]
 
 # list pages in current section in navigation for these types
 navListCurrentSectionForTypes = ["vitae"]
@@ -186,3 +185,38 @@ assetDownloadFolders = ["downloads"]
 
 themeColorLit = "hsl(42, 20%, 97%)"
 themeColorDim = "hsl(208, 20%, 25%)"
+
+[social]
+  twitter = "simonheimlicher"
+  github = "simonheimlicher"
+  linkedin = "simonheimlicher"
+  stackoverflow = "617559/simon-heimlicher"
+  superuser = "69517/simon-heimlicher"
+
+[website]
+  name = "simon.heimlicher.com"
+  # The year when ths website was created, this value is used in the copyright
+  # notice of the footer.
+  established = 1999
+
+  [website.license]
+    identifier = "CC BY-NC-ND 4.0"
+    URL = "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+
+[image]
+  thumbnail = [
+    "images/sh.com_site_thumbnail_1200x627.png",
+    "images/sh.com_site_thumbnail_1200x675.png",
+    "images/sh.com_site_thumbnail_1200x1200.png"
+  ]
+
+# Configuration of robots tag in head
+[robots]
+  index = true
+  indeximages = true
+  follow = true
+  # Sections within which all pages will automatically include robots = noindex, nofollow
+  # noIndexSections = ["confidential", "private"]
+  # Sections to be listed in robots.txt as being excluded from indexing
+  # CAUTION: This will cause attackers to look at these sections in particular, so do not use this parameter to hide a section
+  robotsTxtDisallowSections = ["_error", "_home", "_footer"]
