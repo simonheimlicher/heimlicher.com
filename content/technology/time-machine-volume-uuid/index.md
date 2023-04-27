@@ -19,7 +19,7 @@ resource = "images/Time Machine - UUID of disk changed"
 +++
 
 {{% note update %}}
-The problem described i this article is now being handled by macOS. In most cases, you are given the option to [associate the Time Machine disk](/articles/time-machine-inherit-backup-using-tmutil) and inherit the backup history.
+The problem described in this article is now being handled by macOS. In most cases, you are given the option to [associate the Time Machine disk](/articles/time-machine-inherit-backup-using-tmutil) and inherit the backup history.
 {{% /note %}}
 
 If you clone a volume that you backup with Time Machine, its UUID will change and Time Machine will no longer be able to make backups of it. However, it won't tell you directly what the problem is. Rather, you will find entries like the following in `/var/log/system.log`:
