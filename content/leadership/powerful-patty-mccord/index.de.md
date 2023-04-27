@@ -3,7 +3,7 @@ supertitle: Patty McCord
 title: Powerful
 subtitle: Building a culture of freedom and responsibility
 date: 2021-10-15
-lastmod: 2023-03-20T10:49:14.148Z
+lastmod: 2023-04-25T11:59:19.238Z
 description: Schlüsselerkenntnisse aus dem Buch Powerful über die Netflix-Kultur aus Perspektive von Patty McCord, welche als Chief Talent Officer von Anfang an dabei war.
 featured: false
 draft: false

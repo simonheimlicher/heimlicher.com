@@ -35,6 +35,6 @@ I firmly believe that leadership is more crucial now than ever, especially given
 
 I feel particularly honored when aspiring leaders reach out to me for guidance and advice, especially when they face new and particularly difficult situations. I take great pleasure in sharing my insights on leadership and transformation through my writings and recommendations of books, which can be found on my website.
 
-I am an avid reader and like to captures my insights of books on [leadership and transformation](/categories/book) on this website.
+I am an avid reader and like to share my insights from books on topics such as [leadership and transformation](/categories/book) on this website.
 
 As someone who is always seeking new challenges and opportunities to evolve my thinking, I encourage you to contact me at {{< obfuscated-email >}} to share your own thoughts and ideas.

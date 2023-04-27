@@ -169,6 +169,10 @@ themeColorDim = "hsl(208, 20%, 25%)"
     id = "617559/simon-heimlicher"
   [social.superuser]
     id = "69517/simon-heimlicher"
+  [social.crossvalidated]
+    id = "4467/simon-heimlicher"
+  [social.resumesocial]
+    id = "simon-heimlicher"
 
 [website]
   name = "simon.heimlicher.com"

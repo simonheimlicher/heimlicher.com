@@ -2,8 +2,8 @@
 title: Turn the Ship Around!
 supertitle: L. David Marquet
 subtitle: Turning followers into leaders
-date: "2021-06-07T23:27:52+0200"
-lastmod: "2021-06-07T23:27:52+0200"
+date: 2021-06-07T23:27:52+0200
+lastmod: 2023-04-24T23:27:52+0200
 description: "Intent-Based Leadership, a paradigm for turning followers into leaders – and this book lays out its application on a US submarine in an  auto-biographic nature"
 featured: false
 image:

@@ -11,5 +11,5 @@ description: "Über Führung mit Wahrheit, Mitgefühl und Wirkung, um Komplexit�
 aliases:
   - /articles/
   - /series/leadership/
-lastmod: 2023-03-19T17:03:55.593Z
+lastmod: 2023-04-24T23:27:52+0200
 ---

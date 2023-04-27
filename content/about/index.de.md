@@ -1,7 +1,7 @@
 +++
 supertitle = "Über"
 title = "Simon Heimlicher"
-subtitle = "Passionierter Leader"
+subtitle = "Begeisterter Leader"
 section = "Über mich"
 weight = 10
 lastmod = 2023-04-21T00:00:00Z
@@ -24,16 +24,18 @@ In den letzten zehn Jahren hatte ich das Privileg, wertvolle Einsichten von eini
 
 Diese Erfahrungen konnte ich bei der Zusammenarbeit mit Menschen auf allen Führungsebenen in Unternehmen von kleinen Start-ups bis hin zu globalen Vermögensverwaltern sammeln.
 
-## Potenzial von Menschen entfesseln
+## Menschen ihr Potenzial entfalten lassen
 
-In dieser Zeit habe ich eine Leidenschaft dafür entwickelt, meinen Kollegen zu helfen, ihr volles Potenzial zu entfesseln, unabhängig von ihrer Spezialisierung, Position oder ihrem Alter. 
+In dieser Zeit habe ich eine Leidenschaft dafür entwickelt, meine Kollegen zu ermutigen, mehr von ihrem Potenzial zu erschliessen, unabhängig von ihrer Spezialisierung, Position oder ihrem Alter.
 
-Ich bin fest davon überzeugt, dass Leadership heute wichtiger ist als je zuvor, insbesondere aufgrund des raschen Wandels in Bereichen wie Machine Learning.
+Ich bin fest davon überzeugt, dass Leadership heute wichtiger ist als je zuvor, insbesondere aufgrund des raschen Wandels in Bereichen wie Robotik, Quantencomputer und maschinelles Lernen.
 
-## Vertrauenswürdiger Berater für aufstrebende Leader
+## Ein Freund und Helfer für aufstrebende Führungskräfte
 
-Es ehrt mich besonders, wenn angehende Führungskräfte mich um Rat und Unterstützung bitten, insbesondere in neuen und besonders schwierigen Situationen. Es bereitet mir große Freude, meine Einsichten zu Leadership und Transformation durch meine Schreibarbeiten und Buchempfehlungen zu teilen, die auf meiner Website zu finden sind.
+Es ehrt mich besonders, wenn angehende Führungskräfte mich um Rat und Unterstützung bitten, insbesondere in neuen und besonders schwierigen Situationen. Es bereitet mir grosse Freude, meine Einsichten zu Leadership und Transformation durch meine Artikel und Buchempfehlungen zu teilen, die auf meiner Website zu finden sind.
 
-Ich bin ein begeisterter Leser und teile meine Erkenntnisse über Bücher zu [Leadership und Transformation](/categories/book) auf dieser Website.
+## Sag mir was Du liest...
 
-Als jemand, der stets auf der Suche nach neuen Herausforderungen und Möglichkeiten zur Weiterentwicklung seines Denkens ist, ermutige ich Sie, mich unter {{< obfuscated-email >}} zu kontaktieren, um Ihre eigenen Gedanken und Ideen zu teilen.
+In meiner Erfahrung sagen die Bücher, die jemand liest, einiges aus über eine Person. Ich bin ein begeisterter Leser und teile meine Erkenntnisse über Bücher wie z.B. zu [Leadership und Transformation](/categories/book) auf dieser Website. 
+
+Ich möchte mein Denken kontinuierlich weiter entwickeln und lade Dich herzlich ein, Deine Gedanken mit mir zu teilen {{< obfuscated-email >}}.
