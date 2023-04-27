@@ -24,5 +24,6 @@ aliases:
   - /articles/nstat-lookup-entry-failed-2/
   - /articles/jekyll-directory-listing/
   - /articles/share-media/
+  - /articles/quicklook/
 lastmod: 2023-03-22T13:29:31.665Z
 ---

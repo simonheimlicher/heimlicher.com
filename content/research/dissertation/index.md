@@ -1,6 +1,6 @@
 +++
 title = "Ph.D. dissertation"
-slug = "dissertation"
+subtitle = "“Wireless Communication Among Mobile Nodes"
 date = "2010-11-23T17:44:14Z"
 alias = "publications/dissertation"
 description = "Ph.D. dissertation of Simon Heimlicher entitled “Wireless Communication Among Mobile Nodes: From Paths to Clusters to Connectivity”"

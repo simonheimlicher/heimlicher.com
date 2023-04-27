@@ -1,5 +1,6 @@
 +++
 title = "Research"
+subtitle = "Movie recommendations and modeling human mobility"
 description = "On research in privacy-preserving movie recommendations, modeling human mobility and its empirical validation"
 date = "2023-03-12T13:20:20Z"
 weight = "400"

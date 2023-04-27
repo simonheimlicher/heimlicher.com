@@ -6,15 +6,19 @@ section = "About"
 weight = 10
 lastmod = 2023-04-21T00:00:00Z
 keywords = ["heimlicher", "simon", "simon heimlicher", "about", "professional website"]
-description = "A short profile of Simon Heimlicher, a senior executive with a passion for leadership, transformation, and strategy execution"
+description = "About Simon Heimlicher, a senior executive with a passion for leadership, transformation, and strategy execution"
+aliases = ["/home/about/"]
 [schemaOrg]
   entityType = "ProfilePage"
 [image]
-  feature = "images/Simeligrat_IMG_5234-feature"
   thumbnail = "images/portrait"
+  [[image.feature]]
+    resource = "images/Simeligrat_IMG_5234-feature"
+    alt = "Simon Heimlicher on a ridge of the Simeligrat in the Angel Horns mountain range in the Bernese Alps in Switzerland"
+    title = "Simon Heimlicher on an alpine climbing trip"
 +++
 
-{{< responsive-image alt="Portrait of Simon Heimlicher" relative-width="30" lazy=false shape="round" float="left" resource="images/portrait" >}}
+{{< responsive-image title="Portrait of Simon Heimlicher" alt="Portrait of Simon Heimlicher" relative-width="30" lazy=true shape="round" float="left" resource="images/portrait" >}}
 
 Over the past ten years, I have had the privilege to gain valuable insights from some of the most accomplished leaders in the fields of **leadership,** **organizational transformation,** and **strategy execution at a global scale.** 
 
@@ -22,7 +26,7 @@ These experiences have been gained through my work with companies ranging from [
 
 ## Unleashing potential
 
-During this time, I have developed a passion for helping my colleagues unleash their full potential, regardless of their background, position, or age. 
+During this time, I have developed a passion for assisting my colleagues in unleashing more of their potential, regardless of their background, organizational role, or age.
 
 I firmly believe that leadership is more crucial now than ever, especially given the rapid pace of change in fields such as [machine learning](/research/machine-learning).
 

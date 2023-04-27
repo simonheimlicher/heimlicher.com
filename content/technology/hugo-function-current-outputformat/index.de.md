@@ -21,7 +21,7 @@ series:
   - Hugo snippets
 ---
 
-Hugo bietet derzeit keine Funktion, um das aktuelle OutputFormat zu erhalten - dieses `partial` bietet eine einfache Lösung.
+Hugo bietet derzeit keine Funktion, um das aktuelle OutputFormat zu erhalten - dieses *Partial[^1]* bietet eine einfache Lösung.
 
 Hugo ermöglicht das Hinzufügen von [benutzerdefinierten Ausgabeformaten](https://gohugo.io/templates/output-formats/) - jedoch bietet es bis einschließlich Version 0.111.0 keine Funktion, um das `OutputFormat` des aktuellen Seitenkontexts bereitzustellen. Da Hugo zwei Funktionen zur Auflistung verfügbarer `OutputFormat`s bereitstellt, die sich darin unterscheiden, ob sie das aktuelle `OutputFormat` enthalten, liefert ein einfacher Aufruf von [`complement`](https://gohugo.io/functions/complement/) die Antwort.
 
@@ -36,7 +36,7 @@ notAlternative = false
 
 Du kannst das folgenden Snippet zu `layouts/partials/_functions` hinzufügen, um diese Funktion in Deinen Templates zu verwenden.
 
-{{< responsive-code lang="go-html-template" title="output-format" >}}
+{{< responsive-code lang="go-html-template" title="Speichere dieses Snippet als `layouts/partials/_functions/output-format`" >}}
 {{- /* partial output-format
 Returns the [OutputFormat](https://gohugo.io/templates/output-formats/)
 of the page passed as argument in the current context.
@@ -49,6 +49,14 @@ USAGE: use as a function in the context of a page, as follows:
 {{- end }}
 {{- return $outputFormat }}
 {{< /responsive-code >}}
+
+In diesem Beitrag haben wir gesehen, wie wir mit einem einfachen Partial in Hugo das aktuelle OutputFormat erhalten können, obwohl Hugo selbst noch keine Funktion dafür anbietet. Es ist wichtig zu beachten, dass diese Lösung unter der Bedingung funktioniert, dass alle deklarierten OutputFormats den Parameter `notAlternative = false` in der `config.toml`-Datei deklariert haben.
+
+Durch das Hinzufügen des oben genannten Schnipsels zu `layouts/partials/_functions` kannst Du das OutputFormat in Deinen Templates verwenden und die Ausgabe der Seiten dynamisch anpassen, je nachdem, welches Format gerade verwendet wird.
+
+Denke bitte daran, dass es sich hierbei um eine temporäre Lösung handelt, bis Hugo möglicherweise eine integrierte Funktion für das Abrufen des aktuellen OutputFormats bereitstellt. Am besten abonnierst Du das offene Issue auf GitHub, um über zukünftige Updates informiert zu bleiben.
+
+[^1]: Ein Partial ist ein Hugo-spezifisches Template und wird im Projektverzeichnis unter `layouts/partials` abgelegt. Partials, welche keinen Inhalt ausgeben, sondern wie das vorliegende einen Wert zurück liefern, werden oftmals unter `layouts/partials/_functions` abgelegt. Dies ist aber keine Voraussetzung.
 
 ---
 Foto von [Keith Misner](https://unsplash.com/photos/h0Vxgz5tyXA) auf [Unsplash](https://unsplash.com/).

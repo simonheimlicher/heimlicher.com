@@ -39,5 +39,199 @@
       "body": "{{now}}",
       "fields": []
     }
-  }
+  },
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "author",
+          "name": "author",
+          "type": "string"
+        },
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "subtitle",
+          "name": "subtitle",
+          "type": "string"
+        },
+        {
+          "title": "date",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "lastmod",
+          "name": "lastmod",
+          "type": "datetime"
+        },
+        {
+          "title": "aliases",
+          "name": "aliases",
+          "type": "choice",
+          "choices": [
+            "/home",
+            "/home/"
+          ]
+        },
+        {
+          "title": "keywords",
+          "name": "keywords",
+          "type": "choice",
+          "choices": [
+            "simon",
+            "heimlicher",
+            "professional website",
+            "blog"
+          ]
+        },
+        {
+          "title": "genre",
+          "name": "genre",
+          "type": "string"
+        },
+        {
+          "title": "description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "sectionsToShow",
+          "name": "sectionsToShow",
+          "type": "choice",
+          "choices": [
+            "leadership",
+            "transformation",
+            "technology",
+            "research"
+          ]
+        },
+        {
+          "title": "image",
+          "name": "image",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "thumbnail",
+              "name": "thumbnail",
+              "type": "choice",
+              "choices": [
+                "images/sh.com_site_thumbnail_1200x1200.png"
+              ]
+            },
+            {
+              "title": "search",
+              "name": "search",
+              "type": "choice",
+              "choices": [
+                "images/sh.com_site_thumbnail_1200x675.png",
+                "images/sh.com_site_thumbnail_1200x1200.png"
+              ]
+            },
+            {
+              "title": "share",
+              "name": "share",
+              "type": "choice",
+              "choices": [
+                "images/sh.com_site_thumbnail_1200x675.png",
+                "images/sh.com_site_thumbnail_1200x1200.png"
+              ]
+            },
+            {
+              "title": "hero",
+              "name": "hero",
+              "type": "fields",
+              "fields": [
+                {
+                  "title": "style",
+                  "name": "style",
+                  "type": "string"
+                },
+                {
+                  "title": "variant",
+                  "name": "variant",
+                  "type": "fields",
+                  "fields": [
+                    {
+                      "title": "light",
+                      "name": "light",
+                      "type": "block",
+                      "fields": [
+                        {
+                          "title": "0",
+                          "name": "0",
+                          "type": "fields",
+                          "fields": [
+                            {
+                              "title": "media",
+                              "name": "media",
+                              "type": "string"
+                            },
+                            {
+                              "title": "resource",
+                              "name": "resource",
+                              "type": "string"
+                            },
+                            {
+                              "title": "title",
+                              "name": "title",
+                              "type": "string"
+                            },
+                            {
+                              "title": "alt",
+                              "name": "alt",
+                              "type": "string"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "title": "dark",
+                      "name": "dark",
+                      "type": "block",
+                      "fields": [
+                        {
+                          "title": "0",
+                          "name": "0",
+                          "type": "fields",
+                          "fields": [
+                            {
+                              "title": "media",
+                              "name": "media",
+                              "type": "string"
+                            },
+                            {
+                              "title": "resource",
+                              "name": "resource",
+                              "type": "string"
+                            },
+                            {
+                              "title": "title",
+                              "name": "title",
+                              "type": "string"
+                            },
+                            {
+                              "title": "alt",
+                              "name": "alt",
+                              "type": "string"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -6,4 +6,4 @@ lastmod = 2023-04-06
 
 ### Recent articles
 
-{{< list-content limit=3 sections=leadership,organizational-transformation,technology,research >}}
+{{< list-content limit=3 sections=leadership,transformation,technology,research >}}

@@ -1,6 +1,7 @@
 
 +++
 title = "Publications"
+subtitle = "By Simon Heimlicher and co-authors"
 date = "2014-08-27T07:50:12Z"
 description= "Book chapters, journal and conference papers"
 [image]

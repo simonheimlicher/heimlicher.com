@@ -5,7 +5,6 @@ description: Do you need Objectives and Key Results (OKRs)? There is the most po
   reason to use OKRs and then there is the one that may matter most to you.
 featured: false
 draft: false
-toc: true
 image:
   feature:
     resource: "images/charles-deluvio-Wd3DG2ABwzE-unsplash"
@@ -29,6 +28,7 @@ series:
 aliases:
   - /articles/why-okrs-already-have-goals/
   - /articles/why-okr-objectives-key-results-already-have-goals/
+  - /organizational-transformation/why-okr-objectives-key-results-already-have-goals/
 lastmod: 2023-03-20T10:49:25.667Z
 
 # comment: false # Disable comment if false.
@@ -63,6 +63,6 @@ This focus on, well, focus, is a key feature of OKRs — and ignoring this aspec
 
 Photo by <a href="https://unsplash.com/photos/Wd3DG2ABwzE">Charles Deluvio</a> on <a href="https://unsplash.com/">Unsplash</a>
 
-[^practice-of-management]: Drucker, Peter, ‟The Practice of Management”, Harper, New York, 1954; Heinemann, London, 1955; revised edn, Butterworth-Heinemann, 2007
+[^practice-of-management]: Drucker, Peter, “The Practice of Management”, Harper, New York, 1954; Heinemann, London, 1955; revised edn, Butterworth-Heinemann, 2007
 
-[^what-is-strategy]: Porter, Michael E., ‟What Is Strategy?”, Harvard Business Review 74, no. 6 (November–December 1996): pp. 61–78
+[^what-is-strategy]: Porter, Michael E., “What Is Strategy?”, Harvard Business Review 74, no. 6 (November–December 1996): pp. 61–78

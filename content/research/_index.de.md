@@ -1,5 +1,6 @@
 +++
 title = "Forschung"
+subtitle = "Empfehlungen für Filme und menschliche Mobilität"
 description = "Über Forschungsergebnisse in Empfehlungssystemen für Filme, die Modellierung menschlicher Mobilität sowie ihre empirische Validierung"
 date = "2023-03-12T13:20:20Z"
 weight = "400"

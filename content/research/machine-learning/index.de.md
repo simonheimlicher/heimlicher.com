@@ -1,6 +1,6 @@
 +++
 title = "Machine learning"
-description = "Machine learning for movie recommendations – preserving privacy"
+description = "Maschinelles Lernen, um Empfehlungen für Filme ohne Austausch persönlicher Daten zu generieren"
 weight = 100
 date = "2023-03-12T13:20:20Z"
 lastmod = "2023-03-16T17:58:36.115Z"

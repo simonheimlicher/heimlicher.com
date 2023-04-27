@@ -22,9 +22,9 @@
   weight = 100
 
 [[main]]
-  identifier = "organizational-transformation"
+  identifier = "transformation"
   name = "Transformation"
-  url = "/organizational-transformation/"
+  url = "/transformation/"
   weight = 200
 
 # [[main]]
@@ -39,15 +39,15 @@
   url = "/technology/"
   weight = 500
 
-# [[main]]
-#   identifier = "research"
-#   name = "Research"
-#   url = "/research/"
-#   weight = 700
+[[main]]
+  identifier = "research"
+  name = "Research"
+  url = "/research/"
+  weight = 700
 
 [[main]]
   identifier = "about"
-  name = "About"
+  name = "About me"
   url = "/about/"
   weight = 900
 

@@ -1,7 +1,7 @@
 +++
 title = "Human mobility"
 description = "Human mobility and its impact on network architecture"
-date = "2023-03-12T13:20:20Z"
+date = "2013-02-21T11:21:59Z"
 lastmod = "2023-03-18T16:44:38.956Z"
 [image]
   feature = "images/human-mobility-feature"
@@ -22,7 +22,7 @@ A visualization of the collected data from my testing in Zurich, Switzerland, is
 
 Zhaoyu Gao, Arun Venkataramani, James F. Kurose, and Simon Heimlicher:   
 **Towards a Quantitative Comparison of Location-Independent Network Architectures**   
-ACM Sigcomm 2014, Chicago, August 2014.   
+ACM SIGCOMM 2014, Chicago, August 2014.   
 [PDF](/research/publications/gao_netarch_sigcomm14.pdf)
 
 Please refer to the [complete list of publications](/research/publications/) for further information.

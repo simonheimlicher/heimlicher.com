@@ -3,11 +3,11 @@ canonicalBaseURL = "https://simon.heimlicher.com/"  # Include trailing slash
 
 logoURL = "/"
 
-# introDescription = "Transformation leader with a track record of leading change from organizational transformation to strategy execution at a global scale"
-introDescription =   "Transformational leader with a background in technology and experience in leadership and strategy execution at a global scale"
-# introURL = "about" # set the url for the 'read more' button below the introDescription, or set to false to not show the button
-# description = "" # set your site's description here. will be use for home page content meta tags (seo). Alternatively set this description in your homepage content file i.e content/_index.md. Whatever is set in the latter will take precedence
-description = "Professional website of Simon Heimlicher – a passionate leader who writes about leadership, organizational transformation and technology."
+introDescription =   "Passionate leader with a track record of leading change: from agile transformation to strategy execution at a global scale"
+# set the url for the 'read more' button below the introDescription, or set to false to not show the button
+introURL = "about"
+# set your site's description here. will be use for home page content meta tags (seo). Alternatively set this description in your homepage content file i.e content/_index.md. Whatever is set in the latter will take precedence
+description = "Professional website of Simon Heimlicher – a passionate leader who writes about leadership, agile transformation and technology."
 
 # Alternative headline for Schema.org
 alternativeHeadline = "Leadership and organizational transformation through technology"
@@ -40,7 +40,7 @@ enableMathNotation = false
 mainSections = [
   "articles",
   "leadership",
-  "organizational-transformation",
+  "transformation",
   "digital-transformation",
   "research",
   "technology"
@@ -68,10 +68,10 @@ mobileNavigation = "right" # if you prefer right change to 'right'
 # enforceDarkMode = false
 
 # Break point to hide mobile menu and show narrow version of full navigation
-screenViewBreakpointWidthMobile = "30rem"
+screenViewBreakpointWidthMobileMenu = "36rem"
 
 # Break point to reset font size to regular size
-screenViewBreakpointWidthNarrow = "38rem"
+screenViewBreakpointWidthNarrow = "40rem"
 
 # customize footer icon. see issue https://github.com/chipzoller/hugo-clarity/issues/77
 # footerLogo = "icons/copy.svg"
@@ -96,30 +96,7 @@ numberOfRelatedArticles = 5
 # customFonts = true # toggle to true if you want to use custom fonts only.
 
 # tell hugo where you store your icons e.g favicons. This is useful if you're using an apache server and there are conflicts >> see issue https://github.com/chipzoller/hugo-clarity/issues/74. If this is applicable to you, be sure to copy the contents of https://github.com/chipzoller/hugo-clarity/tree/master/static/icons to your preferred icons directory
-iconsDir = "/" # without a leading forward slash
-
-# [plausible_analytics]
-# enable = false # to enable plausible analytics set to true.
-# websiteDomain = "example.com" # domain name of your website, most cases same as your base url
-# plausibleDomain = "plausible.io" # default is set to plausible.io, only required if plausible is selfhosted
-# scritpName = "plausible" # default is set to plausible, only required if using a custome name for script
-
-# https://themes.gohugo.io/hugo-clarity/#configuration However, sometimes you
-# may need to load additional style or script files. In such cases, you can add
-# custom .css and .js files by listing them in the config.toml file (see the
-# snippet below). Similar to images, these paths should be relative to the
-# static directory.
-
-# FIXME: Does not work - leads to error [Error] Refused to
-# execute http://localhost:1313/js/lazysizes.min.js as script because
-# "X-Content-Type-Options: nosniff" was given and its Content-Type is not a
-# script MIME type.
-
-# customJS = ["js/lazysizes.min.js"]
-
-# Added by SHZ
-# Even if there are sub menu entries, do not show them in the navigation
-hideSubMenus = false
+iconsDir = "/"
 
 # Show a button to navigate back to top ("#documentTop")
 # showToTopButton = true
@@ -182,11 +159,16 @@ themeColorLit = "hsl(42, 20%, 97%)"
 themeColorDim = "hsl(208, 20%, 25%)"
 
 [social]
-  twitter = "simonheimlicher"
-  github = "simonheimlicher"
-  linkedin = "simonheimlicher"
-  stackoverflow = "617559/simon-heimlicher"
-  superuser = "69517/simon-heimlicher"
+  [social.twitter]
+    id = "simonheimlicher"
+  [social.github]
+    id = "simonheimlicher"
+  [social.linkedin]
+    id = "simonheimlicher"
+  [social.stackoverflow]
+    id = "617559/simon-heimlicher"
+  [social.superuser]
+    id = "69517/simon-heimlicher"
 
 [website]
   name = "simon.heimlicher.com"

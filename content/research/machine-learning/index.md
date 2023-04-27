@@ -2,7 +2,7 @@
 title = "Machine learning"
 description = "Machine learning for movie recommendations – preserving privacy"
 weight = 100
-date = "2023-03-12T13:20:20Z"
+date = "2012-12-11T15:39:01Z"
 lastmod = "2023-03-16T17:58:36.115Z"
 [image]
   thumbnail = "images/robynne-hu-HOrhCnQsxnQ-unsplash-square"

@@ -10,7 +10,7 @@
   weight = 2
 
 
-[fr]
-  # title = "Simon Heimlicher"
-  LanguageName = "Français"
-  weight = 2
+# [fr]
+#   # title = "Simon Heimlicher"
+#   LanguageName = "Français"
+#   weight = 2

@@ -1,12 +1,12 @@
 ---
 title: Capitalization – my personal preferences
-slug: capitalization-title-headings-preferences
 date: '2008-01-03T11:52:29Z'
 lastmod: 2020-05-22T11:35:06.075Z
 aliases:
     - /hints/style/capitalization/
     - /articles/capitalization/
     - /articles/capitalization-title-headings-preferences/
+    - /digital-transformation/capitalization-title-headings-preferences/
 categories:
     - Communication
 tags:

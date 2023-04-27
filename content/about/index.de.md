@@ -10,13 +10,16 @@ description = "Ein kurzes Profil von Simon Heimlicher, einem erfahrenen Leader m
 [schemaOrg]
   entityType = "ProfilePage"
 [image]
-  feature = "images/Simeligrat_IMG_5234-feature"
   thumbnail = "images/portrait"
+  [[image.feature]]
+    resource = "images/Simeligrat_IMG_5234-feature"
+    alt = "Simon Heimlicher on a ridge of the Simeligrat in the Angel Horns mountain range in the Bernese Alps in Switzerland"
+    title = "Simon Heimlicher on an alpine climbing trip"
 +++
 
 In den letzten zehn Jahren hatte ich das Privileg, wertvolle Einsichten von einigen der erfahrensten Führungskräfte in den Bereichen **Leadership,** **Organisationsentwicklung** und **Strategieumsetzung** in einem globalen Kontext zu gewinnen.
 
-{{< responsive-image alt="Portrait of Simon Heimlicher" relative-width="20" lazy=false shape="round" float="left" resource="images/portrait" >}}
+{{< responsive-image title="Portrait von Simon Heimlicher" alt="Portrait von Simon Heimlicher" relative-width="20" lazy=true shape="round" float="left" resource="images/portrait" >}}
 
 Diese Erfahrungen konnte ich bei der Zusammenarbeit mit Menschen auf allen Führungsebenen in Unternehmen von kleinen Start-ups bis hin zu globalen Vermögensverwaltern sammeln.
 
