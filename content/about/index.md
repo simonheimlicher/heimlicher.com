@@ -13,9 +13,10 @@ aliases = ["/home/about/"]
 [image]
   thumbnail = "images/portrait"
   [[image.feature]]
-    resource = "images/Simeligrat_IMG_5234-feature"
-    alt = "Simon Heimlicher on a ridge of the Simeligrat in the Angel Horns mountain range in the Bernese Alps in Switzerland"
-    title = "Simon Heimlicher on an alpine climbing trip"
+    resource = "images/La_Punt_village_IMG_1499-feature"
+    alt = "Photo of the Inn river in La Punt, Switzerland"
+    title = "A photo of La Punt in Winter by Simon Heimlicher"
+    credit = "Simon Heimlicher"
 +++
 
 {{< responsive-image title="Portrait of Simon Heimlicher" alt="Portrait of Simon Heimlicher" relative-width="30" lazy=true shape="round" float="left" resource="images/portrait" >}}
