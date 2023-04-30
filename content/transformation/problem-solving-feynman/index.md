@@ -9,11 +9,11 @@ image:
   feature: "images/hugo_theme_claris-feature"
   thumbnail: "images/hugo_theme_claris-thumbnail"
   share: "images/hugo_theme_claris-share"
-categories:
-  - Category_name
-tags:
-  - Tag_name1
-  - Tag_name2
+# categories:
+#   - Category_name
+# tags:
+#   - Tag_name1
+#   - Tag_name2
 # series:
 #   - Series_name
 ---

@@ -15,11 +15,11 @@ image:
 # codeLineNumbers: false # Override global value for showing of line numbers within code block.
 # comment: false # Disable comment if false.
 categories:
-  - Hugo
+  - hugo
 tags:
-  - Hugo partial
+  - hugo_partial
 series:
-  - Hugo snippets
+  - hugo_snippets
 ---
 
 Hugo does not currently provide a function to obtain the current OutputFormat — this *partial[^1]* provides a simple solution.

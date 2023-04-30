@@ -74,7 +74,7 @@ For this reason, John Doerr suggests to use OKRs only as one input among many fo
 
 In my own implementations of OKRs, I have always defined the OKRs independently from the individual. This means that if a new person had inherited the role of someone, the OKRs would not have changed. But their performance evaluation very well might have been quite different.
 
-{{% note "In a nutshell" %}}
+{{% note "in_brief" %}}
 
 OKRs and performance management processes serve different purposes and should be implemented independently. By separating these two approaches, organizations can focus on aligning and engaging their workforce around measurable goals, while still supporting individual development and continuous improvement. By understanding the crucial differences between OKRs and performance management, companies can better utilize these tools to drive success and growth.
 

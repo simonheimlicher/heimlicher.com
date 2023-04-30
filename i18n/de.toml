@@ -6,5 +6,43 @@ research = "Forschung"
 about = "Über mich"
 
 # Categories
-methodology = "Methodik"
-book = "Buch"
+
+[note_title_in_brief]
+other = "In Kürze"
+
+[hugo]
+other = "Hugo"
+
+[buch]
+one = "Buch"
+other = "Bücher"
+
+[methodik]
+one = "Methodik"
+other = "Methodiken"
+
+[hugo_snippets]
+other = "Hugo snippets"
+
+[culture]
+other = "Kultur"
+
+[okr]
+other = "OKR"
+
+[hugo_partial]
+other = "Hugo Partial"
+
+[talent]
+other = "Talent"
+
+[performance]
+other = "Performance"
+
+[project_management]
+other = "Projektmanagement"
+
+[product_management]
+other = "Produktmanagement"
+
+

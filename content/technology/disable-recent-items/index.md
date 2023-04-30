@@ -63,6 +63,9 @@ For these commands to take effect, you need to restart the Dock, i.e. issue
 killall Dock
 ```
 
+## Recent folders in Finder
+
+    defaults delete com.apple.finder FXRecentFolders
 
 ## Bundle Identifier
 

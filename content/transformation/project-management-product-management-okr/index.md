@@ -20,8 +20,8 @@ image:
 categories:
   - Methodology
 tags:
-  - Project Management
-  - Product Management
+  - project_management
+  - product_management
   - OKR
 series:
   - OKR

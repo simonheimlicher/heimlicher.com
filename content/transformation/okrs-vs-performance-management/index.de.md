@@ -72,7 +72,7 @@ Bei meinen eigenen Implementierungen von OKRs habe ich die OKRs stets unabhängi
 
 [^measure-what-matters]: [Measure What Matters: How Google, Bono, and the Gates Foundation Rock the World with OKRs](https://www.amazon.com/gp/product/0525536221/ref=as_li_tl?ie=UTF8&tag=shzq-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0525536221&linkId=a859983ad986e53b7f0fb12e1ef7488a) von John Doerr (Autor), Larry Page (Vorwort)
 
-{{% note "In Kürze" %}}
+{{% note "in_brief" %}}
 
 OKRs und Leistungsmanagementprozesse verfolgen unterschiedliche Zwecke und sollten unabhängig voneinander implementiert werden. Indem OKRs von Leistungsmanagementprozessen getrennt werden, können Unternehmen sich darauf konzentrieren, ihre Belegschaft auf messbare Ziele auszurichten und gleichzeitig die individuelle Entwicklung und kontinuierliche Verbesserung zu fördern. Durch das Verständnis der entscheidenden Unterschiede zwischen OKRs und Leistungsmanagement können Unternehmen diese Instrumente besser nutzen, um Erfolg und Wachstum voranzutreiben.
 
