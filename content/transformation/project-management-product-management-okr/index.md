@@ -25,8 +25,8 @@ summary: At first sight, the OKR (Objectives and Key Results) methodology may ap
   layers upon layers of processes in play at large organizations, OKRs – used properly
   – allow to cut to the chase.
 tags:
-- project_management
-- product_management
+- Project management
+- Product management
 - OKR
 title: How OKRs play ball with project and product management
 ---

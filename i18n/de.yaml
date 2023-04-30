@@ -1,0 +1,32 @@
+leadership: Leadership
+transformation: Transformation
+digital-transformation: Digitale Transformation
+technology: Technologie
+research: Forschung
+about: Über mich
+note_title_in_brief:
+  other: In Kürze
+hugo:
+  other: Hugo
+book:
+  one: Buch
+  other: Bücher
+methodology:
+  one: Methodik
+  other: Methodiken
+hugo_snippets:
+  other: Hugo snippets
+culture:
+  other: Kultur
+okr:
+  other: OKR
+hugo_partial:
+  other: Hugo Partial
+talent:
+  other: Talent
+performance:
+  other: Performance
+project management:
+  other: Projektmanagement
+product management:
+  other: Produktmanagement
