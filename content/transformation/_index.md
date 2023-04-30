@@ -1,6 +1,6 @@
 ---
 title: Organizational transformation
-subtitle: Standing still is the greatest risks of all
+subtitle: Standing still is the greatest of all risks
 weight: 200
 image:
   feature: images/charles-deluvio-Wd3DG2ABwzE-unsplash.jpg

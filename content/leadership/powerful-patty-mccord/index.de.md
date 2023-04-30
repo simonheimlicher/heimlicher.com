@@ -75,7 +75,7 @@ Feedback ist eine entscheidende Komponente der Netflix-Kultur. Indem sowohl posi
 
 ## Mitarbeitende mit Unternehmenszielen in Einklang bringen
 
-In einer Kultur ohne Regeln ist es entscheidend, die Mitarbeitende mit den Zielen des Unternehmens in Einklang zu bringen. Netflix erreicht dies, indem es sich auf hohe Leistung konzentriert und sicherstellt, dass jeder Einzelne seine Rolle beim Beitrag zum Unternehmenserfolg versteht. McCord betont die Bedeutung von klaren Erwartungen und Zielen und gibt Mitarbeitenden dann die Autonomie, sie zu erreichen.
+In einer Kultur ohne Regeln ist es entscheidend, die Mitarbeitenden mit den Zielen des Unternehmens in Einklang zu bringen. Netflix erreicht dies, indem es sich auf hohe Leistung konzentriert und sicherstellt, dass jeder Einzelne seine Rolle beim Beitrag zum Unternehmenserfolg versteht. McCord betont die Bedeutung von klaren Erwartungen und Zielen und gibt Mitarbeitenden dann die Autonomie, sie zu erreichen.
 
 * Mitarbeitende mit Unternehmenszielen in Einklang bringen
 * Fokus auf hohe Leistung und individuelle Beiträge
@@ -91,7 +91,7 @@ Eine Kultur ohne Regeln kann nur erfolgreich sein, wenn ein Unternehmen Top-Tale
 
 ## Lernen von Netflix' Erfolg
 
-Patty McCords Buch *Powerful* bietet wertvolle Lektionen für Unternehmen, die die Kultur ohne Regeln von Netflix nachahmen möchten. Durch Schaffung einer Umgebung von Vertrauen, Autonomie und Transparenz können Unternehmen ihre Mitarbeitende dazu befähigen, erstaunliche Ergebnisse zu erzielen. Unternehmen können aus Netflix' Erfolg lernen, indem sie einige der folgenden Praktiken anwenden:
+Patty McCords Buch *Powerful* bietet wertvolle Lektionen für Unternehmen, die die Kultur ohne Regeln von Netflix nachahmen möchten. Durch Schaffung einer Umgebung von Vertrauen, Autonomie und Transparenz können Unternehmen ihre Mitarbeitenden dazu befähigen, erstaunliche Ergebnisse zu erzielen. Unternehmen können aus Netflix' Erfolg lernen, indem sie einige der folgenden Praktiken anwenden:
 
 1. Eine Kultur der Transparenz und offenen Kommunikation fördern
 2. Vertrauen und Autonomie am Arbeitsplatz aufbauen

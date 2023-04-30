@@ -3,7 +3,7 @@ author = "Simon Heimlicher"
 title = "Simon Heimlicher"
 subtitle= "Leadership & organizational transformation"
 date = "1999-03-19T00:00:00+0200"
-lastmod = "2023-03-22T10:08:52.500Z"
+lastmod = "2023-04-27T10:08:52.500Z"
 aliases = [
   "/home",
   "/home/",
@@ -51,5 +51,5 @@ sectionsToShow = [
     resource = "images/lagginhorn_sunrise_IMG_3753"
     title = "Sunrise on the Lagginhorn, a 4000m peak in Switzerland"
     alt = "A photo of the early sunrise on the Lagginhorn"
-
 +++
+

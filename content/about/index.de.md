@@ -22,15 +22,15 @@ In den letzten zehn Jahren hatte ich das Privileg, wertvolle Einsichten von eini
 
 {{< responsive-image title="Portrait von Simon Heimlicher" alt="Portrait von Simon Heimlicher" relative-width="20" lazy=true shape="round" float="left" resource="images/portrait" >}}
 
-Diese Erfahrungen konnte ich bei der Zusammenarbeit mit Menschen auf allen Führungsebenen in Unternehmen von kleinen Start-ups bis hin zu globalen Vermögensverwaltern sammeln.
+Diese Erfahrungen konnte ich bei der Zusammenarbeit mit Menschen auf allen Führungsebenen in Unternehmen von kleinen [Start-ups](https://stimmt.ch/) bis hin zu [globalen Vermögensverwaltern](https://www.ubs.com/) sammeln.
 
-## Menschen ihr Potenzial entfalten lassen
+## Potenzial entfalten
 
 In dieser Zeit habe ich eine Leidenschaft dafür entwickelt, meine Kollegen zu ermutigen, mehr von ihrem Potenzial zu erschliessen, unabhängig von ihrer Spezialisierung, Position oder ihrem Alter.
 
 Ich bin fest davon überzeugt, dass Leadership heute wichtiger ist als je zuvor, insbesondere aufgrund des raschen Wandels in Bereichen wie Robotik, Quantencomputer und maschinelles Lernen.
 
-## Ein Freund und Helfer für aufstrebende Führungskräfte
+## Sparring-Partner für aufstrebende Führungskräfte
 
 Es ehrt mich besonders, wenn angehende Führungskräfte mich um Rat und Unterstützung bitten, insbesondere in neuen und besonders schwierigen Situationen. Es bereitet mir grosse Freude, meine Einsichten zu Leadership und Transformation durch meine Artikel und Buchempfehlungen zu teilen, die auf meiner Website zu finden sind.
 
@@ -38,4 +38,4 @@ Es ehrt mich besonders, wenn angehende Führungskräfte mich um Rat und Unterst�
 
 In meiner Erfahrung sagen die Bücher, die jemand liest, einiges aus über eine Person. Ich bin ein begeisterter Leser und teile meine Erkenntnisse über Bücher wie z.B. zu [Leadership und Transformation](/categories/book) auf dieser Website. 
 
-Ich möchte mein Denken kontinuierlich weiter entwickeln und lade Dich herzlich ein, Deine Gedanken mit mir zu teilen {{< obfuscated-email >}}.
+Ich möchte mein Denken kontinuierlich weiter entwickeln und lade Dich herzlich ein, {{< obfuscated-email "Deine Gedanken mit mir zu teilen " >}}.
