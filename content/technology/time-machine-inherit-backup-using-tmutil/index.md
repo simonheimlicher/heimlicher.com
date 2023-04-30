@@ -1,25 +1,33 @@
-+++
-title = "Time Machine: Inherit Backup Using `tmutil`"
-slug = "time-machine-inherit-backup-using-tmutil"
-date = "2012-07-10T18:35:00Z"
-lastmod = "2023-04-24T12:47:01Z"
-bestbefore = "2025-02-11"
-aliases = ["/articles/time-machine-inherit-backup-using-tmutil/"]
-categories = ["macOS"]
-tags = ["macOS"]
-description = "How to use the terminal command `tmutil` to force Time Machine to continue the backup history of the previous disk with your new Mac or a new internal disk"
-summary = "In situations where macOS does not associate your Time Machine backup disk to your new Mac or a new internal disk automatically, `tmutil` lets you force Time Machine to continue the backup history of the previous disk"
-[image]
-[image.feature]
-  resource = "images/associate-disk-with-tmutil_feature"
-  position = "top left"
-  title = "Associate Time Machine disk with your new Mac"
-  alt = "Screenshot of the man page of tmutil, a macOS command to manage Time Machine backups"
-[image.excerpt]
-  resource = "images/associate-disk-with-tmutil_excerpt"
-  title = "Associate Time Machine disk with your new Mac"
-  alt = "Screenshot of the man page of tmutil, a macOS command to manage Time Machine backups"
-+++
+---
+aliases:
+- /articles/time-machine-inherit-backup-using-tmutil/
+bestbefore: "2025-02-11"
+categories:
+- macOS
+date: "2012-07-10T18:35:00Z"
+description: How to use the terminal command `tmutil` to force Time Machine to continue
+  the backup history of the previous disk with your new Mac or a new internal disk
+image:
+  excerpt:
+    alt: Screenshot of the man page of tmutil, a macOS command to manage Time Machine
+      backups
+    resource: images/associate-disk-with-tmutil_excerpt
+    title: Associate Time Machine disk with your new Mac
+  feature:
+    alt: Screenshot of the man page of tmutil, a macOS command to manage Time Machine
+      backups
+    position: top left
+    resource: images/associate-disk-with-tmutil_feature
+    title: Associate Time Machine disk with your new Mac
+lastmod: "2023-04-24T12:47:01Z"
+slug: time-machine-inherit-backup-using-tmutil
+summary: In situations where macOS does not associate your Time Machine backup disk
+  to your new Mac or a new internal disk automatically, `tmutil` lets you force Time
+  Machine to continue the backup history of the previous disk
+tags:
+- macOS
+title: 'Time Machine: Inherit Backup Using `tmutil`'
+---
 
 You plug in your Time Machine disk and your Mac asks out of the blue a question you did not expect: would you like your Mac to *inherit the backup history on the disk,* or *start a new backup?* 
 

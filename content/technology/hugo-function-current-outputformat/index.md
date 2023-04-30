@@ -1,25 +1,19 @@
 ---
-title: Hugo function to obtain `OutputFormat` of current page context
-date: 2023-03-17T07:42:36+01:00
-lastmod: 2023-03-20T08:42:44.669Z
+categories:
+- hugo
+date: "2023-03-17T07:42:36+01:00"
 description: Hugo does not currently provide a function to obtain the current OutputFormat
   - this function provides the answer
-featured: false
 draft: false
-# toc: true # Controls if a table of contents should be generated for first-level links automatically.
+featured: false
 image:
   feature: images/keith-misner-h0Vxgz5tyXA-unsplash.jpg
-# thumbnail: images/thumbnail.png
-# shareImage: images/share.png
-# codeMaxLines: 10 # Override global value for how many lines within a code block before auto-collapsing.
-# codeLineNumbers: false # Override global value for showing of line numbers within code block.
-# comment: false # Disable comment if false.
-categories:
-  - hugo
-tags:
-  - hugo_partial
+lastmod: "2023-03-20T08:42:44.669Z"
 series:
-  - hugo_snippets
+- hugo_snippets
+tags:
+- hugo_partial
+title: Hugo function to obtain `OutputFormat` of current page context
 ---
 
 Hugo does not currently provide a function to obtain the current OutputFormat — this *partial[^1]* provides a simple solution.

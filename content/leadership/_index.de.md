@@ -1,15 +1,17 @@
 ---
-title: Leadership
-subtitle: Lade Menschen ein, zu wachsen und zu führen
-weight: 100
+aliases:
+- /articles/
+- /series/leadership/
+description: Über Führung mit Wahrheit, Mitgefühl und Wirkung, um Komplexität, Mehrdeutigkeit
+  und Konflikte zu meistern
 image:
   feature:
-    resource: images/andreas-dress-oOqUs-ZcE9A-unsplash
-    title: Bei Führung geht es sowohl um Struktur des Teams als auch die Gestaltungsfreiheit des Invididuums
     alt: Ein Vogelschwarm fliegt in Formation
-description: "Über Führung mit Wahrheit, Mitgefühl und Wirkung, um Komplexität, Mehrdeutigkeit und Konflikte zu meistern"
-aliases:
-  - /articles/
-  - /series/leadership/
+    resource: images/andreas-dress-oOqUs-ZcE9A-unsplash
+    title: Bei Führung geht es sowohl um Struktur des Teams als auch die Gestaltungsfreiheit
+      des Invididuums
 lastmod: 2023-04-24T23:27:52+0200
+subtitle: Lade Menschen ein, zu wachsen und zu führen
+title: Leadership
+weight: 100
 ---

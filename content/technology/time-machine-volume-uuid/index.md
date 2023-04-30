@@ -1,22 +1,25 @@
-+++
-title = "Time Machine: UUID of disk changed"
-date = "2011-02-18T15:00:47Z"
-bestbefore = "2025-03-11"
-aliases = [
-  "/hints/macosx/time-machine-volume-uuid/",
-  "/articles/time-machine-volume-uuid/"
-]
-categories = [ "macOS" ]
-tags = [ "macOS" ]
-summary = "If you clone a volume that you backup with Time Machine, its UUID will change and Time Machine will no longer be able to back it up. Use the following script to change the UUID of the existing backups, leading Time Machine to backup as if the volume's UUID had never changed"
-lastmod = "2023-04-24T11:56:57.636Z"
-
-[image]
-thumbnail = "images/thumbnail"
-[image.feature]
-position = "top left"
-resource = "images/Time Machine - UUID of disk changed"
-+++
+---
+aliases:
+- /hints/macosx/time-machine-volume-uuid/
+- /articles/time-machine-volume-uuid/
+bestbefore: "2025-03-11"
+categories:
+- macOS
+date: "2011-02-18T15:00:47Z"
+image:
+  feature:
+    position: top left
+    resource: images/Time Machine - UUID of disk changed
+  thumbnail: images/thumbnail
+lastmod: "2023-04-24T11:56:57.636Z"
+summary: If you clone a volume that you backup with Time Machine, its UUID will change
+  and Time Machine will no longer be able to back it up. Use the following script
+  to change the UUID of the existing backups, leading Time Machine to backup as if
+  the volume's UUID had never changed
+tags:
+- macOS
+title: 'Time Machine: UUID of disk changed'
+---
 
 {{% note update %}}
 The problem described in this article is now being handled by macOS. In most cases, you are given the option to [associate the Time Machine disk](/articles/time-machine-inherit-backup-using-tmutil) and inherit the backup history.

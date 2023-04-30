@@ -1,29 +1,29 @@
 ---
-title: "Ambiguity kills action in a knowing culture" # Title of the blog post.
-date: 2022-06-06T20:12:48+02:00 # Date of post creation.
-lastmod: 2022-06-06T20:12:48+02:00 # Date of last modification.
+categories:
+- Culture
+date: "2022-06-06T20:12:48+02:00"
 description: ""
-featured: false
 draft: true
+featured: false
 image:
   feature:
-    resource: "images/hugo_theme_claris-feature"
-    position: "bottom right"
-  thumbnail:
-    resource: "images/hugo_theme_claris-thumbnail"
+    position: bottom right
+    resource: images/hugo_theme_claris-feature
   search:
-    - resource: "images/hugo_theme_claris-feature"
-    - resource: "images/hugo_theme_claris-thumbnail"
-    - resource: "images/hugo_theme_claris-share"
+  - resource: images/hugo_theme_claris-feature
+  - resource: images/hugo_theme_claris-thumbnail
+  - resource: images/hugo_theme_claris-share
   share:
-    resource: "images/hugo_theme_claris-share"
-categories:
-  - Culture
-tags:
-  - Leadership
-  - Culture
+    resource: images/hugo_theme_claris-share
+  thumbnail:
+    resource: images/hugo_theme_claris-thumbnail
+lastmod: "2022-06-06T20:12:48+02:00"
 series:
-  - Culture
+- Culture
+tags:
+- Leadership
+- Culture
+title: Ambiguity kills action in a knowing culture
 ---
 
 

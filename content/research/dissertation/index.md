@@ -1,15 +1,16 @@
-+++
-title = "Ph.D. dissertation"
-subtitle = "Wireless Communication Among Mobile Nodes"
-date = "2010-11-23T17:44:14Z"
-alias = "publications/dissertation"
-description = "Ph.D. dissertation of Simon Heimlicher entitled “Wireless Communication Among Mobile Nodes: From Paths to Clusters to Connectivity”"
-lastmod = "2023-03-16T21:05:55.258Z"
-weight = 900
-[image]
-  feature = "images/dissertation-front"
-  thumbnail = "images/dissertation-front"
-+++
+---
+alias: publications/dissertation
+date: "2010-11-23T17:44:14Z"
+description: 'Ph.D. dissertation of Simon Heimlicher entitled “Wireless Communication
+  Among Mobile Nodes: From Paths to Clusters to Connectivity”'
+image:
+  feature: images/dissertation-front
+  thumbnail: images/dissertation-front
+lastmod: "2023-03-16T21:05:55.258Z"
+subtitle: Wireless Communication Among Mobile Nodes
+title: Ph.D. dissertation
+weight: 900
+---
 
 During my Ph.D. at [ETH Zurich](https://www.ethz.ch), I studied human mobility and the characteristics of the communication opportunities if we assume wireless links between people within close proximity.
 

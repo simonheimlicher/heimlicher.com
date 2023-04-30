@@ -1,27 +1,29 @@
 ---
-title: Turn the Ship Around!
-supertitle: L. David Marquet
-subtitle: Turning followers into leaders
+aliases:
+- /articles/turn-the-ship-around/
+- /articles/turn-the-ship-around-l-david-marquet/
+categories:
+- Book
 date: 2021-06-07T23:27:52+0200
-lastmod: 2023-04-24T23:27:52+0200
-description: "Intent-Based Leadership, a paradigm for turning followers into leaders – and this book lays out its application on a US submarine in an  auto-biographic nature"
+description: Intent-Based Leadership, a paradigm for turning followers into leaders
+  – and this book lays out its application on a US submarine in an  auto-biographic
+  nature
 featured: false
 image:
   feature:
-    resource: "images/turn-the-ship-around-l-david-marquet-feature"
-    position: "center 23%"
     alt: Cover of the book Turn the Ship Around! by L. David Marquet
+    position: center 23%
+    resource: images/turn-the-ship-around-l-david-marquet-feature
     title: Turn the Ship Around! by L. David Marquet
-categories:
-  - Book
-tags:
-  - Leadership
-  - Talent
+lastmod: 2023-04-24T23:27:52+0200
 series:
-  - Culture
-aliases:
-  - /articles/turn-the-ship-around/
-  - /articles/turn-the-ship-around-l-david-marquet/
+- Culture
+subtitle: Turning followers into leaders
+supertitle: L. David Marquet
+tags:
+- Leadership
+- Talent
+title: Turn the Ship Around!
 ---
 
 In his widely acclaimed book, L. David Marquet outlines in an autobiographic way his path from a leader that leads followers to a leader that creates more leaders.

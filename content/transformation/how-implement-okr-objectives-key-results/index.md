@@ -1,30 +1,30 @@
 ---
-title: "How to implement Objectives and Key Results (OKR)" # Title of the blog post.
-date: 2021-07-02T07:22:59+02:00 # Date of post creation.
-lastmod: 2021-07-02T07:22:59+02:00 # Date of last modification.
-description: "Article description." # Description used for search engine.
-featured: false # Sets if post is a featured post, making appear on the home page side bar.
-draft: true # Sets whether to render this page. Draft of true will not be image:
+categories:
+- Methodology
+date: "2021-07-02T07:22:59+02:00"
+description: Article description.
+draft: true
+featured: false
 image:
   feature:
-    resource: "images/hugo_theme_claris-feature"
-    position: "bottom right"
-  thumbnail:
-    resource: "images/hugo_theme_claris-thumbnail"
+    position: bottom right
+    resource: images/hugo_theme_claris-feature
   search:
-    - resource: "images/hugo_theme_claris-feature"
-    - resource: "images/hugo_theme_claris-thumbnail"
-    - resource: "images/hugo_theme_claris-share"
+  - resource: images/hugo_theme_claris-feature
+  - resource: images/hugo_theme_claris-thumbnail
+  - resource: images/hugo_theme_claris-share
   share:
-    resource: "images/hugo_theme_claris-share"
-categories:
-  - Methodology
-tags:
-  - OKR
-  - Talent
-  - Performance
+    resource: images/hugo_theme_claris-share
+  thumbnail:
+    resource: images/hugo_theme_claris-thumbnail
+lastmod: "2021-07-02T07:22:59+02:00"
 series:
-  - OKR
+- OKR
+tags:
+- OKR
+- Talent
+- Performance
+title: How to implement Objectives and Key Results (OKR)
 ---
 
 ## Objective of this article – in OKR form

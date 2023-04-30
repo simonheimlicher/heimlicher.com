@@ -1,43 +1,37 @@
 ---
-title: OKRs vs. Leistungsbeurteilung
-subtitle: Weshalb es beides braucht
-date: 2020-03-10T16:27:48.000Z
-description: Stehen OKRs im Konflikt mit der periodischen Leistungsbeurteilung? Oder machen sie diese gar überflüssig? Nein, es braucht beides, sagt John Doerr von Google.
-featured: true
+aliases:
+- /articles/okrs-vs-performance-management/
+- /articles/okrs-vs.-performance-management/
+categories:
+- Methodology
+date: "2020-03-10T16:27:48.000Z"
+description: Stehen OKRs im Konflikt mit der periodischen Leistungsbeurteilung? Oder
+  machen sie diese gar überflüssig? Nein, es braucht beides, sagt John Doerr von Google.
 draft: false
-toc: true
-summary: "OKRs und Leistungsbeurteilung trennen: Erfolgreiche Implementierung von OKRs fördert Mitarbeitendenentwicklung und organisatorische Ausrichtung"
+featured: true
 image:
   feature:
-    resource: "images/kelly-sikkema-4TBOXap8qg4-unsplash.jpg"
-    position: "center center"
-  # thumbnail:
-  #   resource: "images/hugo_theme_claris-thumbnail"
-  # search:
-  #   - resource: "images/hugo_theme_claris-feature"
-  #   - resource: "images/hugo_theme_claris-thumbnail"
-  #   - resource: "images/hugo_theme_claris-share"
-  # share:
-  #   resource: "images/hugo_theme_claris-share"
-aliases:
-  - /articles/okrs-vs-performance-management/
-  - /articles/okrs-vs.-performance-management/
-categories:
-  - Methodology
-tags:
-  - OKR
-  - Talent
-  - Performance
-series:
-  - OKR
+    position: center center
+    resource: images/kelly-sikkema-4TBOXap8qg4-unsplash.jpg
 keywords:
-  - annual
-  - okr
-  - performance management
-  - review
-  - talent
-  - human resources
-lastmod: 2023-03-22T13:28:44.842Z
+- annual
+- okr
+- performance management
+- review
+- talent
+- human resources
+lastmod: "2023-03-22T13:28:44.842Z"
+series:
+- OKR
+subtitle: Weshalb es beides braucht
+summary: 'OKRs und Leistungsbeurteilung trennen: Erfolgreiche Implementierung von
+  OKRs fördert Mitarbeitendenentwicklung und organisatorische Ausrichtung'
+tags:
+- OKR
+- Talent
+- Performance
+title: OKRs vs. Leistungsbeurteilung
+toc: true
 ---
 
 Obwohl der Leistungsbeurteilungsprozess ähnliche Ziele wie Objectives and Key Results (OKRs) zu verfolgen scheint, unterscheidet sich seine Rolle grundlegend.

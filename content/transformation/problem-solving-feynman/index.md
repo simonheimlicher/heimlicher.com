@@ -1,21 +1,14 @@
 ---
-title: "Problem solving feynman"
-date: 2023-04-20T23:33:21+02:00
-lastmod: 2023-04-20T23:33:21+02:00
-description: "Article description." # Description used for search engine.
-featured: false
+date: "2023-04-20T23:33:21+02:00"
+description: Article description.
 draft: true
+featured: false
 image:
-  feature: "images/hugo_theme_claris-feature"
-  thumbnail: "images/hugo_theme_claris-thumbnail"
-  share: "images/hugo_theme_claris-share"
-# categories:
-#   - Category_name
-# tags:
-#   - Tag_name1
-#   - Tag_name2
-# series:
-#   - Series_name
+  feature: images/hugo_theme_claris-feature
+  share: images/hugo_theme_claris-share
+  thumbnail: images/hugo_theme_claris-thumbnail
+lastmod: "2023-04-20T23:33:21+02:00"
+title: Problem solving feynman
 ---
 
 

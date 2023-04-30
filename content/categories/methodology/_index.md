@@ -1,6 +1,6 @@
 ---
-title: Methodology
 aliases:
-    - /categories/management/
-    - /categories/leadership/
+- /categories/management/
+- /categories/leadership/
+title: Methodology
 ---

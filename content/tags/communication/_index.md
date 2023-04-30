@@ -1,6 +1,6 @@
 ---
-title: Communication
 aliases:
-    - /tags/writing/
-    - /tags/capitalization/
+- /tags/writing/
+- /tags/capitalization/
+title: Communication
 ---

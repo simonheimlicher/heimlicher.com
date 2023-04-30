@@ -1,37 +1,27 @@
 ---
-title: Why do we need OKRs? – we already have goals
-date: 2019-01-10T17:26:26+02:00
+aliases:
+- /articles/why-okrs-already-have-goals/
+- /articles/why-okr-objectives-key-results-already-have-goals/
+- /organizational-transformation/why-okr-objectives-key-results-already-have-goals/
+categories:
+- Methodology
+date: "2019-01-10T17:26:26+02:00"
 description: Do you need Objectives and Key Results (OKRs)? There is the most popular
   reason to use OKRs and then there is the one that may matter most to you.
-featured: false
 draft: false
+featured: false
 image:
   feature:
-    resource: "images/charles-deluvio-Wd3DG2ABwzE-unsplash"
-    position: "center center"
-  # thumbnail:
-  #   resource: "images/hugo_theme_claris-thumbnail"
-  # search:
-  #   - resource: "images/hugo_theme_claris-feature"
-  #   - resource: "images/hugo_theme_claris-thumbnail"
-  #   - resource: "images/hugo_theme_claris-share"
-  # share:
-  #   resource: "images/hugo_theme_claris-share"
-categories:
-  - Methodology
-tags:
-  - OKR
-  - Talent
-  - Performance
+    position: center center
+    resource: images/charles-deluvio-Wd3DG2ABwzE-unsplash
+lastmod: "2023-03-20T10:49:25.667Z"
 series:
-  - OKR
-aliases:
-  - /articles/why-okrs-already-have-goals/
-  - /articles/why-okr-objectives-key-results-already-have-goals/
-  - /organizational-transformation/why-okr-objectives-key-results-already-have-goals/
-lastmod: 2023-03-20T10:49:25.667Z
-
-# comment: false # Disable comment if false.
+- OKR
+tags:
+- OKR
+- Talent
+- Performance
+title: Why do we need OKRs? – we already have goals
 ---
 
 How many ways are there – or rather: how many do you need – to manage your company's goals? Apparently we all need one more: *Objectives and Key Results (OKRs)*. But why would you want to add this methodology to your arsenal? The reason given most often may not be the one that matters most to you.

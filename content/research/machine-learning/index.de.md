@@ -1,13 +1,14 @@
-+++
-title = "Machine learning"
-description = "Maschinelles Lernen, um Empfehlungen für Filme ohne Austausch persönlicher Daten zu generieren"
-weight = 100
-date = "2023-03-12T13:20:20Z"
-lastmod = "2023-03-16T17:58:36.115Z"
-[image]
-  thumbnail = "images/robynne-hu-HOrhCnQsxnQ-unsplash-square"
-  feature = "images/robynne-hu-HOrhCnQsxnQ-unsplash-original"
-+++
+---
+date: "2023-03-12T13:20:20Z"
+description: Maschinelles Lernen, um Empfehlungen für Filme ohne Austausch persönlicher
+  Daten zu generieren
+image:
+  feature: images/robynne-hu-HOrhCnQsxnQ-unsplash-original
+  thumbnail: images/robynne-hu-HOrhCnQsxnQ-unsplash-square
+lastmod: "2023-03-16T17:58:36.115Z"
+title: Machine learning
+weight: 100
+---
 
 Bei Technicolor haben wir ein verteiltes Empfehlungssystem entwickelt und evaluiert, um Empfehlungen für Medien wie Filme oder Fernsehsendungen zu generieren.
 

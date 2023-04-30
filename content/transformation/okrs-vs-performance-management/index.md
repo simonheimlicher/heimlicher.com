@@ -1,47 +1,39 @@
 ---
-title: OKRs vs. performance management
-subtitle: Why you need both
-date: 2020-03-10T16:27:48.000Z
+aliases:
+- /articles/okrs-vs.-performance-management/
+- /articles/okrs-vs-performance-management/
+- /organizational-transformation/okrs-vs-performance-management/
+categories:
+- Methodology
+date: "2020-03-10T16:27:48.000Z"
 description: Do Objectives and Key Results (OKRs) compete with or even supersede widely
   established performance review processes? No, says John Doerr from Google
-featured: true
 draft: false
-toc: true
-summary: Objectives and Key Results (OKRs) are a methodology to align and keep an
-  entire organization focused on its agreed upon goals. But do OKRs compete with
-  or rather complement widely established performance review processes?
+featured: true
 image:
   feature:
-    resource: "images/kelly-sikkema-4TBOXap8qg4-unsplash.jpg"
-    position: "center center"
-  # thumbnail:
-  #   resource: "images/hugo_theme_claris-thumbnail"
-  # search:
-  #   - resource: "images/hugo_theme_claris-feature"
-  #   - resource: "images/hugo_theme_claris-thumbnail"
-  #   - resource: "images/hugo_theme_claris-share"
-  # share:
-  #   resource: "images/hugo_theme_claris-share"
-aliases:
-  - /articles/okrs-vs.-performance-management/
-  - /articles/okrs-vs-performance-management/
-  - /organizational-transformation/okrs-vs-performance-management/
-categories:
-  - Methodology
-tags:
-  - OKR
-  - Talent
-  - Performance
-series:
-  - OKR
+    position: center center
+    resource: images/kelly-sikkema-4TBOXap8qg4-unsplash.jpg
 keywords:
-  - annual
-  - okr
-  - performance management
-  - review
-  - talent
-  - human resources
-lastmod: 2023-03-22T13:28:44.842Z
+- annual
+- okr
+- performance management
+- review
+- talent
+- human resources
+lastmod: "2023-03-22T13:28:44.842Z"
+series:
+- OKR
+subtitle: Why you need both
+summary: Objectives and Key Results (OKRs) are a methodology to align and keep an
+  entire organization focused on its agreed upon goals. But do OKRs compete with or
+  rather complement widely established performance review processes?
+tags:
+- OKR
+- Talent
+- Performance
+title: OKRs vs. performance management
+toc: true
 ---
 
 While the performance review process appears to serve a similar purpose as Objectives and Key Results (OKRs), its role differs fundamentally.

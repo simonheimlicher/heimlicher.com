@@ -1,33 +1,33 @@
 ---
-supertitle: Patty McCord
-title: Powerful
-subtitle: Building a culture of freedom and responsibility
-date: 2021-10-15
-lastmod: 2023-04-25T11:59:19.238Z
-description: Schlüsselerkenntnisse aus dem Buch Powerful über die Netflix-Kultur aus Perspektive von Patty McCord, welche als Chief Talent Officer von Anfang an dabei war.
-featured: false
-draft: false
-# toc: true # Controls if a table of contents should be generated for first-level links automatically.
 aliases:
-  - /articles/powerful-patty-mccord/
-# menu: main
-image:
-  feature:
-    - resource: images/powerful-patty-mccord-feature
-      position: center 47%
-      alt: Cover of the book Powerful by Patty McCord
-      title: Powerful by Patty McCord
-  excerpt:
-    - resource: images/powerful-patty-mccord-excerpt
-      alt: Excerpt of the cover of the book Powerful by Patty McCord
-      title: Powerful by Patty McCord
+- /articles/powerful-patty-mccord/
 categories:
-  - Book
-tags:
-  - Leadership
-  - Talent
+- Book
+date: "2021-10-15"
+description: Schlüsselerkenntnisse aus dem Buch Powerful über die Netflix-Kultur aus
+  Perspektive von Patty McCord, welche als Chief Talent Officer von Anfang an dabei
+  war.
+draft: false
+featured: false
+image:
+  excerpt:
+  - alt: Excerpt of the cover of the book Powerful by Patty McCord
+    resource: images/powerful-patty-mccord-excerpt
+    title: Powerful by Patty McCord
+  feature:
+  - alt: Cover of the book Powerful by Patty McCord
+    position: center 47%
+    resource: images/powerful-patty-mccord-feature
+    title: Powerful by Patty McCord
+lastmod: "2023-04-25T11:59:19.238Z"
 series:
-  - Culture
+- Culture
+subtitle: Building a culture of freedom and responsibility
+supertitle: Patty McCord
+tags:
+- Leadership
+- Talent
+title: Powerful
 ---
 
 Wie wird ein Startup zu einem Unternehmensgiganten mit vielen Richtlinien, Prozessen und Regeln? Das passiert Schritt für Schritt, wenn jeder Fehler als ein nicht wiederholbarer Fehltritt angesehen wird. In ihrem Buch *Powerful* beschreibt Patty McCord, wie Netflix beinahe eine Spesenrichtlinie eingeführt hätte – stattdessen vertraute das Unternehmen jedoch auf eine Kultur ohne Regeln.

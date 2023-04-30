@@ -1,20 +1,24 @@
 ---
-title: Capitalization – my personal preferences
-date: '2008-01-03T11:52:29Z'
-lastmod: 2020-05-22T11:35:06.075Z
 aliases:
-    - /hints/style/capitalization/
-    - /articles/capitalization/
-    - /articles/capitalization-title-headings-preferences/
-    - /digital-transformation/capitalization-title-headings-preferences/
+- /hints/style/capitalization/
+- /articles/capitalization/
+- /articles/capitalization-title-headings-preferences/
+- /digital-transformation/capitalization-title-headings-preferences/
 categories:
-    - Communication
-tags:
-    - Communication
+- Communication
+date: "2008-01-03T11:52:29Z"
 disqusurl: https://simon.heimlicher.com/articles/2008/01/03/capitalization
-summary: Preferences for capitalization vary between organizations and countries around the world. In an attempt to remain consistent in my own writing, I have found the Microsoft Style Guides treatise of the topics to be quite helpful and would like to summarize it for the benefit of others in their quest for a universal set of rules
 image:
-  feature: "images/amador-loureiro-BVyNlchWqzs-unsplash"
+  feature: images/amador-loureiro-BVyNlchWqzs-unsplash
+lastmod: "2020-05-22T11:35:06.075Z"
+summary: Preferences for capitalization vary between organizations and countries around
+  the world. In an attempt to remain consistent in my own writing, I have found the
+  Microsoft Style Guides treatise of the topics to be quite helpful and would like
+  to summarize it for the benefit of others in their quest for a universal set of
+  rules
+tags:
+- Communication
+title: Capitalization – my personal preferences
 ---
 
 Capitalization in English is a matter that confuses not only the non-native speakers. In my experience, preferences vary between organizations and countries around the world. In an attempt to remain consistent in my own writing, I have found the [Microsoft Style Guide]( https://docs.microsoft.com/en-us/style-guide/capitalization#title-style-capitalization)'s treatise of this topic to be quite helpful and would like to summarize it for the benefit of others in their quest for a universal set of rules.

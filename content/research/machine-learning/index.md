@@ -1,13 +1,13 @@
-+++
-title = "Machine learning"
-description = "Machine learning for movie recommendations – preserving privacy"
-weight = 100
-date = "2012-12-11T15:39:01Z"
-lastmod = "2023-03-16T17:58:36.115Z"
-[image]
-  thumbnail = "images/robynne-hu-HOrhCnQsxnQ-unsplash-square"
-  feature = "images/robynne-hu-HOrhCnQsxnQ-unsplash-original"
-+++
+---
+date: "2012-12-11T15:39:01Z"
+description: Machine learning for movie recommendations – preserving privacy
+image:
+  feature: images/robynne-hu-HOrhCnQsxnQ-unsplash-original
+  thumbnail: images/robynne-hu-HOrhCnQsxnQ-unsplash-square
+lastmod: "2023-03-16T17:58:36.115Z"
+title: Machine learning
+weight: 100
+---
 
 At Technicolor, we designed and evaluated a distributed inference algorithm to provide recommendations for media such as movies or TV shows. 
 Thanks to the [Netflix Prize](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data) data set, we had ample material to evaluate our algorithm with. 

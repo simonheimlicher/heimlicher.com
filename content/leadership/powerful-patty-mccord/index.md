@@ -1,31 +1,31 @@
 ---
-supertitle: Patty McCord
-title: Powerful
-subtitle: Building a culture of freedom and responsibility
-date: 2021-10-15
-lastmod: 2023-04-25T11:59:19.238Z
-description: Key insights from the book Powerful, a historical account of the Netflix culture from
-  the perspective of then Chief Talent Officer Patty McCord. Perhaps surprisingly, she hates the word empowerment
 aliases:
-  - /articles/powerful-patty-mccord/
-# menu: main
-image:
-  feature:
-    - resource: images/powerful-patty-mccord-feature
-      position: center 47%
-      alt: Excerpt of the cover of the book Powerful by Patty McCord
-      title: Powerful by Patty McCord
-  excerpt:
-    - resource: images/powerful-patty-mccord-excerpt
-      alt: Excerpt of the cover of the book Powerful by Patty McCord
-      title: Powerful by Patty McCord
+- /articles/powerful-patty-mccord/
 categories:
-  - Book
-tags:
-  - Leadership
-  - Talent
+- Book
+date: "2021-10-15"
+description: Key insights from the book Powerful, a historical account of the Netflix
+  culture from the perspective of then Chief Talent Officer Patty McCord. Perhaps
+  surprisingly, she hates the word empowerment
+image:
+  excerpt:
+  - alt: Excerpt of the cover of the book Powerful by Patty McCord
+    resource: images/powerful-patty-mccord-excerpt
+    title: Powerful by Patty McCord
+  feature:
+  - alt: Excerpt of the cover of the book Powerful by Patty McCord
+    position: center 47%
+    resource: images/powerful-patty-mccord-feature
+    title: Powerful by Patty McCord
+lastmod: "2023-04-25T11:59:19.238Z"
 series:
-  - Culture
+- Culture
+subtitle: Building a culture of freedom and responsibility
+supertitle: Patty McCord
+tags:
+- Leadership
+- Talent
+title: Powerful
 ---
 
 How does a startup become a corporate behemoth with layers of policies, processes, and rules? It happens one mishap at a time if that event is seen as a mistake that is never to be made again. In her book *Powerful*, Patty McCord lays out her account of how Netflix almost got an expense policy – but avoided that path and instead relied on a no-rules culture.

@@ -1,13 +1,12 @@
-
-+++
-title = "Publications"
-subtitle = "By Simon Heimlicher and co-authors"
-date = "2014-08-27T07:50:12Z"
-description= "Book chapters, journal and conference papers"
-[image]
-  thumbnail = "images/ron-dyar-V29UWcALNko-unsplash-thumbnail"
-  feature = "images/ron-dyar-V29UWcALNko-unsplash-feature"
-+++
+---
+date: "2014-08-27T07:50:12Z"
+description: Book chapters, journal and conference papers
+image:
+  feature: images/ron-dyar-V29UWcALNko-unsplash-feature
+  thumbnail: images/ron-dyar-V29UWcALNko-unsplash-thumbnail
+subtitle: By Simon Heimlicher and co-authors
+title: Publications
+---
 
 ## Conference and Workshop Papers
 Sookhyun Yang, Jim Kurose, Simon Heimlicher, and Arun Venkataramani

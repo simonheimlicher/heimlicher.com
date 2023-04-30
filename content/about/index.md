@@ -1,23 +1,30 @@
-+++
-supertitle = "About"
-title = "Simon Heimlicher"
-subtitle = "A passionate leader"
-section = "About"
-weight = 10
-lastmod = 2023-04-21T00:00:00Z
-keywords = ["heimlicher", "simon", "simon heimlicher", "about", "professional website"]
-description = "About Simon Heimlicher, a senior executive with a passion for leadership, transformation, and strategy execution"
-aliases = ["/home/about/"]
-[schemaOrg]
-  entityType = "ProfilePage"
-[image]
-  thumbnail = "images/portrait"
-  [[image.feature]]
-    resource = "images/La_Punt_village_IMG_1499-feature"
-    alt = "Photo of the Inn river in La Punt, Switzerland"
-    title = "A photo of La Punt in Winter by Simon Heimlicher"
-    credit = "Simon Heimlicher"
-+++
+---
+aliases:
+- /home/about/
+description: About Simon Heimlicher, a senior executive with a passion for leadership,
+  transformation, and strategy execution
+image:
+  feature:
+  - alt: Photo of the Inn river in La Punt, Switzerland
+    credit: Simon Heimlicher
+    resource: images/La_Punt_village_IMG_1499-feature
+    title: A photo of La Punt in Winter by Simon Heimlicher
+  thumbnail: images/portrait
+keywords:
+- heimlicher
+- simon
+- simon heimlicher
+- about
+- professional website
+lastmod: "2023-04-21T00:00:00Z"
+schemaOrg:
+  entityType: ProfilePage
+section: About
+subtitle: A passionate leader
+supertitle: About
+title: Simon Heimlicher
+weight: 10
+---
 
 {{< responsive-image title="Portrait of Simon Heimlicher" alt="Portrait of Simon Heimlicher" relative-width="30" lazy=true shape="round" float="left" resource="images/portrait" >}}
 

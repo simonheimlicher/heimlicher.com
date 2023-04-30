@@ -1,22 +1,28 @@
-+++
-supertitle = "Über"
-title = "Simon Heimlicher"
-subtitle = "Begeisterter Leader"
-section = "Über mich"
-weight = 10
-lastmod = 2023-04-21T00:00:00Z
-keywords = ["heimlicher", "simon", "simon heimlicher", "über", "professionelle website"]
-description = "Ein kurzes Profil von Simon Heimlicher, einem erfahrenen Leader mit einer Leidenschaft für Führung, Transformation und Strategieumsetzung."
-[schemaOrg]
-  entityType = "ProfilePage"
-[image]
-  thumbnail = "images/portrait"
-  [[image.feature]]
-    resource = "images/La_Punt_village_IMG_1499-feature"
-    alt = "Photo of the Inn river in La Punt, Switzerland"
-    title = "A photo of La Punt in Winter by Simon Heimlicher"
-    credit = "Simon Heimlicher"
-+++
+---
+description: Ein kurzes Profil von Simon Heimlicher, einem erfahrenen Leader mit einer
+  Leidenschaft für Führung, Transformation und Strategieumsetzung.
+image:
+  feature:
+  - alt: Photo of the Inn river in La Punt, Switzerland
+    credit: Simon Heimlicher
+    resource: images/La_Punt_village_IMG_1499-feature
+    title: A photo of La Punt in Winter by Simon Heimlicher
+  thumbnail: images/portrait
+keywords:
+- heimlicher
+- simon
+- simon heimlicher
+- über
+- professionelle website
+lastmod: "2023-04-21T00:00:00Z"
+schemaOrg:
+  entityType: ProfilePage
+section: Über mich
+subtitle: Begeisterter Leader
+supertitle: Über
+title: Simon Heimlicher
+weight: 10
+---
 
 In den letzten zehn Jahren hatte ich das Privileg, wertvolle Einsichten von einigen der erfahrensten Führungskräfte in den Bereichen **Leadership,** **Organisationsentwicklung** und **Strategieumsetzung** in einem globalen Kontext zu gewinnen.
 

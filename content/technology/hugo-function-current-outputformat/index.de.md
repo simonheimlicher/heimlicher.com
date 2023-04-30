@@ -1,24 +1,19 @@
 ---
-title: Hugo-Funktion, um das aktuelle `OutputFormat` zu erhalten
-date: 2023-03-17T07:42:36+01:00
-lastmod: 2023-03-20T08:42:44.669Z
-description: Hugo bietet derzeit keine Funktion, um das aktuelle OutputFormat zu erhalten - dieses Partial bietet eine einfache Lösung
-featured: false
+categories:
+- hugo
+date: "2023-03-17T07:42:36+01:00"
+description: Hugo bietet derzeit keine Funktion, um das aktuelle OutputFormat zu erhalten
+  - dieses Partial bietet eine einfache Lösung
 draft: false
-# toc: true # Controls if a table of contents should be generated for first-level links automatically.
+featured: false
 image:
   feature: images/keith-misner-h0Vxgz5tyXA-unsplash.jpg
-# thumbnail: images/thumbnail.png
-# shareImage: images/share.png
-# codeMaxLines: 10 # Override global value for how many lines within a code block before auto-collapsing.
-# codeLineNumbers: false # Override global value for showing of line numbers within code block.
-# comment: false # Disable comment if false.
-categories:
-  - hugo
-tags:
-  - hugo_partial
+lastmod: "2023-03-20T08:42:44.669Z"
 series:
-  - hugo_snippets
+- hugo_snippets
+tags:
+- hugo_partial
+title: Hugo-Funktion, um das aktuelle `OutputFormat` zu erhalten
 ---
 
 Hugo bietet derzeit keine Funktion, um das aktuelle OutputFormat zu erhalten - dieses *Partial[^1]* bietet eine einfache Lösung.

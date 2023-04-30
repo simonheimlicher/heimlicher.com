@@ -1,12 +1,12 @@
-+++
-title = "Human mobility"
-description = "Human mobility and its impact on network architecture"
-date = "2013-02-21T11:21:59Z"
-lastmod = "2023-03-18T16:44:38.956Z"
-[image]
-  feature = "images/human-mobility-feature"
-  thumbnail = "images/human-mobility-thumbnail"
-+++
+---
+date: "2013-02-21T11:21:59Z"
+description: Human mobility and its impact on network architecture
+image:
+  feature: images/human-mobility-feature
+  thumbnail: images/human-mobility-thumbnail
+lastmod: "2023-03-18T16:44:38.956Z"
+title: Human mobility
+---
 
 The design of a network protocol depends on the assumptions that are made regarding the computers that make up the network. We designed and implemented an Android app to track the mobility of volunteers and correlated their geographic location with the address of their smartphone on the Internet.
 
