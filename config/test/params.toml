@@ -1,3 +1,0 @@
-# FIXME: canonicalBaseURL can be set in Site but not retrieved from site.CanonicalBaseURL
-canonicalBaseURL = "https://test.heimlicher.com/"  # Include trailing slash
-volumentAnalyticsID  = "f59378b049"

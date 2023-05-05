@@ -1,6 +1,0 @@
-# set `baseurl` to your root domain
-# if you set it to "/" share icons won't work properly on production
-baseurl = "https://test.heimlicher.com/"  # Include trailing slash
-title = "test.heimlicher.com"
-# Google analytics ID
-googleAnalytics = "G-NGNLLN5D2Q"

@@ -1,0 +1,91 @@
+canonicalBaseURL: https://simon.heimlicher.com/
+showShare: false
+mainSections:
+  - articles
+  - leadership
+  - transformation
+  - digitization
+  - research
+  - technology
+logo: images/avatar.png
+logoURL: /
+centerLogo: false
+mobileNavigation: right
+screenViewBreakpointWidthMobileMenu: 36rem
+screenViewBreakpointWidthNarrow: 40rem
+numberOfRecentArticles: 3
+numberOfFeaturedArticles: 3
+numberOfRelatedArticles: 5
+iconsDir: /
+themeColorLit: hsl(42, 20%, 97%)
+themeColorDim: hsl(207, 20%, 25%)
+taxonomyMaxYears: 5
+recentMaxYears: 5
+outdatedAfterYears: 5
+ephemeralSections:
+  - technology
+fontFamilySans: Source Sans 3
+fontFamilySerif: Merriweather
+fontFamilyMono: DM Mono
+fontsSelfHosted: true
+supportIE11: true
+sidebarTaxonomies: []
+navListCurrentSectionForTypes:
+  - vitae
+navListCurrentSectionInSection:
+  - confidential
+  - application
+assetDownloadFolders:
+  - downloads
+home:
+  section: _home
+footer:
+  section: _footer
+  recentarticles: 3
+  social:
+    - linkedin
+    - twitter
+    - github
+hidden:
+  sections:
+    - _error
+    - _home
+    - _footer
+  pathelements:
+    - confidential
+    - private
+    - hidden
+website:
+  name: simon.heimlicher.com
+  tagline: Leadership & organizational transformation
+  description: Professional website of Simon Heimlicher – a passionate leader who writes about leadership, agile transformation and technology.
+  established: 1999
+  profile:
+    headline: About Simon Heimlicher
+    text: 'Passionate leader with a track record of leading change: from agile transformation to strategy execution at a global scale'
+    link: Simon Heimlicher
+    url: about
+image:
+  thumbnail:
+    - images/sh.com_site_thumbnail_1200x627.png
+    - images/sh.com_site_thumbnail_1200x675.png
+    - images/sh.com_site_thumbnail_1200x1200.png
+robots:
+  index: true
+  indeximages: true
+  follow: true
+social:
+  twitter:
+    id: simonheimlicher
+  github:
+    id: simonheimlicher
+  linkedin:
+    id: simonheimlicher
+  stackoverflow:
+    id: 617559/simon-heimlicher
+  superuser:
+    id: 69517/simon-heimlicher
+  crossvalidated:
+    id: 4467/simon-heimlicher
+  resumesocial:
+    id: simon-heimlicher

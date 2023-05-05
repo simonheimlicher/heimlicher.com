@@ -1,0 +1,21 @@
+main:
+  - identifier: leadership
+    name: Leadership
+    url: /leadership/
+    weight: 100
+  - identifier: transformation
+    name: Transformation
+    url: /transformation/
+    weight: 200
+  - identifier: technology
+    name: Technology
+    url: /technology/
+    weight: 500
+  - identifier: research
+    name: Research
+    url: /research/
+    weight: 700
+  - identifier: about
+    name: About me
+    url: /about/
+    weight: 900

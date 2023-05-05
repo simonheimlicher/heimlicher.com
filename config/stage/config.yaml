@@ -1,0 +1,5 @@
+baseurl: https://stage.heimlicher.com/
+title: Simon Heimlicher
+googleAnalytics: G-CEQ4CPYQLK
+minify:
+  minifyOutput: true

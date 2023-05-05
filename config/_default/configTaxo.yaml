@@ -1,0 +1,18 @@
+timeout: 30000
+enableInlineShortcodes: true
+footnoteReturnLinkContents: ^
+privacy:
+  vimeo:
+    disabled: false
+    simple: true
+  twitter:
+    disabled: false
+    enableDNT: true
+    simple: true
+    disableInlineCSS: true
+  instagram:
+    disabled: false
+    simple: true
+  youtube:
+    disabled: false
+    privacyEnhanced: true

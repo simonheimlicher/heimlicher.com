@@ -1,0 +1,130 @@
+# https://github.com/gohugoio/hugoDocs/blob/master/config/_default/config.toml
+title: Simon Heimlicher
+baseURL: https://simon.heimlicher.com/
+defaultContentLanguage: en
+languageCode: en-us
+theme:
+  - fontawesome
+  - claris
+enableRobotsTXT: true
+disableAliases: true
+timeout: 600000
+ignoreFiles:
+  - \.DS_Store$
+  - \.vscode$
+  - .*\.code-workspace$
+  - frontmatter\.json$
+# Disable RSS feeds
+# NOTE: nginx on srvr.nine.ch currently is configured to redirect /.*\.xml to /
+disableKinds:
+  - RSS
+  # - taxonomy
+  # - term
+  # - page
+  # - section
+  # - RSS
+  # - sitemap
+  # - robotsTXT
+  # - 404
+
+paginate: 20
+
+# https://discourse.gohugo.io/t/change-location-of-resources-directory/15682/3
+# https://gohugo.io/getting-started/configuration/#configure-file-caches
+# Avoid using resourceDir in the project directory
+# Since resourceDir cannot be set from the command line or environment variables,
+# we set it indirectly via --cacheDir or HUGO_CACHE_DIR
+caches:
+  assets:
+    # dir = ':resourceDir/_gen'
+    dir: :cacheDir/resources/_gen
+  images:
+    # dir = ':resourceDir/_gen'
+    dir: :cacheDir/resources/_gen
+outputs:
+  home:
+    - HTML
+    - redir
+    - siteredir
+  page:
+    - HTML
+  section:
+    - HTML
+mediaTypes:
+  text/nginx:
+    delimiter: ""
+outputFormats:
+  redir:
+    mediatype: text/nginx
+    baseName: _redirects.nginx
+    isPlainText: true
+    notAlternative: true
+  siteredir:
+    name: siteredir
+    mediatype: text/nginx
+    baseName: _siteredirects.nginx
+    isPlainText: true
+    notAlternative: true
+
+# NOTE: Setting Author in config file is not supported but widely used
+Author:
+  name: Simon Heimlicher
+  # NOTE: email is set in data file 'assets/data/claris/en.yaml'
+  # email = "user@example.net"
+
+
+# Merge imaging options from theme
+imaging:
+  _merge: deep
+
+# Merge security from theme, e.g., for asset pipeline
+security:
+  _merge: deep
+
+
+
+# NOTE: If using excludeFiles, these files are also not available for .Resources.Get
+module:
+  mounts:
+    - source: sites/heimlicher.com/assets
+      target: assets
+      excludeFiles:
+        - .DS_Store
+    - source: sites/heimlicher.com/data
+      target: data
+      excludeFiles:
+        - .DS_Store
+    - source: sites/heimlicher.com/static
+      target: static
+      excludeFiles:
+        - .DS_Store
+    - source: sites/heimlicher.com/i18n
+      target: i18n
+      excludeFiles:
+        - .DS_Store
+    - source: sites/heimlicher.com/content
+      target: content
+      excludeFiles:
+        - '**/.DS_Store'
+    # "**/*.yaml" # Don't exclude YAML files as they won't be available
+    # as Page Bundle resources via resources.Get
+
+permalinks:
+  articles: :sections/:filename
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+related:
+  includeNewer: true
+  threshold: 50
+  toLower: true
+  indices:
+    - name: categories
+      weight: 100
+    - name: tags
+      weight: 100
+    - name: keywords
+      weight: 100
+    - name: date
+      weight: 10
