@@ -2,3 +2,6 @@ title = "Simon Heimlicher"
 
 # Google analytics ID
 googleAnalytics = "G-18XHWVWDGF"
+
+[minify]
+  minifyOutput = true

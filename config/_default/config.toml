@@ -30,7 +30,7 @@ ignoreFiles = [
   "frontmatter\\.json$",
 ]
 
-# Allow all kinds
+# Disable certain kinds from being rendered
 # disableKinds = [
 #   "taxonomy",
 #   "term",
@@ -41,6 +41,12 @@ ignoreFiles = [
 #   "robotsTXT",
 #   "404"
 # ]
+
+# Disable RSS feeds
+# NOTE: nginx on srvr.nine.ch currently is configured to redirect /.*\.xml to /
+disableKinds = [
+  "RSS",
+]
 
 paginate = 20
 
@@ -66,7 +72,7 @@ paginate = 20
 [outputs]
   home = [ "HTML", "redir", "siteredir" ]
   page = [ "HTML"]
-  section = [ "HTML", "RSS"]
+  section = [ "HTML"]
 
 [mediaTypes]
   [mediaTypes."text/nginx"]
