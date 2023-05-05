@@ -9,6 +9,8 @@ image:
   feature:
   - position: 50% 20%
     resource: images/no-rules-rules-reed-hastings-erin-meyer-feature
+    alt: Cover of the book No Rules Rules by Reed Hastings and Erin Meyer
+    title: No Rules Rules by Reed Hastings and Erin Meyer
 lastmod: "2021-07-17"
 series:
 - Culture

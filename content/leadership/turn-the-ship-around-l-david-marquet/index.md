@@ -12,7 +12,7 @@ featured: false
 image:
   feature:
     alt: Cover of the book Turn the Ship Around! by L. David Marquet
-    position: center 23%
+    position: center 40%
     resource: images/turn-the-ship-around-l-david-marquet-feature
     title: Turn the Ship Around! by L. David Marquet
 lastmod: 2023-04-24T23:27:52+0200
@@ -40,7 +40,7 @@ The book [Turn the Ship Around!](https://www.amazon.com/gp/product/1591846404?ie
 
 In “Turn the Ship Around!”, Marquet shares his experience as a submarine captain and the transformative leadership principles he applied during his time in command of the USS Santa Fe. He realized that the traditional leader-follower model was not effective in situations where quick and accurate decision-making was crucial. Instead, he needed to create an environment where every crew member felt empowered to take responsibility and make decisions that would benefit the overall mission. This shift in mindset led to the development of the Intent-Based Leadership approach.
 
-{{< responsive-image resource=images/turn-the-ship-around-l-david-marquet-feature alt="Cover of the book Turn the Ship Around! by L. David Marquet" title="Turn the Ship Around! by L. David Marquet" float=right relative-width="40" >}}
+{{< responsive-image resource=images/turn-the-ship-around-l-david-marquet-cover alt="Cover of the book Turn the Ship Around! by L. David Marquet" title="Turn the Ship Around! by L. David Marquet" float=right relative-width="40" >}}
 
 ## Embracing Intent-Based Leadership
 

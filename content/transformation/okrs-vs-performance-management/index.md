@@ -13,7 +13,10 @@ featured: true
 image:
   feature:
     position: center center
-    resource: images/kelly-sikkema-4TBOXap8qg4-unsplash.jpg
+    resource: images/tape-measure-feature
+    alt: Photo of a tape measure
+    title: Performance management and OKRs should both be quantitative — but they measure entirely different things
+    credit: 'Photo by Ann H: https://www.pexels.com/photo/yellow-and-black-tape-measure-on-blue-surface-10895044/'
 keywords:
 - annual
 - okr
@@ -21,7 +24,7 @@ keywords:
 - review
 - talent
 - human resources
-lastmod: "2023-03-22T13:28:44.842Z"
+lastmod: "2023-04-30T12:18:20Z"
 series:
 - OKR
 subtitle: Why you need both
@@ -36,7 +39,7 @@ title: OKRs vs. performance management
 toc: true
 ---
 
-While the performance review process appears to serve a similar purpose as Objectives and Key Results (OKRs), its role differs fundamentally.
+While the performance management process appears to serve a similar purpose as Objectives and Key Results (OKRs), its role differs fundamentally.
 
 OKRs (Objectives and Key Results) are a simple tool to *create alignment and engagement around measurable goals* and one of the keys to successful implementation of OKRs is to *separate OKRs from compensation and promotions.* Rick Klau, then an executive at Google, is cited in [John Doerr](https://www.whatmatters.com/)'s book:
 
@@ -52,9 +55,9 @@ The objective of this process is to support career development and encourage the
 * get feedback on past performance and, finally, 
 * to realign with the leader on expectations and career development.
 
-As a consequence, the annual performance review process differs from OKRs both in its purpose and scope, as outlined below:
+As a consequence, the performance management process differs from OKRs both in its purpose and scope, as outlined below:
 
-| Aspect     | Annual Performance Review (APR)                  | Objectives and Key Results (OKR)                 |
+| Aspect     | Performance management                           | Objectives and Key Results (OKR)                 |
 | -----------|:--------------------------------------------------------------|:------------------------------------|
 | Scope      | <ul><li>Individual performance</li></ul>         | <ul><li>Organization</li></ul>                   | 
 | Purpose    | <ul><li>Assess individual performance</li></ul>  | <ul><li>Focus and align organization</li></ul>   | 
@@ -82,24 +85,24 @@ In order to effectively implement OKRs and ensure their success, it is essential
 
 ### Differences in Timeframes and Flexibility
 
-One key difference between OKRs and performance management processes is the timeframe in which they operate. OKRs are typically set on a quarterly basis, allowing for more flexibility and adaptability to changes in the business environment. In contrast, annual performance reviews are usually conducted once a year, limiting the ability to adapt and adjust to new challenges or opportunities.
+One key difference between OKRs and performance management processes is the timeframe in which they operate. OKRs are typically set on a quarterly basis, allowing for more flexibility and adaptability to changes in the business environment. In contrast, performance management is usually conducted once a year, limiting the ability to adapt and adjust to new challenges or opportunities.
 
 * OKRs: Set on a quarterly basis for flexibility and adaptability
-* Annual Performance Reviews: Conducted once a year, limited in ability to adapt
+* Performance management: Conducted once a year, limited in ability to adapt
 
 ### Collaboration and Cross-Functional Alignment
 
 While performance management processes tend to focus on individual performance, OKRs are designed to promote collaboration and cross-functional alignment. This is achieved by setting shared objectives that span across different teams or departments, fostering a sense of shared responsibility and teamwork.
 
 * OKRs: Promote collaboration and cross-functional alignment through shared objectives
-* Annual Performance Reviews: Focus on individual performance and contributions
+* Performance management: Focus on individual performance and contributions
 
 ### Encouraging a Growth Mindset
 
 By separating OKRs from performance management processes, organizations can encourage a growth mindset among their employees. This approach allows employees to take risks and learn from failures, without the fear of negative consequences on their performance evaluations. This fosters an environment of innovation, creativity, and continuous improvement.
 
 * OKRs: Encourage a growth mindset by allowing for risks and learning from failures
-* Annual Performance Reviews: Assess individual performance, often tied to compensation and promotions
+* Performance management: Assess individual performance, often tied to compensation and promotions
 
 ### Implementing OKRs Effectively
 

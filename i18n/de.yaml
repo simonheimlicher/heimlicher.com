@@ -14,6 +14,8 @@ book:
 methodology:
   one: Methodik
   other: Methodiken
+communication:
+  other: Kommunikation
 hugo_snippets:
   other: Hugo snippets
 culture:
@@ -30,3 +32,7 @@ project management:
   other: Projektmanagement
 product management:
   other: Produktmanagement
+performance management:
+  other: Performance Management
+organizational transformation:
+  other: Organisationsentwicklung

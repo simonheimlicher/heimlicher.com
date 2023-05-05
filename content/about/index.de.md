@@ -24,9 +24,9 @@ title: Simon Heimlicher
 weight: 10
 ---
 
-In den letzten zehn Jahren hatte ich das Privileg, wertvolle Einsichten von einigen der erfahrensten Führungskräfte in den Bereichen **Leadership,** **Organisationsentwicklung** und **Strategieumsetzung** in einem globalen Kontext zu gewinnen.
+{{< responsive-image title="Portrait von Simon Heimlicher" alt="Portrait von Simon Heimlicher" relative-width="20" lazy=false shape="round" float="left" resource="images/portrait" >}}
 
-{{< responsive-image title="Portrait von Simon Heimlicher" alt="Portrait von Simon Heimlicher" relative-width="20" lazy=true shape="round" float="left" resource="images/portrait" >}}
+In den letzten zehn Jahren hatte ich das Privileg, wertvolle Einsichten von einigen der erfahrensten Führungskräfte in den Bereichen **Leadership,** **Organisationsentwicklung** und **Strategieumsetzung** in einem globalen Kontext zu gewinnen.
 
 Diese Erfahrungen konnte ich bei der Zusammenarbeit mit Menschen auf allen Führungsebenen in Unternehmen von kleinen [Start-ups](https://stimmt.ch/) bis hin zu [globalen Vermögensverwaltern](https://www.ubs.com/) sammeln.
 

@@ -9,7 +9,6 @@ image:
     credit: Simon Heimlicher
     resource: images/La_Punt_village_IMG_1499-feature
     title: A photo of La Punt in Winter by Simon Heimlicher
-  thumbnail: images/portrait
 keywords:
 - heimlicher
 - simon
@@ -26,7 +25,7 @@ title: Simon Heimlicher
 weight: 10
 ---
 
-{{< responsive-image title="Portrait of Simon Heimlicher" alt="Portrait of Simon Heimlicher" relative-width="30" lazy=true shape="round" float="left" resource="images/portrait" >}}
+{{< responsive-image title="Portrait of Simon Heimlicher" alt="Portrait of Simon Heimlicher" relative-width="30" lazy=false shape="round" float="left" resource="images/portrait" >}}
 
 Over the past ten years, I have had the privilege to gain valuable insights from some of the most accomplished leaders in the fields of **leadership,** **organizational transformation,** and **strategy execution at a global scale.** 
 

@@ -4,8 +4,12 @@ date: "2010-11-23T17:44:14Z"
 description: 'Ph.D. dissertation of Simon Heimlicher entitled “Wireless Communication
   Among Mobile Nodes: From Paths to Clusters to Connectivity”'
 image:
-  feature: images/dissertation-front
-  thumbnail: images/dissertation-front
+  feature:
+    resource: images/dissertation-front-feature
+    alt: "Cover of dissertation of Simon Heimlicher"
+  excerpt:
+    resource: images/dissertation-front-square
+    alt: "Cover of dissertation of Simon Heimlicher"
 lastmod: "2023-03-16T21:05:55.258Z"
 subtitle: Wireless Communication Among Mobile Nodes
 title: Ph.D. dissertation

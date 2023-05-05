@@ -14,7 +14,7 @@ image:
     title: Powerful by Patty McCord
   feature:
   - alt: Excerpt of the cover of the book Powerful by Patty McCord
-    position: center 47%
+    position: center 27%
     resource: images/powerful-patty-mccord-feature
     title: Powerful by Patty McCord
 lastmod: "2023-04-25T11:59:19.238Z"
@@ -30,7 +30,7 @@ title: Powerful
 
 How does a startup become a corporate behemoth with layers of policies, processes, and rules? It happens one mishap at a time if that event is seen as a mistake that is never to be made again. In her book *Powerful*, Patty McCord lays out her account of how Netflix almost got an expense policy – but avoided that path and instead relied on a no-rules culture.
 
-{{< responsive-image resource=images/powerful-patty-mccord-feature alt="The cover of the book Powerful by Patty McCord" title="Powerful by Patty McCord" float=right relative-width="40" >}}
+{{< responsive-image resource=images/powerful-patty-mccord-cover alt="The cover of the book Powerful by Patty McCord" title="Powerful by Patty McCord" float=right relative-width="40" >}}
 
 A vital principle of the Netflix culture is to treat employees as adults. But not just any adults: **powerful** adults. This difference in mindset is critical to letting people achieve astonishing results. 
 

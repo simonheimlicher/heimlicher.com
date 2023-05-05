@@ -13,7 +13,10 @@ featured: false
 image:
   feature:
     position: center center
-    resource: images/charles-deluvio-Wd3DG2ABwzE-unsplash
+    resource: images/sticky-notes-help-feature
+    alt: Photo of a sticky note saying help attached to a laptop screen
+    title: Sticky notes are a useful tool to come up with great Objectives and Key Results (OKR)
+    credit: 'Photo by Tara Winstead: https://www.pexels.com/photo/laptop-with-sticky-notes-8386748/'
 lastmod: "2023-03-20T10:49:25.667Z"
 series:
 - OKR
@@ -45,13 +48,14 @@ Properly implemented, OKRs can address problems any larger company faces:
 
 ## Focusing means saying no
 
-As Michael E. Porter said: *The essence of strategy is choosing what not to do. Without tradeoffs, there would be no need for choice and thus no need for strategy.*[^what-is-strategy]
+As the founder of the body of knowledge on business strategy said:
+
+> The essence of strategy is choosing what not to do. Without tradeoffs, there would be no need for choice and thus no need for strategy.[^what-is-strategy]
+> {{< cite >}} Michael E. Porter {{< /cite >}}
 
 This focus on, well, focus, is a key feature of OKRs — and ignoring this aspect is one of the most frequent reasons why an OKR implementation fails. To paraphrase Porter: if the leadership at the top is not willing to make the tough choices, – i.e., say no –, there is no benefit from articulating a strategy and OKRs won′t fix what the top leadership failed to accomplish.
 
 ----
-
-Photo by <a href="https://unsplash.com/photos/Wd3DG2ABwzE">Charles Deluvio</a> on <a href="https://unsplash.com/">Unsplash</a>
 
 [^practice-of-management]: Drucker, Peter, “The Practice of Management”, Harper, New York, 1954; Heinemann, London, 1955; revised edn, Butterworth-Heinemann, 2007
 
