@@ -3,17 +3,22 @@ title: Simon Heimlicher
 baseURL: https://simon.heimlicher.com/
 defaultContentLanguage: en
 languageCode: en-us
-theme:
-  - fontawesome
-  - claris
+
 enableRobotsTXT: true
 disableAliases: true
+
+build:
+  # Write statistics to enable post-processing of CSS
+  writeStats: true
+
 timeout: 600000
+
 ignoreFiles:
   - \.DS_Store$
   - \.vscode$
   - .*\.code-workspace$
   - frontmatter\.json$
+
 # Disable RSS feeds
 # NOTE: nginx on srvr.nine.ch currently is configured to redirect /.*\.xml to /
 disableKinds:
@@ -81,28 +86,34 @@ imaging:
 security:
   _merge: deep
 
-
+# Merge minify from theme, e.g., for asset pipeline
+minify:
+  _merge: deep
 
 # NOTE: If using excludeFiles, these files are also not available for .Resources.Get
 module:
+  imports:
+    - path: github.com/simonheimlicher/hugo-claris
+    - path: github.com/simonheimlicher/hugo-fontawesome
+
   mounts:
-    - source: sites/heimlicher.com/assets
+    - source: assets
       target: assets
       excludeFiles:
         - .DS_Store
-    - source: sites/heimlicher.com/data
+    - source: data
       target: data
       excludeFiles:
         - .DS_Store
-    - source: sites/heimlicher.com/static
+    - source: static
       target: static
       excludeFiles:
         - .DS_Store
-    - source: sites/heimlicher.com/i18n
+    - source: i18n
       target: i18n
       excludeFiles:
         - .DS_Store
-    - source: sites/heimlicher.com/content
+    - source: content
       target: content
       excludeFiles:
         - '**/.DS_Store'
