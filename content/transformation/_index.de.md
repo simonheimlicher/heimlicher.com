@@ -1,15 +1,14 @@
 ---
 aliases:
-- /work/
-description: Wie wir uns als Organisationen entwickeln, kommunizieren, zusammenarbeiten
-  und Erfolg messen
+  - /work/
+description: Wie wir uns als Organisationen entwickeln, kommunizieren, zusammenarbeiten und Erfolg messen
 image:
   feature:
-    resource: images/flag-pose-feature
-    alt: 'Photo eines jungen Mannes in der Flag-Pose'
-    title: Veränderung erfordert eine neue Perspektive
-    credit: 'Photo by Pixabay: https://www.pexels.com/photo/acrobatics-action-adult-architecture-416780/'
-lastmod: "2023-03-22T13:32:24.712Z"
+    resource: images/growth-feature
+    alt: Photo einer wachsenden Pflanze in mehreren Phasen
+    title: Wachstum bedeutet Veränderung
+    credit: Photo by [Allexxandar](https://www.shutterstock.com/g/Allexxandar) on [Shutterstock](https://www.shutterstock.com/image-photo/seedlings-growing-plants-grow-stages-growth-747135766)
+lastmod: 2023-05-09T14:58:47.114Z
 subtitle: Stillstand ist das grösste Risiko
 title: Organisations&shy;entwicklung
 weight: 200
