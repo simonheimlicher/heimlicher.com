@@ -11,7 +11,7 @@ build:
   # Write statistics to enable post-processing of CSS
   writeStats: true
 
-timeout: 600000
+timeout: 300s
 
 ignoreFiles:
   - \.DS_Store$
