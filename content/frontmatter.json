@@ -32,7 +32,7 @@
     "Themes",
     "macOS"
   ],
-  "frontMatter.content.autoUpdateDate": true,
+  "frontMatter.content.autoUpdateDate": false,
   "frontMatter.content.snippets": {
     "Current date": {
       "description": "Current date without time",
