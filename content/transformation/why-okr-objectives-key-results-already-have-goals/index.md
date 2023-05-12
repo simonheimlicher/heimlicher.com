@@ -12,7 +12,7 @@ draft: false
 featured: false
 image:
   feature:
-    position: center center
+    position: center 21%
     resource: images/sticky-notes-help-feature
     alt: Photo of a sticky note saying help attached to a laptop screen
     title: Sticky notes are a useful tool to come up with great Objectives and Key Results (OKR)

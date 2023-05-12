@@ -6,7 +6,7 @@ description: Brauchen Sie Objectives and Key Results (OKRs)? Der bekannteste Gru
   für die Nutzung von OKRs ist möglicherweise nicht der, der für Sie am wichtigsten ist.
 image:
   feature:
-    position: center center
+    position: center 21%
     resource: images/sticky-notes-help-feature
     alt: Foto von einem Post-It mit der Aufschrift Hilfe auf einem Laptopbildschirm
     title: Post-Its sind ein nützliches Werkzeug, um grossartige Objectives and Key Results (OKR) zu entwickeln
