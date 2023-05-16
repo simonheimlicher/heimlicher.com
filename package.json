@@ -1,13 +1,32 @@
 {
-  "devDependencies": {
-    "@babel/cli": "^7.14.3",
-    "@babel/core": "^7.14.3",
-    "@babel/plugin-transform-runtime": "^7.14.3",
-    "@babel/preset-env": "^7.14.2",
-    "postcss": "^8.4.23",
-    "postcss-aspect-ratio-polyfill": "^2.0.0",
-    "postcss-custom-properties": "^13.1.4",
-    "postcss-object-fit-images": "^1.1.2"
+  "author": "",
+  "comments": {
+    "dependencies": {
+      "@babel/runtime": "project",
+      "@babel/runtime-corejs3": "project",
+      "@fullhuman/postcss-purgecss": "project",
+      "autoprefixer": "project",
+      "core-js": "project",
+      "esbuild": "project",
+      "lazysizes": "project",
+      "medium-zoom": "project",
+      "object-fit-images": "project",
+      "picturefill": "project",
+      "postcss-cli": "project",
+      "qrcode-svg": "project",
+      "regenerator-runtime": "project",
+      "web-vitals": "github.com/simonheimlicher/hugo-claris"
+    },
+    "devDependencies": {
+      "@babel/cli": "project",
+      "@babel/core": "project",
+      "@babel/plugin-transform-runtime": "project",
+      "@babel/preset-env": "project",
+      "postcss": "project",
+      "postcss-aspect-ratio-polyfill": "project",
+      "postcss-custom-properties": "project",
+      "postcss-object-fit-images": "project"
+    }
   },
   "dependencies": {
     "@babel/runtime": "^7.14.0",
@@ -22,16 +41,26 @@
     "picturefill": "^3.0.3",
     "postcss-cli": "^8.3.1",
     "qrcode-svg": "^1.1.0",
-    "regenerator-runtime": "^0.13.7"
+    "regenerator-runtime": "^0.13.7",
+    "web-vitals": "^3.3.1"
   },
-  "name": "claris",
   "description": "This repository offers an example site for [Hugo](https://gohugo.io/) and also it provides the default content for demos hosted on the [Hugo Themes Showcase](https://themes.gohugo.io/).",
-  "version": "1.0.0",
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-transform-runtime": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "postcss": "^8.4.23",
+    "postcss-aspect-ratio-polyfill": "^2.0.0",
+    "postcss-custom-properties": "^13.1.4",
+    "postcss-object-fit-images": "^1.1.2"
+  },
+  "keywords": [],
+  "license": "ISC",
   "main": "babel.config.js",
+  "name": "claris",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "version": "1.0.0"
 }
