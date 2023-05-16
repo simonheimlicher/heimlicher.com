@@ -3,6 +3,9 @@ headless: true
 weight: 800
 title: Better every day
 lastmod: 2023-05-11T16:08:05.008Z
+image:
+  excerpt:
+    resource: /transformation/okrs-vs-performance-management/images/*feature
 ---
 
 It’s not a few lucky punches — but rather what we do every day that determines our fate. But as with other widely-accepted truths, the actions of us humans unfortunately do not correlate with our stated beliefs. One sad example is the state of *performance management*.

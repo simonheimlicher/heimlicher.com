@@ -3,11 +3,10 @@ description: Ein kurzes Profil von Simon Heimlicher, einem erfahrenen Leader mit
   Leidenschaft für Führung, Transformation und Strategieumsetzung.
 image:
   feature:
-  - alt: Photo of the Inn river in La Punt, Switzerland
+  - alt: Porträtbild von Simon Heimlicher
     credit: Simon Heimlicher
-    resource: images/La_Punt_village_IMG_1499-feature
-    title: A photo of La Punt in Winter by Simon Heimlicher
-  thumbnail: images/portrait
+    resource: images/070-6958_16x9
+    title: Simon Heimlicher
 keywords:
 - heimlicher
 - simon
@@ -23,8 +22,6 @@ supertitle: Über
 title: Simon Heimlicher
 weight: 10
 ---
-
-{{< responsive-image title="Portrait von Simon Heimlicher" alt="Portrait von Simon Heimlicher" relative-width="20" lazy=false shape="round" float="left" resource="images/portrait" >}}
 
 In den letzten zehn Jahren hatte ich das Privileg, wertvolle Einsichten von einigen der erfahrensten Führungskräfte in den Bereichen **Leadership,** **Organisationsentwicklung** und **Strategieumsetzung** in einem globalen Kontext zu gewinnen.
 

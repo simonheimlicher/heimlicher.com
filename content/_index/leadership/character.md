@@ -8,4 +8,4 @@ image:
 lastmod: 2023-05-11T16:08:05.008Z
 ---
 
-Leadership demands a broad variety of character traits. I believe that self-awareness, courage and humility are key. [L. David Margquet](/leadership/turn-the-ship-around-l-david-marquet/) models these and many others and I am fascinated by his books and speeches. 
+Leadership demands a broad variety of character traits. I believe that self-awareness, courage and humility are key. [L. David Marquet](/leadership/turn-the-ship-around-l-david-marquet/) models these and many others and I am fascinated by his books and speeches.

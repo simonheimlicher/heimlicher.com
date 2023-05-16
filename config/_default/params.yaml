@@ -11,14 +11,21 @@ logo: images/avatar.png
 logoURL: /
 centerLogo: false
 mobileNavigation: right
-screenViewBreakpointWidthMobileMenu: 36rem
+screenViewBreakpointWidthMobileMenu: 30rem
 screenViewBreakpointWidthNarrow: 40rem
 numberOfRecentArticles: 3
 numberOfFeaturedArticles: 3
 numberOfRelatedArticles: 5
 iconsDir: /
-themeColorLit: hsl(42, 20%, 97%)
-themeColorDim: hsl(207, 20%, 25%)
+
+# themeColorLit: hsl(42, 80%, 97%)
+# themeColorBackgroundLit: hsl(207, 20%, 97%)
+# themeNeutralBackgroundLit: hsl(207, 20%, 97%)
+
+# themeColorDim: hsl(207, 80%, 25%)
+# themeColorBackgroundDim: hsl(207, 20%, 25%)
+# themeNeutralBackgroundDim: hsl(207, 20%, 25%)
+
 taxonomyMaxYears: 5
 recentMaxYears: 5
 outdatedAfterYears: 5
@@ -67,9 +74,9 @@ website:
     url: about
 image:
   thumbnail:
-    - images/sh.com_site_thumbnail_1200x627.png
-    - images/sh.com_site_thumbnail_1200x675.png
-    - images/sh.com_site_thumbnail_1200x1200.png
+    - images/simon_heimlicher_1200x627.jpg
+    - images/simon_heimlicher_1200x675.jpg
+    - images/simon_heimlicher_1200x1200.jpg
 robots:
   index: true
   indeximages: true

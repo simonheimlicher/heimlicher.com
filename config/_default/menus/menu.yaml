@@ -1,4 +1,8 @@
 main:
+  - identifier: home
+    name: Home
+    url: /
+    weight: 50
   - identifier: leadership
     name: Leadership
     url: /leadership/
@@ -7,14 +11,14 @@ main:
     name: Transformation
     url: /transformation/
     weight: 200
-  - identifier: technology
-    name: Technology
-    url: /technology/
-    weight: 500
-  - identifier: research
-    name: Research
-    url: /research/
-    weight: 700
+  # - identifier: technology
+  #   name: Technology
+  #   url: /technology/
+  #   weight: 500
+  # - identifier: research
+  #   name: Research
+  #   url: /research/
+  #   weight: 700
   - identifier: about
     name: About me
     url: /about/

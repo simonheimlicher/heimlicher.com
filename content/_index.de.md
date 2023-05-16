@@ -32,13 +32,13 @@ image:
           title: Sunrise on the Lagginhorn, a 4000m peak in Switzerland
           aspect: aspect_9x16
   search:
-    - images/sh.com_site_thumbnail_1200x675.png
-    - images/sh.com_site_thumbnail_1200x1200.png
+    - images/simon_heimlicher_1200x675.jpg
+    - images/simon_heimlicher_1200x1200.jpg
   share:
-    - images/sh.com_site_thumbnail_1200x675.png
-    - images/sh.com_site_thumbnail_1200x1200.png
+    - images/simon_heimlicher_1200x675.jpg
+    - images/simon_heimlicher_1200x1200.jpg
   thumbnail:
-    - images/sh.com_site_thumbnail_1200x1200.png
+    - images/simon_heimlicher_1200x1200.jpg
 keywords:
   - simon
   - heimlicher

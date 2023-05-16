@@ -3,6 +3,9 @@ headless: true
 weight: 200
 title: Strategy is what we will *not* do
 lastmod: 2023-05-11T16:08:05.008Z
+image:
+  excerpt:
+    resource: /transformation/why-okr-objectives-key-results-already-have-goals/images/*feature
 ---
 
 The difference between organizations that thrive and those who struggle is rarely a matter of luck or favorable circumstances. Rather, it is the rare but crucial ability to say *no*.

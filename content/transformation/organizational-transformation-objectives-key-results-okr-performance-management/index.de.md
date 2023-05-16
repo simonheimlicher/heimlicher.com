@@ -5,18 +5,23 @@ description: Wie die Einführung von OKRs die Entwicklung der Organisation und d
 date: "2023-05-01T12:00:00+00:00"
 draft: false
 featured: true
+image:
+  feature:
+    position: center 70%
+    resource: images/temperature-gauge-feature
+    alt: Photo of a temperature gauge
+    title: Measure the progress of your organizational transformation using Objectives and Key Results (OKR)
+    credit: 'Photo by <a href="https://unsplash.com/@paoalchapar?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniela Paola Alchapar</a> on <a href="https://unsplash.com/photos/6YpI5Hf5siI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
 keywords:
 - OKR
 - Performance management
 - Organizational transformation
 - Talent
 categories:
-- Performance Management
-- OKR
+- Methodology
 tags:
 - OKR
-- Performance Management
-- Organizational Transformation
+- Performance
 series:
 - OKR
 ---
