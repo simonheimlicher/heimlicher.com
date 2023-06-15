@@ -25,18 +25,21 @@ image:
           media: "(prefers-color-scheme: light) and (max-width: 1279px)"
           resource: images/la-punt_river_mirror_9x16
           title: Inn river in La Punt, Switzerland
+          position: "center 25%"
           aspect: aspect_9x16
       dark-16x9:
         - alt: A photo of the early sunrise on the Lagginhorn
           media: "(prefers-color-scheme: dark) and (min-width: 1280px)"
           resource: images/lagginhorn_sunrise_16x9
           title: Sunrise on the Lagginhorn, a 4000m peak in Switzerland
+          position: "center center"
           aspect: aspect_16x9
       dark-9x16:
         - alt: A photo of the early sunrise on the Lagginhorn
           media: "(prefers-color-scheme: dark) and (max-width: 1279px)"
           resource: images/lagginhorn_sunrise_9x16
           title: Sunrise on the Lagginhorn, a 4000m peak in Switzerland
+          position: "center center"
           aspect: aspect_9x16
   search:
     - images/simon_heimlicher_1200x675.jpg
