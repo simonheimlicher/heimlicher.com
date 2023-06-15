@@ -1,6 +1,6 @@
 ---
 date: "2012-12-11T15:39:01Z"
-description: Machine learning for movie recommendations – preserving privacy
+description: Using machine learning to enable movie recommendations without the users having to exchange their personal ratings of the movies
 image:
   feature: images/robynne-hu-HOrhCnQsxnQ-unsplash-original
   thumbnail: images/robynne-hu-HOrhCnQsxnQ-unsplash-square

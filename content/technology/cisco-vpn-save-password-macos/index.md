@@ -42,6 +42,6 @@ Common problems
 
 {{% /note %}}
 
-{{<responsive-image caption="Navigating to `/usr/libexec/configd`" resource="images/navigate_to_configd.png" >}}
+{{< responsive-image caption="Navigating to `/usr/libexec/configd`" resource="images/navigate_to_configd.png" >}}
 
-{{<responsive-image caption="Successfully added `/usr/libexec/configd`'" resource="images/configd_added.png" >}}
+{{< responsive-image caption="Successfully added `/usr/libexec/configd`'" resource="images/configd_added.png" >}}

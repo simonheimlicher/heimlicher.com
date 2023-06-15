@@ -1,4 +1,7 @@
 ---
+supertitle: A book by Patty McCord
+title: Powerful
+subtitle: A culture of freedom and responsibility
 aliases:
 - /articles/powerful-patty-mccord/
 categories:
@@ -20,12 +23,9 @@ image:
 lastmod: "2023-04-25T11:59:19.238Z"
 series:
 - Culture
-subtitle: Building a culture of freedom and responsibility
-supertitle: Patty McCord
 tags:
 - Leadership
 - Talent
-title: Powerful
 ---
 
 How does a startup become a corporate behemoth with layers of policies, processes, and rules? It happens one mishap at a time if that event is seen as a mistake that is never to be made again. In her book *Powerful*, Patty McCord lays out her account of how Netflix almost got an expense policy – but avoided that path and instead relied on a no-rules culture.

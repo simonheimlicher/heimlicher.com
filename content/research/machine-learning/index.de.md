@@ -1,12 +1,11 @@
 ---
 date: "2023-03-12T13:20:20Z"
-description: Maschinelles Lernen, um Empfehlungen für Filme ohne Austausch persönlicher
-  Daten zu generieren
+description: Nutzung von Maschinellem Lernen, um Empfehlungen für Filme zu generieren, ohne dass die Nutzenden ihre persönlichen Bewertungen der Filme austauschen müssen
 image:
   feature: images/robynne-hu-HOrhCnQsxnQ-unsplash-original
   thumbnail: images/robynne-hu-HOrhCnQsxnQ-unsplash-square
 lastmod: "2023-03-16T17:58:36.115Z"
-title: Machine learning
+title: Maschinelles Lernen
 weight: 100
 ---
 
@@ -17,7 +16,7 @@ Dank des Datensatzes des [Netflix Prize](https://www.kaggle.com/datasets/netflix
 Um dies zu erreichen, haben wir uns auf zwei Kernwerkzeuge verlassen:
 
 1. Wir verwendeten [Belief Propagation](https://en.wikipedia.org/wiki/Belief_propagation) in Bayesian Networks, um die für die Empfehlungen notwendigen Berechnungen *zu verteilen*.
-2. Wir nutzten [Differential Privacy](https://de.wikipedia.org/wiki/Differential_privacy), um die Wahrung der Privatspähre beweisbar gewährleisten zu können.
+2. Wir nutzten [Differential Privacy](https://de.wikipedia.org/wiki/Differential_Privacy), um die Wahrung der Privatspähre beweisbar gewährleisten zu können.
 
 Die differenzielle Privatsphäre wurde ursprünglich bei Microsoft Research entwickelt; in jüngerer Zeit hat [Apple die differenzielle Privatsphäre](https://machinelearning.apple.com/2017/12/06/learning-with-privacy-at-scale.html) als Forschungsschwerpunkt übernommen.
 

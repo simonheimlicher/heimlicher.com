@@ -1,7 +1,7 @@
 ---
 aliases:
   - /work/
-description: Wie wir uns als Organisationen entwickeln, kommunizieren, zusammenarbeiten und Erfolg messen
+description: Transformation der Art und Weise, wie Menschen und Teams in Organisationen kommunizieren, zusammenarbeiten und Erfolg messen
 image:
   feature:
     resource: images/growth-feature

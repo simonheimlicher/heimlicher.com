@@ -1,4 +1,7 @@
 ---
+supertitle: Ein Buch von Patty McCord
+title: Powerful
+subtitle: Eine Freiheits- und Verantwortlichkeitskultur
 aliases:
 - /articles/powerful-patty-mccord/
 categories:
@@ -22,12 +25,9 @@ image:
 lastmod: "2023-04-25T11:59:19.238Z"
 series:
 - Culture
-subtitle: Building a culture of freedom and responsibility
-supertitle: Patty McCord
 tags:
 - Leadership
 - Talent
-title: Powerful
 ---
 
 Wie wird ein Startup zu einem Unternehmensgiganten mit vielen Richtlinien, Prozessen und Regeln? Das passiert Schritt für Schritt, wenn jeder Fehler als ein nicht wiederholbarer Fehltritt angesehen wird. In ihrem Buch *Powerful* beschreibt Patty McCord, wie Netflix beinahe eine Spesenrichtlinie eingeführt hätte – stattdessen vertraute das Unternehmen jedoch auf eine Kultur ohne Regeln.

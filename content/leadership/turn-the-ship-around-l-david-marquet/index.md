@@ -1,4 +1,7 @@
 ---
+title: Turn the Ship Around!
+subtitle: Turning followers into leaders
+supertitle: A book by L. David Marquet
 aliases:
 - /articles/turn-the-ship-around/
 - /articles/turn-the-ship-around-l-david-marquet/
@@ -18,12 +21,9 @@ image:
 lastmod: 2023-04-24T23:27:52+0200
 series:
 - Culture
-subtitle: Turning followers into leaders
-supertitle: L. David Marquet
 tags:
 - Leadership
 - Talent
-title: Turn the Ship Around!
 ---
 
 In his widely acclaimed book, L. David Marquet outlines in an autobiographic way his path from a leader that leads followers to a leader that creates more leaders.

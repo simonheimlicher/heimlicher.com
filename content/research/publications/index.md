@@ -1,6 +1,6 @@
 ---
 date: "2014-08-27T07:50:12Z"
-description: Book chapters, journal and conference papers
+description: Download Simon Heimlicher’s publications, including book chapters, journal, conference and workshop papers
 image:
   feature: images/ron-dyar-V29UWcALNko-unsplash-feature
   thumbnail: images/ron-dyar-V29UWcALNko-unsplash-thumbnail
@@ -9,6 +9,7 @@ title: Publications
 ---
 
 ## Conference and Workshop Papers
+
 Sookhyun Yang, Jim Kurose, Simon Heimlicher, and Arun Venkataramani
 **Measurement and modeling of user transitioning among networks**
 IEEE INFOCOM 2015, Hong Kong, China, April 2015.
@@ -77,9 +78,7 @@ Simon Heimlicher, Rainer Baumann, Martin May, Bernhard Plattner:
 3rd IEEE International Conference on Mobile Ad-hoc and Sensor Systems, IEEE MASS 2006, Vancouver B.C., Canada, pages 477-480, October, 2006.    
 [<i class="fa fa-file-pdf"></i>&nbsp;Paper as PDF](/research/publications/heimlicher_saft_mass06.pdf)
 
-
 ## Journal Papers
-
 
 Vincent Lenders, Joerg Wagner, Simon Heimlicher, Martin May and Bernhard Plattner:    
 **An Empirical Study of the Impact of Mobility on Link Failures
@@ -91,8 +90,6 @@ Rainer Baumann, Simon Heimlicher, Vincent Lenders, Martin May and Bernhard Platt
 **Routing in Large-Scale Wireless Mesh Networks Using Temperature Fields**    
 IEEE Network, January 2008.    
 [<i class="fa fa-file-pdf"></i>&nbsp;Paper as PDF](/research/publications/baumann_heat_ieeenetwork08.pdf)
-
-
 
 ## Book Chapters
 

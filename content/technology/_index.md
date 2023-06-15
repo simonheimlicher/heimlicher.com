@@ -20,7 +20,7 @@ aliases:
 - /articles/jekyll-directory-listing/
 - /articles/share-media/
 - /articles/quicklook/
-description: On solving challenging problems with and in technology
+description: On solving challenging problems with and in technology — including source code and screenshots where applicable
 image:
   feature: images/Time Machine - UUID of disk changed
 lastmod: "2023-03-22T13:29:31.665Z"
