@@ -1,25 +1,32 @@
 ---
 aliases:
+- /articles/compile-tmux-on-rhel-5/
+- /articles/acm-template-with-basic-tex-live/
 - /articles/comodo-ssl-certificate-with-nginx/
-- /articles/smtp-smarthost/
-- /hints/macosx/disk-failure/
 - /articles/disk-failure/
-- /hints/macosx/multiple_identities_mail/
-- /articles/multiple-identities-mail/
-- /articles/multiple-from-email-addresses-apple-mail-lion/
-- /hints/ipad/multiple-email/
-- /articles/multiple-email/
-- /articles/multiple-from-email-addresses-ios-iphone-ipad/
-- /hints/macosx/file_vault_2/
+- /articles/file-vault-2/
 - /articles/file_vault_2/
-- /hints/macosx/private_browsing/
-- /articles/private-browsing/
-- /hints/macosx/time-machine-readonly/
-- /articles/time-machine-readonly/
-- /articles/nstat-lookup-entry-failed-2/
 - /articles/jekyll-directory-listing/
-- /articles/share-media/
+- /articles/kdcmond/
+- /articles/multiple-email/
+- /articles/multiple-from-email-addresses-apple-mail-lion/
+- /articles/multiple-from-email-addresses-ios-iphone-ipad/
+- /articles/multiple-identities-mail/
+- /articles/nstat-lookup-entry-failed-2/
+- /articles/os-x/
+- /articles/private-browsing/
 - /articles/quicklook/
+- /articles/share-media/
+- /articles/smtp-smarthost/
+- /articles/time-machine/
+- /articles/time-machine-readonly/
+- /hints/ipad/multiple-email/
+- /hints/macosx/disk-failure/
+- /hints/macosx/file_vault_2/
+- /hints/macosx/multiple_identities_mail/
+- /hints/macosx/private_browsing/
+- /hints/macosx/time-machine-readonly/
+
 description: On solving challenging problems with and in technology — including source code and screenshots where applicable
 image:
   feature: images/Time Machine - UUID of disk changed

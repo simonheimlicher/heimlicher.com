@@ -1,6 +1,8 @@
 ---
 aliases:
   - /work/
+  - /organizational-transformation/
+  - /de/organizational-transformation/
 description: Transformation der Art und Weise, wie Menschen und Teams in Organisationen kommunizieren, zusammenarbeiten und Erfolg messen
 image:
   feature:

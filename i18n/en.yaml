@@ -19,14 +19,16 @@ methodology:
   other: methodologies
 macos:
   other: macOS
+Macos:
+  other: macOS
 communication:
   other: communication
-hugo_snippets:
-  other: Hugo snippets
 okr:
   other: OKR
-hugo_partial:
+hugo partial:
   other: Hugo partial
+hugo snippets:
+  other: Hugo snippets
 talent:
   other: talent
 performance:

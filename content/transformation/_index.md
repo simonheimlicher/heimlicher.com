@@ -1,6 +1,7 @@
 ---
 aliases:
   - /work/
+  - /organizational-transformation/
 description: On transforming the way people and teams communicate, collaborate and measure success in organizations
 image:
   feature:

@@ -10,4 +10,6 @@ image:
 lastmod: "2023-03-19T17:07:57.043Z"
 title: Digital Transformation
 weight: 300
+aliases:
+- /digital-transformation/
 ---

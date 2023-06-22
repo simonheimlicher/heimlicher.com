@@ -95,4 +95,4 @@ Patty McCord's book *Powerful* offers valuable lessons for companies looking to 
 4. Align employees with company goals and objectives
 5. Hire and retain top talent by offering competitive compensation
 
-[Powerful](https://www.amazon.com/gp/product/1939714095/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=shzq-20&creative=9325&linkCode=as2&creativeASIN=1939714095&linkId=3ce451cff42bcc42556435240d94dc3c 'Affiliate link to buy the book at Amazon') by [Patty McCord'](https://pattymccord.com 'Professional website of Patty McCord')
+[Powerful](https://www.amazon.com/gp/product/1939714095/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=shzq-20&creative=9325&linkCode=as2&creativeASIN=1939714095&linkId=3ce451cff42bcc42556435240d94dc3c 'Affiliate link to buy the book at Amazon') by [Patty McCord](https://pattymccord.com 'Professional website of Patty McCord')

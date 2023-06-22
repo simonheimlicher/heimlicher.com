@@ -3,8 +3,8 @@ subtitle: Leadership & organizational transformation
 title: Simon Heimlicher
 layout: panel
 aliases:
-  - /home
   - /home/
+  - /archive/
 author: Simon Heimlicher
 date: 1999-03-19T00:00:00+0200
 description: Simon Heimlicher – a passionate leader who writes about leadership, organizational transformation and technology
