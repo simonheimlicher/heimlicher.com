@@ -31,8 +31,11 @@ recentMaxYears: 5
 outdatedAfterYears: 5
 ephemeralSections:
   - technology
-fontFamilySans: Source Sans 3
-fontFamilySerif: Merriweather
+# fontFamilySans: Source Sans 3
+# fontFamilySans: Inter
+fontFamilySans: Concourse
+# fontFamilySerif: Merriweather
+fontFamilySerif: Valkyrie
 fontFamilyMono: DM Mono
 fontsSelfHosted: true
 supportIE11: true
