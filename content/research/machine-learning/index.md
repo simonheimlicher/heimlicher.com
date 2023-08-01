@@ -9,7 +9,8 @@ title: Machine learning
 weight: 100
 ---
 
-At Technicolor, we designed and evaluated a distributed inference algorithm to provide recommendations for media such as movies or TV shows. 
+At Technicolor, we designed and evaluated a distributed inference algorithm to provide recommendations for media such as movies or TV shows
+
 Thanks to the [Netflix Prize](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data) data set, we had ample material to evaluate our algorithm with. 
 As opposed to the objective of the Netflix Prize, however, our goal was to offer provable privacy guarantees to all users. 
 To accomplish this, we relied on two core tools. 

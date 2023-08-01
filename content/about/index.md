@@ -43,4 +43,4 @@ I feel particularly honored when aspiring leaders reach out to me for guidance a
 
 I am an avid reader and like to share my insights from books on topics such as [leadership and transformation](/categories/book) on this website.
 
-As someone who is always seeking new challenges and opportunities to evolve my thinking, I encourage you to {{< obfuscated-email "share your thoughs with me" >}}.
+As someone who is always seeking new challenges and opportunities to evolve my thinking, I encourage you to {{< obfuscated-email "share your thoughts with me" >}}.

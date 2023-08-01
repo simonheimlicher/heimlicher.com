@@ -15,7 +15,7 @@ featured: false
 image:
   feature:
     alt: Cover of the book Turn the Ship Around! by L. David Marquet
-    position: center 40%
+    position: center 25%
     resource: images/turn-the-ship-around-l-david-marquet-feature
     title: Turn the Ship Around! by L. David Marquet
 lastmod: 2023-04-24T23:27:52+0200
