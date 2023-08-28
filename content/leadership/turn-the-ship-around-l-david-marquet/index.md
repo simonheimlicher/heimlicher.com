@@ -26,7 +26,7 @@ tags:
 - Talent
 ---
 
-In his widely acclaimed book, L. David Marquet outlines in an autobiographic way his path from a leader that leads followers to a leader that creates more leaders.
+In his widely acclaimed book, L. David Marquet outlines in an autobiographic way his path from a leader that leads followers to a leader that creates more *leaders.*
 
 The book [Turn the Ship Around!](https://www.amazon.com/gp/product/1591846404?ie=UTF8&tag=shzq-20&camp=1789&linkCode=xm2&creativeASIN=1591846404 'Affiliate link to buy the book at Amazon') is worth reading cover-to-cover. While it has a tremendous breadth and exposes the topic skillfully, there is one sequence that summarizes the entire problem that is addressed by the [Intent-Based leadership](https://intentbasedleadership.com/ 'L. David Marquet’s website on Intent-Based Leadership') approach introduced in this book:
 
@@ -48,11 +48,11 @@ In his widely acclaimed book, L. David Marquet outlines in an autobiographic way
 
 ### The Problem with Traditional Leadership Models
 
-Traditional leader-follower models often rely on a hierarchical structure, where decisions are made at the top and passed down to subordinates for execution. This approach can lead to inefficiencies, lack of innovation, and a disengaged workforce. In Marquet's experience, the leader-follower environment meant his crew would do anything he said—even if it was wrong. This realization led him to develop the Intent-Based Leadership approach, which aims to empower individuals and create a more effective, engaged, and innovative workforce.
+Traditional leader-follower models often rely on a hierarchical structure, where decisions are made at the top and passed down to subordinates for execution. This approach can lead to inefficiencies, lack of innovation, and a disengaged workforce. In Marquet’s experience, the leader-follower environment meant his crew would do anything he said—even if it was wrong. This realization led him to develop the Intent-Based Leadership approach, which aims to empower individuals and create a more effective, engaged, and innovative workforce.
 
 ### The Core Principles of Intent-Based Leadership
 
-**Giving Control, Rather Than Taking Control.** One of the key components of Intent-Based Leadership is the concept of “giving control, rather than taking control." Instead of micromanaging every aspect of the team's work, leaders should provide guidance, set expectations, and then trust their team members to make informed decisions. This approach allows for greater autonomy and promotes a sense of ownership, leading to increased motivation and engagement.
+**Giving Control, Rather Than Taking Control.** One of the key components of Intent-Based Leadership is the concept of “giving control, rather than taking control." Instead of micromanaging every aspect of the team’s work, leaders should provide guidance, set expectations, and then trust their team members to make informed decisions. This approach allows for greater autonomy and promotes a sense of ownership, leading to increased motivation and engagement.
 
 **Focus on Competence and Clarity.** Another essential element of this leadership model is the focus on competence and clarity. In order for individuals to make effective decisions, they must have a deep understanding of their role, the overall mission, and the necessary technical knowledge. Leaders must prioritize ongoing training, education, and skill development to ensure their team members are well-equipped to handle their responsibilities.
 
@@ -90,11 +90,11 @@ Organizations that embrace Intent-Based Leadership are better equipped to adapt 
 
 ### Stronger Organizational Culture
 
-Adopting the principles of Intent-Based Leadership helps to build a stronger, more inclusive organizational culture. By prioritizing transparency, collaboration, and continuous learning, organizations create an environment where employees feel valued, supported, and motivated to contribute to the organization's success.
+Adopting the principles of Intent-Based Leadership helps to build a stronger, more inclusive organizational culture. By prioritizing transparency, collaboration, and continuous learning, organizations create an environment where employees feel valued, supported, and motivated to contribute to the organization’s success.
 
 ## Real-World Examples of Intent-Based Leadership in Action
 
-To demonstrate the impact of Intent-Based Leadership, let's explore a few real-world examples of organizations that have successfully implemented this approach.
+To demonstrate the impact of Intent-Based Leadership, let’s explore a few real-world examples of organizations that have successfully implemented this approach.
 
 ### Case Study: A Manufacturing Company
 

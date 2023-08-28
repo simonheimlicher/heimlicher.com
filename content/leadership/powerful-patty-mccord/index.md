@@ -30,9 +30,7 @@ tags:
 
 How does a startup become a corporate behemoth with layers of policies, processes, and rules? It happens one mishap at a time if that event is seen as a mistake that is never to be made again. In her book *Powerful*, Patty McCord lays out her account of how Netflix almost got an expense policy – but avoided that path and instead relied on a no-rules culture.
 
-{{< responsive-image resource=images/powerful-patty-mccord-cover alt="The cover of the book Powerful by Patty McCord" title="Powerful by Patty McCord" float=right relative-width="40" >}}
-
-A vital principle of the Netflix culture is to treat employees as adults. But not just any adults: **powerful** adults. This difference in mindset is critical to letting people achieve astonishing results. 
+A vital principle of the Netflix culture is to treat employees as adults. But not just any adults: *powerful* adults. This difference in mindset is critical to letting people achieve astonishing results.
 
 Indeed, the premise that employees have power is the root from which the entire Netflix culture is derived.
 
@@ -45,7 +43,7 @@ As opposed to the empowerment of employees—an HR mantra that has been en vogue
 
 According to McCord, Netflix's success can be largely attributed to its avoidance of layers of policies, processes, and rules. Instead, the company embraced a no-rules culture. This allowed employees to thrive in an environment of trust, autonomy, and responsibility. The book *Powerful* takes readers on a journey through Netflix's unique approach to corporate culture, and provides insights on how other companies can adopt this model.
 
-### The Importance of Transparency and Communication
+{{< responsive-image resource=images/powerful-patty-mccord-cover alt="The cover of the book Powerful by Patty McCord" title="Powerful by Patty McCord" float=right relative-width="40" >}}
 
 One crucial aspect of Netflix's no-rules culture is transparency. Employees are encouraged to share information freely, leading to a more collaborative and informed workforce. McCord emphasizes the importance of open communication channels between employees, regardless of their position in the company hierarchy. This transparency can lead to better decision-making, as everyone is aware of the context and the goals of the organization.
 

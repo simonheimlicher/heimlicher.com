@@ -32,9 +32,7 @@ tags:
 
 Wie wird ein Startup zu einem Unternehmensgiganten mit vielen Richtlinien, Prozessen und Regeln? Das passiert Schritt für Schritt, wenn jeder Fehler als ein nicht wiederholbarer Fehltritt angesehen wird. In ihrem Buch *Powerful* beschreibt Patty McCord, wie Netflix beinahe eine Spesenrichtlinie eingeführt hätte – stattdessen vertraute das Unternehmen jedoch auf eine Kultur ohne Regeln.
 
-{{< responsive-image resource=images/powerful-patty-mccord-feature alt="Vorderseite des Buchs Powerful von Patty McCord" title="Powerful von Patty McCord" float=right relative-width="40" >}}
-
-Ein grundlegendes Prinzip der Netflix-Kultur ist es, Mitarbeitende wie Erwachsene zu behandeln. Aber nicht wie irgendwelche Erwachsene: **mächtige** Erwachsene. Dieser Unterschied im Denken ist entscheidend, damit Menschen erstaunliche Ergebnisse erzielen können.
+Ein grundlegendes Prinzip der Netflix-Kultur ist es, Mitarbeitende wie Erwachsene zu behandeln. Aber nicht wie irgendwelche Erwachsene: *mächtige* Erwachsene. Dieser Unterschied im Denken ist entscheidend, damit Menschen erstaunliche Ergebnisse erzielen können.
 
 In der Tat: Die Haltung, Mitarbeitende als mächtig zu betrachten, ist der Kern, aus dem die gesamte Netflix-Kultur entsteht.
 
@@ -49,7 +47,7 @@ Laut McCord ist der Erfolg von Netflix grösstenteils darauf zurückzuführen, d
 
 Das Buch *Powerful* führt die Leser durch Netflix' einzigartigen Ansatz zur Unternehmenskultur und gibt Einblicke, wie andere Unternehmen dieses Modell übernehmen können.
 
-## Die Bedeutung von Transparenz und Kommunikation
+{{< responsive-image resource=images/powerful-patty-mccord-feature alt="Vorderseite des Buchs Powerful von Patty McCord" title="Powerful von Patty McCord" float=right relative-width="40" >}}
 
 Ein entscheidender Aspekt der Kultur ohne Regeln von Netflix ist Transparenz. Mitarbeitende werden ermutigt, Informationen frei zu teilen, was zu einer besser informierten und kooperativen Belegschaft führt. McCord betont die Bedeutung offener Kommunikationskanäle zwischen Mitarbeitenden, unabhängig von ihrer Position in der Unternehmenshierarchie. Diese Transparenz kann zu besseren Entscheidungen führen, da alle über den Kontext und die Ziele der Organisation im Bilde sind.
 

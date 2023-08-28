@@ -29,25 +29,25 @@ series:
 - OKR
 ---
 
-Die moderne Geschäftslandschaft entwickelt sich ständig weiter. Der Katalysator? Ein dynamischer globaler Markt. Jetzt, mehr denn je, muss Ihre Organisation agil bleiben. Für Führungskräfte bedeutet dies, die Lücke zwischen individueller Leistung und organisatorischem Erfolg zu schließen. Hier erfahren Sie, wie die Kraft von Zielen und Schlüsselergebnissen (OKRs) diese Reise neu definieren kann.
+Die moderne Geschäftslandschaft entwickelt sich ständig weiter. Der Katalysator? Ein dynamischer globaler Markt. Jetzt, mehr denn je, muss Ihre Organisation agil bleiben. Für Führungskräfte bedeutet dies, die Lücke zwischen individueller Leistung und organisatorischem Erfolg zu schliessen. Hier erfahren Sie, wie die Kraft von Objectives and Key Results (OKRs) diese Reise neu definieren kann.
 
 Im Kern konzentriert sich das Leistungsmanagement auf Einzelpersonen. Es geht darum sicherzustellen, dass jedes Teammitglied seine persönlichen Ziele verfolgt und zum übergeordneten Erfolg der Organisation beiträgt. Aktivitäten wie Erwartungen setzen, Fortschritte überwachen und Feedback geben fallen darunter. Sie pflegen im Wesentlichen Ihre menschlichen Ressourcen.
 
-OKRs hingegen haben eine breitere Perspektive. Es geht nicht um das Individuum, sondern um die Organisation als Ganzes. Ob ein Mitarbeiter in seiner Rolle bleibt oder ersetzt wird, die Ziele und Schlüsselergebnisse bleiben unverändert. Dies steht im starken Gegensatz zum Leistungsmanagement, bei dem Ziele bei einem Personalwechsel neu bewertet und angepasst werden müssten. [John Doerr](https://www.whatmatters.com/authors/john-doerr/), ein Befürworter von OKRs, betont oft diesen Unterschied. Ebenso betonen Leistungsmanagement-Experten wie die der [Society of Human Resources Management (SHRM)](https://www.shrm.org/) die individuenzentrierte Natur von Leistungszielen.
+OKRs hingegen haben eine breitere Perspektive. Es geht nicht um das Individuum, sondern um die Organisation als Ganzes. Ob ein Mitarbeiter in seiner Rolle bleibt oder ersetzt wird, die OKRs bleiben unverändert. Dies steht im starken Gegensatz zum Leistungsmanagement, bei dem Ziele bei einem Personalwechsel neu bewertet und angepasst werden müssten. [John Doerr](https://www.whatmatters.com/authors/john-doerr/), der OKRs bei Google vor über 20 Jahren eingeführt hat, betont oft diesen Unterschied. Ebenso betonen Experten für Leistungsmanagement wie z.B. die [Society of Human Resources Management (SHRM)](https://www.shrm.org/) die individuelle Natur von Leistungszielen.
 
 ## Wie OKRs das Leistungsmanagement revolutionieren
 
-Ausrichten, inspirieren, antreiben. Diese drei Worte fassen die transformative Natur von OKRs zusammen. Sie nehmen die organisatorische Vision und zerlegen sie, wodurch ein Effekt von zweckorientierten Zielen entsteht, der jede Ebene Ihres Unternehmens berührt.
+Ausrichten, inspirieren, antreiben: diese drei Worte fassen die transformative Natur von OKRs zusammen. Sie nehmen die organisatorische Vision und zerlegen sie, wodurch ein Effekt von zweckorientierten Zielen entsteht, der jede Ebene Ihres Unternehmens berührt.
 
 Es ist entscheidend, dass alle in die gleiche Richtung rudern. OKRs übertragen die Top-Level-Ziele auf einzelne Abteilungen und Teams und erhalten eine kohärente Vision.
 
-Jenseits der Ausrichtung fördern OKRs Transparenz. Das offen Teilen von Zielen vermittelt ein Gefühl von geteilter Verantwortung. Jeder wird zum Stakeholder. Und wenn die Menschen sehen, wie ihre Bemühungen sich auf das größere Bild auswirken, steigt die Verantwortlichkeit.
+Jenseits der Ausrichtung fördern OKRs Transparenz. Das offen Teilen von Zielen vermittelt ein Gefühl von geteilter Verantwortung. Jeder wird zum Stakeholder. Und wenn die Menschen sehen, wie ihre Bemühungen sich auf das grössere Bild auswirken, steigt die Verantwortlichkeit.
 
 ### Engagement und Empowerment steigern
 
 Das Verlassen der eigenen Komfortzone ist der Ort, an dem die Magie passiert. OKRs unterstützen diese Philosophie und setzen anspruchsvolle Ziele, die Leidenschaft und Antrieb entfachen. Und mit Leidenschaft kommt der Hunger zu lernen, zu innovieren und zu erobern.
 
-Die Ermächtigung Ihrer Teammitglieder, ihren eigenen Kurs zu bestimmen, während sie sich am größeren Ziel orientieren, fördert Innovationen. Sie werden zu Architekten ihres Erfolgs, was sich in höherem Engagement und Zufriedenheitsniveaus äußert.
+Die Ermächtigung Ihrer Teammitglieder, ihren eigenen Kurs zu bestimmen, während sie sich am grösseren Ziel orientieren, fördert Innovationen. Sie werden zu Architekten ihres Erfolgs, was sich in höherem Engagement und Zufriedenheitsniveaus äussert.
 
 ### Kontinuierliche Verbesserung und Anpassungsfähigkeit fördern
 
@@ -65,7 +65,7 @@ Schlüsselergebnisse sollten klar, messbar und zeitgebunden sein. Sie dienen als
 
 Das Einbeziehen von OKRs in Bewertungen zeigt die Übereinstimmung zwischen individuellen Beiträgen und dem Puls der Organisation auf. Es überbrückt die Kluft zwischen Individuum und Organisation.
 
-OKRs treten auch als mächtige Werkzeuge während Coaching-Sessions hervor und ebnen den Weg für Wachstum und größere Beiträge.
+OKRs treten auch als mächtige Werkzeuge während Coaching-Sessions hervor und ebnen den Weg für Wachstum und grössere Beiträge.
 
 ## Eine OKR-zentrierte Kultur pflegen
 
