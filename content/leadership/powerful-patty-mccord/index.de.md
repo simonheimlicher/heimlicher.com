@@ -19,7 +19,7 @@ image:
     title: Powerful by Patty McCord
   feature:
   - alt: Cover of the book Powerful by Patty McCord
-    position: center 47%
+    position: center 12%
     resource: images/powerful-patty-mccord-feature
     title: Powerful by Patty McCord
 lastmod: "2023-04-25T11:59:19.238Z"
