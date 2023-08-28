@@ -8,32 +8,6 @@
       "path": "[[workspace]]"
     }
   ],
-  "frontMatter.taxonomy.tags": [
-    "CSS",
-    "Communication",
-    "Culture",
-    "HTML",
-    "Hugo partial",
-    "Leadership",
-    "Markdown",
-    "OKR",
-    "Performance",
-    "Product management",
-    "Project management",
-    "Talent",
-    "Themes",
-    "macOS"
-  ],
-  "frontMatter.taxonomy.categories": [
-    "Book",
-    "Communication",
-    "Culture",
-    "Methodology",
-    "Syntax",
-    "Themes",
-    "hugo",
-    "macOS"
-  ],
   "frontMatter.content.autoUpdateDate": false,
   "frontMatter.content.snippets": {
     "Current date": {
