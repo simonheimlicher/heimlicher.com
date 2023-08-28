@@ -77,6 +77,8 @@ Author:
   # NOTE: email is set in data file 'assets/data/claris/en.yaml'
   # email = "user@example.net"
 
+markup:
+  _merge: deep
 
 # Merge imaging options from theme
 imaging:

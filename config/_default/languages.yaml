@@ -4,6 +4,12 @@ en:
 de:
   LanguageName: Deutsch
   weight: 2
+  markup:
+    goldmark:
+      extensions:
+        typographer:
+          leftDoubleQuote: "&laquo;"  # default &ldquo;
+          rightDoubleQuote: "&raquo;" # default &rdquo;
   params:
     website:
       # NOTE: The description of the home page is taken from the home page's params
