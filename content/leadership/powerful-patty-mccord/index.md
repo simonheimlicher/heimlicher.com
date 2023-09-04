@@ -28,9 +28,9 @@ tags:
 - Talent
 ---
 
-How does a startup become a corporate behemoth with layers of policies, processes, and rules? It happens one mishap at a time if that event is seen as a mistake that is never to be made again. In her book *Powerful*, Patty McCord lays out her account of how Netflix almost got an expense policy – but avoided that path and instead relied on a no-rules culture.
+How does a startup become a corporate behemoth with layers of policies, processes, and rules? It happens one mishap at a time if that event is seen as a mistake that is never to be made again.
 
-A vital principle of the Netflix culture is to treat employees as adults. But not just any adults: *powerful* adults. This difference in mindset is critical to letting people achieve astonishing results.
+In her book *Powerful*, Patty McCord lays out her account of how Netflix almost got an expense policy – but avoided that path and instead relied on a no-rules culture. A vital principle of the Netflix culture is to treat employees as adults. But not just any adults: *powerful* adults. This difference in mindset is critical to letting people achieve astonishing results.
 
 Indeed, the premise that employees have power is the root from which the entire Netflix culture is derived.
 

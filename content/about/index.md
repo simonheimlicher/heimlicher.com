@@ -27,7 +27,7 @@ title: Simon Heimlicher
 weight: 10
 ---
 
-Over the past decade, the business and technology landscape has been evolving at an unprecedented pace, shaping organizations and the leaders who drive them. My journey through this era of transformation has afforded me not just an observer's perspective but an active role in shaping and influencing these changes.
+Over the past decade, the business and technology landscape has been evolving at an unprecedented pace. I have had the privilege of contributing to the transformation of multiple organizations as they leveraged the opportunities that arose.
 
 Through my experiences, ranging from [startups](https://stimmt.ch/) to [multi-nationals](https://www.ubs.com), I've accumulated knowledge, strategies, and perspectives that form the crux of leadership, organizational transformation, and global strategy execution. In the modern era, the chasm between a budding startup and a multinational conglomerate is vast, but they share common threads. At startups, agility is the cornerstone. Here, innovation is rapid, and adaptability is key. Conversely, at multi-nationals, the challenge lies in navigating complex regulatory landscapes, managing vast resources, and ensuring consistent growth.
 

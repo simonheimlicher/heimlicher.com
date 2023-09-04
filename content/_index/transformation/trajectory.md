@@ -6,6 +6,8 @@ lastmod: 2023-05-11T16:08:05.008Z
 image:
   excerpt:
     resource: /transformation/okrs-vs-performance-management/images/*feature
+# Adding a parameter named 'link' will disable any other link in the content below
+link: /transformation/okrs-vs-performance-management/
 ---
 
 It’s not a few lucky punches — but rather what we do every day that determines our fate. But as with other widely-accepted truths, the actions of us humans unfortunately do not correlate with our stated beliefs. One sad example is the state of *performance management*.
