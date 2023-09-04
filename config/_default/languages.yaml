@@ -5,6 +5,9 @@ de:
   LanguageName: Deutsch
   weight: 2
   markup:
+    # FIXME: _merge: deep is required to merge the configuration of
+    # "markup.tableofContents"
+    _merge: deep
     goldmark:
       extensions:
         typographer:
