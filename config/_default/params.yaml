@@ -39,7 +39,7 @@ fontFamilySerif: Valkyrie
 fontFamilyMono: DM Mono
 fontsSelfHosted: true
 supportIE11: true
-sidebarTaxonomies: []
+sidebarTaxonomies: [tags]
 navListCurrentSectionForTypes:
   - vitae
 navListCurrentSectionInSection:
