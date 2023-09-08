@@ -11,8 +11,16 @@ logo: images/simon_heimlicher
 logoURL: /
 centerLogo: false
 mobileNavigation: right
-screenViewBreakpointWidthMobileMenu: 30rem
-screenViewBreakpointWidthNarrow: 40rem
+
+responsive:
+  breakpoints:
+    width:
+      # From this width upward, the mobile menu is hidden
+      # and the full menu bar is shown
+      mobileMenu: 28rem
+      # From this width upward, font size is set to regular size
+      narrow: 32rem
+
 numberOfRecentArticles: 3
 numberOfFeaturedArticles: 3
 numberOfRelatedArticles: 5
