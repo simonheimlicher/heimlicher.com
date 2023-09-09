@@ -1,7 +1,6 @@
 ---
-aliases:
-  - /work/
-  - /organizational-transformation/
+title: Embrace transformation
+subtitle: Standing still is the greatest of all risks
 description: On transforming the way people and teams communicate, collaborate and measure success in organizations
 image:
   feature:
@@ -11,9 +10,10 @@ image:
     title: Growth implies transformation
     credit: Photo by [Allexxandar](https://www.shutterstock.com/g/Allexxandar) on [Shutterstock](https://www.shutterstock.com/image-photo/seedlings-growing-plants-grow-stages-growth-747135766)
 lastmod: 2023-06-15
-subtitle: Standing still is the greatest of all risks
-title: Embrace transformation
 weight: 200
+aliases:
+  - /work/
+  - /organizational-transformation/
 ---
 
 In the swiftly changing modern business landscape, the only constant is change. As a senior leader or executive, you understand the necessity of staying at the cutting edge. You know that success requires a comprehensive approach to performance management, aligning individual and organizational goals, and fostering an environment of continuous improvement.

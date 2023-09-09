@@ -16,9 +16,9 @@ tags:
 title: Hugo-Funktion, um das aktuelle `OutputFormat` zu erhalten
 ---
 
-Hugo bietet derzeit keine Funktion, um das aktuelle OutputFormat zu erhalten - dieses *Partial[^1]* bietet eine einfache Lösung.
+Hugo bietet derzeit keine Funktion, um das aktuelle OutputFormat zu erhalten – dieses *Partial[^1]* bietet eine einfache Lösung.
 
-Hugo ermöglicht das Hinzufügen von [benutzerdefinierten Ausgabeformaten](https://gohugo.io/templates/output-formats/) - jedoch bietet es bis einschliesslich Version 0.111.0 keine Funktion, um das `OutputFormat` des aktuellen Seitenkontexts bereitzustellen. Da Hugo zwei Funktionen zur Auflistung verfügbarer `OutputFormat`s bereitstellt, die sich darin unterscheiden, ob sie das aktuelle `OutputFormat` enthalten, liefert ein einfacher Aufruf von [`complement`](https://gohugo.io/functions/complement/) die Antwort.
+Hugo ermöglicht das Hinzufügen von [benutzerdefinierten Ausgabeformaten](https://gohugo.io/templates/output-formats/) – jedoch bietet es bis einschliesslich Version 0.111.0 keine Funktion, um das `OutputFormat` des aktuellen Seitenkontexts bereitzustellen. Da Hugo zwei Funktionen zur Auflistung verfügbarer `OutputFormat`s bereitstellt, die sich darin unterscheiden, ob sie das aktuelle `OutputFormat` enthalten, liefert ein einfacher Aufruf von [`complement`](https://gohugo.io/functions/complement/) die Antwort.
 
 {{% note %}}
 Es gibt ein [offenes Issue auf GitHub](https://github.com/gohugoio/hugo/issues/9368) bezüglich des Fehlens einer `OutputFormat`-Eigenschaft der `Page`-Klasse. [Joe Mooring](https://github.com/jmooring) kam auf dieselbe Lösung wie unten. Aber er fügt auch einen wichtigen Vorbehalt hinzu: Das untenstehende funktioniert nur, solange alle deklarierten `OutputFormat`s folgendes in `config.toml` deklariert haben:

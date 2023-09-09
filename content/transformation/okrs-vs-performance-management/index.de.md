@@ -38,7 +38,7 @@ Obwohl Performance Management ähnliche Ziele wie Objectives and Key Results (OK
 
 OKRs (Objectives and Key Results) sind ein einfaches Instrument, um *Abstimmung und Engagement um messbare Ziele herzustellen* und einer der Schlüssel für die erfolgreiche Implementierung von OKRs besteht darin, *OKRs von Vergütung und Beförderungen zu trennen*. Rick Klau, damals leitender Angestellter bei Google, wird in [John Doerr](https://www.whatmatters.com/)'s Buch zitiert:
 
-> OKRs sind nicht gleichbedeutend mit Mitarbeitendenbeurteilungen. OKRs handeln von den Zielen des Unternehmens und wie jeder Mitarbeitende zu diesen Zielen beiträgt. Leistungsbeurteilungen - die ausschliesslich darauf abzielen, die Leistung eines Mitarbeitenden in einem bestimmten Zeitraum zu bewerten - sollten unabhängig von ihren OKRs sein.\
+> OKRs sind nicht gleichbedeutend mit Mitarbeitendenbeurteilungen. OKRs handeln von den Zielen des Unternehmens und wie jeder Mitarbeitende zu diesen Zielen beiträgt. Leistungsbeurteilungen – die ausschliesslich darauf abzielen, die Leistung eines Mitarbeitenden in einem bestimmten Zeitraum zu bewerten – sollten unabhängig von ihren OKRs sein.\
 > — <cite>Rick Klau (Google)[^measure-what-matters]</cite>
 
 Die meisten grösseren Organisationen haben bereits aufwändige Prozesse für die Zielsetzung etabliert, auf deren Grundlage das Performance Management und die jährliche Leistungsbeurteilung durchgeführt wird. Dieser Prozess trägt unterschiedliche Namen, ist aber in den meisten Organisationen ein fester Bestandteil des Instrumentariums des Personalwesens.
