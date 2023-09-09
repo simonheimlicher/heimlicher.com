@@ -16,3 +16,5 @@ serve_env.sh
 /content/tool/link-obfuscation
 /static/js/one-time-password.js
 /static/fonts
+/gpt
+/SHZ_NOTES.md
