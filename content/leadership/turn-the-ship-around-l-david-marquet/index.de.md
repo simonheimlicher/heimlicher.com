@@ -46,13 +46,11 @@ Traditionelle Modelle von Anführer und Anhänger basieren oft auf einer hierarc
 
 ### Die Grundprinzipien der absichtsbasierten Führung
 
-**Kontrolle geben, statt Kontrolle zu übernehmen.** Eine der Schlüsselkomponenten der absichtsbasierten Führung ist das Konzept des "Gebens von Kont
+* **Kontrolle geben, statt Kontrolle zu übernehmen:** Eine der Schlüsselkomponenten der absichtsbasierten Führung ist das Konzept des "Gebens von Kontrolle". Anstatt alle Entscheidungen zu treffen und diese Entscheidungen an seine Untergebenen weiterzugeben, gibt Führungskraft die Kontrolle ab und erlaubt den Teammitgliedern, ihre eigenen Entscheidungen zu treffen.
 
-rolle". Anstatt alle Entscheidungen zu treffen und diese Entscheidungen an seine Untergebenen weiterzugeben, gibt Führungskraft die Kontrolle ab und erlaubt den Teammitgliedern, ihre eigenen Entscheidungen zu treffen.
+* **Ermächtigung durch Kompetenz:** Damit Teammitglieder die Kontrolle übernehmen können, müssen sie die notwendigen Fähigkeiten und das Wissen besitzen, um effektive Entscheidungen zu treffen. Marquet betont die Bedeutung der Bildung und Weiterentwicklung von Kompetenzen als Schlüssel zur Ermächtigung.
 
-**Ermächtigung durch Kompetenz.** Damit Teammitglieder die Kontrolle übernehmen können, müssen sie die notwendigen Fähigkeiten und das Wissen besitzen, um effektive Entscheidungen zu treffen. Marquet betont die Bedeutung der Bildung und Weiterentwicklung von Kompetenzen als Schlüssel zur Ermächtigung.
-
-**Klare Zielsetzung.** Ein weiterer wichtiger Aspekt der absichtsbasierten Führung ist das Setzen klarer Ziele und Erwartungen. Indem jedem im Team klar ist, welches das Endziel ist, können Einzelpersonen ihre Entscheidungen in Übereinstimmung mit diesem Ziel treffen.
+* **Klare Zielsetzung:** Ein weiterer wichtiger Aspekt der absichtsbasierten Führung ist das Setzen klarer Ziele und Erwartungen. Indem jedem im Team klar ist, welches das Endziel ist, können Einzelpersonen ihre Entscheidungen in Übereinstimmung mit diesem Ziel treffen.
 
 ### Schlussfolgerung
 

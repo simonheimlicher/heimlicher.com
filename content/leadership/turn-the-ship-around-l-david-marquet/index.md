@@ -52,25 +52,25 @@ Traditional leader-follower models often rely on a hierarchical structure, where
 
 ### The Core Principles of Intent-Based Leadership
 
-**Giving Control, Rather Than Taking Control.** One of the key components of Intent-Based Leadership is the concept of “giving control, rather than taking control." Instead of micromanaging every aspect of the team’s work, leaders should provide guidance, set expectations, and then trust their team members to make informed decisions. This approach allows for greater autonomy and promotes a sense of ownership, leading to increased motivation and engagement.
+* **Giving Control, Rather Than Taking Control:** One of the key components of Intent-Based Leadership is the concept of “giving control, rather than taking control." Instead of micromanaging every aspect of the team’s work, leaders should provide guidance, set expectations, and then trust their team members to make informed decisions. This approach allows for greater autonomy and promotes a sense of ownership, leading to increased motivation and engagement.
 
-**Focus on Competence and Clarity.** Another essential element of this leadership model is the focus on competence and clarity. In order for individuals to make effective decisions, they must have a deep understanding of their role, the overall mission, and the necessary technical knowledge. Leaders must prioritize ongoing training, education, and skill development to ensure their team members are well-equipped to handle their responsibilities.
+* **Focus on Competence and Clarity:** Another essential element of this leadership model is the focus on competence and clarity. In order for individuals to make effective decisions, they must have a deep understanding of their role, the overall mission, and the necessary technical knowledge. Leaders must prioritize ongoing training, education, and skill development to ensure their team members are well-equipped to handle their responsibilities.
 
-**Foster a Culture of Learning and Continuous Improvement.** A further aspect of Intent-Based Leadership is fostering a culture of learning and continuous improvement. This involves creating an environment where mistakes are viewed as opportunities for growth, rather than failures to be punished. Encouraging open dialogue and feedback helps to identify areas for improvement and promotes a growth mindset among team members.
+* **Foster a Culture of Learning and Continuous Improvement:** A further aspect of Intent-Based Leadership is fostering a culture of learning and continuous improvement. This involves creating an environment where mistakes are viewed as opportunities for growth, rather than failures to be punished. Encouraging open dialogue and feedback helps to identify areas for improvement and promotes a growth mindset among team members.
 
 ## Practical Tools and Techniques for Implementing Intent-Based Leadership
 
 To support the Intent-Based Leadership approach, Marquet outlines several practical tools and techniques that can be implemented within organizations.
 
-**Empower Decision-Making at All Levels.** Encourage team members to make decisions within their area of expertise, providing them with the necessary information and resources to do so effectively. By empowering individuals to take ownership of their decisions, leaders can create a more engaged and motivated workforce.
+* **Empower Decision-Making at All Levels:** Encourage team members to make decisions within their area of expertise, providing them with the necessary information and resources to do so effectively. By empowering individuals to take ownership of their decisions, leaders can create a more engaged and motivated workforce.
 
-**Implement a Questioning Attitude.** Promote a culture where individuals are encouraged to ask questions, challenge assumptions, and seek clarification when needed. This helps to ensure that decisions are based on accurate information and fosters a more open, collaborative working environment.
+* **Implement a Questioning Attitude:** Promote a culture where individuals are encouraged to ask questions, challenge assumptions, and seek clarification when needed. This helps to ensure that decisions are based on accurate information and fosters a more open, collaborative working environment.
 
-**Use “I Intend To” Statements.** Instead of requesting permission for every decision, encourage team members to communicate their intended course of action and the reasoning behind it. This fosters a sense of ownership and responsibility, and allows leaders to provide guidance and feedback as needed.
+* **Use “I Intend To” Statements:** Instead of requesting permission for every decision, encourage team members to communicate their intended course of action and the reasoning behind it. This fosters a sense of ownership and responsibility, and allows leaders to provide guidance and feedback as needed.
 
-**Encourage a Solution-Oriented Mindset.** When problems arise, focus on finding solutions rather than placing blame. This helps to create a positive and collaborative atmosphere, where team members feel empowered to take initiative and address challenges head-on.
+* **Encourage a Solution-Oriented Mindset:** When problems arise, focus on finding solutions rather than placing blame. This helps to create a positive and collaborative atmosphere, where team members feel empowered to take initiative and address challenges head-on.
 
-**Prioritize Transparency and Open Communication.** Share information freely within the team, ensuring everyone has access to the knowledge they need to make informed decisions. Transparent communication helps to build trust, foster collaboration, and promote a more effective decision-making process.
+* **Prioritize Transparency and Open Communication:** Share information freely within the team, ensuring everyone has access to the knowledge they need to make informed decisions. Transparent communication helps to build trust, foster collaboration, and promote a more effective decision-making process.
 
 ## The Benefits of Adopting Intent-Based Leadership
 

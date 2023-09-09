@@ -101,11 +101,11 @@ Objectives and Key Results provide a powerful way to align teams, foster transpa
 
 {{< content-excerpt page="/transformation/how-objectives-key-results-facilitate-transformation" float=right relativewidth=40 >}}
 
-[**How OKRs facilitate organizational transformation**](#how-okrs-facilitate-organizational-transformation): Gain a deeper understanding of how OKRs differ from traditional performance management tools and discover their transformative power. This article highlights the distinction between individual-centric goals and the broader view of organizational success. It explores how OKRs act as the linchpin of lasting transformation, emphasizing alignment, transparency, and empowerment.
+[**How OKRs facilitate organizational transformation**](transformation/how-objectives-key-results-facilitate-transformation): Gain a deeper understanding of how OKRs differ from traditional performance management tools and discover their transformative power. This article highlights the distinction between individual-centric goals and the broader view of organizational success. It explores how OKRs act as the linchpin of lasting transformation, emphasizing alignment, transparency, and empowerment.
 
 {{< content-excerpt page="/transformation/why-okr-objectives-key-results-already-have-goals" float=right relativewidth=40 >}}
 
-[**Why do we need more ways to set goals?**](#why-do-we-need-more-ways-to-set-goals): Dive into the history of goal-setting methodologies and understand the significance of OKRs in today's business environment. Learn how renowned companies like Google have leveraged OKRs to revolutionize industries and drive unprecedented growth. Recognize the pitfalls of ignoring the core principle of focus in OKRs and the dire consequences it can lead to.
+[**Why do we need more ways to set goals?**](why-okr-objectives-key-results-already-have-goals): Dive into the history of goal-setting methodologies and understand the significance of OKRs in today's business environment. Learn how renowned companies like Google have leveraged OKRs to revolutionize industries and drive unprecedented growth. Recognize the pitfalls of ignoring the core principle of focus in OKRs and the dire consequences it can lead to.
 
 ## Making informed choices: The cornerstone of success
 

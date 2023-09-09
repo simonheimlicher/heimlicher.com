@@ -90,11 +90,11 @@ OKRs bieten eine effektive Methode, um Teams auszurichten, Transparenz zu förde
 
 {{< content-excerpt page="/transformation/how-objectives-key-results-facilitate-transformation" float=right relativewidth=40 >}}
 
-**Wie OKRs die organisatorische Transformation unterstützen**: Dieser Artikel beleuchtet den Unterschied zwischen individuellen Zielen und dem umfassenderen Blick auf den organisatorischen Erfolg.
+[**Wie OKRs die organisatorische Transformation unterstützen**:](transformation/how-objectives-key-results-facilitate-transformation) Dieser Artikel beleuchtet den Unterschied zwischen individuellen Zielen und dem umfassenderen Blick auf den organisatorischen Erfolg.
 
 {{< content-excerpt page="/transformation/why-okr-objectives-key-results-already-have-goals" float=right relativewidth=40 >}}
 
-**Warum brauchen wir weitere Möglichkeiten zur Zielsetzung?**: Tauchen Sie ein in die Geschichte der Zielsetzungsmethoden und erkennen Sie die Bedeutung von OKRs im heutigen Geschäftsumfeld.
+[**Warum brauchen wir weitere Möglichkeiten zur Zielsetzung?**:](transformation/why-okr-objectives-key-results-already-have-goals) Tauchen Sie ein in die Geschichte der Zielsetzungsmethoden und erkennen Sie die Bedeutung von OKRs im heutigen Geschäftsumfeld.
 
 ### Informierte Entscheidungen treffen: Der Grundstein des Erfolgs
 
