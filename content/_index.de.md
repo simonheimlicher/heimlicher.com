@@ -36,13 +36,13 @@ image:
           position: "center center"
           aspect: aspect_9x16
   search:
-    - images/simon_heimlicher_1200x675.jpg
-    - images/simon_heimlicher_1200x1200.jpg
+    - images/simon_heimlicher_16x9
+    - images/simon_heimlicher_1x1
   share:
-    - images/simon_heimlicher_1200x675.jpg
-    - images/simon_heimlicher_1200x1200.jpg
+    - images/simon_heimlicher_16x9
+    - images/simon_heimlicher_1x1
   thumbnail:
-    - images/simon_heimlicher_1200x1200.jpg
+    - images/simon_heimlicher_1x1
 keywords:
   - simon
   - heimlicher

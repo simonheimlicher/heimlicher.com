@@ -7,7 +7,7 @@ mainSections:
   - digitization
   - research
   - technology
-logo: images/simon_heimlicher
+logo: images/simon_heimlicher_logo
 logoURL: /
 centerLogo: false
 mobileNavigation: right
@@ -87,9 +87,8 @@ website:
     url: about
 image:
   thumbnail:
-    - images/simon_heimlicher_1200x627.jpg
-    - images/simon_heimlicher_1200x675.jpg
-    - images/simon_heimlicher_1200x1200.jpg
+    - images/simon_heimlicher_16x9
+    - images/simon_heimlicher_1x1
 robots:
   index: true
   indeximages: true

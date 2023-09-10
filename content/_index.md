@@ -38,15 +38,15 @@ image:
           position: "center center"
           aspect: aspect_9x16
   search:
-    - images/simon_heimlicher_1200x675.jpg
-    - images/simon_heimlicher_1200x1200.jpg
+    - images/simon_heimlicher_16x9
+    - images/simon_heimlicher_1x1
   share:
     - alt: Professional website of Simon Heimlicher
-      resource: images/simon_heimlicher_1200x675.jpg
+      resource: images/simon_heimlicher_16x9
     - alt: Professional website of Simon Heimlicher
-      resource: images/simon_heimlicher_1200x1200.jpg
+      resource: images/simon_heimlicher_1x1
   thumbnail:
-    - images/simon_heimlicher_1200x1200.jpg
+    - images/simon_heimlicher_1x1
 keywords:
   - simon
   - heimlicher
@@ -105,7 +105,7 @@ Objectives and Key Results provide a powerful way to align teams, foster transpa
 
 {{< content-excerpt page="/transformation/why-okr-objectives-key-results-already-have-goals" float=right relativewidth=40 >}}
 
-[**Why do we need more ways to set goals?**](why-okr-objectives-key-results-already-have-goals): Dive into the history of goal-setting methodologies and understand the significance of OKRs in today's business environment. Learn how renowned companies like Google have leveraged OKRs to revolutionize industries and drive unprecedented growth. Recognize the pitfalls of ignoring the core principle of focus in OKRs and the dire consequences it can lead to.
+[**Why do we need more ways to set goals?**](transformation/why-okr-objectives-key-results-already-have-goals): Dive into the history of goal-setting methodologies and understand the significance of OKRs in today's business environment. Learn how renowned companies like Google have leveraged OKRs to revolutionize industries and drive unprecedented growth. Recognize the pitfalls of ignoring the core principle of focus in OKRs and the dire consequences it can lead to.
 
 ## Making informed choices: The cornerstone of success
 

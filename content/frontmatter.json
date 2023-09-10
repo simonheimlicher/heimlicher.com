@@ -97,7 +97,7 @@
               "name": "thumbnail",
               "type": "choice",
               "choices": [
-                "images/simon_heimlicher_1200x1200.jpg"
+                "images/simon_heimlicher_1x1"
               ]
             },
             {
@@ -105,8 +105,8 @@
               "name": "search",
               "type": "choice",
               "choices": [
-                "images/simon_heimlicher_1200x675.jpg",
-                "images/simon_heimlicher_1200x1200.jpg"
+                "images/simon_heimlicher_16x9",
+                "images/simon_heimlicher_1x1"
               ]
             },
             {
@@ -114,8 +114,8 @@
               "name": "share",
               "type": "choice",
               "choices": [
-                "images/simon_heimlicher_1200x675.jpg",
-                "images/simon_heimlicher_1200x1200.jpg"
+                "images/simon_heimlicher_16x9",
+                "images/simon_heimlicher_1x1"
               ]
             },
             {
