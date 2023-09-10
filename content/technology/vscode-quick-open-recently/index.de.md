@@ -8,7 +8,8 @@ featured: false
 image:
   feature: images/vscode-quick-open-settings-recency
 tags:
-- Einstellungen
+- VSCode
+- Settings
 title: "VSCode: Dateien im Schnellöffnen-Menü nach Aktualität sortieren"
 ---
 

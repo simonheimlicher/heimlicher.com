@@ -14,9 +14,9 @@ image:
     resource: images/turn-the-ship-around-l-david-marquet-feature
     title: Das Schiff wenden! von L. David Marquet
 series:
-- Kultur
+- Culture
 tags:
-- Führung
+- Leadership
 - Talent
 ---
 
@@ -34,7 +34,7 @@ Das Buch [Das Schiff wenden!](https://www.amazon.com/gp/product/1591846404?ie=UT
 
 In "Das Schiff wenden!” teilt Marquet seine Erfahrungen als U-Boot-Kapitän und die transformativen Führungsprinzipien, die er während seiner Zeit als Kommandant der USS Santa Fe angewandt hat. Er erkannte, dass das traditionelle Modell von Anführer und Anhänger nicht effektiv war in Situationen, in denen schnelle und genaue Entscheidungsfindung entscheidend war. Stattdessen musste er eine Umgebung schaffen, in der sich jedes Crewmitglied ermächtigt fühlte, Verantwortung zu übernehmen und Entscheidungen zu treffen, die der Gesamtmission zugutekommen würden. Diese Denkweise führte zur Entwicklung des Ansatzes der absichtsbasierten Führung.
 
-{{< responsive-image resource=images/das-schiff-wenden-l-david-marquet-cover alt="Umschlag des Buches 'Das Schiff wenden!' von L. David Marquet" title="Das Schiff wenden! von L. David Marquet" float=right relative-width="40" >}}
+{{< responsive-image resource=images/turn-the-ship-around-l-david-marquet-cover alt="Umschlag des Buches 'Das Schiff wenden!' von L. David Marquet" title="Das Schiff wenden! von L. David Marquet" float=right relative-width="40" >}}
 
 ## Absichtsbasierte Führung annehmen
 

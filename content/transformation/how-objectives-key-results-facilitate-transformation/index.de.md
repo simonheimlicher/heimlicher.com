@@ -21,10 +21,10 @@ keywords:
 - Organisatorische Transformation
 - Talent
 categories:
-- Methodik
+- Methodology
 tags:
 - OKR
-- Leistung
+- Performance
 series:
 - OKR
 ---
@@ -33,7 +33,7 @@ Die moderne Geschäftslandschaft entwickelt sich ständig weiter. Der Katalysato
 
 Im Kern konzentriert sich das Leistungsmanagement auf Einzelpersonen. Es geht darum sicherzustellen, dass jedes Teammitglied seine persönlichen Ziele verfolgt und zum übergeordneten Erfolg der Organisation beiträgt. Aktivitäten wie Erwartungen setzen, Fortschritte überwachen und Feedback geben fallen darunter. Sie pflegen im Wesentlichen Ihre menschlichen Ressourcen.
 
-OKRs hingegen haben eine breitere Perspektive. Es geht nicht um das Individuum, sondern um die Organisation als Ganzes. Ob ein Mitarbeiter in seiner Rolle bleibt oder ersetzt wird, die OKRs bleiben unverändert. Dies steht im starken Gegensatz zum Leistungsmanagement, bei dem Ziele bei einem Personalwechsel neu bewertet und angepasst werden müssten. [John Doerr](https://www.whatmatters.com/authors/john-doerr/), der OKRs bei Google vor über 20 Jahren eingeführt hat, betont oft diesen Unterschied. Ebenso betonen Experten für Leistungsmanagement wie z.B. die [Society of Human Resources Management (SHRM)](https://www.shrm.org/) die individuelle Natur von Leistungszielen.
+OKRs hingegen haben eine breitere Perspektive. Es geht nicht um das Individuum, sondern um die Organisation als Ganzes. Ob ein Mitarbeiter in seiner Rolle bleibt oder ersetzt wird, die OKRs bleiben unverändert. Dies steht im starken Gegensatz zum Leistungsmanagement, bei dem Ziele bei einem Personalwechsel neu bewertet und angepasst werden müssten. [John Doerr](https://www.kleinerperkins.com/people/john-doerr/), der OKRs bei Google vor über 20 Jahren eingeführt hat, betont oft diesen Unterschied. Ebenso betonen Experten für Leistungsmanagement wie z.B. die [Society of Human Resources Management (SHRM)](https://www.shrm.org/) die individuelle Natur von Leistungszielen.
 
 ## Wie OKRs das Leistungsmanagement revolutionieren
 

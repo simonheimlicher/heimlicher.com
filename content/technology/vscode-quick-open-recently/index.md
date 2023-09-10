@@ -8,6 +8,7 @@ featured: false
 image:
   feature: images/vscode-quick-open-settings-recency
 tags:
+- VSCode
 - Settings
 title: "VSCode: Order files in Quick Open by recency"
 ---
