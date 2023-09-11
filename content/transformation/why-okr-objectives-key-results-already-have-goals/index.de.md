@@ -50,8 +50,6 @@ Wie der Begründer der Lehre zu Geschäftsstrategie bereits sagte:
 
 Dieser Fokus auf, nun ja, Fokus, ist ein zentrales Merkmal von OKRs – und das Ignorieren dieses Aspekts ist einer der häufigsten Gründe, warum eine OKR-Implementierung scheitert. Um Porter zu paraphrasieren: Wenn die Führung an der Spitze nicht bereit ist, die schwierigen Entscheidungen zu treffen – d. h., Nein zu sagen –, gibt es keinen Nutzen aus der Formulierung einer Strategie, und OKRs werden das nicht beheben, was die oberste Führungsebene versäumt hat.
 
-----
-
 [^practice-of-management]: Drucker, Peter, “The Practice of Management”, Harper, New York, 1954; Heinemann, London, 1955; revised edn, Butterworth-Heinemann, 2007
 
 [^what-is-strategy]: Porter, Michael E., “What Is Strategy?”, Harvard Business Review 74, no. 6 (November–December 1996): pp. 61–78

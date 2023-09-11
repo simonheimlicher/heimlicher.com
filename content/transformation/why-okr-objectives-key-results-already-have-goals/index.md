@@ -56,8 +56,6 @@ As the founder of the body of knowledge on business strategy said:
 
 This focus on, well, focus, is a key feature of OKRs — and ignoring this aspect is one of the most frequent reasons why an OKR implementation fails. To paraphrase Porter: if the leadership at the top is not willing to make the tough choices, – i.e., say no –, there is no benefit from articulating a strategy and OKRs won′t fix what the top leadership failed to accomplish.
 
-----
-
 [^practice-of-management]: Drucker, Peter, “The Practice of Management”, Harper, New York, 1954; Heinemann, London, 1955; revised edn, Butterworth-Heinemann, 2007
 
 [^what-is-strategy]: Porter, Michael E., “What Is Strategy?”, Harvard Business Review 74, no. 6 (November–December 1996): pp. 61–78
