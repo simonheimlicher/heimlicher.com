@@ -1,7 +1,7 @@
 ---
 author: Simon Heimlicher
 date: 1999-03-19T00:00:00+0200
-description: "Simon Heimlicher: ein leidenschaftlichen Leader, der über Führung, Organisationsentwicklung und Technologie schreibt"
+description: "Simon Heimlicher: ein leidenschaftlicher Leader, der über Führung, Organisationsentwicklung und Technologie schreibt"
 genre: Professional website
 image:
   hero:

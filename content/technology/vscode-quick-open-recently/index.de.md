@@ -13,8 +13,6 @@ tags:
 title: "VSCode: Dateien im Schnellöffnen-Menü nach Aktualität sortieren"
 ---
 
-## Das *Schnellöffnen*-Menü in VSCode
-
 *VSCode* verfügt über ein nützliches Menü, um Dateien, die kürzlich geöffnet wurden oder sich im aktuellen Arbeitsbereich befinden, anhand einiger Buchstaben des Dateinamens rasch zu öffnen.
 
 Dieses Menü lässt sich mit <kbd>⌘-P</kbd> auf Ihrem Mac oder <kbd>Ctrl-P</kbd> auf Windows und Linux aufrufen.

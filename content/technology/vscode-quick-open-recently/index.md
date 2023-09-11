@@ -14,8 +14,6 @@ title: "VSCode: Order files in Quick Open by recency"
 ---
 
 
-## The *Quick Open* menu in VSCode
-
 *VSCode* offers a practical menu to quickly open files that have been opened recently or that are found in the current workspace based on typing a few characters of the file name.
 
 You can open this file by hitting <kbd>⌘-P</kbd> on your Mac or <kbd>Ctrl-P</kbd> on Windows and Linux.
