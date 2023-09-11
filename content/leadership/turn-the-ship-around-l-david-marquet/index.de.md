@@ -40,11 +40,11 @@ In "Das Schiff wenden!” teilt Marquet seine Erfahrungen als U-Boot-Kapitän un
 
 In seinem weit verbreiteten Buch beschreibt L. David Marquet autobiografisch seinen Weg von einer Führungskraft, die Anhänger führt, zu einer, die mehr Führungskräfte schafft. "Das Schiff wenden!" dient als mächtige Erinnerung an das Potenzial, das in jedem Einzelnen steckt, und an die unglaubliche Wirkung, die erzielt werden kann, wenn Führungskräfte sich darauf konzentrieren, dieses Potenzial freizusetzen.
 
-### Das Problem mit traditionellen Führungsmodellen
+## Das Problem mit traditionellen Führungsmodellen
 
 Traditionelle Modelle von Anführer und Anhänger basieren oft auf einer hierarchischen Struktur, bei der Entscheidungen an der Spitze getroffen und an Untergebene zur Ausführung weitergegeben werden. Dieser Ansatz kann zu Ineffizienzen, mangelnder Innovation und einem desengagierten Arbeitsumfeld führen. Nach Marquets Erfahrung bedeutete die Anführer-Anhänger-Umgebung, dass seine Crew alles tun würde, was er sagte – selbst wenn es falsch war. Diese Erkenntnis führte ihn zur Entwicklung des Ansatzes der absichtsbasierten Führung, der darauf abzielt, Einzelpersonen zu ermächtigen und ein effektiveres, engagiertes und innovativeres Arbeitsumfeld zu schaffen.
 
-### Die Grundprinzipien der absichtsbasierten Führung
+## Die Grundprinzipien der absichtsbasierten Führung
 
 * **Kontrolle geben, statt Kontrolle zu übernehmen:** Eine der Schlüsselkomponenten der absichtsbasierten Führung ist das Konzept des "Gebens von Kontrolle". Anstatt alle Entscheidungen zu treffen und diese Entscheidungen an seine Untergebenen weiterzugeben, gibt Führungskraft die Kontrolle ab und erlaubt den Teammitgliedern, ihre eigenen Entscheidungen zu treffen.
 
@@ -52,6 +52,6 @@ Traditionelle Modelle von Anführer und Anhänger basieren oft auf einer hierarc
 
 * **Klare Zielsetzung:** Ein weiterer wichtiger Aspekt der absichtsbasierten Führung ist das Setzen klarer Ziele und Erwartungen. Indem jedem im Team klar ist, welches das Endziel ist, können Einzelpersonen ihre Entscheidungen in Übereinstimmung mit diesem Ziel treffen.
 
-### Schlussfolgerung
+## Schlussfolgerung
 
 "Das Schiff wenden!" von L. David Marquet bietet eine tiefgreifende und transformative Sicht auf Führung und Organisation. Es ist ein Muss für alle, die die Art und Weise, wie sie führen und arbeiten, überdenken möchten.
