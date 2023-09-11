@@ -1,5 +1,4 @@
 ---
-flexbasis: max-content
 lastmod: "2023-04-06"
 title: Recent articles
 weight: 900

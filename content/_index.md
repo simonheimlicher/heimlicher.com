@@ -53,11 +53,6 @@ keywords:
   - professional website
   - blog
 lastmod: 2023-05-11T16:07:20.043Z
-sectionsToShow: []
-  # - leadership
-  # - transformation
-  # - technology
-  # - research
 aliases:
   - /home/
   - /archive/

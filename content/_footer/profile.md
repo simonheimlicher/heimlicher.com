@@ -1,5 +1,4 @@
 ---
-flexbasis: min-content
 lastmod: "2023-04-06"
 title: About Simon Heimlicher
 weight: 100

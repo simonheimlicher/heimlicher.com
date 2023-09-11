@@ -49,11 +49,6 @@ keywords:
   - professionelle website
   - blog
 lastmod: 2023-09-09T07:52:01Z
-sectionsToShow:
-  - leadership
-  - transformation
-  - technology
-  - research
 subtitle: Leadership und Organisations&shy;entwicklung
 title: Simon Heimlicher
 ---
