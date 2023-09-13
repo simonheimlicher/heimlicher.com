@@ -5,14 +5,20 @@ supertitle: Ein Buch von L. David Marquet
 categories:
 - Buch
 date: 2021-09-09T13:27:52Z
-description: Die absichtsbasierte Führung, ein Paradigma zur Umwandlung von Anhängern in Führungskräfte – und dieses Buch zeigt dessen Anwendung auf einem US-U-Boot in autobiografischer Weise
+description: Wie L. David Marquet die absichtsbasierte Führung, ein Paradigma zur Umwandlung von Anhängern in Führungskräfte auf einem US-U-Boot umgesetzt hat
 featured: false
 image:
   feature:
+    alt: Photo eines ballistischen nuklearen U-Bootes der Los Angeles-Klasse (SSN 755)
+    position: center 50%
+    # resource: images/turn-the-ship-around-l-david-marquet-feature
+    resource: images/ballistic_nuclear_missile_submarine_los_angeles_class_SSN-755
+    title: Ballistisches Nuklear-U-Boot der Los Angeles-Klasse (SSN 755)
+  excerpt:
     alt: Umschlag des Buches "Das Schiff wenden!" von L. David Marquet
-    position: center 25%
-    resource: images/turn-the-ship-around-l-david-marquet-feature
-    title: Das Schiff wenden! von L. David Marquet
+    position: center 50%
+    resource: images/turn-the-ship-around-l-david-marquet-excerpt
+    title: '"Das Schiff wenden!" von L. David Marquet'
 series:
 - Culture
 tags:
@@ -55,3 +61,6 @@ Traditionelle Modelle von Anführer und Anhänger basieren oft auf einer hierarc
 ## Schlussfolgerung
 
 "Das Schiff wenden!" von L. David Marquet bietet eine tiefgreifende und transformative Sicht auf Führung und Organisation. Es ist ein Muss für alle, die die Art und Weise, wie sie führen und arbeiten, überdenken möchten.
+
+----
+Bildquelle: [Wikipedia](https://en.wikipedia.org/wiki/Columbia-class_submarine)

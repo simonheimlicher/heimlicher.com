@@ -14,9 +14,18 @@ description: Intent-Based Leadership, a paradigm for turning followers into lead
 featured: false
 image:
   feature:
+    # alt: Cover of the book Turn the Ship Around! by L. David Marquet
+    # alt: Artist's rendering of the planned Columbia-class submarine (Naval Sea Systems Command)
+    alt: Photo of a Los Angeles-class ballistic nuclear missile submarine SSN 755
+    position: center 50%
+    # resource: images/turn-the-ship-around-l-david-marquet-feature
+    # resource: images/columbia-class_ballistic_missile_submarine_2019
+    resource: images/ballistic_nuclear_missile_submarine_los_angeles_class_SSN-755
+    title: Flight III (SSN 755) improved Los Angeles class (688i)
+  excerpt:
     alt: Cover of the book Turn the Ship Around! by L. David Marquet
-    position: center 25%
-    resource: images/turn-the-ship-around-l-david-marquet-feature
+    position: center 50%
+    resource: images/turn-the-ship-around-l-david-marquet-excerpt
     title: Turn the Ship Around! by L. David Marquet
 lastmod: 2023-04-24T23:27:52+0200
 series:
@@ -111,3 +120,5 @@ A technology startup was facing challenges in scaling its operations and maintai
 ---
 
 For further reading, you may want to refer to the [Intent-Based leadership](https://intentbasedleadership.com/ 'L. David Marquet’s website on Intent-Based Leadership') website and the [home page of the author](https://davidmarquet.com/ 'Professional website of L. David Marquet').
+
+Feature image: Los Angeles-class ballistic nuclear missile submarine SSN 755 from [Seaforces.org](https://www.seaforces.org/usnships/ssn/Los-Angeles-class.htm)
