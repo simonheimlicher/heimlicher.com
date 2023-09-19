@@ -58,54 +58,82 @@ aliases:
   - /archive/
 ---
 
-## Transformational leadership
+## Leadership
 
-Transformational leaders are not born — they evolve as they grow at the challenges they face. The world has seen various leadership styles evolve over the years, but two, in particular, stand out: **Intent-Based Leadership** and a **Culture of Freedom and Responsibility**. Both these models present a fresh perspective on leadership, challenging conventional paradigms. They focus on empowering individuals, fostering growth, and creating a culture where every member feels valued and responsible.
+{{% lede-initial %}}Great leaders are not born — they are shaped by the challenges they face and grow thanks to the insights they gain. While the challenges show up all by themselves, insights can be acquired deliberately.
 
-### Intent-Based Leadership: Creating More Leaders
+If you think that a leader's role is to motivate their team and that empowerment is the key, you're not alone. Most leaders in large organizations develop their views on effective leadership based on personal experience. These leaders often pride themselves on how they act differently when in a leadership position.{{% /lede-initial %}}
 
-**L. David Marquet** brought forth a leadership model that shifts away from the traditional leader-follower approach. In the high-pressure environment of a submarine, he discovered that empowering each crew member to take responsibility led to better results.
+However, this method of growth is limited to the leader's exposure, and there is a tendency to get stuck in a loop.
 
-In his [book *Turn the Ship Around!*](leadership/turn-the-ship-around-l-david-marquet), he reveals how giving control, rather than taking it, and focusing on competence and clarity, can unlock the potential within each individual. His methods foster a culture of learning and continuous improvement.
+Broadening our perspectives to include leaders in vastly different environments can accelerate our growth and introduce us to alternative approaches to leadership.
 
-{{< content-excerpt page="/leadership/turn-the-ship-around-l-david-marquet" float=right relativewidth=40 >}}
+Two models of leadership I find effective are **intent-based leadership** and **leadership based on freedom and responsibility**. Both challenge traditional paradigms.
 
-Tools that are key to implementing this approach include empowering decision-making at all levels, encouraging a questioning attitude, and promoting a solution-oriented mindset. Dive deeper into these transformative ideas with practical tools and techniques for implementing Intent-Based Leadership.
+### Intent-based leadership: empowering team members
 
-### A Culture of Freedom and Responsibility: Unleashing Power Within
+L. David Marquet brought forth a leadership model that moves away from the traditional leader-follower dynamic. In a high-pressure submarine environment, he found that empowering each team member to take responsibility led to enhanced performance.
 
-From the journey of Netflix, a notable corporate giant, we understand the importance of treating employees as powerful adults. In her [revealing book *Powerful*](leadership/powerful-patty-mccord), **Patty McCord** lays out how a no-rules culture based on trust and responsibility can lead to astonishing results.
+{{< panel page="/leadership/turn-the-ship-around-l-david-marquet" float=right relativewidth=30 >}}
 
-In particular, she walks us through Netflix's radical approach to corporate culture and how transparency, open communication, and shared goals are fundamental.
+In his [book *Turn the Ship Around!*](leadership/turn-the-ship-around-l-david-marquet), Marquet reveals how giving control, rather than taking it, and focusing on competence and clarity can unlock individual potential. This fosters a culture of continuous learning and improvement.
 
-{{< content-excerpt page="/leadership/powerful-patty-mccord" float=right relativewidth=40 >}}
+Dive deeper into these transformative ideas with practical tools and techniques for implementing intent-based leadership.
 
-Building trust and autonomy in the workplace is paramount. This culture necessitates a strong feedback mechanism and aligns everyone with the company’s goals. Hiring the right talent and ensuring their retention becomes crucial in such an environment. Discover more on building trust and autonomy in the workplace and how feedback plays an instrumental role.
+{{< /panel >}}
 
-As you journey through these models, you'll find that at the heart of each lies a [profound understanding of human potential and a commitment to unlocking it](about/). Both these approaches challenge the conventional wisdom of leadership and provide insights into creating organizations where every individual thrives. Welcome to the world of transformational leadership. Dive in, and lead the change!
+{{< panel page="/leadership/powerful-patty-mccord" float=right relativewidth=30 >}}
+
+### Leadership based on freedom and responsibility: unlocking adult potential
+
+From Netflix's journey, we learn the importance of treating employees as empowered adults. In her [book *Powerful*](leadership/powerful-patty-mccord), Patty McCord discusses how a culture based on trust and responsibility can lead to astonishing results.
+
+In particular, McCord walks us through Netflix's radical corporate culture, emphasizing transparency, open communication, and shared goals.
+
+Discover more about building trust and autonomy in the workplace and how feedback plays a critical role.
+
+{{< /panel >}}
 
 ## Organizational transformation
 
-What separates great organizations from the mediocre? 
+{{% lede-initial %}}What sets great organizations apart? The ability to focus, align and boldly move toward their goals.
 
-The ability to adapt, evolve, and drive towards shared goals. In a world characterized by rapid change and increased competition, organizations must embrace effective strategies to transform and succeed. One such strategy that has garnered attention is the adoption of Objectives and Key Results (OKRs). Let's delve deeper.
+The operative words here are *focus* and *goals*. I have yet to see an organization whose leaders think that they lack goals or a strategy. What is rare, though, are organizations that achieve their goals and realize the benefits promised by their strategy. {{% /lede-initial %}}
 
-## Unleashing the potential of OKRs
+{{< panel page="/transformation/how-objectives-key-results-facilitate-transformation" float=right relativewidth=30 >}}
 
-Objectives and Key Results provide a powerful way to align teams, foster transparency, and promote continuous improvement. They challenge the traditional paradigms of goal-setting and encourage companies to achieve more by focusing on what truly matters.
+### Achieving the benefits promised by strategy
 
-{{< content-excerpt page="/transformation/how-objectives-key-results-facilitate-transformation" float=right relativewidth=40 >}}
+In the modern business landscape, strategic choices are crucial. Deciding, what to do is easy. What is hard is to decide, what *not* to do. 
 
-[**How OKRs facilitate organizational transformation**](transformation/how-objectives-key-results-facilitate-transformation): Gain a deeper understanding of how OKRs differ from traditional performance management tools and discover their transformative power. This article highlights the distinction between individual-centric goals and the broader view of organizational success. It explores how OKRs act as the linchpin of lasting transformation, emphasizing alignment, transparency, and empowerment.
+I have seen first hand, how [OKRs facilitate strategic choices at all levels of the organization](transformation/how-objectives-key-results-facilitate-transformation) in full alignment with the organization's strategy.
 
-{{< content-excerpt page="/transformation/why-okr-objectives-key-results-already-have-goals" float=right relativewidth=40 >}}
+{{< /panel >}}
 
-[**Why do we need more ways to set goals?**](transformation/why-okr-objectives-key-results-already-have-goals): Dive into the history of goal-setting methodologies and understand the significance of OKRs in today's business environment. Learn how renowned companies like Google have leveraged OKRs to revolutionize industries and drive unprecedented growth. Recognize the pitfalls of ignoring the core principle of focus in OKRs and the dire consequences it can lead to.
+{{< panel page="/transformation/why-okr-objectives-key-results-already-have-goals" float=right relativewidth=30 >}}
 
-## Making informed choices: The cornerstone of success
+### Employee engagement
 
-The contemporary business arena calls for discerning choices. Strategy isn't merely about deciding what to do; it's equally about deciding what *not* to do. Embracing methodologies like OKRs provides organizations with a structured framework to make these pivotal decisions. As [Michael E. Porter](https://en.wikipedia.org/wiki/Michael_Porter) astutely remarked, without trade-offs, there's no need for strategy.
+Objectives and Key Results (OKRs) have been successfully implemented by tech industry giants like Google, LinkedIn, and Twitter. But you probably already knew that. 
 
-## Begin your transformative journey
+Even if you have looked at OKRs before, I invite you to take a fresh perspective and as I want to share with you, how [OKRs fuel employee engagement](transformation/why-okr-objectives-key-results-already-have-goals).
 
-Embarking on the path of organizational transformation requires both courage and vision. OKRs serve as the compass, guiding you through uncharted waters, ensuring alignment, fostering engagement, and promoting adaptability. Ready to delve deeper? Explore the articles above and kickstart your transformational journey.
+{{< /panel >}}
+
+{{< panel page="/transformation/okrs-vs-performance-management" float=right relativewidth=30 >}}
+
+### Performance management
+
+Embarking on an organizational transformation demands courage, vision and clarity.
+
+Every individual deserves to have clarity regarding the following three key questions:
+
+1. What do you expect from me?
+2. How do you see my performance relative to these  expectations?
+3. What does my future hold?
+
+While OKRs answer the first question, number two and three are at best answered partially by OKRs and belong to the [separate realm of performance management](transformation/okrs-vs-performance-management).
+
+{{< /panel >}}
+
+OKRs act as your compass, guiding you through unfamiliar territory, ensuring alignment and promoting adaptability. Ready for deeper insights? Explore the articles above and begin your transformation journey.

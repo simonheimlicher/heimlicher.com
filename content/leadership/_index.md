@@ -15,8 +15,25 @@ subtitle: Lessons from Netflix and the USS Santa Fe
 title: From followers to leaders
 weight: 100
 ---
+If you think that a leader is responsible to motivate their team and that empowerment is the way to accomplish this, you are not alone
 
-In the dynamic world of business, finding the right leadership style can be a herculean task. But when we, as leaders, succeed in doing so, the rewards are immense.
+Most leaders in large organizationas formed their perspective of what entails great leadership from their own experience. And they pride themselves in all the ways that they act differently when finally leading a team on their own. 
+
+Unfortunately, this approach to improve over what one has experienced based on one's own preferences is a very local perspective.
+
+I like to characterize leaders based on three aspects they need to address: 
+
+* **Problems:** every human being has to overcome actual problems, be it to hang a picture in the wall or to build re-usable rockets.
+* **Systems:** as soon as more than one person is involved in solving a single problem, interactions are required.
+* **Human:** whether we like to admit it or not, every problem we approach, we approach as a complete human being. How we hammer that nail into the wall or what idea we attempt next to land that rocket coming back from space: our human nature influences our thoughts and thus our actions.
+
+As a leader, I feel responsible for all three layers. However, leadership literature focuses on the human aspect – and with good reason. 
+
+The highest calling for leaders is to be *transformative*. A metaphor to illustrate this is the transformation of a caterpillar into a beautiful butterfly: a butterfly is not only entirely different from a caterpillar – what is key is that there is *no going back:* a butterfly remains a butterfly and will never live in the shape of a caterpillar again.
+
+To be transformative, then, a leader needs to accomplish change that not only lasts after they leave the room or go on vacation.  No, the transformation needs to change the team in such a way that it can no longer fall back to who it was before. And while cultural change plays an important role, it is only one side of the coin. On the other side are the systems that form the backbone of lasting change.
+
+In that sense, the goal of any leader must be to shape the backbone and grow the culture into a *learning organization*. Only then has their leadership been transformational.
 
 Let's turn our attention to two remarkable leadership models: one from the realms of Silicon Valley and the other from the deck of a nuclear-powered submarine.
 
