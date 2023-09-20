@@ -1,11 +1,11 @@
 ---
-title: Das Schiff wenden!
-subtitle: Aus Anhängern Führungskräfte machen
+title: Reiß das Ruder rum!
+subtitle: Wie Mitarbeitende zu Mitgestaltenden werden
 supertitle: Ein Buch von L. David Marquet
 categories:
 - Buch
 date: 2021-09-09T13:27:52Z
-description: Wie L. David Marquet die absichtsbasierte Führung, ein Paradigma zur Umwandlung von Anhängern in Führungskräfte auf einem US-U-Boot umgesetzt hat
+description: "Absichtsbasierte Führung: Wie Capt. L. David Marquet auf einem US-U-Boot ein neues Paradigma entwickelte, um Mitarbeitende in Mitgestaltende zu verwandeln"
 featured: false
 image:
   feature:
@@ -15,10 +15,10 @@ image:
     resource: images/ballistic_nuclear_missile_submarine_los_angeles_class_SSN-755
     title: Ballistisches Nuklear-U-Boot der Los Angeles-Klasse (SSN 755)
   excerpt:
-    alt: Umschlag des Buches "Das Schiff wenden!" von L. David Marquet
+    alt: Umschlag des Buches "Reiß das Ruder rum!" von L. David Marquet
     position: center 50%
     resource: images/turn-the-ship-around-l-david-marquet-excerpt
-    title: '"Das Schiff wenden!" von L. David Marquet'
+    title: '"Reiß das Ruder rum!" von L. David Marquet'
 series:
 - Culture
 tags:
@@ -26,9 +26,9 @@ tags:
 - Talent
 ---
 
-In seinem hochgelobten Buch schildert L. David Marquet autobiografisch seinen Weg von einer Führungskraft, die Anhänger führt, zu einer, die mehr *Führungskräfte* schafft.
+In seinem hochgelobten Buch schildert L. David Marquet autobiografisch seinen Weg von einer Führungskraft, die Mitarbeitende führt, zu einer, die mehr *Mitgestaltende* schafft.
 
-Das Buch [Das Schiff wenden!](https://www.amazon.com/gp/product/1591846404?ie=UTF8&tag=shzq-20&camp=1789&linkCode=xm2&creativeASIN=1591846404 'Affiliate-Link zum Kauf des Buches bei Amazon') ist es wert, von Anfang bis Ende gelesen zu werden. Obwohl es ein breites Spektrum abdeckt und das Thema gekonnt darstellt, gibt es eine Sequenz, die das gesamte Problem zusammenfasst, welches mit dem im Buch vorgestellten Ansatz der [absichtsbasierten Führung](https://intentbasedleadership.com/ 'L. David Marquets Webseite zur absichtsbasierten Führung') behandelt wird:
+Das Buch [Reiß das Ruder rum!](https://www.amazon.com/gp/product/1591846404?ie=UTF8&tag=shzq-20&camp=1789&linkCode=xm2&creativeASIN=1591846404 'Affiliate-Link zum Kauf des Buches bei Amazon') ist es wert, von Anfang bis Ende gelesen zu werden. Obwohl es ein breites Spektrum abdeckt und das Thema gekonnt darstellt, gibt es eine Sequenz, die das gesamte Problem zusammenfasst, welches mit dem im Buch vorgestellten Ansatz der [absichtsbasierten Führung](https://intentbasedleadership.com/ 'L. David Marquets Webseite zur absichtsbasierten Führung') behandelt wird:
 
 > Der Kapitän befahl: "Vorwärts zwei Drittel." Der Offizier an Deck wiederholte den Befehl: "Vorwärts zwei Drittel."
 >
@@ -38,13 +38,13 @@ Das Buch [Das Schiff wenden!](https://www.amazon.com/gp/product/1591846404?ie=UT
 >
 > David erkannte, dass in einer Umgebung mit Anführer und Anhänger seine Crew alles tun würde, was er sagte – selbst wenn es falsch war.
 
-In "Das Schiff wenden!” teilt Marquet seine Erfahrungen als U-Boot-Kapitän und die transformativen Führungsprinzipien, die er während seiner Zeit als Kommandant der USS Santa Fe angewandt hat. Er erkannte, dass das traditionelle Modell von Anführer und Anhänger nicht effektiv war in Situationen, in denen schnelle und genaue Entscheidungsfindung entscheidend war. Stattdessen musste er eine Umgebung schaffen, in der sich jedes Crewmitglied ermächtigt fühlte, Verantwortung zu übernehmen und Entscheidungen zu treffen, die der Gesamtmission zugutekommen würden. Diese Denkweise führte zur Entwicklung des Ansatzes der absichtsbasierten Führung.
+In "Reiß das Ruder rum!” teilt Marquet seine Erfahrungen als U-Boot-Kapitän und die transformativen Führungsprinzipien, die er während seiner Zeit als Kommandant der USS Santa Fe angewandt hat. Er erkannte, dass das traditionelle Modell von Anführer und Anhänger nicht effektiv war in Situationen, in denen schnelle und genaue Entscheidungsfindung entscheidend war. Stattdessen musste er eine Umgebung schaffen, in der sich jedes Crewmitglied ermächtigt fühlte, Verantwortung zu übernehmen und Entscheidungen zu treffen, die der Gesamtmission zugutekommen würden. Diese Denkweise führte zur Entwicklung des Ansatzes der absichtsbasierten Führung.
 
-{{< responsive-image resource=images/turn-the-ship-around-l-david-marquet-cover alt="Umschlag des Buches 'Das Schiff wenden!' von L. David Marquet" title="Das Schiff wenden! von L. David Marquet" float=right relative-width="40" >}}
+{{< responsive-image resource=images/turn-the-ship-around-l-david-marquet-cover alt="Umschlag des Buches 'Reiß das Ruder rum!' von L. David Marquet" title="Reiß das Ruder rum! von L. David Marquet" float=right relative-width="40" >}}
 
 ## Absichtsbasierte Führung annehmen
 
-In seinem weit verbreiteten Buch beschreibt L. David Marquet autobiografisch seinen Weg von einer Führungskraft, die Anhänger führt, zu einer, die mehr Führungskräfte schafft. "Das Schiff wenden!" dient als mächtige Erinnerung an das Potenzial, das in jedem Einzelnen steckt, und an die unglaubliche Wirkung, die erzielt werden kann, wenn Führungskräfte sich darauf konzentrieren, dieses Potenzial freizusetzen.
+In seinem weit verbreiteten Buch beschreibt L. David Marquet autobiografisch seinen Weg von einer Führungskraft, die Anhänger führt, zu einer, die mehr Führungskräfte schafft. "Reiß das Ruder rum!" dient als mächtige Erinnerung an das Potenzial, das in jedem Einzelnen steckt, und an die unglaubliche Wirkung, die erzielt werden kann, wenn Führungskräfte sich darauf konzentrieren, dieses Potenzial freizusetzen.
 
 ## Das Problem mit traditionellen Führungsmodellen
 
@@ -60,7 +60,7 @@ Traditionelle Modelle von Anführer und Anhänger basieren oft auf einer hierarc
 
 ## Schlussfolgerung
 
-"Das Schiff wenden!" von L. David Marquet bietet eine tiefgreifende und transformative Sicht auf Führung und Organisation. Es ist ein Muss für alle, die die Art und Weise, wie sie führen und arbeiten, überdenken möchten.
+"Reiß das Ruder rum!" von L. David Marquet bietet eine tiefgreifende und transformative Sicht auf Führung und Organisation. Es ist ein Muss für alle, die die Art und Weise, wie sie führen und arbeiten, überdenken möchten.
 
 ----
 Bildquelle: [Wikipedia](https://en.wikipedia.org/wiki/Columbia-class_submarine)

@@ -52,7 +52,7 @@ keywords:
   - heimlicher
   - professional website
   - blog
-lastmod: 2023-05-11T16:07:20.043Z
+lastmod: 2023-09-20
 aliases:
   - /home/
   - /archive/

@@ -50,7 +50,7 @@ keywords:
   - heimlicher
   - professionelle website
   - blog
-lastmod: 2023-09-09T07:52:01Z
+lastmod: 2023-09-20
 subtitle: Leadership und Organisations&shy;entwicklung
 title: Simon Heimlicher
 ---
@@ -61,11 +61,11 @@ title: Simon Heimlicher
 
 Das Dilemma des Wachstums als Führungskraft liegt darin, dass es eine überwältigende Menge an Literatur, Bildung und Tipps gibt – und doch verlassen wir uns bei der Eingliederung und Anwendung neuer Einsichten auf unsere persönliche Erfahrung und Beurteilung. Tatsächlich entwickeln Führungskräfte ihre Ansichten über effektive Führung auf der Grundlage dessen, wie sie sich fühlten, als sie geführt wurden, und tun dann entweder das Gleiche oder das genaue Gegenteil.{{% /lede-initial %}}
 
-{{< panel page="/fuehrung/auswirkungen-fuehrungsstile-organisationsleistung" float=right relativewidth=30 >}}
+{{< panel page="/leadership/impact-leadership-style-organizational-performance" float=right relativewidth=30 >}}
 
 Jedoch ist diese Methode des Wachstums begrenzt durch die Vielfalt und Qualität der Führung, der die Führungskraft ausgesetzt ist, und Organisationen neigen dazu, sich in einer Schleife zu verfangen.
 
-Zum Beispiel, sobald eine Führungskraft als *Mikromanager* abgestempelt wird, zögert sie vielleicht, die Mitglieder ihres Teams zur Rechenschaft zu ziehen. Wenn ein Mitglied ihres Teams selbst eine Führungskraft wird, wird es versuchen, dieses Etikett zu vermeiden. Diese Zyklen kristallisieren sich zu erkennbaren Mustern oder [Führungsstilen heraus und beeinflussen die Leistung von Organisationen](fuehrung/auswirkungen-fuehrungsstile-organisationsleistung).
+Zum Beispiel, sobald eine Führungskraft als *Mikromanager* abgestempelt wird, zögert sie vielleicht, die Mitglieder ihres Teams zur Rechenschaft zu ziehen. Wenn ein Mitglied ihres Teams selbst eine Führungskraft wird, wird es versuchen, dieses Etikett zu vermeiden. Diese Zyklen kristallisieren sich zu erkennbaren Mustern oder [Führungsstilen heraus und beeinflussen die Leistung von Organisationen](leadership/impact-leadership-style-organizational-performance).
 
 {{< /panel >}}
 
@@ -123,7 +123,7 @@ Auch wenn Sie sich bereits mit OKRs befasst haben, lade ich Sie ein, einen frisc
 
 {{< /panel >}}
 
-{{< panel page="/transformation/okrs-vs-leistungsmanagement" float=right relativewidth=30 >}}
+{{< panel page="/transformation/okrs-vs-performance-management" float=right relativewidth=30 >}}
 
 ### Leistungsmanagement
 

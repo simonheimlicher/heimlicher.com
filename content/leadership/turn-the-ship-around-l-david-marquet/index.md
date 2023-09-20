@@ -8,9 +8,7 @@ aliases:
 categories:
 - Book
 date: 2021-06-07T23:27:52+0200
-description: Intent-Based Leadership, a paradigm for turning followers into leaders
-  – and this book lays out its application on a US submarine in an  auto-biographic
-  nature
+description: "Intent-Based Leadership: how Capt. L. David Marquet developed this leadership paradigm to turn followers into leaders aboard a US submarine"
 featured: false
 image:
   feature:
