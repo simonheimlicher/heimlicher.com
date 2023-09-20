@@ -29,7 +29,7 @@ series:
 - OKR
 ---
 
-Die moderne Geschäftslandschaft entwickelt sich ständig weiter. Der Katalysator? Ein dynamischer globaler Markt. Jetzt, mehr denn je, muss Ihre Organisation agil bleiben. Für Führungskräfte bedeutet dies, die Lücke zwischen individueller Leistung und organisatorischem Erfolg zu schliessen. Hier erfahren Sie, wie die Kraft von Objectives and Key Results (OKRs) diese Reise neu definieren kann.
+Die moderne Geschäftswelt entwickelt sich ständig weiter. Der Katalysator? Ein dynamischer globaler Markt. Jetzt, mehr denn je, muss Ihre Organisation agil bleiben. Für Führungskräfte bedeutet dies, die Lücke zwischen individueller Leistung und organisatorischem Erfolg zu schliessen. Hier erfahren Sie, wie die Kraft von Objectives and Key Results (OKRs) diese Reise neu definieren kann.
 
 Im Kern konzentriert sich das Leistungsmanagement auf Einzelpersonen. Es geht darum sicherzustellen, dass jedes Teammitglied seine persönlichen Ziele verfolgt und zum übergeordneten Erfolg der Organisation beiträgt. Aktivitäten wie Erwartungen setzen, Fortschritte überwachen und Feedback geben fallen darunter. Sie pflegen im Wesentlichen Ihre menschlichen Ressourcen.
 

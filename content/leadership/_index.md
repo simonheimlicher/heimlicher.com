@@ -15,9 +15,10 @@ subtitle: Lessons from Netflix and the USS Santa Fe
 title: From followers to leaders
 weight: 100
 ---
-If you think that a leader is responsible to motivate their team and that empowerment is the way to accomplish this, you are not alone
 
-Most leaders in large organizationas formed their perspective of what entails great leadership from their own experience. And they pride themselves in all the ways that they act differently when finally leading a team on their own. 
+If you think that a leader is responsible to motivate their team and that empowerment of subordinates is the modern way to accomplish this, you are not alone
+
+Most leaders in large organizationas formed their perspective of what entails great leadership from their own experience. And they pride themselves in all the ways that they act differently when finally leading a team on their own.
 
 Unfortunately, this approach to improve over what one has experienced based on one's own preferences is a very local perspective.
 
@@ -28,6 +29,8 @@ I like to characterize leaders based on three aspects they need to address:
 * **Human:** whether we like to admit it or not, every problem we approach, we approach as a complete human being. How we hammer that nail into the wall or what idea we attempt next to land that rocket coming back from space: our human nature influences our thoughts and thus our actions.
 
 As a leader, I feel responsible for all three layers. However, leadership literature focuses on the human aspect – and with good reason. 
+
+{{< content-excerpt page="impact-leadership-style-organizational-performance/" float=right relativewidth=40 >}}
 
 The highest calling for leaders is to be *transformative*. A metaphor to illustrate this is the transformation of a caterpillar into a beautiful butterfly: a butterfly is not only entirely different from a caterpillar – what is key is that there is *no going back:* a butterfly remains a butterfly and will never live in the shape of a caterpillar again.
 

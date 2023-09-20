@@ -60,21 +60,27 @@ aliases:
 
 ## Leadership
 
-{{% lede-initial %}}Great leaders are not born — they are shaped by the challenges they face and grow thanks to the insights they gain. While the challenges show up all by themselves, insights can be acquired deliberately.
+{{% lede-initial %}}Great leaders are not born — they are shaped by the challenges they face and grow thanks to the insights they gain. While the challenges show up themselves, insights must be acquired deliberately.
 
-If you think that a leader's role is to motivate their team and that empowerment is the key, you're not alone. Most leaders in large organizations develop their views on effective leadership based on personal experience. These leaders often pride themselves on how they act differently when in a leadership position.{{% /lede-initial %}}
+The crux with growing as a leader is that there is an overwhelming amount of literature, education and tips – yet when it comes to incorporating and applying new insights, we rely on our personal experience and judgment. Indeed, leaders develop their views on effective leadership based on how they felt when they were led and then either do the same thing or the polar opposite.{{% /lede-initial %}}
 
-However, this method of growth is limited to the leader's exposure, and there is a tendency to get stuck in a loop.
+{{< panel page="/leadership/impact-leadership-style-organizational-performance" float=right relativewidth=30 >}}
+
+However, this method of growth is limited to the diversity and quality of leadership the leader is exposed to, and there is a tendency for organizations to get stuck in a loop. 
+
+For example, once a leader is labeled a *micromanager*, they might become hesitant to hold the members of their team to account. Once a member of their team is a leader themselves, they will strive to avoid this label. These cycles crystallize into recognizable patterns, or [leadership styles, and impact the performance of organizations](leadership/impact-leadership-style-organizational-performance).
+
+{{< /panel >}}
 
 Broadening our perspectives to include leaders in vastly different environments can accelerate our growth and introduce us to alternative approaches to leadership.
 
-Two models of leadership I find effective are **intent-based leadership** and **leadership based on freedom and responsibility**. Both challenge traditional paradigms.
+Two models of leadership I find effective are *intent-based leadership* and *leadership based on freedom and responsibility* and challenge traditional paradigms.
 
-### Intent-based leadership: empowering team members
+{{< panel page="/leadership/turn-the-ship-around-l-david-marquet" float=left relativewidth=30 >}}
 
-L. David Marquet brought forth a leadership model that moves away from the traditional leader-follower dynamic. In a high-pressure submarine environment, he found that empowering each team member to take responsibility led to enhanced performance.
+### Intent-based leadership: giving control rather than taking control
 
-{{< panel page="/leadership/turn-the-ship-around-l-david-marquet" float=right relativewidth=30 >}}
+L. David Marquet brought forth a leadership model that moves away from the traditional leader-follower dynamic. In the high-pressure environment of a submarine, he felt incredibly exposed to the skills but also the way his fellow crew members employed – or ignored – these skills aboard the USS Santa Fe.
 
 In his [book *Turn the Ship Around!*](leadership/turn-the-ship-around-l-david-marquet), Marquet reveals how giving control, rather than taking it, and focusing on competence and clarity can unlock individual potential. This fosters a culture of continuous learning and improvement.
 
@@ -84,13 +90,13 @@ Dive deeper into these transformative ideas with practical tools and techniques 
 
 {{< panel page="/leadership/powerful-patty-mccord" float=right relativewidth=30 >}}
 
-### Leadership based on freedom and responsibility: unlocking adult potential
+### Leadership based on freedom and responsibility: unlocking the potential of powerful adults
 
-From Netflix's journey, we learn the importance of treating employees as empowered adults. In her [book *Powerful*](leadership/powerful-patty-mccord), Patty McCord discusses how a culture based on trust and responsibility can lead to astonishing results.
+From Netflix's journey, we learn the importance of treating employees as powerful adults. In her [book *Powerful*](leadership/powerful-patty-mccord), Patty McCord discusses how a culture based on freedom and responsibility can yield astonishing results.
 
-In particular, McCord walks us through Netflix's radical corporate culture, emphasizing transparency, open communication, and shared goals.
+In particular, McCord walks us through Netflix's radical corporate culture, emphasizing the fact that people do not need to be empowered. All an organization needs to do is to *stop seizing power* from the people they hire.
 
-Discover more about building trust and autonomy in the workplace and how feedback plays a critical role.
+Discover more about building trust and autonomy in the workplace and what a critical role *open and honest feedback* plays at Netflix.
 
 {{< /panel >}}
 
@@ -98,15 +104,15 @@ Discover more about building trust and autonomy in the workplace and how feedbac
 
 {{% lede-initial %}}What sets great organizations apart? The ability to focus, align and boldly move toward their goals.
 
-The operative words here are *focus* and *goals*. I have yet to see an organization whose leaders think that they lack goals or a strategy. What is rare, though, are organizations that achieve their goals and realize the benefits promised by their strategy. {{% /lede-initial %}}
+The operative words here are *focus* and *goals*. I have yet to see an organization whose leaders think that they lack goals or a strategy. What is rare, though, are organizations that achieve their goals and realize the benefits promised by their strategy. To evaluate whether the promised impact has been achieved exceeds the capacity of most organizations, as their focus is already on the projects that have been launched by promising even more benefits.{{% /lede-initial %}}
 
-{{< panel page="/transformation/how-objectives-key-results-facilitate-transformation" float=right relativewidth=30 >}}
+{{< panel page="/transformation/how-objectives-key-results-facilitate-transformation" float=left relativewidth=30 >}}
 
 ### Achieving the benefits promised by strategy
 
-In the modern business landscape, strategic choices are crucial. Deciding, what to do is easy. What is hard is to decide, what *not* to do. 
+In the modern business landscape, strategic choices are crucial. Deciding, what to do is easy. What is hard is to decide, what *not* to do.
 
-I have seen first hand, how [OKRs facilitate strategic choices at all levels of the organization](transformation/how-objectives-key-results-facilitate-transformation) in full alignment with the organization's strategy.
+I have seen firsthand, how [OKRs facilitate strategic choices at all levels of the organization](transformation/how-objectives-key-results-facilitate-transformation) in full alignment with the organization's strategy.
 
 {{< /panel >}}
 
@@ -132,7 +138,7 @@ Every individual deserves to have clarity regarding the following three key ques
 2. How do you see my performance relative to these  expectations?
 3. What does my future hold?
 
-While OKRs answer the first question, number two and three are at best answered partially by OKRs and belong to the [separate realm of performance management](transformation/okrs-vs-performance-management).
+While OKRs answer the first question, numbers two and three are at best answered partially by OKRs and belong to the [separate realm of performance management](transformation/okrs-vs-performance-management).
 
 {{< /panel >}}
 
