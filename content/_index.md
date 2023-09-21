@@ -82,7 +82,7 @@ Two models of leadership I find effective are *intent-based leadership* and *lea
 
 L. David Marquet brought forth a leadership model that moves away from the traditional leader-follower dynamic. In the high-pressure environment of a submarine, he felt incredibly exposed to the skills but also the way his fellow crew members employed – or ignored – these skills aboard the USS Santa Fe.
 
-In his [book *Turn the Ship Around!*](leadership/turn-the-ship-around-l-david-marquet), Marquet reveals how giving control, rather than taking it, and focusing on competence and clarity can unlock individual potential. This fosters a culture of continuous learning and improvement.
+In his book [*Turn the Ship Around!*](leadership/turn-the-ship-around-l-david-marquet), Marquet reveals how giving control, rather than taking it, and focusing on competence and clarity can unlock individual potential. This fosters a culture of continuous learning and improvement.
 
 Dive deeper into these transformative ideas with practical tools and techniques for implementing intent-based leadership.
 
@@ -92,7 +92,7 @@ Dive deeper into these transformative ideas with practical tools and techniques 
 
 ### Leadership based on freedom and responsibility: unlocking the potential of powerful adults
 
-From Netflix's journey, we learn the importance of treating employees as powerful adults. In her [book *Powerful*](leadership/powerful-patty-mccord), Patty McCord discusses how a culture based on freedom and responsibility can yield astonishing results.
+From Netflix's journey, we learn the importance of treating employees as powerful adults. In her book [*Powerful*](leadership/powerful-patty-mccord), Patty McCord discusses how a culture based on freedom and responsibility can yield astonishing results.
 
 In particular, McCord walks us through Netflix's radical corporate culture, emphasizing the fact that people do not need to be empowered. All an organization needs to do is to *stop seizing power* from the people they hire.
 
@@ -112,7 +112,7 @@ The operative words here are *focus* and *goals*. I have yet to see an organizat
 
 In the modern business landscape, strategic choices are crucial. Deciding, what to do is easy. What is hard is to decide, what *not* to do.
 
-I have seen firsthand, how [OKRs facilitate strategic choices at all levels of the organization](transformation/how-objectives-key-results-facilitate-transformation) in full alignment with the organization's strategy.
+In my experience, Objectives and Key Results (OKRs) are a powerful tool to facilitate [choices coherent with the strategy at all levels of the organization](transformation/how-objectives-key-results-facilitate-transformation).
 
 {{< /panel >}}
 
@@ -120,7 +120,7 @@ I have seen firsthand, how [OKRs facilitate strategic choices at all levels of t
 
 ### Employee engagement
 
-Objectives and Key Results (OKRs) have been successfully implemented by tech industry giants like Google, LinkedIn, and Twitter. But you probably already knew that. 
+Objectives and Key Results (OKRs) have been successfully implemented by tech industry giants like Google, LinkedIn, and Twitter. But you probably already knew that.
 
 Even if you have looked at OKRs before, I invite you to take a fresh perspective and as I want to share with you, how [OKRs fuel employee engagement](transformation/why-okr-objectives-key-results-already-have-goals).
 

@@ -79,7 +79,7 @@ Zwei Modelle der Führung, die ich als effektiv erachte, sind *Absichtsbasierte 
 
 L. David Marquet präsentierte ein Führungsmodell, das sich von der traditionellen Führer-Gefolgschaft-Dynamik löst. In der Hochdruckumgebung eines U-Boots fühlte er sich den Fähigkeiten seiner Crew extrem ausgesetzt, aber auch der Art und Weise, wie diese Fähigkeiten an Bord der USS Santa Fe eingesetzt – oder ignoriert – wurden.
 
-In seinem [Buch *Das Schiff drehen!*](leadership/turn-the-ship-around-l-david-marquet) offenbart Marquet, wie das Geben von Kontrolle, statt ihrer Übernahme, und die Fokussierung auf Kompetenz und Klarheit das individuelle Potenzial freisetzen können. Dies fördert eine Kultur des kontinuierlichen Lernens und der Verbesserung.
+In seinem Buch [*Reiß das Ruder rum!*](leadership/turn-the-ship-around-l-david-marquet) offenbart Marquet, wie das Geben von Kontrolle, statt ihrer Übernahme, und die Fokussierung auf Kompetenz und Klarheit das individuelle Potenzial freisetzen können. Dies fördert eine Kultur des kontinuierlichen Lernens und der Verbesserung.
 
 Tauchen Sie tiefer in diese transformativen Ideen ein mit praktischen Werkzeugen und Techniken zur Umsetzung der absichtsbasierten Führung.
 
@@ -89,7 +89,7 @@ Tauchen Sie tiefer in diese transformativen Ideen ein mit praktischen Werkzeugen
 
 ### Führung basierend auf Freiheit und Verantwortung: Das Potenzial von mächtigen Erwachsenen freisetzen
 
-Aus der Reise von Netflix lernen wir die Bedeutung der Behandlung von Mitarbeitern als mächtige Erwachsene. In ihrem [Buch *Powerful*](leadership/powerful-patty-mccord) diskutiert Patty McCord, wie eine Kultur basierend auf Freiheit und Verantwortung erstaunliche Ergebnisse erzielen kann.
+Aus der Reise von Netflix lernen wir die Bedeutung der Behandlung von Mitarbeitern als mächtige Erwachsene. In ihrem Buch [*Powerful*](leadership/powerful-patty-mccord) diskutiert Patty McCord, wie eine Kultur basierend auf Freiheit und Verantwortung erstaunliche Ergebnisse erzielen kann.
 
 Insbesondere führt uns McCord durch die radikale Unternehmenskultur von Netflix und betont, dass Menschen nicht ermächtigt werden müssen. Alles, was eine Organisation tun muss, ist, die *Macht nicht von den Menschen, die sie einstellen, zu nehmen*.
 
@@ -109,7 +109,7 @@ Die Schlüsselwörter hier sind *Fokus* und *Ziele*. Ich habe noch keine Organis
 
 In der modernen Geschäftswelt sind strategische Entscheidungen entscheidend. Zu entscheiden, was zu tun ist, ist einfach. Schwierig ist es zu entscheiden, was *nicht* zu tun ist.
 
-Ich habe aus erster Hand erlebt, wie [Ziele und Schlüsselergebnisse (OKRs) strategische Entscheidungen auf allen Ebenen der Organisation ermöglichen](transformation/how-objectives-key-results-facilitate-transformation), die mit der Strategie der Organisation übereinstimmen.
+In meiner Erfahrung sind Objectives and Key Results (OKRs) ein probates Werkzeug, um auf allen Ebenen der Organisation [Entscheidungen in Übereinstimmung mit der Strategie zu treffen](transformation/how-objectives-key-results-facilitate-transformation).
 
 {{< /panel >}}
 
@@ -117,7 +117,7 @@ Ich habe aus erster Hand erlebt, wie [Ziele und Schlüsselergebnisse (OKRs) stra
 
 ### Mitarbeiterengagement
 
-Ziele und Schlüsselergebnisse (OKRs) wurden erfolgreich von Technologiegiganten wie Google, LinkedIn und Twitter implementiert. Aber das wussten Sie wahrscheinlich bereits.
+Objectives and Key Results (OKRs) wurden erfolgreich von Technologiegiganten wie Google, LinkedIn und Twitter implementiert. Aber das wussten Sie wahrscheinlich bereits.
 
 Auch wenn Sie sich bereits mit OKRs befasst haben, lade ich Sie ein, einen frischen Blick darauf zu werfen, da ich Ihnen zeigen möchte, wie [OKRs das Mitarbeiterengagement befeuern](transformation/why-okr-objectives-key-results-already-have-goals).
 

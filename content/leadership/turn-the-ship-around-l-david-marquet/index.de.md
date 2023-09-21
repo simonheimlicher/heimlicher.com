@@ -3,17 +3,17 @@ title: Reiß das Ruder rum!
 subtitle: Wie Mitarbeitende zu Mitgestaltenden werden
 supertitle: Ein Buch von L. David Marquet
 categories:
-- Buch
+- Book
 date: 2021-09-09T13:27:52Z
 description: "Absichtsbasierte Führung: Wie Capt. L. David Marquet auf einem US-U-Boot ein neues Paradigma entwickelte, um Mitarbeitende in Mitgestaltende zu verwandeln"
 featured: false
 image:
   feature:
-    alt: Photo eines ballistischen nuklearen U-Bootes der Los Angeles-Klasse (SSN 755)
+    alt: Photo eines Atom-U-Bootes der Los Angeles-Klasse (SSN 755)
     position: center 50%
     # resource: images/turn-the-ship-around-l-david-marquet-feature
     resource: images/ballistic_nuclear_missile_submarine_los_angeles_class_SSN-755
-    title: Ballistisches Nuklear-U-Boot der Los Angeles-Klasse (SSN 755)
+    title: Atom-U-Boot der Los Angeles-Klasse (SSN 755)
   excerpt:
     alt: Umschlag des Buches "Reiß das Ruder rum!" von L. David Marquet
     position: center 50%

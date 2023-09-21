@@ -10,7 +10,6 @@ date: "2021-10-15"
 description: Schlüsselerkenntnisse aus dem Buch Powerful über die Netflix-Kultur aus
   Perspektive von Patty McCord, welche als Chief Talent Officer von Anfang an dabei
   war.
-draft: false
 featured: false
 image:
   excerpt:
