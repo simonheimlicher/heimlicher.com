@@ -3,10 +3,12 @@ aliases:
 - /hints/macosx/cisco_vpn/
 - /articles/cisco-vpn/
 - /articles/cisco-vpn-save-password-macos/
-bestbefore: "2016-03-17"
+# Article has been updated to indicate its end of life
+bestBefore: "9999-07-26"
 categories:
 - macOS
-date: "2011-03-17T10:07:48Z"
+date: "2011-03-17"
+lastmod:  "2016-03-17"
 disqusurl: https://simon.heimlicher.com/articles/2011/03/17/cisco-vpn
 slug: cisco-vpn-save-password-macos
 summary: 'Snow Leopard brought built-in support for Cisco VPN over TCP (but not over
@@ -17,6 +19,10 @@ tags:
 - macOS
 title: Save Password of Cisco VPN in Mac OS X 10.6
 ---
+
+{{% note important %}}
+This hint only applies to versions of Mac OS X up to version 10.8 Mountain Lion.
+{{% /note %}}
 
 Snow Leopard brought built-in support for Cisco VPN over TCP (but not over UDP). However, as of 10.6.6, there is still one issue: While the password can be saved in the keychain, the daemon `configd` is not granted access, causing the user to be bothered to enter the password every time upon initiating a connection.
 

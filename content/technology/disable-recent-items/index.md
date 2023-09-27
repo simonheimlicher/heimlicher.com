@@ -2,10 +2,12 @@
 aliases:
 - /hints/macosx/disable_recent_items/
 - /articles/disable-recent-items/
-bestBefore: "2016-07-26"
+# Article has been updated to indicate its end of life
+bestBefore: "9999-07-26"
 categories:
 - macOS
-date: "2011-07-26T13:16:58Z"
+date: "2011-07-26"
+lastmod: "2016-07-26"
 disqusurl: https://simon.heimlicher.com/articles/2011/07/26/disable-recent-items
 slug: disable-recent-items
 summary: Mac OS X Lion lists recent items with each application in the Dock (accessible
@@ -14,8 +16,12 @@ summary: Mac OS X Lion lists recent items with each application in the Dock (acc
   most — but not all — applications
 tags:
 - macOS
-title: Clear and disable recent items in macOS dock and applications
+title: Clear and disable recent items in OS X dock and applications
 ---
+
+{{% note important %}}
+This hint only applies to versions of Mac OS X up to version 10.8 Mountain Lion.
+{{% /note %}}
 
 Mac OS X Lion lists recent items with each application in the Dock (accessible via right-click) and in the *Application View* of Mission Control. To remove those and disable future additions, the trusty `defaults write` approach may help with most — but not all — applications. 
 
