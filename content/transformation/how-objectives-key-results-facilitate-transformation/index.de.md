@@ -11,10 +11,10 @@ image:
     position: center 70%
     resource: images/temperature-gauge-feature
     alt: Foto eines Temperaturmessgeräts
-    title: Messen Sie den Fortschritt Ihrer organisatorischen Transformation mit Objectives and Key Results (OKR)
+    title: Verfolgen Sie den Fortschritt Ihrer organisatorischen Transformation mit Objectives and Key Results (OKR)
     credit: 'Foto von <a href="https://unsplash.com/@paoalchapar?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniela Paola Alchapar</a> auf <a href="https://unsplash.com/photos/6YpI5Hf5siI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
 aliases:
-- /transformation/organizational-transformation-objectives-key-results-okr-performance-management/
+- organizational-transformation-objectives-key-results-okr-performance-management
 keywords:
 - OKR
 - Leistungsmanagement

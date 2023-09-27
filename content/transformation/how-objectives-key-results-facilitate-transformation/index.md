@@ -14,7 +14,7 @@ image:
     title: Measure the progress of your organizational transformation using Objectives and Key Results (OKR)
     credit: 'Photo by <a href="https://unsplash.com/@paoalchapar?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniela Paola Alchapar</a> on <a href="https://unsplash.com/photos/6YpI5Hf5siI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
 aliases:
-- /transformation/organizational-transformation-objectives-key-results-okr-performance-management/
+- organizational-transformation-objectives-key-results-okr-performance-management
 keywords:
 - OKR
 - Performance management
