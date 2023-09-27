@@ -11,10 +11,10 @@ image:
     position: center 70%
     resource: images/temperature-gauge-feature
     alt: Foto eines Temperaturmessgeräts
-    title: Messen Sie den Fortschritt Ihrer organisatorischen Transformation mit Zielen und Schlüsselergebnissen (OKR)
+    title: Messen Sie den Fortschritt Ihrer organisatorischen Transformation mit Objectives and Key Results (OKR)
     credit: 'Foto von <a href="https://unsplash.com/@paoalchapar?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniela Paola Alchapar</a> auf <a href="https://unsplash.com/photos/6YpI5Hf5siI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
 aliases:
-- /transformation/organisatorische-transformation-zielen-schlüsselergebnissen-okr-leistungsmanagement/
+- /transformation/organizational-transformation-objectives-key-results-okr-performance-management/
 keywords:
 - OKR
 - Leistungsmanagement
@@ -57,9 +57,9 @@ Feedbackschleifen, gestützt durch offene Kommunikation, werden zu den Arterien 
 
 ## Effektive OKRs erstellen
 
-Ihre OKRs müssen mit dem Herzschlag der Organisation resonieren: ihren strategischen Zielen. Dies schärft nicht nur den Fokus, sondern kanalisiert auch Ressourcen optimal.
+Ihre OKRs müssen mit dem Herzschlag der Organisation übereinstimmen: ihren strategischen Zielen. Dies schärft nicht nur den Fokus, sondern kanalisiert auch Ressourcen optimal.
 
-Schlüsselergebnisse sollten klar, messbar und zeitgebunden sein. Sie dienen als Wegweiser und leiten die Teams zur Verwirklichung ihrer Ziele.
+Objectives sollten klar, messbar und zeitgebunden sein. Sie dienen als Wegweiser und leiten die Teams zur Verwirklichung ihrer Ziele.
 
 ### OKRs in Leistungsmanagement-Praktiken einbetten
 
