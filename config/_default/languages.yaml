@@ -8,8 +8,12 @@ de:
     # FIXME: _merge: deep is required to merge the configuration of
     # "markup.tableofContents"
     _merge: deep
-    # FIXME: _merge: deep does not seem sufficient to merge `tableOfContents`
+    # FIXME: _merge: deep does not seem sufficient to merge markup
     # in Hugo < 0.112 or so
+    goldmark:
+      renderer:
+        # change to false to disable inclusion of rawHTML and math functions
+        unsafe: true
     tableOfContents:
       ordered: false
       startLevel: 2

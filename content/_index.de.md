@@ -63,7 +63,7 @@ Das Dilemma des Wachstums als Führungskraft liegt darin, dass es eine überwäl
 
 {{< panel page="/leadership/impact-leadership-style-organizational-performance" float=right relativewidth=30 >}}
 
-Jedoch ist diese Methode des Wachstums begrenzt durch die Vielfalt und Qualität der Führung, der die Führungskraft ausgesetzt ist, und Organisationen neigen dazu, sich in einer Schleife zu verfangen.
+Diese Methode des Wachstums ist allerdings begrenzt durch die Vielfalt und Qualität der Führung, der die Führungskraft ausgesetzt ist, und Organisationen neigen dazu, sich in einer Schleife zu verfangen.
 
 Zum Beispiel, sobald eine Führungskraft als *Mikromanager* abgestempelt wird, zögert sie vielleicht, die Mitglieder ihres Teams zur Rechenschaft zu ziehen. Wenn ein Mitglied ihres Teams selbst eine Führungskraft wird, wird es versuchen, dieses Etikett zu vermeiden. Diese Zyklen kristallisieren sich zu erkennbaren Mustern oder [Führungsstilen heraus und beeinflussen die Leistung von Organisationen](leadership/impact-leadership-style-organizational-performance).
 
