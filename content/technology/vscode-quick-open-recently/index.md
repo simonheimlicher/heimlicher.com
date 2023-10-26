@@ -1,6 +1,6 @@
 ---
 categories:
-- VSCode
+- vscode
 date: "2023-09-09T08:12:30Z"
 description: VSCode allows opening recent files quickly but they are not ordered by recency. This setting changes that
 draft: false
@@ -8,8 +8,8 @@ featured: false
 image:
   feature: images/vscode-quick-open-settings-recency
 tags:
-- VSCode
-- Settings
+- vscode
+- settings
 title: "VSCode: Order files in Quick Open by recency"
 ---
 

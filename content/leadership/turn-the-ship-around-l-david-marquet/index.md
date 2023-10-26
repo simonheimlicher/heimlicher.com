@@ -6,7 +6,7 @@ aliases:
 - /articles/turn-the-ship-around/
 - /articles/turn-the-ship-around-l-david-marquet/
 categories:
-- Book
+- book
 date: 2021-06-07T23:27:52+0200
 description: "Intent-Based Leadership: how Capt. L. David Marquet developed this leadership paradigm to turn followers into leaders aboard a US submarine"
 featured: false
@@ -27,10 +27,10 @@ image:
     title: Turn the Ship Around! by L. David Marquet
 lastmod: 2023-04-24T23:27:52+0200
 series:
-- Culture
+- culture
 tags:
-- Leadership
-- Talent
+- leadership
+- talent
 ---
 
 In his widely acclaimed book, L. David Marquet outlines in an autobiographic way his path from a leader that leads followers to a leader that creates more *leaders.*

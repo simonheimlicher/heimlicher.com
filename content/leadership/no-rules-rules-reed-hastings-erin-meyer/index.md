@@ -1,6 +1,6 @@
 ---
 categories:
-- Book
+- book
 date: "2021-07-17"
 description: from the perspective of founder and CEO, Reed Hastings
 draft: true
@@ -13,12 +13,12 @@ image:
     title: No Rules Rules by Reed Hastings and Erin Meyer
 lastmod: "2021-07-17"
 series:
-- Culture
+- culture
 subtitle: A book by Reed Hastings and Erin Meyer
 supertitle: Book review
 tags:
-- Leadership
-- Talent
+- leadership
+- talent
 title: No Rules Rules
 ---
 

@@ -1,6 +1,6 @@
 ---
 categories:
-- Methodology
+- methodology
 date: "2021-07-02T07:22:52+02:00"
 description: OKRs have been invented at Intel in the seventies. Some fifty years later,
   even McKinsey has begun to disperse their wisdom on OKRs. But what are OKRs?
@@ -20,11 +20,11 @@ image:
     resource: images/hugo_theme_claris-thumbnail
 lastmod: "2021-07-02T07:22:52+02:00"
 series:
-- OKR
+- okr
 tags:
-- OKR
-- Talent
-- Performance
+- okr
+- talent
+- performance
 title: What are OKRs beyond goals and milestones?
 ---
 

@@ -1,6 +1,6 @@
 ---
 categories:
-- Methodology
+- methodology
 date: "2021-07-02T07:22:59+02:00"
 description: Article description.
 draft: true
@@ -19,11 +19,11 @@ image:
     resource: images/hugo_theme_claris-thumbnail
 lastmod: "2021-07-02T07:22:59+02:00"
 series:
-- OKR
+- okr
 tags:
-- OKR
-- Talent
-- Performance
+- okr
+- talent
+- performance
 title: How to implement Objectives and Key Results (OKR)
 ---
 

@@ -1,6 +1,6 @@
 ---
 categories:
-- Methodology
+- methodology
 date: "2020-05-10T08:39:01+02:00"
 description: OKRs (Objectives and Key Results) looks like yet another management way
   of goal setting. Yet, - used properly – OKRs provide clarity beyond all other frameworks
@@ -19,7 +19,7 @@ image:
   thumbnail:
     resource: images/hugo_theme_claris-thumbnail
 series:
-- OKR
+- okr
 summary: At first sight, the OKR (Objectives and Key Results) methodology may appear
   to be yet another management spiel on goal setting. Yet, given the complexity of
   layers upon layers of processes in play at large organizations, OKRs – used properly
@@ -27,7 +27,7 @@ summary: At first sight, the OKR (Objectives and Key Results) methodology may ap
 tags:
 - Project management
 - Product management
-- OKR
+- okr
 title: How OKRs play ball with project and product management
 ---
 

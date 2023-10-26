@@ -1,6 +1,6 @@
 ---
 categories:
-- Communication
+- communication
 date: "2008-01-03T11:52:29Z"
 disqusurl: https://simon.heimlicher.com/articles/2008/01/03/capitalization
 image:
@@ -16,7 +16,7 @@ summary: Preferences for capitalization vary between organizations and countries
   to summarize it for the benefit of others in their quest for a universal set of
   rules
 tags:
-- Communication
+- communication
 title: Gross-/Kleinschreibung in Englisch
 subtitle: Ein Überblick und Regeln
 ---

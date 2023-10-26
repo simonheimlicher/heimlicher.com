@@ -6,7 +6,7 @@ aliases:
 # Article has been updated to indicate its end of life
 bestBefore: "9999-07-26"
 categories:
-- macOS
+- macos
 date: "2011-03-17"
 lastmod:  "2016-03-17"
 disqusurl: https://simon.heimlicher.com/articles/2011/03/17/cisco-vpn
@@ -16,7 +16,7 @@ summary: 'Snow Leopard brought built-in support for Cisco VPN over TCP (but not 
   saved in the keychain, the daemon `configd` is not granted access, causing the user
   to be bothered to enter the password every time upon initiating a connection'
 tags:
-- macOS
+- macos
 title: Save Password of Cisco VPN in Mac OS X 10.6
 ---
 

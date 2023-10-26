@@ -4,7 +4,7 @@ aliases:
 - /articles/why-okr-objectives-key-results-already-have-goals/
 - /organizational-transformation/why-okr-objectives-key-results-already-have-goals/
 categories:
-- Methodology
+- methodology
 date: "2019-01-10T17:26:26+02:00"
 description: Do you need Objectives and Key Results (OKRs)? There is the most popular
   reason to use OKRs and then there is the one that may matter most to you.
@@ -19,11 +19,11 @@ image:
     credit: 'Photo by <a href="https://unsplash.com/@hjwinunsplsh">Jungwoo Hong</a> on <a href="https://unsplash.com/photos/cYUMaCqMYvI">Unsplash</a>'
 lastmod: "2023-03-20T10:49:25.667Z"
 series:
-- OKR
+- okr
 tags:
-- OKR
-- Talent
-- Performance
+- okr
+- talent
+- performance
 title: Why do we need OKRs? – we already have goals
 ---
 

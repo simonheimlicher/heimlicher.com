@@ -2,5 +2,5 @@
 aliases:
 - /categories/management/
 - /categories/leadership/
-title: Methodology
+title: methodology
 ---

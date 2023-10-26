@@ -1,6 +1,6 @@
 ---
 categories:
-- VSCode
+- vscode
 date: "2023-09-09T08:12:30Z"
 description: VSCode ermöglicht das schnelle Öffnen von kürzlich verwendeten Dateien, aber diese sind nicht nach Aktualität sortiert. Diese Einstellung ändert das.
 draft: false
@@ -8,8 +8,8 @@ featured: false
 image:
   feature: images/vscode-quick-open-settings-recency
 tags:
-- VSCode
-- Settings
+- vscode
+- settings
 title: "VSCode: Dateien im Schnellöffnen-Menü nach Aktualität sortieren"
 ---
 

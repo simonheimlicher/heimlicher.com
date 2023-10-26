@@ -4,5 +4,5 @@ aliases:
 - /tags/cleanup/
 - /tags/cisco/
 - /tags/vpn/
-title: macOS
+title: macos
 ---

@@ -1,6 +1,6 @@
 ---
 categories:
-- Hugo
+- hugo
 date: "2023-03-17T07:42:36+01:00"
 description: Hugo does not currently provide a function to obtain the current OutputFormat
   - this function provides the answer
@@ -10,9 +10,9 @@ image:
   feature: images/keith-misner-h0Vxgz5tyXA-unsplash.jpg
 lastmod: "2023-03-20T08:42:44.669Z"
 series:
-- Hugo snippets
+- hugo snippets
 tags:
-- Hugo partial
+- hugo partial
 title: Hugo function to obtain `OutputFormat` of current page context
 ---
 

@@ -1,6 +1,6 @@
 ---
 categories:
-- Culture
+- culture
 date: "2022-06-06T20:12:48+02:00"
 description: ""
 draft: true
@@ -19,10 +19,10 @@ image:
     resource: images/hugo_theme_claris-thumbnail
 lastmod: "2022-06-06T20:12:48+02:00"
 series:
-- Culture
+- culture
 tags:
-- Leadership
-- Culture
+- leadership
+- culture
 title: Ambiguity kills action in a knowing culture
 ---
 

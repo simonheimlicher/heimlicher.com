@@ -3,7 +3,7 @@ aliases:
 - /articles/time-machine-inherit-backup-using-tmutil/
 bestbefore: "2025-02-11"
 categories:
-- macOS
+- macos
 date: "2012-07-10T18:35:00Z"
 description: How to use the terminal command `tmutil` to force Time Machine to continue
   the backup history of the previous disk with your new Mac or a new internal disk
@@ -25,7 +25,7 @@ summary: In situations where macOS does not associate your Time Machine backup d
   to your new Mac or a new internal disk automatically, `tmutil` lets you force Time
   Machine to continue the backup history of the previous disk
 tags:
-- macOS
+- macos
 title: 'Time Machine: Inherit Backup Using `tmutil`'
 ---
 

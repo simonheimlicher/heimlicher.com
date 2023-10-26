@@ -3,7 +3,7 @@ supertitle: Leadership style
 title: "Leadership styles determine organizational performance"
 subtitle: Uplifting or devastating
 categories:
-- Methodology
+- methodology
 date: "2023-09-19"
 description: A deep dive into how different leadership styles can drastically affect an organization's performance, featuring two real-world case studies.
 image:
@@ -19,10 +19,10 @@ image:
     title: Leadership meeting
     credit: "Photo by fauxels: https://www.pexels.com/photo/man-wearing-white-long-sleeved-shirt-holding-black-pen-3182781/"
 series:
-- Culture
+- culture
 tags:
-- Leadership
-- Performance
+- leadership
+- performance
 ---
 
 A comprehensive exploration of the nuanced effects that various leadership styles have on organizational performance.

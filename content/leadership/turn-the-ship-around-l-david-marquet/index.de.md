@@ -3,7 +3,7 @@ title: Reiß das Ruder rum!
 subtitle: Wie Mitarbeitende zu Mitgestaltenden werden
 supertitle: Ein Buch von L. David Marquet
 categories:
-- Book
+- book
 date: 2021-09-09T13:27:52Z
 description: "Absichtsbasierte Führung: Wie Capt. L. David Marquet auf einem US-U-Boot ein neues Paradigma entwickelte, um Mitarbeitende in Mitgestaltende zu verwandeln"
 featured: false
@@ -20,10 +20,10 @@ image:
     resource: images/turn-the-ship-around-l-david-marquet-excerpt
     title: '"Reiß das Ruder rum!" von L. David Marquet'
 series:
-- Culture
+- culture
 tags:
-- Leadership
-- Talent
+- leadership
+- talent
 ---
 
 In seinem hochgelobten Buch schildert L. David Marquet autobiografisch seinen Weg von einer Führungskraft, die Mitarbeitende führt, zu einer, die mehr *Mitgestaltende* schafft.

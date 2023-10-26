@@ -5,7 +5,7 @@ subtitle: A culture of freedom and responsibility
 aliases:
 - /articles/powerful-patty-mccord/
 categories:
-- Book
+- book
 date: "2021-10-15"
 description: Key insights from the book Powerful, a historical account of the Netflix
   culture from the perspective of then Chief Talent Officer Patty McCord. Perhaps
@@ -22,10 +22,10 @@ image:
     title: Powerful by Patty McCord
 lastmod: "2023-04-25T11:59:19.238Z"
 series:
-- Culture
+- culture
 tags:
-- Leadership
-- Talent
+- leadership
+- talent
 ---
 
 How does a startup become a corporate behemoth with layers of policies, processes, and rules? It happens one mishap at a time if that event is seen as a mistake that is never to be made again.

@@ -3,7 +3,7 @@ aliases:
 - /articles/okrs-vs-performance-management/
 - /articles/okrs-vs.-performance-management/
 categories:
-- Methodology
+- methodology
 date: "2023-04-29T16:27:48.000Z"
 description: Stehen OKRs im Konflikt mit der periodischen Leistungsbeurteilung? Oder
   machen sie diese gar überflüssig? Nein, es braucht beides, sagt John Doerr von Google.
@@ -22,14 +22,14 @@ keywords:
 - talent
 - human resources
 series:
-- OKR
+- okr
 subtitle: Weshalb es beides braucht
 summary: 'OKRs und Leistungsbeurteilung trennen: Erfolgreiche Implementierung von
   OKRs fördert Mitarbeitendenentwicklung und organisatorische Ausrichtung'
 tags:
-- OKR
-- Talent
-- Performance
+- okr
+- talent
+- performance
 title: OKRs vs. Performance Management
 toc: true
 ---

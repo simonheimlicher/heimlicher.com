@@ -4,7 +4,7 @@ aliases:
 - /articles/time-machine-volume-uuid/
 bestbefore: "2025-03-11"
 categories:
-- macOS
+- macos
 date: "2011-02-18T15:00:47Z"
 image:
   feature:
@@ -17,7 +17,7 @@ summary: If you clone a volume that you backup with Time Machine, its UUID will 
   to change the UUID of the existing backups, leading Time Machine to backup as if
   the volume's UUID had never changed
 tags:
-- macOS
+- macos
 title: 'Time Machine: UUID of disk changed'
 ---
 

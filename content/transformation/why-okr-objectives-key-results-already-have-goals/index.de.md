@@ -1,7 +1,7 @@
 ---
 title: Warum brauchen wir OKRs? – Wir haben bereits Ziele
 categories:
-- Methodology
+- methodology
 date: "2023-05-01T17:26:26+02:00"
 description: Brauchen Sie Objectives and Key Results (OKRs)? Der bekannteste Grund
   für die Nutzung von OKRs ist möglicherweise nicht der, der für Sie am wichtigsten ist.
@@ -14,11 +14,11 @@ image:
     credit: 'Photo by <a href="https://unsplash.com/@hjwinunsplsh">Jungwoo Hong</a> on <a href="https://unsplash.com/photos/cYUMaCqMYvI">Unsplash</a>'
 lastmod: "2023-03-20T10:49:25.667Z"
 series:
-- OKR
+- okr
 tags:
-- OKR
-- Talent
-- Performance
+- okr
+- talent
+- performance
 ---
 
 Wie viele Möglichkeiten gibt es – oder besser gesagt: wie viele benötigen Sie – um die Ziele Ihres Unternehmens zu steuern? Offensichtlich benötigen wir alle noch eine weitere Methode: *Objectives and Key Results (OKRs)*. Aber warum sollten Sie diese Methodik in Ihr Repertoire aufnehmen? Der am häufigsten genannte Grund ist möglicherweise nicht der, der für Sie am wichtigsten ist.

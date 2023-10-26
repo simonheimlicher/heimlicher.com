@@ -52,6 +52,6 @@ Eines meiner liebsten Unterfangen war es, meine Erkenntnisse über Führung und 
 
 Als leidenschaftlicher Leser sind Bücher für mich Tore zu Welten des Wissens und bieten Perspektiven und Einsichten, die meine Führungsreise prägen. Durch das Teilen von Rezensionen und Erkenntnissen aus Büchern über [Führung und Transformation](/categories/book) hoffe ich, bei anderen dieselbe Leidenschaft für das Lernen zu entfachen.
 
-In der sich ständig weiterentwickelnden Landschaft von Führung und Transformation ist Stillstand das Gegenteil von Wachstum. Daher lade ich Sie herzliche ein, {{< obfuscated-email "Ihre Perspektiven, Einsichten und Ideen mit mir zu teilen" >}}.
+In der sich ständig weiterentwickelnden Landschaft von Führung und Transformation ist Stillstand das Gegenteil von Wachstum. Daher lade ich Sie herzlich ein, {{< obfuscated-email "Ihre Perspektiven, Einsichten und Ideen mit mir zu teilen" >}}.
 
 Vielen Dank!

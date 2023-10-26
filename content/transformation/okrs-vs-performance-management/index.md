@@ -4,7 +4,7 @@ aliases:
 - /articles/okrs-vs-performance-management/
 - /organizational-transformation/okrs-vs-performance-management/
 categories:
-- Methodology
+- methodology
 date: "2020-03-10T16:27:48.000Z"
 description: Do Objectives and Key Results (OKRs) compete with or even supersede widely
   established performance review processes? No, says John Doerr from Google
@@ -26,15 +26,15 @@ keywords:
 - human resources
 lastmod: "2023-04-30T12:18:20Z"
 series:
-- OKR
+- okr
 subtitle: Why you need both
 summary: Objectives and Key Results (OKRs) are a methodology to align and keep an
   entire organization focused on its agreed upon goals. But do OKRs compete with or
   rather complement widely established performance review processes?
 tags:
-- OKR
-- Talent
-- Performance
+- okr
+- talent
+- performance
 title: OKRs vs. performance management
 toc: true
 ---

@@ -16,17 +16,17 @@ image:
 aliases:
 - organizational-transformation-objectives-key-results-okr-performance-management
 keywords:
-- OKR
+- okr
 - Leistungsmanagement
 - Organisatorische Transformation
-- Talent
+- talent
 categories:
-- Methodology
+- methodology
 tags:
-- OKR
-- Performance
+- okr
+- performance
 series:
-- OKR
+- okr
 ---
 
 Die moderne Geschäftswelt entwickelt sich ständig weiter. Der Katalysator? Ein dynamischer globaler Markt. Jetzt, mehr denn je, muss Ihre Organisation agil bleiben. Für Führungskräfte bedeutet dies, die Lücke zwischen individueller Leistung und organisatorischem Erfolg zu schliessen. Hier erfahren Sie, wie die Kraft von Objectives and Key Results (OKRs) diese Reise neu definieren kann.

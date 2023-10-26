@@ -7,7 +7,7 @@ aliases:
 # Article has been updated to indicate its end of life
 bestBefore: "9999-07-26"
 categories:
-- macOS
+- macos
 date: "2011-03-17"
 lastmod: "2016-03-17"
 disqusurl: https://simon.heimlicher.com/articles/2011/03/17/cisco-vpn-10.6.0-3
@@ -16,7 +16,7 @@ summary: The built-in Cisco VPN client introduced in Mac OS X 10.6 Snow Leopard 
   the habit of disconnecting itself when re-keying should be performed but fails after
   about 48 minutes up to one hour. This timeout issue has been fixed in Mac OS X 10.6.4
 tags:
-- macOS
+- macos
 title: Workaround for disconnections of Cisco VPN in Mac OS X 10.6
 ---
 

@@ -22,6 +22,8 @@ Most leaders in large organizationas formed their perspective of what entails gr
 
 Unfortunately, this approach to improve over what one has experienced based on one's own preferences is a very local perspective.
 
+## Leadership styles
+
 I like to characterize leaders based on three aspects they need to address: 
 
 * **Problems:** every human being has to overcome actual problems, be it to hang a picture in the wall or to build re-usable rockets.
@@ -30,9 +32,9 @@ I like to characterize leaders based on three aspects they need to address:
 
 As a leader, I feel responsible for all three layers. However, leadership literature focuses on the human aspect – and with good reason. 
 
-{{< content-excerpt page="impact-leadership-style-organizational-performance/" float=right relativewidth=40 >}}
-
 The highest calling for leaders is to be *transformative*. A metaphor to illustrate this is the transformation of a caterpillar into a beautiful butterfly: a butterfly is not only entirely different from a caterpillar – what is key is that there is *no going back:* a butterfly remains a butterfly and will never live in the shape of a caterpillar again.
+
+{{< content-excerpt page="impact-leadership-style-organizational-performance/" float=right relativewidth=40 >}}
 
 To be transformative, then, a leader needs to accomplish change that not only lasts after they leave the room or go on vacation.  No, the transformation needs to change the team in such a way that it can no longer fall back to who it was before. And while cultural change plays an important role, it is only one side of the coin. On the other side are the systems that form the backbone of lasting change.
 

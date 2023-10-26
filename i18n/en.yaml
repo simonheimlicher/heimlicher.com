@@ -1,25 +1,22 @@
 home: Home
 leadership: Leadership
 transformation: Transformation
-digital-transformation: Digital Transformation
+digital transformation: Digital Transformation
 technology: Technology
 research: Research
-about: About me
+about me: About me
 note_title_in_brief:
   other: in a nutshell
 hugo:
   other: Hugo
 book:
   one: book
-  other: books
 culture:
   other: culture
 methodology:
   one: methodology
   other: methodologies
 macos:
-  other: macOS
-Macos:
   other: macOS
 communication:
   other: communication
@@ -41,3 +38,7 @@ performance management:
   other: performance management
 organizational transformation:
   other: organizational transformation
+vscode:
+  other: VSCode
+settings:
+  other: settings

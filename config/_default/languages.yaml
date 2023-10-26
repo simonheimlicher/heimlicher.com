@@ -8,11 +8,12 @@ de:
     # FIXME: _merge: deep is required to merge the configuration of
     # "markup.tableofContents"
     _merge: deep
-    goldmark:
-      extensions:
-        typographer:
-          leftDoubleQuote: "&laquo;"  # default &ldquo;
-          rightDoubleQuote: "&raquo;" # default &rdquo;
+    # FIXME: Below requires Hugo >= 0.112.0
+    # goldmark:
+    #   extensions:
+    #     typographer:
+    #       leftDoubleQuote: "&laquo;"  # default &ldquo;
+    #       rightDoubleQuote: "&raquo;" # default &rdquo;
   params:
     website:
       # NOTE: The description of the home page is taken from the home page's params

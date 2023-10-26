@@ -1,39 +1,45 @@
-Home: Startseite
-Leadership: Leadership
-Transformation: Transformation
-Digital transformation: Digitale Transformation
-Technology: Technologie
-Research: Forschung
-About me: Über mich
+home: Startseite
+leadership: Leadership
+transformation: Transformation
+digital transformation: Digitale Transformation
+technology: Technologie
+research: Forschung
+about me: Über mich
 note_title_in_brief:
   other: In Kürze
-Hugo:
+hugo:
   other: Hugo
-Book:
+book:
   one: Buch
   other: Bücher
-Methodology:
+culture:
+  other: Kultur
+methodology:
   one: Methodik
   other: Methodiken
-Communication:
+macos:
+  other: macOS
+communication:
   other: Kommunikation
-Culture:
-  other: Kultur
-OKR:
+okr:
   other: OKR
-Hugo partial:
+hugo partial:
   other: Hugo-Partial
-Hugo snippets:
+hugo snippets:
   other: Hugo-Snippets
-Talent:
+talent:
   other: Talent
-Performance:
+performance:
   other: Performance
-Project management:
+project management:
   other: Projektmanagement
-Product management:
+product management:
   other: Produktmanagement
-Performance management:
+performance management:
   other: Performance Management
-Organizational transformation:
+organizational transformation:
   other: Organisationsentwicklung
+vscode:
+  other: VSCode
+settings:
+  other: Settings

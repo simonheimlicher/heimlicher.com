@@ -3,7 +3,7 @@ supertitle: Führungsstile
 title: "Führungsstile bestimmen die Performance von Organisationen"
 subtitle: Erhebend oder verheerend
 categories:
-  - Methodology
+  - methodology
 date: 2023-09-20T09:01:05.395Z
 description: Wie verschiedene Führungsstile die Leistung einer Organisation drastisch beeinflussen können, illustriert durch zwei reale Fallstudien.
 image:
@@ -19,10 +19,10 @@ image:
       title: Führungstreffen
       credit: "Foto von fauxels: https://www.pexels.com/photo/man-wearing-white-long-sleeved-shirt-holding-black-pen-3182781/"
 series:
-  - Culture
+  - culture
 tags:
-  - Leadership
-  - Talent
+  - leadership
+  - talent
 lastmod: 2023-09-20T09:01:04.767Z
 ---
 
