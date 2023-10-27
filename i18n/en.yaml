@@ -6,20 +6,20 @@ technology: Technology
 research: Research
 about me: About me
 note_title_in_brief:
-  other: in a nutshell
+  other: In a nutshell
 hugo:
   other: Hugo
 book:
-  one: book
+  one: Book
 culture:
-  other: culture
+  other: Culture
 methodology:
-  one: methodology
-  other: methodologies
+  one: Methodology
+  other: Methodologies
 macos:
   other: macOS
 communication:
-  other: communication
+  other: Communication
 okr:
   other: OKR
 hugo partial:
@@ -27,18 +27,18 @@ hugo partial:
 hugo snippets:
   other: Hugo snippets
 talent:
-  other: talent
+  other: Talent
 performance:
-  other: performance
+  other: Performance
 project management:
-  other: project management
+  other: Project management
 product management:
-  other: product management
+  other: Product management
 performance management:
-  other: performance management
+  other: Performance management
 organizational transformation:
-  other: organizational transformation
+  other: Organizational transformation
 vscode:
   other: VSCode
 settings:
-  other: settings
+  other: Settings
