@@ -7,7 +7,7 @@ mainSections:
   - digitization
   - research
   - technology
-logo: images/simon_heimlicher_logo
+# logo: images/simon_heimlicher_logo
 logoURL: /
 centerLogo: false
 mobileNavigation: right
@@ -17,7 +17,7 @@ responsive:
     width:
       # From this width upward, the mobile menu is hidden
       # and the full menu bar is shown
-      mobileMenu: 28rem
+      mobileMenu: 40rem
       # From this width upward, font size is set to regular size
       narrow: 32rem
 
@@ -43,7 +43,7 @@ ephemeralSections:
 # fontFamilySans: Inter
 fontFamilySans: Concourse
 # fontFamilySerif: Merriweather
-fontFamilySerif: Valkyrie
+fontFamilySerif: Valkyrie_B
 fontFamilyMono: DM Mono
 fontsSelfHosted: true
 supportIE11: true
