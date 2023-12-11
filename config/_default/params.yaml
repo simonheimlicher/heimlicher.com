@@ -108,3 +108,7 @@ social:
     id: 4467/simon-heimlicher
   resumesocial:
     id: simon-heimlicher
+
+posthog:
+  key: phc_uCbhFRCieH9tPYbmlaLPtW6pZaEgnOfGENNgcC1KdlA
+  host: https://eu.posthog.com
