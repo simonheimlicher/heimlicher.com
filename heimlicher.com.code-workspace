@@ -12,6 +12,9 @@
 		{
 			"path": "."
 		},
+		{
+			"path": "../../modules/claris"
+		}
 	],
 	"settings": {
 		"files.associations": {
