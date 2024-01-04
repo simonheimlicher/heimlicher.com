@@ -56,6 +56,11 @@ lastmod: 2023-09-20
 aliases:
   - /home/
   - /archive/
+_build:
+  publishResources: false
+cascade:
+- _build:
+    publishResources: false
 ---
 
 ## Leadership
