@@ -2,7 +2,7 @@
 date: "2012-01-29T04:21:00Z"
 image:
   feature: images/ferdinand-stohr-nKg8IsVFMV8-unsplash
-  thumbnail: images/ferdinand-stohr-nKg8IsVFMV8-unsplash-square
+  # thumbnail: images/ferdinand-stohr-nKg8IsVFMV8-unsplash-square
 lastmod: "2023-03-18T16:44:06.415Z"
 summary: A methodology and its empirical validation based on GPS traces from taxi cabs that characterizes mobile networks via the size of clusters of connected nodes
 title: Characterizing mobile wireless networks
