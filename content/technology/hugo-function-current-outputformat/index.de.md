@@ -2,8 +2,7 @@
 categories:
 - hugo
 date: "2023-03-17T07:42:36+01:00"
-description: Hugo bietet derzeit keine Funktion, um das aktuelle OutputFormat zu erhalten
-  - dieses Partial bietet eine einfache Lösung
+description: Hugo bietet derzeit keine Funktion, um das aktuelle OutputFormat zu erhalten – dieses Partial bietet eine einfache Lösung
 draft: false
 featured: false
 image:

@@ -2,8 +2,7 @@
 categories:
 - hugo
 date: "2023-03-17T07:42:36+01:00"
-description: Hugo does not currently provide a function to obtain the current OutputFormat
-  - this function provides the answer
+description: Hugo does not currently provide a function to obtain the current OutputFormat – this function provides the answer
 draft: false
 featured: false
 image:

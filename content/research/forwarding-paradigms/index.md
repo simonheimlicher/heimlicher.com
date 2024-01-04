@@ -19,7 +19,6 @@ Having found that even in disconnected network scenarios, [multi-hop paths exist
 
 We model the forwarding of a packet as a Markov chain whose states correspond to the remaining number of hops to the destination; forwarding and mobility are implemented by moving packets closer to or further from the destination. Even if we assume either of two well-known stochastic relationships between the path length before and after the disruption, intermediate forwarding is not guaranteed to be superior. Therefore we introduce a new criterion based on stochastic dominance which leads to the expected result of superiority. We provide strong evidence that the criterion holds in simple models; whether it holds for a real-world scenario at hand depends on the mobility pattern and the employed routing algorithm.
 
-
 Simon Heimlicher, Merkouris Karaliopoulos, Hanoch Levy and Thrasyvoulos Spyropoulos:  
 **On Leveraging Partial Paths in Partially-connected Networks**  
 IEEE INFOCOM 2009, Rio de Janeiro, April 2009.  
