@@ -18,3 +18,4 @@ serve_env.sh
 /static/fonts
 /gpt
 /SHZ_NOTES.md
+go.work
