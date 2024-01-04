@@ -1,4 +1,13 @@
 canonicalBaseURL: https://simon.heimlicher.com/
+
+siteAuthor: Simon Heimlicher
+authors:
+  simon-heimlicher:
+    last_name: Heimlicher
+    first_name: Simon
+    email: EMAIL_SIMON_HEIMLICHER
+    name: Simon Heimlicher
+
 showShare: false
 mainSections:
   - articles
@@ -106,8 +115,6 @@ social:
     id: 69517/simon-heimlicher
   crossvalidated:
     id: 4467/simon-heimlicher
-  resumesocial:
-    id: simon-heimlicher
 
 posthog:
   key: phc_uCbhFRCieH9tPYbmlaLPtW6pZaEgnOfGENNgcC1KdlA
