@@ -1,6 +1,8 @@
 # https://github.com/gohugoio/hugoDocs/blob/master/config/_default/config.toml
 title: Simon Heimlicher
-baseURL: https://simon.heimlicher.com/
+# baseURL: https://simon.heimlicher.com/
+baseURL: /
+
 defaultContentLanguage: en
 languageCode: en-us
 
