@@ -1,0 +1,17 @@
+{
+  "files.associations": {
+  "*.html": "gohtml",
+  "robots.txt": "gohtml",
+  },
+  "emmet.includeLanguages": {
+    "gohtml": "html",
+  },
+  "frontMatter.content.autoUpdateDate": false,
+  "evenBetterToml.schema.associations": {
+    "*.toml": "https://json.schemastore.org/hugo.json"
+  },
+  "markdownlint.config": {
+    "default": true,
+    "no-inline-html": false
+  }
+}

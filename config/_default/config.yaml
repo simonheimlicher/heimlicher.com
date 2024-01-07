@@ -52,32 +52,39 @@ outputs:
   home:
     - HTML
     - redir
-    - siteredir
+    - redir_canonical
+    - redir_nginx
+    - redir_canonical_nginx
   page:
     - HTML
   section:
     - HTML
 mediaTypes:
+  text/redirects:
+    delimiter: ""
   text/nginx:
     delimiter: ""
 outputFormats:
   redir:
+    mediatype: text/redirects
+    baseName: _redirects
+    isPlainText: true
+    notAlternative: true
+  redir_canonical:
+    mediatype: text/redirects
+    baseName: _redirects_canonical
+    isPlainText: true
+    notAlternative: true
+  redir_nginx:
     mediatype: text/nginx
     baseName: _redirects.nginx
     isPlainText: true
     notAlternative: true
-  siteredir:
-    name: siteredir
+  redir_canonical_nginx:
     mediatype: text/nginx
-    baseName: _siteredirects.nginx
+    baseName: _redirects_canonical.nginx
     isPlainText: true
     notAlternative: true
-
-# NOTE: Setting Author in config file is not supported but widely used
-Author:
-  name: Simon Heimlicher
-  # NOTE: email is set in data file 'assets/data/claris/en.yaml'
-  # email = "user@example.net"
 
 markup:
   _merge: deep

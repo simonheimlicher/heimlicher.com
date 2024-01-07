@@ -5,7 +5,7 @@ authors:
   simon-heimlicher:
     last_name: Heimlicher
     first_name: Simon
-    email: EMAIL_SIMON_HEIMLICHER
+    email: AUTHOR_EMAIL
     name: Simon Heimlicher
 
 showShare: false
