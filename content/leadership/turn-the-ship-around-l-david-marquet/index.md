@@ -42,7 +42,7 @@ The book *Turn the Ship Around!* is worth reading cover-to-cover. While it has a
 > Nothing happened.
 >
 > Captain Marquet noticed the helmsman who was to execute the order looked unsettled. When asked what the problem was, the helmsman pointed out that there was no two-thirds in the electric propulsion mode unlike all his previous submarines. When asked, the officer on deck said he repeated the command knowing it was wrong.
-> 
+>
 > David realized that the leader-follower environment meant his crew would do anything he said—even if it was wrong.
 
 {{< responsive-image resource=images/turn-the-ship-around-l-david-marquet-cover alt="Cover of the book Turn the Ship Around! by L. David Marquet" title="Turn the Ship Around! by L. David Marquet" caption="You can buy the book Turn the Ship Around! by L.&nbsp;David Marquet at [Amazon](https://www.amazon.com/gp/product/1591846404?ie=UTF8&tag=shzq-20&camp=1789&linkCode=xm2&creativeASIN=1591846404 'Affiliate link to buy the book at Amazon')" float=right relative-width="40" >}}

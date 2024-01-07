@@ -43,7 +43,7 @@ As opposed to the empowerment of employees—an HR mantra that has been en vogue
 
 According to McCord, Netflix's success can be largely attributed to its avoidance of layers of policies, processes, and rules. Instead, the company embraced a no-rules culture. This allowed employees to thrive in an environment of trust, autonomy, and responsibility. The book *Powerful* takes readers on a journey through Netflix's unique approach to corporate culture, and provides insights on how other companies can adopt this model.
 
-{{< responsive-image resource=images/powerful-patty-mccord-cover alt="The cover of the book Powerful by Patty McCord" title="Powerful by Patty McCord" float=right relative-width="40" >}}
+{{< responsive-image resource=images/powerful-patty-mccord-cover alt="The cover of the book Powerful by Patty McCord" title="Powerful by Patty McCord" caption="You can buy the book *Powerful* by Patty McCord at [Amazon](https://www.amazon.com/gp/product/1939714095/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=shzq-20&creative=9325&linkCode=as2&creativeASIN=1939714095&linkId=3ce451cff42bcc42556435240d94dc3c 'Affiliate link to buy the book at Amazon')" float=right relative-width="40" >}}
 
 One crucial aspect of Netflix's no-rules culture is transparency. Employees are encouraged to share information freely, leading to a more collaborative and informed workforce. McCord emphasizes the importance of open communication channels between employees, regardless of their position in the company hierarchy. This transparency can lead to better decision-making, as everyone is aware of the context and the goals of the organization.
 
@@ -93,4 +93,4 @@ Patty McCord's book *Powerful* offers valuable lessons for companies looking to 
 4. Align employees with company goals and objectives
 5. Hire and retain top talent by offering competitive compensation
 
-[Powerful](https://www.amazon.com/gp/product/1939714095/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=shzq-20&creative=9325&linkCode=as2&creativeASIN=1939714095&linkId=3ce451cff42bcc42556435240d94dc3c 'Affiliate link to buy the book at Amazon') by [Patty McCord](https://pattymccord.com 'Professional website of Patty McCord')
+You can read more about [Patty McCord on her website](https://pattymccord.com 'Professional website of Patty McCord').
