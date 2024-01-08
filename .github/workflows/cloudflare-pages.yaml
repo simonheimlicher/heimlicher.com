@@ -22,8 +22,8 @@ defaults:
     shell: bash
 
 jobs:
-  # Build job
-  deploy:
+  # Build job: build `public` directory to be deployed
+  build:
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -78,6 +78,24 @@ jobs:
         with:
           path: resources
           key: ${{ runner.os }}-hugo-resources-${{ github.sha }}
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: public
+          path: public
+
+  # Deploy job: deploy `public` directory
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: public
+          path: public
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/pages-action@v1
