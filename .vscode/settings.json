@@ -2,6 +2,8 @@
   "files.associations": {
   "*.html": "gohtml",
   "robots.txt": "gohtml",
+  "index.redir*": "gohtml",
+  "index.urls": "gohtml",
   },
   "emmet.includeLanguages": {
     "gohtml": "html",

@@ -1,0 +1,9 @@
+{{- range .Sites }}
+  {{- $pageUrls := slice }}
+  {{- range .Pages }}
+    {{-  $pageUrls = append .RelPermalink $pageUrls }}
+  {{- end }}
+  {{- range (sort $pageUrls) }}
+    {{- printf "%s\n" . }}
+  {{- end }}
+{{- end -}}

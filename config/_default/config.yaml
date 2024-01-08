@@ -52,6 +52,8 @@ mediaTypes:
     delimiter: ""
   text/nginx:
     delimiter: ""
+  text/urls:
+    delimiter: ""
 outputFormats:
   redir:
     mediatype: text/redirects
@@ -71,6 +73,11 @@ outputFormats:
   redir_canonical_nginx:
     mediatype: text/nginx
     baseName: _redirects_canonical.nginx
+    isPlainText: true
+    notAlternative: true
+  urls:
+    mediatype: text/urls
+    baseName: _urls
     isPlainText: true
     notAlternative: true
 
