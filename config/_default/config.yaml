@@ -36,18 +36,6 @@ disableKinds:
 
 paginate: 20
 
-# https://discourse.gohugo.io/t/change-location-of-resources-directory/15682/3
-# https://gohugo.io/getting-started/configuration/#configure-file-caches
-# Avoid using resourceDir in the project directory
-# Since resourceDir cannot be set from the command line or environment variables,
-# we set it indirectly via --cacheDir or HUGO_CACHE_DIR
-caches:
-  assets:
-    # dir = ':resourceDir/_gen'
-    dir: :cacheDir/resources/_gen
-  images:
-    # dir = ':resourceDir/_gen'
-    dir: :cacheDir/resources/_gen
 outputs:
   home:
     - HTML
