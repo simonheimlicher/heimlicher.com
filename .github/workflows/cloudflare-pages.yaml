@@ -57,7 +57,7 @@ jobs:
         uses: actions/cache@v3
         with:
           path: resources
-          key: ${{ runner.os }}-hugo-resources
+          key: ${{ runner.os }}-hugo-resources-${{ github.run_id }}
           restore-keys: |
             ${{ runner.os }}-hugo-resources
 
@@ -68,15 +68,6 @@ jobs:
           HUGO_ENV: production
           HUGO_CLARIS_AUTHOR_EMAIL: ${{ secrets.HUGO_CLARIS_AUTHOR_EMAIL }}
         run: hugo --gc --minify
-
-      - name: List directory contents
-        run: ls -laR
-
-      - name: Persist resources to cache
-        uses: actions/cache@v3
-        with:
-          path: resources
-          key: ${{ runner.os }}-hugo-resources-${{ github.sha }}
 
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
