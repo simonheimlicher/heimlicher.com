@@ -1,6 +1,7 @@
 /local/
 /public/
-/output/
+/output/serve/
+/output/deploy/
 /cache/
 /validation/
 /content-off/
@@ -19,3 +20,8 @@ serve_env.sh
 /gpt
 /SHZ_NOTES.md
 go.work
+.envrc
+.python-version
+.python-virtualenv
+.ipynb_checkpoints
+/sitemap/url-analysis/input
