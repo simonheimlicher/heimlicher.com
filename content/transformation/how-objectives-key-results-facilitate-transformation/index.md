@@ -71,7 +71,7 @@ OKRs also emerge as powerful tools during coaching sessions, paving the way for 
 
 Leadership's commitment to OKRs is the cornerstone of their successful integration. Leaders must not only set their own OKRs but be the torchbearers of this methodology.
 
-Support is crucial. Equip your teams with training, workshops, and resources. [Christina Wodtke](http://cwodtke.com/), an authority on OKRs, offers invaluable insights into their effective adoption.
+Support is crucial. Equip your teams with training, workshops, and resources. [Christina Wodtke](https://cwodtke.com/), an authority on OKRs, offers invaluable insights into their effective adoption.
 
 ## In conclusion
 

@@ -71,7 +71,7 @@ OKRs treten auch als mächtige Werkzeuge während Coaching-Sessions hervor und e
 
 Das Engagement der Führung für OKRs ist der Grundstein für ihre erfolgreiche Integration. Führungskräfte müssen nicht nur ihre eigenen OKRs setzen, sondern auch die Vorreiter dieser Methodik sein.
 
-Unterstützung ist entscheidend. Rüsten Sie Ihre Teams mit Schulungen, Workshops und Ressourcen aus. [Christina Wodtke](http://cwodtke.com/), eine Autorität zu OKRs, bietet wertvolle Einblicke in ihre effektive Einführung.
+Unterstützung ist entscheidend. Rüsten Sie Ihre Teams mit Schulungen, Workshops und Ressourcen aus. [Christina Wodtke](https://cwodtke.com/), eine Autorität zu OKRs, bietet wertvolle Einblicke in ihre effektive Einführung.
 
 ## Zum Abschluss
 
