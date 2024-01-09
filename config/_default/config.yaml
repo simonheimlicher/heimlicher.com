@@ -54,6 +54,8 @@ mediaTypes:
     delimiter: ""
   text/urls:
     delimiter: ""
+  text/aliases:
+    delimiter: ""
 outputFormats:
   redir:
     mediatype: text/redirects
@@ -78,6 +80,11 @@ outputFormats:
   urls:
     mediatype: text/urls
     baseName: _urls
+    isPlainText: true
+    notAlternative: true
+  aliases:
+    mediatype: text/aliases
+    baseName: _aliases
     isPlainText: true
     notAlternative: true
 

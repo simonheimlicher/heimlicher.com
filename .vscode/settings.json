@@ -3,6 +3,7 @@
   "*.html": "gohtml",
   "robots.txt": "gohtml",
   "index.redir*": "gohtml",
+  "index.aliases": "gohtml",
   "index.urls": "gohtml",
   },
   "emmet.includeLanguages": {

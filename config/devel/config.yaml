@@ -23,3 +23,4 @@ outputs:
     - redir_nginx
     - redir_canonical_nginx
     - urls
+    - aliases
