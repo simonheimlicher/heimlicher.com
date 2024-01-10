@@ -1,5 +1,6 @@
 ---
 aliases:
+- /public/tips/macosx/time-machine-volume-uuid/
 - /hints/macosx/time-machine-volume-uuid/
 - /articles/time-machine-volume-uuid/
 bestbefore: "2025-03-11"

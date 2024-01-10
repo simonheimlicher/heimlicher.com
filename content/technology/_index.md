@@ -20,13 +20,37 @@ aliases:
 - /articles/smtp-smarthost/
 - /articles/time-machine/
 - /articles/time-machine-readonly/
+- /articles/basic-tex/
 - /hints/ipad/multiple-email/
 - /hints/macosx/disk-failure/
 - /hints/macosx/file_vault_2/
 - /hints/macosx/multiple_identities_mail/
 - /hints/macosx/private_browsing/
 - /hints/macosx/time-machine-readonly/
-
+- /categories/ipad/
+- /categories/os-x-server/
+- /categories/os-x/
+- /categories/ios/
+- /categories/linux/
+- /categories/latex/
+- /categories/windows/
+- /categories/programming/
+- /categories/social-network/
+- /categories/jekyll/
+- /categories/octopress/
+- /categories/ruby/
+- /categories/hints/
+- /categories/print/
+- /categories/web/
+- /tags/cisco/
+- /tags/cleanup/
+- /tags/ios/
+- /tags/vpn/
+- /tags/time-machine/
+- /tags/safari/
+- /tags/os-x-server/
+- /tags/latex/
+- /tags/gcc/
 description: On solving challenging problems with and in technology — including source code and screenshots where applicable
 image:
   feature: images/Time Machine - UUID of disk changed

@@ -12,4 +12,14 @@ title: Digital Transformation
 weight: 300
 aliases:
 - /digital-transformation/
+- /categories/writing/
+- /categories/english/
+- /categories/style/
+- /tags/english/
+- /tags/capitalization/
+- /tags/style/
+- /tags/writing/
+- /tags/privacy/
+- /tags/social-network/
+- /tags/facebook/
 ---

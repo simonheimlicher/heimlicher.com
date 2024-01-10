@@ -7,4 +7,5 @@ title: Technologie
 weight: 500
 aliases:
 - /de/tags/matlab/
+- /de/categories/macos/
 ---
