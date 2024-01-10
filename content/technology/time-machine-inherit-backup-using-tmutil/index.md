@@ -29,7 +29,7 @@ tags:
 title: 'Time Machine: Inherit Backup Using `tmutil`'
 ---
 
-You plug in your Time Machine disk and your Mac asks out of the blue a question you did not expect: would you like your Mac to *inherit the backup history on the disk,* or *start a new backup?* 
+You plug in your Time Machine disk and your Mac asks out of the blue a question you did not expect: would you like your Mac to *inherit the backup history on the disk,* or *start a new backup?*
 
  Why did Time Machine ask this question? And how come it has never asked this question before? Time Machine uses a unique ID (`UUID`) that is specific to the disk in your Mac to associate it with its backup. In general, the stubborness of Time Machine is meant to prevent data loss in cases such as when a different disk with the same name is attached to your Mac. Thanks to the different `UUID`, Time Machine detects that this is in fact not the same physical disk and will not add a new snapshot to the backup history of your own volume.
 
