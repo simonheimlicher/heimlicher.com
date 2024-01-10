@@ -11,5 +11,6 @@ aliases:
 - /categories/os-x-server/
 - /categories/os-x/
 - /categories/ios/
+- /de/categories/macos/
 title: macos
 ---

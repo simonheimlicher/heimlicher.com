@@ -6,35 +6,7 @@ from urllib.parse import unquote, urlparse
 from collections import defaultdict
 import pandas as pd
 
-# Dmains
-ORIGINAL_DOMAIN = 'heimlicher.com'
-ORIGINAL_HOST_MATCH_RE = r'(?:[-a-z]+\.)*' + re.escape(ORIGINAL_DOMAIN)
-
-# Column names
-REQUEST_URI = 'URI'
-REQUEST_URI_WITHOUT_QUERY = 'URI without query'
-REQUEST_URI_CANONICAL = 'Canonical'
-LAST_ACCESS = 'Last'
-ACCESS_COUNT = 'Count'
-STATUS_CODE = 'Status'
-REDIRECT_URI = 'Redirect URI'
-REDIRECT_STATUS = 'Redirect status'
-
-COLUMNS_INPUT = [REQUEST_URI, ACCESS_COUNT, LAST_ACCESS, STATUS_CODE]
-COLUMNS_INPUT_CANONICAL = [REQUEST_URI, REQUEST_URI_CANONICAL, ACCESS_COUNT, LAST_ACCESS, STATUS_CODE]
-COLUMNS_ALL = [REQUEST_URI, REQUEST_URI_CANONICAL, REDIRECT_URI, REDIRECT_STATUS, ACCESS_COUNT, LAST_ACCESS, STATUS_CODE]
-
-# Directories
-ROOT_DIR = Path(__file__).absolute().parent
-INPUT_DIR = ROOT_DIR / "input"
-OUTPUT_DIR = ROOT_DIR / "output"
-HUGO_PROJECT_DIR = ROOT_DIR.parent.parent
-HUGO_DATA_DIR = HUGO_PROJECT_DIR / "data"
-HUGUO_OUTPUT_PUBLIC = HUGO_PROJECT_DIR / "output" / "serve" / "devel"
-
-HTTP_STATUS_OK = 200
-HTTP_STATUS_REDIRECT = 301
-HTTP_STATUS_NOT_FOUND = 404
+from constants import *
 
 def diff_df(df1, df2):
     """
@@ -173,9 +145,9 @@ canonicalization_rules = [
     # (r'^https?://' + ORIGINAL_HOST_MATCH_RE + r'(?::[0-9]+)?(/(?:[^/" ]+/)*[^/" ]*)', r'^https?://' + ORIGINAL_HOST_MATCH_RE + r'(?::[0-9]+)?(/(?:[^/" ]+/)*[^/" ]*)$', r'\1'),
     (r'^/Page(?:[(]|%28)(.*)(?:(/[^./]*)|(?:/_?index\.md))(?:[)]|%29)$', r'^/Page(?:[(]|%28)(.*)(?:(/[^./]*)|(?:/_?index\.md))(?:[)]|%29)$', r'\1\2/'),
     (r'^/articles/[0-9]{4}', r'^(/articles/)(?:[0-9]{4}/[0-9]{2}/[0-9]{2}/)([^/]+).*$', r'\1\2/'),
-    (r'.*/(?:atom|index|null)', r'(.*?/)(?:atom|index).*', r'\1'),
+    (r'.*/(?:atom|index|start|null)', r'(.*?/)(?:atom|index).*', r'\1'),
     (r'.*/page/[1-9]*/?$', r'(.*?/)page/[1-9].*', r'\1'),
-    (r'^/(?:hints|categories|series|tags)', r'_', r'-'),
+    (r'^/(?:hints|(?:de/)?(?:categories|series|tags))', r'_', r'-'),
     (r'.*\.html', r'(.*?)(?:/index)?\.html.*', r'\1/'),
     (r'^(.*/[^./]+)$', r'(^.*/[^./]+)$', r'\1/'),
 ]
@@ -201,7 +173,7 @@ df_canonicalized
 # Apply transformation to account for relocations of entire sections
 transformation_rules = [
     (r'^/(?:_media/)?(?:work/)?(publications/.*)', r'/research/\1'),
-    (r'^/(?:publications/)?(dissertation|characterizing-networks|forwarding-paradigms).*', r'/research/\1'),
+    (r'^/(?:publications/)?(dissertation|characterizing-networks|forwarding-paradigms).*', r'/research/\1/'),
 ]
 
 def transform_url(row):

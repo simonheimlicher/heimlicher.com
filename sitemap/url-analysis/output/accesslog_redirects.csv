@@ -397,7 +397,7 @@ index,URI,Canonical,Redirect URI,Redirect status,Count,Last,Status
 395,/articles/2000/00/99/multiple-identities-mail,/articles/multiple-identities-mail/,/articles/multiple-identities-mail/,301,206,2023-04-26 17:53:17+00:00,301
 396,/articles/2000/00/99/multiple-identities-mail/,/articles/multiple-identities-mail/,/articles/multiple-identities-mail/,301,205,2023-04-26 17:53:18+00:00,404
 397,/tags/style/index.xml,/tags/style/,/tags/style/,301,203,2023-04-22 18:46:38+00:00,404
-398,/forwarding-paradigms/,/forwarding-paradigms/,/research/forwarding-paradigms,301,199,2023-12-29 00:41:16+00:00,301
+398,/forwarding-paradigms/,/forwarding-paradigms/,/research/forwarding-paradigms/,301,199,2023-12-29 00:41:16+00:00,301
 399,/browserconfig.xml,/browserconfig.xml,/browserconfig.xml,301,199,2023-05-24 09:11:28+00:00,200
 400,/tags/iphone/index.xml,/tags/iphone/,/tags/iphone/,301,198,2023-04-22 17:28:56+00:00,404
 401,/articles/2010/08/29/smtp-smarthost/,/articles/smtp-smarthost/,/articles/smtp-smarthost/,301,197,2024-01-03 00:01:02+00:00,301
@@ -439,7 +439,7 @@ index,URI,Canonical,Redirect URI,Redirect status,Count,Last,Status
 437,/wp,/wp/,/wp/,301,178,2024-01-07 09:05:50+00:00,301
 438,/_media/work/publications/baumann_heat_wowmom07.pdf,/_media/work/publications/baumann_heat_wowmom07.pdf,/research/publications/baumann_heat_wowmom07.pdf,301,177,2024-01-07 00:48:27+00:00,301
 439,/de/tags/okr/,/de/tags/okr/,/de/tags/okr/,301,176,2024-01-06 23:29:58+00:00,200
-440,/characterizing-networks/,/characterizing-networks/,/research/characterizing-networks,301,176,2023-07-14 10:58:25+00:00,301
+440,/characterizing-networks/,/characterizing-networks/,/research/characterizing-networks/,301,176,2023-07-14 10:58:25+00:00,301
 441,/organizational-transformation/why-okr-objectives-key-results-already-have-goals/,/organizational-transformation/why-okr-objectives-key-results-already-have-goals/,/organizational-transformation/why-okr-objectives-key-results-already-have-goals/,301,175,2024-01-05 22:03:42+00:00,301
 442,/hints/windows/no-restart,/hints/windows/no-restart/,/hints/windows/no-restart/,301,174,2023-10-16 13:26:25+00:00,301
 443,/_media/publications/heimlicher_e2e-vs-hbh-intermittent_autonomics07.pdf,/_media/publications/heimlicher_e2e-vs-hbh-intermittent_autonomics07.pdf,/research/publications/heimlicher_e2e-vs-hbh-intermittent_autonomics07.pdf,301,174,2023-09-04 22:16:19+00:00,301
@@ -532,7 +532,7 @@ index,URI,Canonical,Redirect URI,Redirect status,Count,Last,Status
 530,/tags/talent/index.xml,/tags/talent/,/tags/talent/,301,127,2023-12-28 10:24:32+00:00,301
 531,/solr/,/solr/,/solr/,301,127,2023-02-08 10:15:28+00:00,404
 532,/public/tips/macosx/safari-bing,/public/tips/macosx/safari-bing/,/public/tips/macosx/safari-bing/,301,126,2021-09-30 13:43:15+00:00,301
-533,/forwarding-paradigms/index,/forwarding-paradigms/,/research/forwarding-paradigms,301,125,2023-09-22 14:46:58+00:00,301
+533,/forwarding-paradigms/index,/forwarding-paradigms/,/research/forwarding-paradigms/,301,125,2023-09-22 14:46:58+00:00,301
 534,/jenkins/login,/jenkins/login/,/jenkins/login/,301,125,2022-12-29 17:00:17+00:00,404
 535,/articles/perl/index,/articles/perl/,/articles/perl/,301,125,2022-12-01 09:04:27+00:00,301
 536,/articles/bookmarklet,/articles/bookmarklet/,/articles/bookmarklet/,301,125,2020-05-21 12:17:38+00:00,404
@@ -542,7 +542,7 @@ index,URI,Canonical,Redirect URI,Redirect status,Count,Last,Status
 540,/hints/macosx/safari-bing,/hints/macosx/safari-bing/,/hints/macosx/safari-bing/,301,121,2018-08-23 00:54:44+00:00,301
 541,/articles/2012/07/08/fix-apache-bench-ab-on-os-x-lion/,/articles/fix-apache-bench-ab-on-os-x-lion/,/articles/fix-apache-bench-ab-on-os-x-lion/,301,120,2024-01-05 23:15:28+00:00,404
 542,/de/tags/communication/,/de/tags/communication/,/de/tags/communication/,301,119,2024-01-06 23:29:47+00:00,200
-543,/characterizing-networks/index,/characterizing-networks/,/research/characterizing-networks,301,119,2023-09-06 01:26:35+00:00,301
+543,/characterizing-networks/index,/characterizing-networks/,/research/characterizing-networks/,301,119,2023-09-06 01:26:35+00:00,301
 544,/hints/safari/index,/hints/safari/,/hints/safari/,301,118,2023-02-12 17:14:15+00:00,301
 545,/testing/,/testing/,/testing/,301,117,2024-01-07 09:05:51+00:00,404
 546,/_media/work/publications/baumann_routing-into-wmn_wimob07.pdf,/_media/work/publications/baumann_routing-into-wmn_wimob07.pdf,/research/publications/baumann_routing-into-wmn_wimob07.pdf,301,116,2023-12-24 11:12:47+00:00,301
@@ -719,7 +719,7 @@ index,URI,Canonical,Redirect URI,Redirect status,Count,Last,Status
 717,/articles/2011/08/02/,/articles/2011/08/02/,/articles/2011/08/02/,301,57,2015-11-22 00:03:14+00:00,403
 718,/categories,/categories/,/categories/,301,56,2024-01-06 19:38:02+00:00,301
 719,/series/okr/index.xml,/series/okr/,/series/okr/,301,56,2023-12-31 05:34:07+00:00,301
-720,/de/tags/hugo_partial/,/de/tags/hugo_partial/,/de/tags/hugo_partial/,301,56,2023-12-28 22:23:04+00:00,301
+720,/de/tags/hugo_partial/,/de/tags/hugo-partial/,/de/tags/hugo-partial/,301,56,2023-12-28 22:23:04+00:00,301
 721,/tags/english,/tags/english/,/tags/english/,301,56,2023-10-12 19:04:11+00:00,301
 722,/cgi-bin/php-cgi,/cgi-bin/php-cgi/,/cgi-bin/php-cgi/,301,56,2018-07-22 14:01:44+00:00,404
 723,/tool/link-obfuscation/index.xml,/tool/link-obfuscation/,/tool/link-obfuscation/,301,54,2024-01-02 05:09:07+00:00,301
@@ -986,7 +986,7 @@ index,URI,Canonical,Redirect URI,Redirect status,Count,Last,Status
 984,/categories/non-existing/,/categories/non-existing/,/categories/non-existing/,301,27,2024-01-06 16:26:50+00:00,301
 985,/tags/non-existing,/tags/non-existing/,/tags/non-existing/,301,27,2024-01-06 16:26:50+00:00,301
 986,/tags/non-existing/,/tags/non-existing/,/tags/non-existing/,301,27,2024-01-06 16:26:50+00:00,301
-987,/de/series/hugo_snippets/,/de/series/hugo_snippets/,/de/series/hugo_snippets/,301,27,2024-01-04 18:41:58+00:00,301
+987,/de/series/hugo_snippets/,/de/series/hugo-snippets/,/de/series/hugo-snippets/,301,27,2024-01-04 18:41:58+00:00,301
 988,/tags/culture/,/tags/culture/,/tags/culture/,301,27,2023-12-31 04:04:00+00:00,301
 989,/de/organizational-transformation/okrs-vs-performance-management/,/de/organizational-transformation/okrs-vs-performance-management/,/de/organizational-transformation/okrs-vs-performance-management/,301,27,2023-12-31 02:29:57+00:00,404
 990,/work/publications/,/work/publications/,/research/publications/,301,27,2023-11-25 09:09:59+00:00,404
@@ -1104,7 +1104,7 @@ index,URI,Canonical,Redirect URI,Redirect status,Count,Last,Status
 1102,/phppath/cgi_wrapper,/phppath/cgi_wrapper/,/phppath/cgi_wrapper/,301,20,2018-07-22 14:02:00+00:00,404
 1103,/cgi-bin/bash,/cgi-bin/bash/,/cgi-bin/bash/,301,20,2018-07-22 14:01:44+00:00,404
 1104,/series/culture/index.xml,/series/culture/,/series/culture/,301,19,2023-12-31 05:31:31+00:00,301
-1105,/characterizing-networks,/characterizing-networks/,/research/characterizing-networks,301,19,2023-12-19 03:11:33+00:00,301
+1105,/characterizing-networks,/characterizing-networks/,/research/characterizing-networks/,301,19,2023-12-19 03:11:33+00:00,301
 1106,/technology/disable-recent-items/null,/technology/disable-recent-items/null/,/technology/disable-recent-items/null/,301,19,2023-12-02 09:23:02+00:00,301
 1107,/articles/safari-5-adblock/,/articles/safari-5-adblock/,/articles/safari-5-adblock/,301,19,2023-09-07 11:56:04+00:00,404
 1108,/technology,/technology/,/technology/,301,19,2023-08-31 11:27:34+00:00,301
@@ -1128,7 +1128,7 @@ index,URI,Canonical,Redirect URI,Redirect status,Count,Last,Status
 1126,/editor/filemanager/browser/default/connectors/test.html,/editor/filemanager/browser/default/connectors/test/,/editor/filemanager/browser/default/connectors/test/,301,19,2018-07-22 14:19:21+00:00,301
 1127,/fckeditor/editor/filemanager/upload/test,/fckeditor/editor/filemanager/upload/test/,/fckeditor/editor/filemanager/upload/test/,301,19,2018-07-22 14:19:21+00:00,404
 1128,/files/fckeditor/editor/filemanager/connectors/uploadtest,/files/fckeditor/editor/filemanager/connectors/uploadtest/,/files/fckeditor/editor/filemanager/connectors/uploadtest/,301,19,2018-07-22 14:19:21+00:00,404
-1129,/forwarding-paradigms,/forwarding-paradigms/,/research/forwarding-paradigms,301,19,2018-07-22 14:19:21+00:00,301
+1129,/forwarding-paradigms,/forwarding-paradigms/,/research/forwarding-paradigms/,301,19,2018-07-22 14:19:21+00:00,301
 1130,/ckeditor/samples/plugins/htmlwriter/outputhtml,/ckeditor/samples/plugins/htmlwriter/outputhtml/,/ckeditor/samples/plugins/htmlwriter/outputhtml/,301,19,2018-07-22 14:19:20+00:00,404
 1131,/core_main/editor/editor/filemanager/connectors/uploadtest.html,/core_main/editor/editor/filemanager/connectors/uploadtest/,/core_main/editor/editor/filemanager/connectors/uploadtest/,301,19,2018-07-22 14:19:20+00:00,301
 1132,/addons/fckeditor/editor/filemanager/connectors/uploadtest,/addons/fckeditor/editor/filemanager/connectors/uploadtest/,/addons/fckeditor/editor/filemanager/connectors/uploadtest/,301,19,2018-07-22 14:19:19+00:00,404
@@ -3428,7 +3428,7 @@ index,URI,Canonical,Redirect URI,Redirect status,Count,Last,Status
 3426,/transformation/organizational-transformation-objectives-key-results-okr-performance-management,/transformation/organizational-transformation-objectives-key-results-okr-performance-management/,/transformation/organizational-transformation-objectives-key-results-okr-performance-management/,301,3,2023-05-28 16:06:39+00:00,301
 3427,/de/categories/index.xml,/de/categories/,/de/categories/,301,3,2023-05-24 01:00:14+00:00,301
 3428,/research/publications/heimlicher_partialpaths_tik303,/research/publications/heimlicher_partialpaths_tik303/,/research/publications/heimlicher_partialpaths_tik303/,301,3,2023-05-16 17:50:51+00:00,404
-3429,/de/tags/hugo_partial/index.xml,/de/tags/hugo_partial/,/de/tags/hugo_partial/,301,3,2023-05-14 20:20:20+00:00,301
+3429,/de/tags/hugo_partial/index.xml,/de/tags/hugo-partial/,/de/tags/hugo-partial/,301,3,2023-05-14 20:20:20+00:00,301
 3430,/BAK,/BAK/,/BAK/,301,3,2023-05-10 05:41:36+00:00,404
 3431,/OLDSITE,/OLDSITE/,/OLDSITE/,301,3,2023-05-10 05:40:23+00:00,404
 3432,/old2,/old2/,/old2/,301,3,2023-05-10 05:40:20+00:00,404
@@ -4886,7 +4886,7 @@ index,URI,Canonical,Redirect URI,Redirect status,Count,Last,Status
 4884,/de/categories/communication/index.xml,/de/categories/communication/,/de/categories/communication/,301,1,2023-05-13 22:24:31+00:00,301
 4885,/articles/2015/03/15/migrating-from-bind-to-powerdns/,/articles/migrating-from-bind-to-powerdns/,/articles/migrating-from-bind-to-powerdns/,301,1,2023-05-12 11:31:31+00:00,404
 4886,/de/tags/communication/index.xml,/de/tags/communication/,/de/tags/communication/,301,1,2023-05-11 21:55:41+00:00,301
-4887,/de/series/hugo_snippets/index.xml,/de/series/hugo_snippets/,/de/series/hugo_snippets/,301,1,2023-05-10 08:46:13+00:00,301
+4887,/de/series/hugo_snippets/index.xml,/de/series/hugo-snippets/,/de/series/hugo-snippets/,301,1,2023-05-10 08:46:13+00:00,301
 4888,/scripts/claris/,/scripts/claris/,/scripts/claris/,301,1,2023-05-09 19:05:27+00:00,403
 4889,/77e58554-2337-4a8e-8065-6aa962ce8929,/77e58554-2337-4a8e-8065-6aa962ce8929/,/77e58554-2337-4a8e-8065-6aa962ce8929/,301,1,2023-05-09 19:05:26+00:00,404
 4890,/Z0Wa37XAaUOehIHf7OeV/DxLreZ6KodCENH,/Z0Wa37XAaUOehIHf7OeV/DxLreZ6KodCENH/,/Z0Wa37XAaUOehIHf7OeV/DxLreZ6KodCENH/,301,1,2023-05-06 09:37:47+00:00,404

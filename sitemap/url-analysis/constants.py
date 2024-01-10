@@ -1,0 +1,38 @@
+import re
+from pathlib import Path
+
+# Dmains
+ORIGINAL_DOMAIN = 'heimlicher.com'
+ORIGINAL_HOST_MATCH_RE = r'(?:[-a-z]+\.)*' + re.escape(ORIGINAL_DOMAIN)
+
+# Column names
+REQUEST_URI = 'URI'
+REQUEST_URI_WITHOUT_QUERY = 'URI without query'
+REQUEST_URI_CANONICAL = 'Canonical'
+LAST_ACCESS = 'Last'
+ACCESS_COUNT = 'Count'
+STATUS_CODE = 'Status'
+
+# Generate redirects
+REDIRECT_URI = 'Redirect URI'
+REDIRECT_STATUS = 'Redirect status'
+
+COLUMNS_INPUT = [REQUEST_URI, ACCESS_COUNT, LAST_ACCESS, STATUS_CODE]
+COLUMNS_INPUT_CANONICAL = [REQUEST_URI, REQUEST_URI_CANONICAL, ACCESS_COUNT, LAST_ACCESS, STATUS_CODE]
+COLUMNS_ALL = [REQUEST_URI, REQUEST_URI_CANONICAL, REDIRECT_URI, REDIRECT_STATUS, ACCESS_COUNT, LAST_ACCESS, STATUS_CODE]
+
+# Validate redirects
+VALIDATION_STATUS_INITIAL = 'Validation status initial'
+VALIDATION_STATUS_FINAL = 'Validation status final'
+
+# Directories
+ROOT_DIR = Path(__file__).absolute().parent
+INPUT_DIR = ROOT_DIR / "input"
+OUTPUT_DIR = ROOT_DIR / "output"
+HUGO_PROJECT_DIR = ROOT_DIR.parent.parent
+HUGO_DATA_DIR = HUGO_PROJECT_DIR / "data"
+HUGUO_OUTPUT_PUBLIC = HUGO_PROJECT_DIR / "output" / "serve" / "devel"
+
+HTTP_STATUS_OK = 200
+HTTP_STATUS_REDIRECT = 301
+HTTP_STATUS_NOT_FOUND = 404

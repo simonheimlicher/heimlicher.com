@@ -5,4 +5,6 @@ image:
 lastmod: "2023-04-20T12:29:31.665Z"
 title: Technologie
 weight: 500
+aliases:
+- /de/tags/matlab/
 ---
