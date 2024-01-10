@@ -18,11 +18,16 @@
 {{- */ -}}
 
 {{- range .Sites }}
-  {{- $pageUrls := slice }}
+  {{- $allUrls := slice }}
   {{- range .Pages }}
-    {{-  $pageUrls = append .RelPermalink $pageUrls }}
+    {{- $allUrls = append .RelPermalink $allUrls }}
+    {{- range .Resources.Match "*" }}
+      {{- if ne .ResourceType "page" }} {{/* Exclude nested pages */}}
+        {{- $allUrls = append .RelPermalink $allUrls  }}
+      {{- end }}
+    {{- end }}
   {{- end }}
-  {{- range (sort $pageUrls) }}
+  {{- range (sort $allUrls) }}
     {{- printf "%s\n" . }}
   {{- end }}
 {{- end -}}

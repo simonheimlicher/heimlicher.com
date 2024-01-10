@@ -14,6 +14,7 @@ weight: 200
 aliases:
   - /work/
   - /organizational-transformation/
+  - /tags/organizational-transformation/
 ---
 
 In the swiftly changing modern business landscape, the only constant is change. As a senior leader or executive, you understand the necessity of staying at the cutting edge. You know that success requires a comprehensive approach to performance management, aligning individual and organizational goals, and fostering an environment of continuous improvement.

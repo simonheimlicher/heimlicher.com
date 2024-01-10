@@ -67,7 +67,7 @@ df[LAST_ACCESS] = pd.to_datetime(df[LAST_ACCESS], format='%d/%b/%Y:%H:%M:%S %z',
 # Consider only URLs that look valid
 
 # Ignore URLs that contain malicious code
-malicous_regex = r"^/data|^/api|&amp|&quot|\\x22|select*|/RK=0|/RS=\^|'x'|\+\+\+\+|2wCEAAgGBgcGB|vWfM6kbCUIv|fa3c615d773|iVBORw0KGgo"
+malicous_regex = r"^/(?:admin|backup|blog|cms|console|data|debug|mailman|api|wp-|_?error)|\.(?:js|exe)\b|not-existing|&amp|&quot|\\x22|select*|/RK=0|/RS=\^|'x'|\+\+\+\+|2wCEAAgGBgcGB|vWfM6kbCUIv|fa3c615d773|iVBORw0KGgo"
 malicious_mask = df[REQUEST_URI].str.contains(malicous_regex, na=False, case=False, regex=True)
 
 # Ignore URLs that contain URL-encoded characters such as %20|%23|%C3%(?:83|AE|AF|A2|82|html)|%E6%88|%22%20class=%22|...
@@ -173,9 +173,9 @@ canonicalization_rules = [
     # (r'^https?://' + ORIGINAL_HOST_MATCH_RE + r'(?::[0-9]+)?(/(?:[^/" ]+/)*[^/" ]*)', r'^https?://' + ORIGINAL_HOST_MATCH_RE + r'(?::[0-9]+)?(/(?:[^/" ]+/)*[^/" ]*)$', r'\1'),
     (r'^/Page(?:[(]|%28)(.*)(?:(/[^./]*)|(?:/_?index\.md))(?:[)]|%29)$', r'^/Page(?:[(]|%28)(.*)(?:(/[^./]*)|(?:/_?index\.md))(?:[)]|%29)$', r'\1\2/'),
     (r'^/articles/[0-9]{4}', r'^(/articles/)(?:[0-9]{4}/[0-9]{2}/[0-9]{2}/)([^/]+).*$', r'\1\2/'),
-    (r'.*/(?:atom|index)', r'(.*?/)(?:atom|index).*', r'\1'),
+    (r'.*/(?:atom|index|null)', r'(.*?/)(?:atom|index).*', r'\1'),
     (r'.*/page/[1-9]*/?$', r'(.*?/)page/[1-9].*', r'\1'),
-    (r'^/hints', r'_', r'-'),
+    (r'^/(?:hints|categories|series|tags)', r'_', r'-'),
     (r'.*\.html', r'(.*?)(?:/index)?\.html.*', r'\1/'),
     (r'^(.*/[^./]+)$', r'(^.*/[^./]+)$', r'\1/'),
 ]
@@ -193,24 +193,24 @@ def canonicalize_url(row):
 # Apply the function and create 'df_canonicalized'
 df_canonicalized = df_aggregated.copy()
 df_canonicalized[REQUEST_URI_CANONICAL] = df_aggregated.apply(canonicalize_url, axis=1)
-df_canonicalized = df_canonicalized[COLUMNS_INPUT_CANONICAL].reset_index()
+df_canonicalized = df_canonicalized.reset_index()
+df_canonicalized = df_canonicalized[COLUMNS_INPUT_CANONICAL]
 df_canonicalized
 
 # %%
 # Apply transformation to account for relocations of entire sections
 transformation_rules = [
-    (r'^/publications/.*', r'^(/publications/.*)', r'/research\1'),
-    (r'^/(?:publications/)?(dissertation|characterizing-networks|forwarding-paradigms)', r'^/(?:publications/)?(dissertation|characterizing-networks|forwarding-paradigms)', r'/research\1'),
-    # (r'^/hints', r'^/hints(?:/[^./]+)*/([^./]+)/*$', r'/articles/\1/'),
+    (r'^/(?:_media/)?(?:work/)?(publications/.*)', r'/research/\1'),
+    (r'^/(?:publications/)?(dissertation|characterizing-networks|forwarding-paradigms).*', r'/research/\1'),
 ]
 
 def transform_url(row):
     url = row[REQUEST_URI_CANONICAL]
 
     # Apply transformation rules
-    for pattern, search_pattern, replacement in transformation_rules:
-        if re.match(pattern, url):
-            url = re.sub(search_pattern, replacement, url)
+    for search_pattern, replacement in transformation_rules:
+        if re.match(search_pattern, url):
+            return re.sub(search_pattern, replacement, url)
 
     return url
 
@@ -223,10 +223,9 @@ df_redirects[REDIRECT_STATUS] = HTTP_STATUS_REDIRECT
 df_redirects = df_redirects[df_redirects[REDIRECT_URI].notnull()]
 df_redirects = df_redirects[COLUMNS_ALL].reset_index()
 df_redirects.to_csv(OUTPUT_DIR / 'accesslog_redirects.csv', index=False)
-df_redirects
 
 # %%
-# Get list of valid URLs and aliases from Hugo `public` directory
+# Get list of valid URLs and aliases from '_urls' and '_aliases' in Hugo's `public` directory
 # File path of list of valid URLs
 urls_path = HUGUO_OUTPUT_PUBLIC / '_urls'
 
@@ -324,15 +323,17 @@ for index, row in df_redirects.iterrows():
 df_merged_redirects = pd.DataFrame(merged_redirects_list)
 df_merged_redirects
 
-hints_mask = df_merged_redirects[REQUEST_URI_CANONICAL].str.contains(r'^/hints/perl',
-                                                        na=False, case=False, regex=True)
-df_merged_redirects[hints_mask]
-
 # %%
 # Redirect a selection nof outdated URLs to the most relevant category or section to avoid 404 errors
 default_rules = [
-    (r'^/hints/macosx.*', r'^/hints/macosx(?:/server)?.*', r'/categories/macos/'),
-    (r'^/hints.*', r'^/hints.*', r'/technology/'),
+    (r'^/private/.*', r'/about/'),
+    (r'^/public/tips/macosx/time-machine-volume-uuid/.*', r'/technology/time-machine-volume-uuid/'),
+    (r'^/public/tips/macosx/.*', r'/categories/macos/'),
+    (r'^/(?:work|software)/.*', r'/technology/'),
+    (r'^/hints/macosx(?:/server)?.*', r'/categories/macos/'),
+    (r'^/hints.*', r'/technology/'),
+    (r'^/articles/os-x.*', r'/categories/macos/'),
+    (r'^/articles.*', r'/technology/'),
 ]
 
 def default_url(row):
@@ -343,8 +344,8 @@ def default_url(row):
         canonical_uri = row[REQUEST_URI_CANONICAL]
 
         # Apply transformation rules
-        for pattern, search_pattern, replacement in default_rules:
-            if re.match(pattern, canonical_uri):
+        for search_pattern, replacement in default_rules:
+            if re.match(search_pattern, canonical_uri):
                 redirect_uri = re.sub(search_pattern, replacement, canonical_uri)
                 redirect_status = HTTP_STATUS_REDIRECT
                 return pd.Series([redirect_uri, redirect_status])
@@ -359,9 +360,6 @@ df_merged_defaulted_redirects[[REDIRECT_URI, REDIRECT_STATUS]] = df_merged_defau
 df_merged_defaulted_redirects[REDIRECT_STATUS] = df_merged_defaulted_redirects[REDIRECT_STATUS].astype(int)
 # diff_df(df_merged_redirects, df_merged_defaulted_redirects)
 df_redirects = df_merged_defaulted_redirects.copy()
-hints_mask = df_redirects[REQUEST_URI_CANONICAL].str.contains(r'^/hints/perl',
-                                                        na=False, case=False, regex=True)
-df_redirects[hints_mask]
 
 # %%
 # Output valid redirects for Hugo as JSON
@@ -376,8 +374,14 @@ df_redirects_valid
 
 # Output valid redirects to Hugo `data` directory
 # Prepare data frame for output
-df_redirects_hugo = df_redirects_valid.copy()
-df_redirects_hugo = df_redirects_hugo[[REQUEST_URI, REDIRECT_URI, REDIRECT_STATUS]]
+df_redirects_after2020 = df_redirects_valid.copy()
+
+# Accessed since the year 2020 or later...
+df_redirects_after2020 = df_redirects_after2020[df_redirects_after2020[LAST_ACCESS].dt.year >= 2020]
+# ... at least 10 times
+df_redirects_after2020_min10 = df_redirects_after2020[df_redirects_after2020[ACCESS_COUNT] > 10]
+
+df_redirects_hugo = df_redirects_after2020_min10[[REQUEST_URI, REDIRECT_URI, REDIRECT_STATUS]]
 df_redirects_hugo = df_redirects_hugo.rename(columns={REQUEST_URI: 'path',
                                                       REDIRECT_URI: 'target',
                                                       REDIRECT_STATUS: 'status'})
@@ -389,38 +393,30 @@ df_redirects_hugo.to_csv(OUTPUT_DIR / 'hugo_data_redirects.csv', index=False)
 # Write the DataFrame to a JSON file in Hugo's `data` directory to enable
 # Hugo to generate the final `_redirects` file via the template `layouts/index.redir`
 df_redirects_hugo.to_json(HUGO_DATA_DIR / 'redirects.json', orient='records', lines=False)
-df_redirects_hugo
 
-# %%
-
-# %%
 # Output records that lead to invalid URLs to CSV file
-invalid_redirects_mask = df_redirects[REDIRECT_STATUS] == HTTP_STATUS_NOT_FOUND
-df_redirects_invalid = df_redirects[invalid_redirects_mask]
+invalid_redirects_mask = df_redirects_after2020_min10[REDIRECT_STATUS] == HTTP_STATUS_NOT_FOUND
+df_redirects_invalid = df_redirects_after2020_min10[invalid_redirects_mask]
 
 # Write the DataFrame to a CSV file
 df_redirects_invalid.to_csv(OUTPUT_DIR / 'redirects_invalid.csv', index=False)
-df_redirects_invalid
-# %%
+
 # Output records that have URLs and must not be redirected to CSV file
-url_was_valid_mask = df_redirects[STATUS_CODE] == HTTP_STATUS_OK
-url_is_valid_mask = df_redirects[REDIRECT_STATUS] == HTTP_STATUS_OK
+url_was_valid_mask = df_redirects_after2020_min10[STATUS_CODE] == HTTP_STATUS_OK
+url_is_valid_mask = df_redirects_after2020_min10[REDIRECT_STATUS] == HTTP_STATUS_OK
 unwanted_redirects_mask = url_was_valid_mask & url_is_valid_mask
-df_redirects_unwanted = df_redirects[unwanted_redirects_mask]
+df_redirects_unwanted = df_redirects_after2020_min10[unwanted_redirects_mask]
 
 # Write the DataFrame to a CSV file
 df_redirects_unwanted.to_csv(OUTPUT_DIR / 'redirects_unwanted.csv', index=False)
-df_redirects_unwanted
 
-# %%
-# Get invalid redirects that begin with `/articles`
-articles_mask = df_redirects[REDIRECT_URI].str.contains(r'^/articles/[-a-z0-9._]{3,}/$',
-                                                        na=False, case=False, regex=True)
-df_redirects_invalid_articles = df_redirects[invalid_redirects_mask & articles_mask]
-df_redirects_invalid_articles
-# %%
-# Get invalid redirects that do NOT begin with `/articles`
-df_redirects[invalid_redirects_mask & ~articles_mask].sort_values([ACCESS_COUNT, LAST_ACCESS],
-                                                                  ascending=[False,False])
+# Get invalid redirects for validation
+# validation_mask = df_redirects_after2020_min10[REQUEST_URI_CANONICAL].str.contains(r'^/[-a-z0-9._]{3,}/$',
+#                                                         na=False, case=False, regex=True)
+# df_redirects_after2020_min10[invalid_redirects_mask & validation_mask]
+
+df_redirects_after2020_min10
+
+# print("- " + "\n- ".join(df_redirects_after2020_min10[invalid_redirects_mask & validation_mask][REDIRECT_URI].to_list()))
 
 # %%

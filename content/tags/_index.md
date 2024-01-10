@@ -5,5 +5,19 @@ aliases:
 - /tags/iphone/
 - /tags/ipad/
 - /tags/gcc/
-lastmod: "2023-03-22T13:34:03.046Z"
+- /tags/matlab/
+- /tags/nginx/
+- /tags/privacy/
+- /tags/perl/
+- /tags/programming/
+- /tags/web/
+- /tags/web-server/
+- /tags/jekyll/
+- /tags/social-network/
+- /tags/ruby/
+- /tags/linux/
+- /tags/bookmarklet/
+- /tags/print/
+- /tags/octopress/
+- /tags/facebook/
 ---
