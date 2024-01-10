@@ -18,17 +18,17 @@ Um dies zu erreichen, haben wir uns auf zwei Kernwerkzeuge verlassen:
 1. Wir verwendeten [Belief Propagation](https://en.wikipedia.org/wiki/Belief_propagation) in Bayesian Networks, um die für die Empfehlungen notwendigen Berechnungen *zu verteilen*.
 2. Wir nutzten [Differential Privacy](https://de.wikipedia.org/wiki/Differential_Privacy), um die Wahrung der Privatspähre beweisbar gewährleisten zu können.
 
-Die differenzielle Privatsphäre wurde ursprünglich bei Microsoft Research entwickelt; in jüngerer Zeit hat [Apple die differenzielle Privatsphäre](https://machinelearning.apple.com/2017/12/06/learning-with-privacy-at-scale.html) als Forschungsschwerpunkt übernommen.
+Die differenzielle Privatsphäre wurde ursprünglich bei Microsoft Research entwickelt; in jüngerer Zeit hat [Apple die differenzielle Privatsphäre](https://machinelearning.apple.com/research/learning-with-privacy-at-scale) als Forschungsschwerpunkt übernommen.
 
 ## Ausgewählte Publikationen
 
-Simon Heimlicher, Marc Lelarge, Laurent Massoulié:   
-**Community Detection in the Labelled Stochastic Block Model**   
-NIPS 2012 Workshop: Algorithmic and Statistical Approaches for Large Social Networks, Lake Tahoe, Nevada.   
-[<i class="fa fa-file-pdf"></i>&nbsp;Paper als PDF](/research/publications/heimlicher_community-labelled-sbm_nips12.pdf)
+Simon Heimlicher, Marc Lelarge, Laurent Massoulié:
+**Community Detection in the Labelled Stochastic Block Model**
+NIPS 2012 Workshop: Algorithmic and Statistical Approaches for Large Social Networks, Lake Tahoe, Nevada.
+[Paper als PDF](/research/publications/heimlicher_community-labelled-sbm_nips12.pdf)
 
 Siehe auch die [vollständige Liste der Publikationen](/research/publications/).
 
 ----
 
-Foto von <a href="https://unsplash.com/@robynnexy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Robynne Hu</a> auf <a href="https://unsplash.com/photos/HOrhCnQsxnQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Foto von <a href="https://unsplash.com/@robynnexy">Robynne Hu</a> auf <a href="https://unsplash.com/photos/HOrhCnQsxnQ">Unsplash</a>
