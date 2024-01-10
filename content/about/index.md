@@ -1,7 +1,7 @@
 ---
 aliases:
 - /home/about/
-description: About Simon Heimlicher, a senior executive with a passion for leadership,
+description: About Simon Heimlicher, a senior manager with a passion for leadership,
   transformation, and strategy execution
 image:
   feature:
