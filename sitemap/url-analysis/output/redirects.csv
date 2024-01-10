@@ -442,7 +442,6 @@ URI,Canonical,Redirect URI,Redirect status,Count,Last,Status
 /articles/style,/articles/style/,/digitization/,301,86,2020-06-11 07:49:34+00:00,404
 /hints/macosx/disable_recent_items.html,/hints/macosx/disable-recent-items/,/technology/,301,86,2018-07-23 22:45:52+00:00,301
 /series/leadership/index.xml,/series/leadership/,/leadership/,301,85,2024-01-06 16:26:49+00:00,301
-/categories/writing/,/categories/writing/,/digitization/,301,84,2023-10-28 03:52:42+00:00,301
 /tags/vpn/,/tags/vpn/,/technology/,301,83,2024-01-06 16:26:44+00:00,301
 /tags/cisco/,/tags/cisco/,/technology/,301,83,2024-01-06 16:26:43+00:00,301
 /tool/index.xml,/tool/,/tool/,301,82,2024-01-02 05:09:04+00:00,301
@@ -732,19 +731,15 @@ URI,Canonical,Redirect URI,Redirect status,Count,Last,Status
 /articles/environment/,/articles/environment/,/technology/,301,11,2023-10-25 01:29:22+00:00,404
 /de/categories/okr/,/de/categories/okr/,/de/transformation/,301,11,2023-06-27 09:49:18+00:00,301
 /tags/english/index.xml,/tags/english/,/digitization/,301,11,2021-10-15 17:49:28+00:00,404
-/categories/writing/index.xml,/categories/writing/,/digitization/,301,11,2021-10-13 08:05:08+00:00,404
 /categories/management/index.xml,/categories/management/,/leadership/,301,11,2021-10-12 08:04:50+00:00,404
 /categories/leadership/index.xml,/categories/leadership/,/leadership/,301,11,2021-10-12 06:55:25+00:00,404
 /atom,/,/,301,11,2019-02-28 11:52:20+00:00,404
 /archive/index.xml,/archive/,/,301,11,2018-08-28 22:42:54+00:00,404
 /work/software/dokuwiki/templates/start,/work/software/dokuwiki/templates/,/technology/,301,11,2018-07-22 14:19:27+00:00,301
 /articles/2008/03/20/kdcmon,/articles/kdcmon/,/technology/,301,11,2015-04-23 20:30:35+00:00,404
-/de/tags/matlab,/de/tags/matlab/,/de/technology/,301,10,2024-01-06 16:26:51+00:00,301
-/de/tags/matlab/,/de/tags/matlab/,/de/technology/,301,10,2024-01-06 16:26:51+00:00,301
 /de/categories/methodik/,/de/categories/methodik/,/de/leadership/,301,10,2023-12-08 15:41:14+00:00,301
 /articles/file-vault-2,/articles/file-vault-2/,/technology/,301,10,2023-11-17 03:32:46+00:00,301
 /de/tags/leadership/index.xml,/de/tags/leadership/,/de/tags/leadership/,301,10,2023-10-25 05:54:32+00:00,301
-/categories/writing,/categories/writing/,/digitization/,301,10,2023-10-24 05:25:06+00:00,301
 /Page%28/technology/disable-recent-items/index.md%29,/technology/disable-recent-items/,/technology/disable-recent-items/,301,10,2023-10-23 04:24:03+00:00,301
 /series,/series/,/series/,301,10,2021-06-01 13:40:51+00:00,301
 /work/software/dokuwiki/auth_http/,/work/software/dokuwiki/auth_http/,/technology/,301,10,2018-07-22 14:19:27+00:00,404

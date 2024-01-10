@@ -2,13 +2,13 @@
 aliases:
 - /articles/
 - /series/leadership/
-- /de/categories/performance-management/
-- /de/tags/leistung/
-- /de/categories/buch/
-- /de/categories/leadership/
-- /de/categories/management/
-- /de/categories/methodik/
-- /de/tags/performance-management/
+- /categories/performance-management/
+- /tags/leistung/
+- /categories/buch/
+- /categories/leadership/
+- /categories/management/
+- /categories/methodik/
+- /tags/performance-management/
 description: Über Führung mit Wahrheit, Mitgefühl und Wirkung, um Komplexität, Mehrdeutigkeit
   und Konflikte zu meistern
 image:

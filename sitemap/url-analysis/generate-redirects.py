@@ -336,14 +336,15 @@ for index, row in df_redirects_accesslog.iterrows():
             else:
                 # No page to redirect to found
                 if (re.match(r'.*\.[a-z0-9]+$', row[REQUEST_URI_CANONICAL], flags=re.IGNORECASE)
-                    and new_row[REDIRECT_URI] != row[REDIRECT_URI]):
+                    # and new_row[REDIRECT_URI] != row[REDIRECT_URI]
+                    ):
                     new_row[REDIRECT_STATUS] = HTTP_STATUS_REDIRECT
                     new_row[REDIRECT_URI] = row[REDIRECT_URI]
                 else:
                     # Since the URL may still be valid, for example referring to a PDF,
                     # we add the canonicalized REDIRECT_URI if it differs from the REQUEST_URI
                     # but with a status of 'not found' as we are unable to determine if the redirect URL is valid
-                    if (new_row[REDIRECT_URI] != row[REQUEST_URI_CANONICAL]):
+                    if new_row[REDIRECT_URI] != row[REQUEST_URI_CANONICAL]:
                         new_row[REDIRECT_URI] = row[REQUEST_URI_CANONICAL]
                         new_row[REDIRECT_STATUS] = HTTP_STATUS_NOT_FOUND
 
@@ -426,8 +427,10 @@ def validate_redirects(df_redirects, csv_file):
         if test_row[REDIRECT_STATUS] == HTTP_STATUS_OK:
             # Validate that there is no redirect for this URL in df_redirects
             if not redirect_match.empty:
-                error = (f"Unwanted redirect: uri {test_row[REQUEST_URI]} has status {test_row[REDIRECT_STATUS]}"
-                        + f"unwanted redirect {redirect_row[REQUEST_URI]} -> {redirect_row[REDIRECT_URI]} {redirect_row[REDIRECT_STATUS]}")
+                # Get the first row from the matching ones
+                redirect_row = redirect_match.iloc[0]
+                error = (f"Unwanted redirect: uri {test_row[REQUEST_URI]} has status {test_row[REDIRECT_STATUS]}\n"
+                        + f"unwanted: {redirect_row[REQUEST_URI]} -> {redirect_row[REDIRECT_URI]} {redirect_row[REDIRECT_STATUS]}")
         else:
             # Validate that there a redirect for this URL in df_redirects and it is correct
             if not redirect_match.empty:
@@ -436,7 +439,7 @@ def validate_redirects(df_redirects, csv_file):
                 if (redirect_row[REDIRECT_URI] != test_row[REDIRECT_URI] or
                         redirect_row[REDIRECT_STATUS] != test_row[REDIRECT_STATUS]):
                     error = (f"Wrong redirect {redirect_row[REQUEST_URI]} -> {redirect_row[REDIRECT_URI]} {redirect_row[REDIRECT_STATUS]}:\n    "
-                        + f"expected {test_row[REQUEST_URI]} -> {test_row[REDIRECT_URI]} {test_row[REDIRECT_STATUS]}")
+                        + f"expected: {test_row[REQUEST_URI]} -> {test_row[REDIRECT_URI]} {test_row[REDIRECT_STATUS]}")
             else:
                 error = (f"Missing redirect {test_row[REQUEST_URI]} -> {test_row[REDIRECT_URI]} {test_row[REDIRECT_STATUS]}")
 
