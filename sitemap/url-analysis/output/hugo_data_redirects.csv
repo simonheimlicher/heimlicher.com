@@ -1,5 +1,4 @@
 path,target,status
-/_media/heimlicher_cv.pdf,/_media/heimlicher_cv.pdf,301
 /_media/publications/,/research/publications/,301
 /_media/publications/baumann_heat_ieeenetwork08.pdf,/research/publications/baumann_heat_ieeenetwork08.pdf,301
 /_media/publications/baumann_heat_wowmom07.pdf,/research/publications/baumann_heat_wowmom07.pdf,301
@@ -27,7 +26,6 @@ path,target,status
 /_media/work/publications/heimlicher_saft_mass06.pdf,/research/publications/heimlicher_saft_mass06.pdf,301
 /_media/work/publications/heimlicher_transport-layer-revisited_comsware07.pdf,/research/publications/heimlicher_transport-layer-revisited_comsware07.pdf,301
 /about,/about/,301
-/app/etc/local.xml,/app/etc/local.xml,301
 /archive,/,301
 /archive/,/,301
 /articles,/leadership/,301
@@ -256,7 +254,6 @@ path,target,status
 /articles/windows/,/technology/,301
 /articles/zero-disk/,/technology/,301
 /atom.xml,/,301
-/browserconfig.xml,/browserconfig.xml,301
 /categories,/categories/,301
 /categories/book,/categories/book/,301
 /categories/book/index.xml,/categories/book/,301
@@ -313,7 +310,6 @@ path,target,status
 /de/research/index.xml,/de/research/,301
 /de/series/hugo_snippets/,/de/series/hugo-snippets/,301
 /de/series/index.xml,/de/series/,301
-/de/sitemap.xml,/de/sitemap.xml,301
 /de/tags/hugo_partial/,/de/tags/hugo-partial/,301
 /de/tags/leistung/,/de/leadership/,301
 /de/tags/organizational-transformation/,/de/transformation/,301
@@ -324,7 +320,6 @@ path,target,status
 /de/transformation/organizational-transformation-objectives-key-results-okr-performance-management/,/de/transformation/how-objectives-key-results-facilitate-transformation/,301
 /digital-transformation/,/digitization/,301
 /digital-transformation/capitalization-title-headings-preferences/,/digitization/capitalization-title-headings-preferences/,301
-/en/sitemap.xml,/en/sitemap.xml,301
 /forwarding-paradigms/,/research/forwarding-paradigms/,301
 /forwarding-paradigms/index,/research/forwarding-paradigms/,301
 /hints,/technology/,301
@@ -345,9 +340,9 @@ path,target,status
 /hints/macosx/,/technology/,301
 /hints/macosx/bjam,/technology/,301
 /hints/macosx/cisco_vpn,/technology/,301
-/hints/macosx/cisco_vpn/,/technology/,301
+/hints/macosx/cisco_vpn/,/technology/cisco-vpn-save-password-macos/,301
 /hints/macosx/disable_recent_items,/technology/,301
-/hints/macosx/disable_recent_items/,/technology/,301
+/hints/macosx/disable_recent_items/,/technology/disable-recent-items/,301
 /hints/macosx/disk-failure,/technology/,301
 /hints/macosx/disk-failure/,/technology/,301
 /hints/macosx/environment,/technology/,301
@@ -417,7 +412,6 @@ path,target,status
 /page/2/,/,301
 /page/3/,/,301
 /page/4/,/,301
-/plugins/system/debug/debug.xml,/plugins/system/debug/debug.xml,301
 /private,/about/,301
 /private/start,/about/,301
 /public/tips/macosx/cisco_vpn,/technology/,301
@@ -453,26 +447,7 @@ path,target,status
 /research/index.xml,/research/,301
 /research/machine-learning,/research/machine-learning/,301
 /research/publications,/research/publications/,301
-/research/publications/baumann_heat_ieeenetwork08.pdf,/research/publications/baumann_heat_ieeenetwork08.pdf,301
-/research/publications/baumann_heat_wowmom07.pdf,/research/publications/baumann_heat_wowmom07.pdf,301
-/research/publications/baumann_mobility-notification_icnp06.pdf,/research/publications/baumann_mobility-notification_icnp06.pdf,301
-/research/publications/baumann_protocol-for-macro-mobility_pcac07.pdf,/research/publications/baumann_protocol-for-macro-mobility_pcac07.pdf,301
-/research/publications/baumann_realistic-mobility-models_infocom07.pdf,/research/publications/baumann_realistic-mobility-models_infocom07.pdf,301
-/research/publications/baumann_routing-into-wmn_wimob07.pdf,/research/publications/baumann_routing-into-wmn_wimob07.pdf,301
-/research/publications/gao_netarch_sigcomm14.pdf,/research/publications/gao_netarch_sigcomm14.pdf,301
-/research/publications/heimlicher_community-labelled-sbm_nips12.pdf,/research/publications/heimlicher_community-labelled-sbm_nips12.pdf,301
-/research/publications/heimlicher_e2e-vs-hbh-intermittent_autonomics07.pdf,/research/publications/heimlicher_e2e-vs-hbh-intermittent_autonomics07.pdf,301
-/research/publications/heimlicher_e2e-vs-hbh-transport_sigmetrics07.pdf,/research/publications/heimlicher_e2e-vs-hbh-transport_sigmetrics07.pdf,301
-/research/publications/heimlicher_globs_mobihoc10-extended.pdf,/research/publications/heimlicher_globs_mobihoc10-extended.pdf,301
-/research/publications/heimlicher_globs_mobihoc10.pdf,/research/publications/heimlicher_globs_mobihoc10.pdf,301
-/research/publications/heimlicher_partialpaths_infocom09.pdf,/research/publications/heimlicher_partialpaths_infocom09.pdf,301
-/research/publications/heimlicher_partialpaths_tik303.pdf,/research/publications/heimlicher_partialpaths_tik303.pdf,301
-/research/publications/heimlicher_saft_mass06.pdf,/research/publications/heimlicher_saft_mass06.pdf,301
-/research/publications/heimlicher_transport-layer-revisited_comsware07.pdf,/research/publications/heimlicher_transport-layer-revisited_comsware07.pdf,301
 /research/publications/index,/research/publications/,301
-/research/publications/lenders_impact_of_mobility_on_link_failures_ieee_wireless_communications08.pdf,/research/publications/lenders_impact_of_mobility_on_link_failures_ieee_wireless_communications08.pdf,301
-/research/publications/yang_network-transitioning_infocom15.pdf,/research/publications/yang_network-transitioning_infocom15.pdf,301
-/rss.xml,/rss.xml,301
 /series/culture,/series/culture/,301
 /series/culture/index.xml,/series/culture/,301
 /series/hugo-snippets/index.xml,/series/hugo-snippets/,301
@@ -483,10 +458,6 @@ path,target,status
 /series/leadership/page/1/,/leadership/,301
 /series/okr/index.xml,/series/okr/,301
 /series/okr/page/1/,/series/okr/,301
-/sitemap.xml,/sitemap.xml,301
-/sitemap.xml.gz,/sitemap.xml.gz,301
-/sitemap_index.xml,/sitemap_index.xml,301
-/sitemaps.xml,/sitemaps.xml,301
 /software/,/technology/,301
 /software/dashsms/,/technology/,301
 /software/dashsms/index,/technology/,301

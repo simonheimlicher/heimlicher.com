@@ -320,33 +320,42 @@ for index, row in df_redirects_accesslog.iterrows():
             # The URL in the REQUEST_URI_CANONICAL column is a valid URL and we should redirect to it
             new_row[REDIRECT_STATUS] = HTTP_STATUS_REDIRECT
             new_row[REDIRECT_URI] = row[REQUEST_URI_CANONICAL]
-
-        # 3. Determine if the current redirect URL is a valid URL and the original URL should be redirected
-        redirect_match = df_hugo_valid_urls[df_hugo_valid_urls[REQUEST_URI] == row[REDIRECT_URI]]
-        if not redirect_match.empty:
-            #  Current redirect URL is valid as the URL exists in df_hugo_valid_urls
-            new_row[REDIRECT_STATUS] = HTTP_STATUS_REDIRECT
-            new_row[REDIRECT_URI] = row[REDIRECT_URI]
         else:
-            # Check if there is a redirect mapping from an alias in `df_hugo_alias_redirects` for the REDIRECT_URI
-            redirect_alias_match = df_hugo_alias_redirects[df_hugo_alias_redirects[REQUEST_URI] == row[REDIRECT_URI]]
-            if not redirect_alias_match.empty:
+            # Check if there is a redirect mapping from an alias in `df_hugo_alias_redirects` for the canonical URL
+            alias_match = df_hugo_alias_redirects[df_hugo_alias_redirects[REQUEST_URI] == row[REQUEST_URI]]
+            if not alias_match.empty:
                 new_row[REDIRECT_STATUS] = HTTP_STATUS_REDIRECT
-                new_row[REDIRECT_URI] = redirect_alias_match.iloc[0][REDIRECT_URI]  # First matching record's Redirect URL
+                new_row[REDIRECT_URI] = alias_match.iloc[0][REDIRECT_URI]  # First matching record's Redirect URL
             else:
-                # No page to redirect to found
-                if (re.match(r'.*\.[a-z0-9]+$', row[REQUEST_URI_CANONICAL], flags=re.IGNORECASE)
-                    # and new_row[REDIRECT_URI] != row[REDIRECT_URI]
-                    ):
+                # 3. Determine if the current redirect URL is a valid URL and the original URL should be redirected
+                redirect_match = df_hugo_valid_urls[df_hugo_valid_urls[REQUEST_URI] == row[REDIRECT_URI]]
+                if not redirect_match.empty:
+                    #  Current redirect URL is valid as the URL exists in df_hugo_valid_urls
                     new_row[REDIRECT_STATUS] = HTTP_STATUS_REDIRECT
                     new_row[REDIRECT_URI] = row[REDIRECT_URI]
                 else:
-                    # Since the URL may still be valid, for example referring to a PDF,
-                    # we add the canonicalized REDIRECT_URI if it differs from the REQUEST_URI
-                    # but with a status of 'not found' as we are unable to determine if the redirect URL is valid
-                    if new_row[REDIRECT_URI] != row[REQUEST_URI_CANONICAL]:
-                        new_row[REDIRECT_URI] = row[REQUEST_URI_CANONICAL]
-                        new_row[REDIRECT_STATUS] = HTTP_STATUS_NOT_FOUND
+                    # Check if there is a redirect mapping from an alias in `df_hugo_alias_redirects` for the canonical URL
+                    canonical_alias_match = df_hugo_alias_redirects[df_hugo_alias_redirects[REQUEST_URI] == row[REQUEST_URI_CANONICAL]]
+                    if not canonical_alias_match.empty:
+                        new_row[REDIRECT_STATUS] = HTTP_STATUS_REDIRECT
+                        new_row[REDIRECT_URI] = canonical_alias_match.iloc[0][REDIRECT_URI]  # First matching record's Redirect URL
+                    else:
+                        redirect_alias_match = df_hugo_alias_redirects[df_hugo_alias_redirects[REQUEST_URI] == row[REDIRECT_URI]]
+                        if not redirect_alias_match.empty:
+                            new_row[REDIRECT_STATUS] = HTTP_STATUS_REDIRECT
+                            new_row[REDIRECT_URI] = redirect_alias_match.iloc[0][REDIRECT_URI]  # First matching record's Redirect URL
+                        else:
+                            # No page to redirect to found.
+                            # If the URL corresponds to a file, we blindly redirect
+                            if (re.match(r'.*\.[a-z0-9]+$', row[REQUEST_URI_CANONICAL], flags=re.IGNORECASE)
+                                and row[REDIRECT_URI] != row[REQUEST_URI]
+                                ):
+                                new_row[REDIRECT_STATUS] = HTTP_STATUS_REDIRECT
+                                new_row[REDIRECT_URI] = row[REDIRECT_URI]
+                            else:
+                                # Redirect to the canonical URL as all the default rules below are based on canonical URLs
+                                new_row[REDIRECT_STATUS] = HTTP_STATUS_NOT_FOUND
+                                new_row[REDIRECT_URI] = row[REQUEST_URI_CANONICAL]
 
     # Append the new row to the list
     merged_redirects_list.append(new_row)
