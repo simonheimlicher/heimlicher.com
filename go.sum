@@ -50,6 +50,8 @@ github.com/simonheimlicher/hugo-claris v0.0.0-20240109022116-23d0e3d16f22 h1:xiM
 github.com/simonheimlicher/hugo-claris v0.0.0-20240109022116-23d0e3d16f22/go.mod h1:tMV+kZlVSu714eEZbnRH6wCthEwgAv5X1V2Bimo8MAM=
 github.com/simonheimlicher/hugo-claris v0.0.0-20240110230051-7d378f5747b6 h1:tIswGbotqHD2GS2tMGPQdkH3g0VsyzJnEXLQAm3XyFc=
 github.com/simonheimlicher/hugo-claris v0.0.0-20240110230051-7d378f5747b6/go.mod h1:tMV+kZlVSu714eEZbnRH6wCthEwgAv5X1V2Bimo8MAM=
+github.com/simonheimlicher/hugo-claris v0.0.0-20240110235619-76dd9c65a10a h1:yZY/97HwdgKhmG7lZ8GyxCl1kqNjHkzOqCLzfIFde/A=
+github.com/simonheimlicher/hugo-claris v0.0.0-20240110235619-76dd9c65a10a/go.mod h1:tMV+kZlVSu714eEZbnRH6wCthEwgAv5X1V2Bimo8MAM=
 github.com/simonheimlicher/hugo-fontawesome v0.0.0-20230505144855-e222036fac11 h1:+6++XXZzSLlAW1b/7SCPsk/kDVK6Fa1VxXHkGg2fa3M=
 github.com/simonheimlicher/hugo-fontawesome v0.0.0-20230505144855-e222036fac11/go.mod h1:3926BFEd0hIwpvs6to4wYm9XMlOuBTTCfSDI1An3JRs=
 github.com/simonheimlicher/hugo-fontawesome v0.0.0-20230505145305-a0afa1d13cf7 h1:qk6Ed7UcaLLv9vIWdMYk8jGN0uRzeGM8x7MWXVxGg28=
