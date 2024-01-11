@@ -54,7 +54,9 @@
     "postcss": "^8.4.23",
     "postcss-aspect-ratio-polyfill": "^2.0.0",
     "postcss-custom-properties": "^13.1.4",
-    "postcss-object-fit-images": "^1.1.2"
+    "postcss-object-fit-images": "^1.1.2",
+    "postcss-prune-var": "^1.1.1",
+    "postcss-var-optimize": "^8.1.0"
   },
   "keywords": [],
   "license": "ISC",

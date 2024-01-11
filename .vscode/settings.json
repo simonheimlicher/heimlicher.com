@@ -16,5 +16,6 @@
   "markdownlint.config": {
     "default": true,
     "no-inline-html": false
-  }
+  },
+  "editor.defaultFormatter": "ms-python.black-formatter"
 }
