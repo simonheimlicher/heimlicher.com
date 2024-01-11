@@ -30,6 +30,8 @@ jobs:
       contents: read
     env:
       HUGO_VERSION: 0.121.1
+      # Define the branch name variable
+      BRANCH_NAME: ${{ github.ref_name }}
 
     steps:
 
@@ -58,9 +60,10 @@ jobs:
         uses: actions/cache@v3
         with:
           path: resources
-          key: ${{ runner.os }}-hugo-resources-${{ github.run_id }}
+          key: ${{ runner.os }}-hugo-resources-${{ env.BRANCH_NAME }}-${{ github.run_id }}
           restore-keys: |
-            ${{ runner.os }}-hugo-resources
+            ${{ runner.os }}-hugo-resources-${{ env.BRANCH_NAME }}-
+            ${{ runner.os }}-hugo-resources-main- # Fallback to main branch cache
 
       - name: Build with Hugo
         env:
@@ -75,7 +78,7 @@ jobs:
         with:
           # Name of the artifact to upload.
           # Optional. Default is 'artifact'
-          name: public
+          name: public-${{ env.BRANCH_NAME }}
 
           # A file, directory or wildcard pattern that describes what to upload
           # Required.
