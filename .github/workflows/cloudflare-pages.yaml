@@ -111,6 +111,10 @@ jobs:
     permissions:
       contents: read
       deployments: write
+    env:
+      # Define the branch name variable
+      BRANCH_NAME: ${{ github.ref_name }}
+
     if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/stage'
     steps:
       - name: Download build artifact
@@ -119,7 +123,7 @@ jobs:
           # Name of the artifact to download.
           # If unspecified, all artifacts for the run are downloaded.
           # Optional.
-          name: public
+          name: public-${{ env.BRANCH_NAME }}
 
           # Destination path. Supports basic tilde expansion.
           # Optional. Default is $GITHUB_WORKSPACE
