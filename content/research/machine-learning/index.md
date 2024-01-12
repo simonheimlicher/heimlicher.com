@@ -28,4 +28,4 @@ NIPS 2012 Workshop: Algorithmic and Statistical Approaches for Large Social Netw
 Please refer to the [complete list of publications](/research/publications/) for further information.
 
 ----
-Photo by <a href="https://unsplash.com/@robynnexy">Robynne Hu</a> on <a href="https://unsplash.com/photos/HOrhCnQsxnQ">Unsplash</a>
+Photo by <a href="https://unsplash.com/@robinne">Robynne Hu</a> on <a href="https://unsplash.com/photos/HOrhCnQsxnQ">Unsplash</a>

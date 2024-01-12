@@ -31,4 +31,4 @@ Siehe auch die [vollständige Liste der Publikationen](/research/publications/).
 
 ----
 
-Foto von <a href="https://unsplash.com/@robynnexy">Robynne Hu</a> auf <a href="https://unsplash.com/photos/HOrhCnQsxnQ">Unsplash</a>
+Foto von <a href="https://unsplash.com/@robinne">Robynne Hu</a> auf <a href="https://unsplash.com/photos/HOrhCnQsxnQ">Unsplash</a>
