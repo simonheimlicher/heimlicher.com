@@ -180,7 +180,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_STAGE_ACCOUNT_ID }}
-          projectName: ${{ vars.CLOUDFLARE_STAGE_PROJECT_ID }}
+          projectName: ${{ vars.CLOUDFLARE_STAGE_PROJECT_NAME }}
           directory: public
           # Optional: Enable this if you want to have GitHub Deployments triggered
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
