@@ -1,10 +1,10 @@
 {
   "files.associations": {
-  "*.html": "gohtml",
-  "robots.txt": "gohtml",
-  "index.redir*": "gohtml",
-  "index.aliases": "gohtml",
-  "index.urls": "gohtml",
+    "*.html": "gohtml",
+    "robots.txt": "gohtml",
+    "index.redir*": "gohtml",
+    "index.aliases": "gohtml",
+    "index.urls": "gohtml",
   },
   "emmet.includeLanguages": {
     "gohtml": "html",
@@ -17,5 +17,8 @@
     "default": true,
     "no-inline-html": false
   },
-  "editor.defaultFormatter": "ms-python.black-formatter"
+  "editor.defaultFormatter": "ms-python.black-formatter",
+  "[markdown]": {
+    "editor.quickSuggestions": true
+  },
 }
