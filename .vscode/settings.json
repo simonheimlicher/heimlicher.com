@@ -1,15 +1,4 @@
 {
-  "files.associations": {
-    "*.html": "gohtml",
-    "robots.txt": "gohtml",
-    "index.redir*": "gohtml",
-    "index.aliases": "gohtml",
-    "index.urls": "gohtml",
-  },
-  "emmet.includeLanguages": {
-    "gohtml": "html",
-  },
-  "frontMatter.content.autoUpdateDate": false,
   "evenBetterToml.schema.associations": {
     "*.toml": "https://json.schemastore.org/hugo.json"
   },
@@ -17,7 +6,6 @@
     "default": true,
     "no-inline-html": false
   },
-  "editor.defaultFormatter": "ms-python.black-formatter",
   "[markdown]": {
     "editor.quickSuggestions": {
       "comments": "on",
