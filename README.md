@@ -10,18 +10,18 @@ This repository contains a *GitHub Actions workflow* named **[Deploy Hugo site t
 
 The workflow builds the website and then deploys it to the **Cloudflare Pages** project corresponding to the branch.
 
-| Git branch    | Cloudflare Pages project  | Cloudflare domain                     | Custom domain                     |
-|-------------- | ------------------------- | ------------------------------------- | --------------------------------- |
-| **main**      | heimlicher                | <https://heimlicher.pages.dev>        |   <https://simon.heimlicher.com>  |
-| **stage**     | heimlicher-stage          | <https://heimlicher-stage.pages.dev>  |   <https://stage.heimlicher.com>  |
+| **Git branch** | **Cloudflare Pages project**  | **Cloudflare domain**                 | **Custom domain**                |
+| -------------- | ----------------------------- | ------------------------------------- | -------------------------------- |
+| **main**       | heimlicher                    | <https://heimlicher.pages.dev>        | <https://simon.heimlicher.com>   |
+| **stage**      | heimlicher-stage              | <https://heimlicher-stage.pages.dev>  | <https://stage.heimlicher.com>   |
 
-## How to set this up
+## How to get this website up and running
 
 ### Get everything required
 
 1. [Install Hugo](https://gohugo.io/overview/installing/) and [Dart Sass](https://sass-lang.com/dart-sass/)
 2. Clone this repository
-3. Install the dependencies for building the website
+3. Install the required Node packages
 
 #### 1. Get **[Hugo]**(https://gohugo.io/overview/installing/) and **[Dart Sass](https://sass-lang.com/dart-sass/)**
 
@@ -44,19 +44,21 @@ git clone https://github.com/simonheimlicher/heimlicher.com.git
 cd heimlicher.com
 ```
 
-#### 3. Install dependencies
+#### 3. Install the required Node packages
 
 ```zsh
 npm install
 ```
 
-#### 4. Run Hugo
+### Local development
 
 For development, run
 
 ```zsh
 hugo server
 ```
+
+### Build for deployment
 
 To build for deployment, run
 
