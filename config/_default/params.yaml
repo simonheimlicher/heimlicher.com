@@ -118,4 +118,6 @@ social:
 
 posthog:
   key: phc_uCbhFRCieH9tPYbmlaLPtW6pZaEgnOfGENNgcC1KdlA
-  host: https://eu.posthog.com
+  # host: https://eu.posthog.com
+  host: https://localization.heimlicher.com
+  # bundle: true
