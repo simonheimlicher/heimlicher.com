@@ -10,7 +10,7 @@ image:
 tags:
 - vscode
 - settings
-title: "VSCode: Dateien im Schnellöffnen-Menü nach Aktualität sortieren"
+title: "VSCode: Schnellöffnen-Menü nach Aktualität sortieren"
 ---
 
 *VSCode* verfügt über ein nützliches Menü, um Dateien, die kürzlich geöffnet wurden oder sich im aktuellen Arbeitsbereich befinden, anhand einiger Buchstaben des Dateinamens rasch zu öffnen.
