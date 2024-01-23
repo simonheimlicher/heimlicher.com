@@ -86,7 +86,9 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
           HUGO_CLARIS_AUTHOR_EMAIL: ${{ secrets.HUGO_CLARIS_AUTHOR_EMAIL }}
-        run: hugo --gc --minify
+        # NOTE: Do not pass `--gc` as this will lead to broken build when `hugo_stats.json`
+        # is not available from the repository
+        run: hugo --minify
 
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
