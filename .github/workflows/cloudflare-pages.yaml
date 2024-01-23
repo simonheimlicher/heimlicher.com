@@ -73,6 +73,15 @@ jobs:
           HUGO_CLARIS_AUTHOR_EMAIL: ${{ secrets.HUGO_CLARIS_AUTHOR_EMAIL }}
         run: hugo --gc --minify
 
+      - name: Check for hugo_stats.json
+        run: |
+          if [ -f hugo_stats.json ]; then
+            cat hugo_stats.json
+          else
+            echo "hugo_stats.json does not exist."
+            exit 1
+          fi
+
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
         with:
