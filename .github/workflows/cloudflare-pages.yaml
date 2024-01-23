@@ -63,7 +63,22 @@ jobs:
           key: ${{ runner.os }}-hugo-resources-${{ env.BRANCH_NAME }}-${{ github.run_id }}
           restore-keys: |
             ${{ runner.os }}-hugo-resources-${{ env.BRANCH_NAME }}-
-            ${{ runner.os }}-hugo-resources-main- # Fallback to main branch cache
+
+      - name: Check for hugo_stats.json
+        env:
+          # For maximum backward compatibility with Hugo modules
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+          HUGO_CLARIS_AUTHOR_EMAIL: ${{ secrets.HUGO_CLARIS_AUTHOR_EMAIL }}
+        run: |
+          if ! [ -f hugo_stats.json ]; then
+            echo "Running hugo to create 'hugo_stats.json' as this required file is missing."
+            hugo --gc --minify
+          fi
+          if ! [ -f hugo_stats.json ]; then
+            echo "Fatal error: Hugo failed to create hugo_stats.json"
+            exit 1
+          fi
 
       - name: Build with Hugo
         env:
@@ -72,15 +87,6 @@ jobs:
           HUGO_ENV: production
           HUGO_CLARIS_AUTHOR_EMAIL: ${{ secrets.HUGO_CLARIS_AUTHOR_EMAIL }}
         run: hugo --gc --minify
-
-      - name: Check for hugo_stats.json
-        run: |
-          if [ -f hugo_stats.json ]; then
-            cat hugo_stats.json
-          else
-            echo "hugo_stats.json does not exist."
-            exit 1
-          fi
 
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
