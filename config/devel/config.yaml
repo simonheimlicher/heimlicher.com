@@ -19,8 +19,8 @@ outputs:
   home:
     - HTML
     - redir
-    - redir_canonical
-    - redir_nginx
-    - redir_canonical_nginx
     - urls
     - aliases
+    # - redir_canonical
+    # - redir_nginx
+    # - redir_canonical_nginx

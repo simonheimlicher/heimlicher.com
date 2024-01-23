@@ -21,8 +21,6 @@ ignoreFiles:
   - .*\.code-workspace$
   - frontmatter\.json$
 
-# Disable RSS feeds
-# NOTE: nginx on srvr.nine.ch currently is configured to redirect /.*\.xml to /
 disableKinds:
   - RSS
   # - taxonomy
@@ -40,9 +38,9 @@ outputs:
   home:
     - HTML
     - redir
-    - redir_canonical
-    - redir_nginx
-    - redir_canonical_nginx
+    # - redir_canonical
+    # - redir_nginx
+    # - redir_canonical_nginx
   page:
     - HTML
   section:
@@ -50,8 +48,8 @@ outputs:
 mediaTypes:
   text/redirects:
     delimiter: ""
-  text/nginx:
-    delimiter: ""
+  # text/nginx:
+  #   delimiter: ""
   text/urls:
     delimiter: ""
   text/aliases:
@@ -67,16 +65,16 @@ outputFormats:
     baseName: _redirects_canonical
     isPlainText: true
     notAlternative: true
-  redir_nginx:
-    mediatype: text/nginx
-    baseName: _redirects.nginx
-    isPlainText: true
-    notAlternative: true
-  redir_canonical_nginx:
-    mediatype: text/nginx
-    baseName: _redirects_canonical.nginx
-    isPlainText: true
-    notAlternative: true
+  # redir_nginx:
+  #   mediatype: text/nginx
+  #   baseName: _redirects.nginx
+  #   isPlainText: true
+  #   notAlternative: true
+  # redir_canonical_nginx:
+  #   mediatype: text/nginx
+  #   baseName: _redirects_canonical.nginx
+  #   isPlainText: true
+  #   notAlternative: true
   urls:
     mediatype: text/urls
     baseName: _urls
