@@ -10,11 +10,7 @@ image:
     resource: images/capitalization-feature
     title: Gross-/Kleinschreibung in Englisch ist eine Frage des Stils – und wenn man die Freiheit hat, auch eine Frage der persönlichen Präferenzen
 lastmod: "2020-05-22T11:35:06.075Z"
-summary: Preferences for capitalization vary between organizations and countries around
-  the world. In an attempt to remain consistent in my own writing, I have found the
-  Microsoft Style Guides treatise of the topics to be quite helpful and would like
-  to summarize it for the benefit of others in their quest for a universal set of
-  rules
+summary: Eine Zusammenfassung der Gross-/Kleinschreibung in Englisch gemäss dem Microsoft Style Guide
 tags:
 - communication
 title: Gross-/Kleinschreibung in Englisch

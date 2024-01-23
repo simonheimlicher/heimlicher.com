@@ -15,11 +15,7 @@ image:
     resource: images/capitalization-feature
     title: Capitalization if a matter of style — and if you are in charge, also one of personal preferences
 lastmod: "2020-05-22T11:35:06.075Z"
-summary: Preferences for capitalization vary between organizations and countries around
-  the world. In an attempt to remain consistent in my own writing, I have found the
-  Microsoft Style Guides treatise of the topics to be quite helpful and would like
-  to summarize it for the benefit of others in their quest for a universal set of
-  rules
+summary: A summary of the capitalization rules of the Microsoft Style Guide
 tags:
 - communication
 title: Capitalization
