@@ -55,7 +55,6 @@ fontFamilySans: Concourse
 fontFamilySerif: Valkyrie_B
 fontFamilyMono: DM Mono
 fontsSelfHosted: true
-supportIE11: true
 sidebarTaxonomies: [tags]
 navListCurrentSectionForTypes:
   - vitae
