@@ -30,6 +30,10 @@ responsive:
       # From this width upward, font size is set to regular size
       narrow: 32rem
 
+javascript:
+  optional:
+    mediumzoom: true
+
 numberOfRecentArticles: 3
 numberOfFeaturedArticles: 3
 numberOfRelatedArticles: 5
