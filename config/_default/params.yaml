@@ -58,7 +58,10 @@ fontFamilySans: Concourse
 # fontFamilySerif: Merriweather
 fontFamilySerif: Valkyrie_B
 fontFamilyMono: DM Mono
-fontsSelfHosted: true
+style:
+  fonts:
+    selfhosted: true
+
 sidebarTaxonomies: [tags]
 navListCurrentSectionForTypes:
   - vitae
