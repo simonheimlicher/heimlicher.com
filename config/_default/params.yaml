@@ -17,9 +17,6 @@ mainSections:
   - research
   - technology
 # logo: images/simon_heimlicher_logo
-logoURL: /
-centerLogo: false
-mobileNavigation: right
 
 responsive:
   breakpoints:
