@@ -73,8 +73,9 @@ As the feature image is specific to the article, it exists in the page bundle of
 
 Now the share image might also be specific to the article, but in my case, I use the same share image for all articles. The share image hence only exists in the branch bundle of the articles section `articles`.
 
-{{< note "Ensure to add `index.md` to turn the `images` directory into a headless bundle" >}}
-Add a file named `index.md` with the following content into every `images` directory that is part of a branch bundle (see below for an explanation what a branch bundle is)
+{{< note >}}
+
+**Ensure to turn `images` directory into a headless bundle**: Add a file named `index.md` with the following content into every `images` directory that is part of a branch bundle (see below for an explanation what a branch bundle is)
 
 ```yaml
 ---
@@ -114,8 +115,7 @@ Again, the call to the `resources` partial is almost the same, even though we wi
 
 This partial accepts a dictionary with two key-value pairs: `Page` refers to the current page, while `$resourcePath` is the path of the resource. The path is treated as the prefix of the resource to be found, unless it ends with a file extension.
 
-```markdown
-
+```go-template
 {{ $resourcePath := "images/feature-image" }}
 {{ $resourceArgs := (dict
 "Page" .
@@ -123,7 +123,6 @@ This partial accepts a dictionary with two key-value pairs: `Page` refers to the
 ) }}
 
 {{- $image := partial "claris/_functions/resources/get" $resourceArgs }}
-
 ```
 
 #### Page Bundles in Hugo

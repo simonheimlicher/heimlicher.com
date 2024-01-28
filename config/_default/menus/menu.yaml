@@ -12,11 +12,11 @@ main:
     url: /transformation/
     weight: 200
   - identifier: technology
-    name: Technology
+    name: technology
     url: /technology/
     weight: 500
   - identifier: research
-    name: Research
+    name: research
     url: /research/
     weight: 700
   - identifier: about
