@@ -11,6 +11,7 @@ aliases:
   - /articles/kdcmond/
   - /articles/multiple-email/
   - /articles/multiple-from-email-addresses-apple-mail-lion/
+  - /media/software/apachebench/ab-2.4.3-install.zsh
   - /articles/multiple-from-email-addresses-ios-iphone-ipad/
   - /articles/multiple-identities-mail/
   - /articles/nstat-lookup-entry-failed-2/

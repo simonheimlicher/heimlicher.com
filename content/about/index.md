@@ -1,6 +1,7 @@
 ---
 aliases:
 - /home/about/
+- /_media/heimlicher_cv.pdf
 description: About Simon Heimlicher, a senior manager with a passion for leadership,
   transformation, and strategy execution
 image:

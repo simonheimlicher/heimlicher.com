@@ -1,6 +1,8 @@
 ---
 aliases:
+- /articles/why-okrs-already-have-goals
 - /articles/why-okrs-already-have-goals/
+- /why-okr-objectives-key-results-already-have-goals
 - /articles/why-okr-objectives-key-results-already-have-goals/
 - /organizational-transformation/why-okr-objectives-key-results-already-have-goals/
 categories:

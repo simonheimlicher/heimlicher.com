@@ -6,6 +6,8 @@ aliases:
 - /categories/leadership/
 - /categories/performance-management/
 - /tags/performance-management/
+- /_footer/recent/
+- /_error/401/
 description: On leadership that combines authenticity with compassion to drive impact
   and navigate complexity, ambiguity and conflicts successfully
 image:

@@ -6,6 +6,8 @@ image:
   thumbnail: images/ron-dyar-V29UWcALNko-unsplash-thumbnail
 subtitle: By Simon Heimlicher and co-authors
 title: Publications
+aliases:
+  - /publications/heimlicher-
 ---
 
 ## Conference and Workshop Papers
