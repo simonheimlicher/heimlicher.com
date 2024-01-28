@@ -2,6 +2,7 @@
 aliases:
 - /hints/macosx/disable_recent_items/
 - /articles/disable-recent-items/
+- /technology/disable-recent-items//1000
 # Article has been updated to indicate its end of life
 bestBefore: "9999-07-26"
 categories:
