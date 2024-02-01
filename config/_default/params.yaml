@@ -27,9 +27,31 @@ responsive:
       # From this width upward, font size is set to regular size
       narrow: 32rem
 
-javascript:
-  optional:
+assets:
+  styles:
+    fonts:
+      selfhosted: true
+      type:
+        default: sans
+      family:
+        sans: Concourse
+        serif: Valkyrie_B
+        mono: DM Mono
+
+  scripts:
     mediumzoom: true
+    posthog:
+      key: phc_uCbhFRCieH9tPYbmlaLPtW6pZaEgnOfGENNgcC1KdlA
+      # host: https://eu.posthog.com
+      host: https://localization.heimlicher.com
+      site: heimlicher.com
+
+
+taxonomyMaxYears: 5
+recentMaxYears: 5
+outdatedAfterYears: 5
+ephemeralSections:
+  - technology
 
 numberOfRecentArticles: 3
 numberOfFeaturedArticles: 3
@@ -43,21 +65,6 @@ iconsDir: /
 # themeColorDim: hsl(207, 80%, 25%)
 # themeColorBackgroundDim: hsl(207, 20%, 25%)
 # themeNeutralBackgroundDim: hsl(207, 20%, 25%)
-
-taxonomyMaxYears: 5
-recentMaxYears: 5
-outdatedAfterYears: 5
-ephemeralSections:
-  - technology
-# fontFamilySans: Source Sans 3
-# fontFamilySans: Inter
-fontFamilySans: Concourse
-# fontFamilySerif: Merriweather
-fontFamilySerif: Valkyrie_B
-fontFamilyMono: DM Mono
-style:
-  fonts:
-    selfhosted: true
 
 sidebarTaxonomies: [tags]
 navListCurrentSectionForTypes:
@@ -118,9 +125,3 @@ social:
     id: 69517/simon-heimlicher
   crossvalidated:
     id: 4467/simon-heimlicher
-
-posthog:
-  key: phc_uCbhFRCieH9tPYbmlaLPtW6pZaEgnOfGENNgcC1KdlA
-  # host: https://eu.posthog.com
-  host: https://localization.heimlicher.com
-  # bundle: true
