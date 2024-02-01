@@ -13,7 +13,7 @@
       "path": "."
     },
     {
-      "path": "../../modules/claris"
+      "path": "../../modules/hugo-claris"
     }
   ],
   "settings": {
