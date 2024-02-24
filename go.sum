@@ -4,6 +4,7 @@ github.com/simonheimlicher/claris-resources v0.0.0-20240209151206-1fa3fcc830cf h
 github.com/simonheimlicher/claris-resources v0.0.0-20240209151206-1fa3fcc830cf/go.mod h1:fTsqjCD6od8sEyDl5akBH5YZhO6uQJzJX3HpPbmcHwY=
 github.com/simonheimlicher/claris-resources v0.0.0-20240224105320-5fed88f46b3b h1:AqJSdgtFaUVcP0hM6HmeND31bsObY52ieY86Dxg5tC0=
 github.com/simonheimlicher/claris-resources v0.0.0-20240224105320-5fed88f46b3b/go.mod h1:fTsqjCD6od8sEyDl5akBH5YZhO6uQJzJX3HpPbmcHwY=
+github.com/simonheimlicher/claris-resources v0.0.0-20240224180304-6e96eb1e0463/go.mod h1:fTsqjCD6od8sEyDl5akBH5YZhO6uQJzJX3HpPbmcHwY=
 github.com/simonheimlicher/hugo-claris v0.0.0-20230505130816-3e7f2cc6924a h1:aw5vcVipuvpEzPDJenmXiS3e0pvdpMTlWy6/t92fAds=
 github.com/simonheimlicher/hugo-claris v0.0.0-20230505130816-3e7f2cc6924a/go.mod h1:dH3C/ovgfEs2ilKDJYM4ffpZv4QCO/QcYyt2XbkaumA=
 github.com/simonheimlicher/hugo-claris v0.0.0-20230505150106-22544deeb442 h1:Mf1NSY66upkhqneQ81iExFZwBOtPMTEhKue0it6GezY=
@@ -134,6 +135,8 @@ github.com/simonheimlicher/hugo-claris v0.0.0-20240224115715-e34bdea245e5 h1:Ou/
 github.com/simonheimlicher/hugo-claris v0.0.0-20240224115715-e34bdea245e5/go.mod h1:jK4tvjWo4dgMUWH1WBvQ66Va/5lZ2AMxtRxfFxOG0lc=
 github.com/simonheimlicher/hugo-claris v0.0.0-20240224171229-a4a4a3dcaa90 h1:MRuVPmhkzbhAejs/jzT1gb6N0P5X4WJ2L7YC/JG27Dc=
 github.com/simonheimlicher/hugo-claris v0.0.0-20240224171229-a4a4a3dcaa90/go.mod h1:jK4tvjWo4dgMUWH1WBvQ66Va/5lZ2AMxtRxfFxOG0lc=
+github.com/simonheimlicher/hugo-claris v0.0.0-20240224180331-1e45b7473f86 h1:OdhjYHmOkuwSoVpPELgCmHinM2xt8sIRIC/rsPoaprU=
+github.com/simonheimlicher/hugo-claris v0.0.0-20240224180331-1e45b7473f86/go.mod h1:0qrOCnFE5x5OBh1Waj/RzvGzGZQSM1uwSQwrvACS4HU=
 github.com/simonheimlicher/hugo-fontawesome v0.0.0-20230505144855-e222036fac11 h1:+6++XXZzSLlAW1b/7SCPsk/kDVK6Fa1VxXHkGg2fa3M=
 github.com/simonheimlicher/hugo-fontawesome v0.0.0-20230505144855-e222036fac11/go.mod h1:3926BFEd0hIwpvs6to4wYm9XMlOuBTTCfSDI1An3JRs=
 github.com/simonheimlicher/hugo-fontawesome v0.0.0-20230505145305-a0afa1d13cf7 h1:qk6Ed7UcaLLv9vIWdMYk8jGN0uRzeGM8x7MWXVxGg28=
