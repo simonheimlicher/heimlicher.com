@@ -9,13 +9,13 @@ description: Wie verschiedene Führungsstile die Leistung einer Organisation dra
 image:
   excerpt:
     - alt: Foto von drei Personen bei einem Führungstreffen
-      resource: images/leadership-meeting-excerpt
+      src: images/leadership-meeting-excerpt
       title: Führungstreffen
       credit: "Foto von fauxels: https://www.pexels.com/photo/man-wearing-white-long-sleeved-shirt-holding-black-pen-3182781/"
   feature:
     - alt: Foto von drei Personen bei einem Führungstreffen
       position: center 40%
-      resource: images/leadership-meeting-feature
+      src: images/leadership-meeting-feature
       title: Führungstreffen
       credit: "Foto von fauxels: https://www.pexels.com/photo/man-wearing-white-long-sleeved-shirt-holding-black-pen-3182781/"
 series:

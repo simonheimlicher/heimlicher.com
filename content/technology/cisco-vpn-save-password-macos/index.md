@@ -45,6 +45,6 @@ Common problems
 
 {{% /note %}}
 
-{{< responsive-image caption="Navigating to `/usr/libexec/configd`" resource="images/navigate_to_configd.png" >}}
+{{< claris/render-image caption="Navigating to `/usr/libexec/configd`" src="images/navigate_to_configd.png" >}}
 
-{{< responsive-image caption="Successfully added `/usr/libexec/configd`'" resource="images/configd_added.png" >}}
+{{< claris/render-image caption="Successfully added `/usr/libexec/configd`'" src="images/configd_added.png" >}}

@@ -8,7 +8,7 @@ description: Brauchen Sie Objectives and Key Results (OKRs)? Der bekannteste Gru
 image:
   feature:
     position: center 45%
-    resource: images/arrows-pointing-upward-feature
+    src: images/arrows-pointing-upward-feature
     alt: Photo of arrow plaquettes pointing upward attached to a wall
     title: While Management by Objectives (MbO) focuses on managing and assessing the individual, Objectives and Key Results (OKR) are concerned with results that are achievable only by team work
     credit: 'Photo by <a href="https://unsplash.com/@hjwinunsplsh">Jungwoo Hong</a> on <a href="https://unsplash.com/photos/cYUMaCqMYvI">Unsplash</a>'

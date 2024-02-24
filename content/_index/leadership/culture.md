@@ -4,8 +4,8 @@ weight: 800
 title: What is a strong culture?
 image:
   excerpt:
-    # resource: images/golden-circle_simon-sinek
-    resource: /leadership/powerful-patty-mccord/images/powerful-patty-mccord-cover
+    # src: images/golden-circle_simon-sinek
+    src: /leadership/powerful-patty-mccord/images/powerful-patty-mccord-cover
 lastmod: 2023-05-11T16:08:05.008Z
 # Adding a parameter named 'link' will disable any other link in the content below
 link: /leadership/powerful-patty-mccord/

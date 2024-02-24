@@ -4,7 +4,7 @@ weight: 100
 title: What does it take to lead?
 image:
   excerpt:
-    resource: /leadership/turn-the-ship-around-l-david-marquet/images/turn-the-ship-around-l-david-marquet-cover
+    src: /leadership/turn-the-ship-around-l-david-marquet/images/turn-the-ship-around-l-david-marquet-cover
 lastmod: 2023-05-11T16:08:05.008Z
 # Adding a parameter named 'link' will disable any other link in the content below
 link: /leadership/turn-the-ship-around-l-david-marquet/

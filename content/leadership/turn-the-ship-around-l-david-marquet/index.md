@@ -16,14 +16,14 @@ image:
     # alt: Artist's rendering of the planned Columbia-class submarine (Naval Sea Systems Command)
     alt: Photo of a Los Angeles-class ballistic nuclear missile submarine SSN 755
     position: center 50%
-    # resource: images/turn-the-ship-around-l-david-marquet-feature
-    # resource: images/columbia-class_ballistic_missile_submarine_2019
-    resource: images/ballistic_nuclear_missile_submarine_los_angeles_class_SSN-755
+    # src: images/turn-the-ship-around-l-david-marquet-feature
+    # src: images/columbia-class_ballistic_missile_submarine_2019
+    src: images/ballistic_nuclear_missile_submarine_los_angeles_class_SSN-755
     title: Flight III (SSN 755) improved Los Angeles class (688i)
   excerpt:
     alt: Cover of the book Turn the Ship Around! by L. David Marquet
     position: center 50%
-    resource: images/turn-the-ship-around-l-david-marquet-excerpt
+    src: images/turn-the-ship-around-l-david-marquet-excerpt
     title: Turn the Ship Around! by L. David Marquet
 lastmod: 2023-04-24T23:27:52+0200
 series:
@@ -45,7 +45,7 @@ The book *Turn the Ship Around!* is worth reading cover-to-cover. While it has a
 >
 > David realized that the leader-follower environment meant his crew would do anything he said—even if it was wrong.
 
-{{< responsive-image resource=images/turn-the-ship-around-l-david-marquet-cover alt="Cover of the book Turn the Ship Around! by L. David Marquet" title="Turn the Ship Around! by L. David Marquet" caption="You can buy the book Turn the Ship Around! by L.&nbsp;David Marquet at [Amazon](https://www.amazon.com/gp/product/1591846404?ie=UTF8&tag=shzq-20&camp=1789&linkCode=xm2&creativeASIN=1591846404 'Affiliate link to buy the book at Amazon')" float=right relative-width="40" >}}
+{{< claris/render-image src=images/turn-the-ship-around-l-david-marquet-cover alt="Cover of the book Turn the Ship Around! by L. David Marquet" title="Turn the Ship Around! by L. David Marquet" caption="You can buy the book Turn the Ship Around! by L.&nbsp;David Marquet at [Amazon](https://www.amazon.com/gp/product/1591846404?ie=UTF8&tag=shzq-20&camp=1789&linkCode=xm2&creativeASIN=1591846404 'Affiliate link to buy the book at Amazon')" float=right relative-width="40" >}}
 
 In “Turn the Ship Around!”, Marquet shares his experience as a submarine captain and the transformative leadership principles he applied during his time in command of the USS Santa Fe. He realized that the traditional leader-follower model was not effective in situations where quick and accurate decision-making was crucial. Instead, he needed to create an environment where every crew member felt empowered to take responsibility and make decisions that would benefit the overall mission. This shift in mindset led to the development of the Intent-Based Leadership approach.
 

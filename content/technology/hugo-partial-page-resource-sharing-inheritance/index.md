@@ -7,22 +7,22 @@ description: "A Hugo partial that vastly improves resource management in Hugo si
 featured: false
 image:
   feature: 
-    resource: "images/keith-misner-h0Vxgz5tyXA-unsplash"
+    src: "images/keith-misner-h0Vxgz5tyXA-unsplash"
     alt: 
     title: 
     credit: ''
   # excerpt: 
-  #   resource: "images/hugo_theme_claris-thumbnail"
+  #   src: "images/hugo_theme_claris-thumbnail"
   #   alt: 
   #   title: 
   #   credit: ''
   # share: 
-  #   resource: "images/hugo_theme_claris-share"
+  #   src: "images/hugo_theme_claris-share"
   #   alt: 
   #   title: 
   #   credit: ''
   # search: 
-  #   resource: "images/hugo_theme_claris-share"
+  #   src: "images/hugo_theme_claris-share"
   #   alt: 
   #   title: 
   #   credit: ''

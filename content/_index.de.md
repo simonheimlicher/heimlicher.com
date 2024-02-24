@@ -10,28 +10,28 @@ image:
       light-16x9:
         - alt: Foto des Inns in La Punt, Schweiz
           media: "(prefers-color-scheme: light) and (min-width: 1280px)"
-          resource: images/la-punt_river_mirror_16x9
+          src: images/la-punt_river_mirror_16x9
           title: Inn in La Punt, Schweiz
           position: "center 25%"
           aspect: aspect_16x9
       light-9x16:
         - alt: Foto des Inns in La Punt, Schweiz
           media: "(prefers-color-scheme: light) and (max-width: 1279px)"
-          resource: images/la-punt_river_mirror_9x16
+          src: images/la-punt_river_mirror_9x16
           title: Inn in La Punt, Schweiz
           position: "center 25%"
           aspect: aspect_9x16
       dark-16x9:
         - alt: Ein Foto des frühen Sonnenaufgangs am Lagginhorn
           media: "(prefers-color-scheme: dark) and (min-width: 1280px)"
-          resource: images/lagginhorn_sunrise_16x9
+          src: images/lagginhorn_sunrise_16x9
           title: Sonnenaufgang am Lagginhorn, einem 4000 Meter hohen Gipfel in der Schweiz
           position: "center center"
           aspect: aspect_16x9
       dark-9x16:
         - alt: Ein Foto des frühen Sonnenaufgangs am Lagginhorn
           media: "(prefers-color-scheme: dark) and (max-width: 1279px)"
-          resource: images/lagginhorn_sunrise_9x16
+          src: images/lagginhorn_sunrise_9x16
           title: Sonnenaufgang am Lagginhorn, einem 4000 Meter hohen Gipfel in der Schweiz
           position: "center center"
           aspect: aspect_9x16
@@ -40,9 +40,9 @@ image:
     - images/simon_heimlicher_1x1
   share:
     - alt: Professionelle Webseite von Simon Heimlicher
-      resource: images/simon_heimlicher_16x9
+      src: images/simon_heimlicher_16x9
     - alt: Professionelle Webseite von Simon Heimlicher
-      resource: images/simon_heimlicher_1x1
+      src: images/simon_heimlicher_1x1
   thumbnail:
     - images/simon_heimlicher_1x1
 keywords:

@@ -13,7 +13,7 @@ Research abounds on how to communicate in networks that are either almost always
 
 Having found that even in disconnected network scenarios, [multi-hop paths exist](../characterizing-networks), we compare analytically the performance of two basic paradigms for end-to-end forwarding in a wireless network scenario. As a baseline, we use **source forwarding,** which halts transmission if no end-to-end paths is available, corresponding to classical end-to-end transport protocols. As an obvious alternative, we consider **intermediate forwarding,** which continues forwarding data toward the destination even during disruption periods. While intermediate forwarding mimics the behavior of the standard ad hoc routing protocols (DSR and AODV), perhaps surprisingly, intermediate forwarding is not unconditionally superior.
 
-{{< responsive-image resource="images/partially-connected-networks_transparent" caption="*Partially-connected* networks (grey areas) are situated between *connected* (black) and *disconnected* networks (white)" background="light" lightbox="true" >}}
+{{< claris/render-image src="images/partially-connected-networks_transparent" caption="*Partially-connected* networks (grey areas) are situated between *connected* (black) and *disconnected* networks (white)" background="light" lightbox="true" >}}
 
 ## Impact of Mobility
 

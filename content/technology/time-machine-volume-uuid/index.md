@@ -10,7 +10,7 @@ date: "2011-02-18T15:00:47Z"
 image:
   feature:
     position: top left
-    resource: images/Time Machine - UUID of disk changed
+    src: images/Time Machine - UUID of disk changed
   thumbnail: images/thumbnail
 lastmod: "2023-04-24T11:56:57.636Z"
 summary: If you clone a volume that you backup with Time Machine, its UUID will change

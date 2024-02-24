@@ -8,8 +8,8 @@ image:
   feature:
   - alt: Portrait photo of Simon Heimlicher
     credit: Simon Heimlicher
-    # resource: images/070-6958_16x9
-    resource: images/149-7238 azure blue wall background
+    # src: images/070-6958_16x9
+    src: images/149-7238 azure blue wall background
     title: Simon Heimlicher
     position: center 55%
 keywords:

@@ -9,13 +9,13 @@ description: A deep dive into how different leadership styles can drastically af
 image:
   excerpt:
   - alt: Photo of three people at a leadership meeting
-    resource: images/leadership-meeting-excerpt
+    src: images/leadership-meeting-excerpt
     title: Leadership meeting
     credit: "Photo by fauxels: https://www.pexels.com/photo/man-wearing-white-long-sleeved-shirt-holding-black-pen-3182781/"
   feature:
   - alt: Photo of three people at a leadership meeting
     position: center 40%
-    resource: images/leadership-meeting-feature
+    src: images/leadership-meeting-feature
     title: Leadership meeting
     credit: "Photo by fauxels: https://www.pexels.com/photo/man-wearing-white-long-sleeved-shirt-holding-black-pen-3182781/"
 series:

@@ -13,7 +13,7 @@ description: On leadership that combines authenticity with compassion to drive i
 image:
   feature:
     alt: A flock of birds flying in formation
-    resource: images/flock-of-birds-feature
+    src: images/flock-of-birds-feature
     title: Leadership is about both structure of the team and autonomy of the individuals
 lastmod: 2023-06-15
 supertitle: Rethinking Leadership

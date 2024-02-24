@@ -4,7 +4,7 @@ image:
   feature:
   - alt: A photo of computer code projected on the face of a woman
     credit: 'Photo by ThisIsEngineering: https://www.pexels.com/photo/code-projected-over-woman-3861969/'
-    resource: images/digitization-feature
+    src: images/digitization-feature
     title: On transforming the way we interact with clients and conduct business
   thumbnail: images/digitization
 lastmod: "2023-03-19T17:07:57.043Z"

@@ -8,15 +8,15 @@ featured: false
 image:
   feature:
     position: bottom right
-    resource: images/hugo_theme_claris-feature
+    src: images/hugo_theme_claris-feature
   search:
-  - resource: images/hugo_theme_claris-feature
-  - resource: images/hugo_theme_claris-thumbnail
-  - resource: images/hugo_theme_claris-share
+  - src: images/hugo_theme_claris-feature
+  - src: images/hugo_theme_claris-thumbnail
+  - src: images/hugo_theme_claris-share
   share:
-    resource: images/hugo_theme_claris-share
+    src: images/hugo_theme_claris-share
   thumbnail:
-    resource: images/hugo_theme_claris-thumbnail
+    src: images/hugo_theme_claris-thumbnail
 lastmod: "2021-07-02T07:22:59+02:00"
 series:
 - okr

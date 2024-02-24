@@ -4,7 +4,7 @@ subtitle: Standing still is the greatest of all risks
 description: On transforming the way people and teams communicate, collaborate and measure success in organizations
 image:
   feature:
-    resource: images/growth-feature
+    src: images/growth-feature
     position: center 45%
     alt: Photo of multiple stages of a growing plant
     title: Growth implies transformation

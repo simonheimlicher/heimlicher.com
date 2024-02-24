@@ -11,13 +11,13 @@ image:
   excerpt:
     alt: Screenshot of the man page of tmutil, a macOS command to manage Time Machine
       backups
-    resource: images/associate-disk-with-tmutil_excerpt
+    src: images/associate-disk-with-tmutil_excerpt
     title: Associate Time Machine disk with your new Mac
   feature:
     alt: Screenshot of the man page of tmutil, a macOS command to manage Time Machine
       backups
     position: top left
-    resource: images/associate-disk-with-tmutil_feature
+    src: images/associate-disk-with-tmutil_feature
     title: Associate Time Machine disk with your new Mac
 lastmod: "2023-04-24T12:47:01Z"
 slug: time-machine-inherit-backup-using-tmutil

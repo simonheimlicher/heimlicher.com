@@ -5,7 +5,7 @@ title: Strategy is what we will *not* do
 lastmod: 2023-05-11T16:08:05.008Z
 image:
   excerpt:
-    resource: /transformation/why-okr-objectives-key-results-already-have-goals/images/*feature
+    src: /transformation/why-okr-objectives-key-results-already-have-goals/images/*feature
 # Adding a parameter named 'link' will disable any other link in the content below
 link: /transformation/why-okr-objectives-key-results-already-have-goals/
 ---

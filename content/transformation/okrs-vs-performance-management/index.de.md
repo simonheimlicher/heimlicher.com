@@ -10,7 +10,7 @@ description: Stehen OKRs im Konflikt mit der periodischen Leistungsbeurteilung? 
 image:
   feature:
     position: center center
-    resource: images/tape-measure-feature
+    src: images/tape-measure-feature
     alt: Photo eines Massbandes
     title: Leistungsbeurteilung und OKRs sollten beide quantitativ sein — aber sie messen völlig verschiedene Dinge
     credit: 'Photo by Ann H: https://www.pexels.com/photo/yellow-and-black-tape-measure-on-blue-surface-10895044/'

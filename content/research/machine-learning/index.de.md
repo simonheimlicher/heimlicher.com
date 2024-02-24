@@ -3,7 +3,7 @@ date: "2023-03-12T13:20:20Z"
 description: Nutzung von Maschinellem Lernen, um Empfehlungen für Filme zu generieren, ohne dass die Nutzenden ihre persönlichen Bewertungen der Filme austauschen müssen
 image:
   feature: 
-    resource: images/robynne-hu-HOrhCnQsxnQ-unsplash-original
+    src: images/robynne-hu-HOrhCnQsxnQ-unsplash-original
     credit: '<a href="https://unsplash.com/@robinne">Robynne Hu</a> on <a href="https://unsplash.com/photos/HOrhCnQsxnQ">Unsplash</a>'
     alt: Eine Gruppe von Menschen, die beieinander stehen  
   thumbnail: images/robynne-hu-HOrhCnQsxnQ-unsplash-square

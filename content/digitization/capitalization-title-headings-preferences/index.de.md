@@ -7,7 +7,7 @@ image:
   feature:
   - alt: Ein Photo von antiken Druckbuchstaben
     credit: 'Photo by [Amador Loureiro](https://unsplash.com/photos/BVyNlchWqzs)'
-    resource: images/capitalization-feature
+    src: images/capitalization-feature
     title: Gross-/Kleinschreibung in Englisch ist eine Frage des Stils – und wenn man die Freiheit hat, auch eine Frage der persönlichen Präferenzen
 lastmod: "2020-05-22T11:35:06.075Z"
 summary: Eine Zusammenfassung der Gross-/Kleinschreibung in Englisch gemäss dem Microsoft Style Guide
@@ -19,9 +19,9 @@ subtitle: Ein Überblick und Regeln
 
 Grossschreibung im Englischen ist ein Thema, das nicht nur für Nicht-Muttersprachler verwirrend sein kann. In meiner Erfahrung variieren die Präferenzen zwischen Organisationen und Ländern auf der ganzen Welt. Um in meinem eigenen Schreiben konsistent zu bleiben, habe ich den [Microsoft Style Guide](https://docs.microsoft.com/en-us/style-guide/capitalization#title-style-capitalization) als hilfreich empfunden und möchte ihn für den Nutzen anderer auf ihrer Suche nach einem universellen Regelwerk zusammenfassen.
 
-{{< responsive-image resource="images/ubs.png" lightbox=true float="right" caption="UBS" alt="Screenshot der öffentlichen Website von UBS" attr="UBS AG" attrlink="https://www.ubs.com/" >}}
+{{< claris/render-image src="images/ubs.png" lightbox=true float="right" caption="UBS" alt="Screenshot der öffentlichen Website von UBS" attr="UBS AG" attrlink="https://www.ubs.com/" >}}
 
-{{< responsive-image resource="images/microsoft.png" lightbox=true float="right" caption="Microsoft" alt="Screenshot der öffentlichen Website von Microsoft"  attr="Microsoft Ltd." attrlink="https://microsoft.com/" >}}
+{{< claris/render-image src="images/microsoft.png" lightbox=true float="right" caption="Microsoft" alt="Screenshot der öffentlichen Website von Microsoft"  attr="Microsoft Ltd." attrlink="https://microsoft.com/" >}}
 
 Seit ich diesen Artikel erstmals im Jahr 2008 veröffentlicht habe, haben immer mehr Organisationen ihren Style Guide erneuert und verwenden bei Titeln und Überschriften die sogenannte Sentence Case, also Satz-Grossschreibung. Zwei Beispiele sind [UBS](https://www.ubs.com/) und [Microsoft](https://microsoft.com), wie auf ihren Websites zu sehen ist.
 

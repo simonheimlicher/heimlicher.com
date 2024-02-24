@@ -14,12 +14,12 @@ featured: false
 image:
   excerpt:
   - alt: Excerpt of the cover of the book Powerful by Patty McCord
-    resource: images/powerful-patty-mccord-excerpt
+    src: images/powerful-patty-mccord-excerpt
     title: Powerful by Patty McCord
   feature:
   - alt: Cover of the book Powerful by Patty McCord
     position: center 12%
-    resource: images/powerful-patty-mccord-feature
+    src: images/powerful-patty-mccord-feature
     title: Powerful by Patty McCord
 lastmod: "2023-04-25T11:59:19.238Z"
 series:
@@ -46,7 +46,7 @@ Laut McCord ist der Erfolg von Netflix grösstenteils darauf zurückzuführen, d
 
 Das Buch *Powerful* führt die Leser durch Netflix' einzigartigen Ansatz zur Unternehmenskultur und gibt Einblicke, wie andere Unternehmen dieses Modell übernehmen können.
 
-{{< responsive-image resource=images/powerful-patty-mccord-cover alt="Vorderseite des Buchs Powerful von Patty McCord" title="Powerful von Patty McCord" float=right relative-width="40" >}}
+{{< claris/render-image src=images/powerful-patty-mccord-cover alt="Vorderseite des Buchs Powerful von Patty McCord" title="Powerful von Patty McCord" float=right relative-width="40" >}}
 
 Ein entscheidender Aspekt der Kultur ohne Regeln von Netflix ist Transparenz. Mitarbeitende werden ermutigt, Informationen frei zu teilen, was zu einer besser informierten und kooperativen Belegschaft führt. McCord betont die Bedeutung offener Kommunikationskanäle zwischen Mitarbeitenden, unabhängig von ihrer Position in der Unternehmenshierarchie. Diese Transparenz kann zu besseren Entscheidungen führen, da alle über den Kontext und die Ziele der Organisation im Bilde sind.
 

@@ -18,13 +18,13 @@ title: "VSCode: Order files in Quick Open by recency"
 
 You can open this file by hitting <kbd>⌘-P</kbd> on your Mac or <kbd>Ctrl-P</kbd> on Windows and Linux.
 
-{{< responsive-image caption="By default, VSCode lists recently opened files alphabetically" resource="images/vscode-quick-open-settings-default" float=right relative-width=40 lightbox=true  >}}
+{{< claris/render-image caption="By default, VSCode lists recently opened files alphabetically" src="images/vscode-quick-open-settings-default" float=right relative-width=40 lightbox=true  >}}
 
 ## Using the VSCode UI
 
 You can change this setting from the default value of `default` to `recency`.
 
-{{< responsive-image caption="By changing the value of `search.quickOpen.history.filterSortOrder` to `recency`, we get VSCode to list recently opened files by recency" resource="images/vscode-quick-open-settings-recency" float=right relative-width=40 lightbox=true >}}
+{{< claris/render-image caption="By changing the value of `search.quickOpen.history.filterSortOrder` to `recency`, we get VSCode to list recently opened files by recency" src="images/vscode-quick-open-settings-recency" float=right relative-width=40 lightbox=true >}}
 
 1. Type <kbd>⌘-K</kbd> on your Mac or <kbd>Ctrl-K</kbd> on Windows and Linux
 2. Enter `Search:Quick Open:History:Filter Sort Order` into the search field

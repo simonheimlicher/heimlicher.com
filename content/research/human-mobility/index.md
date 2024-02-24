@@ -16,7 +16,7 @@ At the [College of Information and Computer Sciences](https://www.cics.umass.edu
 
 A visualization of the collected data from my testing in Zurich, Switzerland, is shown below.
 
-{{< responsive-image resource="images/location-transitions_transparent" caption="Mobility traces from the Android app *Nomad Log*" background="light" lightbox="true" >}}
+{{< claris/render-image src="images/location-transitions_transparent" caption="Mobility traces from the Android app *Nomad Log*" background="light" lightbox="true" >}}
 
 ## Selected publications
 

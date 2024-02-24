@@ -5,7 +5,7 @@ title: Better every day
 lastmod: 2023-05-11T16:08:05.008Z
 image:
   excerpt:
-    resource: /transformation/okrs-vs-performance-management/images/*feature
+    src: /transformation/okrs-vs-performance-management/images/*feature
 # Adding a parameter named 'link' will disable any other link in the content below
 link: /transformation/okrs-vs-performance-management/
 ---

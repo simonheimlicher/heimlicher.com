@@ -17,13 +17,13 @@ title: "VSCode: Schnellöffnen-Menü nach Aktualität sortieren"
 
 Dieses Menü lässt sich mit <kbd>⌘-P</kbd> auf Ihrem Mac oder <kbd>Ctrl-P</kbd> auf Windows und Linux aufrufen.
 
-{{< responsive-image caption="Standardmässig listet VSCode kürzlich geöffnete Dateien alphabetisch auf" resource="images/vscode-quick-open-settings-default" float=right relative-width=40 lightbox=true  >}}
+{{< claris/render-image caption="Standardmässig listet VSCode kürzlich geöffnete Dateien alphabetisch auf" src="images/vscode-quick-open-settings-default" float=right relative-width=40 lightbox=true  >}}
 
 ## Die VSCode-Oberfläche nutzen
 
 Sie können diese Einstellung vom Standardwert `default` auf `recency` ändern.
 
-{{< responsive-image caption="Indem man den Wert von `search.quickOpen.history.filterSortOrder` auf `recency` ändert, listet VSCode kürzlich geöffnete Dateien nach Aktualität auf" resource="images/vscode-quick-open-settings-recency" float=right relative-width=40 lightbox=true >}}
+{{< claris/render-image caption="Indem man den Wert von `search.quickOpen.history.filterSortOrder` auf `recency` ändert, listet VSCode kürzlich geöffnete Dateien nach Aktualität auf" src="images/vscode-quick-open-settings-recency" float=right relative-width=40 lightbox=true >}}
 
 1. Drücken Sie <kbd>⌘-K</kbd> auf Ihrem Mac oder <kbd>Ctrl-K</kbd> auf Windows und Linux.
 2. Geben Sie `Search:Quick Open:History:Filter Sort Order` in das Suchfeld ein.

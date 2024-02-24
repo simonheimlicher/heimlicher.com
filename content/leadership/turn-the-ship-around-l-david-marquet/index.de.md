@@ -11,13 +11,13 @@ image:
   feature:
     alt: Photo eines Atom-U-Bootes der Los Angeles-Klasse (SSN 755)
     position: center 50%
-    # resource: images/turn-the-ship-around-l-david-marquet-feature
-    resource: images/ballistic_nuclear_missile_submarine_los_angeles_class_SSN-755
+    # src: images/turn-the-ship-around-l-david-marquet-feature
+    src: images/ballistic_nuclear_missile_submarine_los_angeles_class_SSN-755
     title: Atom-U-Boot der Los Angeles-Klasse (SSN 755)
   excerpt:
     alt: Umschlag des Buches "Reiß das Ruder rum!" von L. David Marquet
     position: center 50%
-    resource: images/turn-the-ship-around-l-david-marquet-excerpt
+    src: images/turn-the-ship-around-l-david-marquet-excerpt
     title: '"Reiß das Ruder rum!" von L. David Marquet'
 series:
 - culture
@@ -40,7 +40,7 @@ Das Buch [Reiß das Ruder rum!](https://www.amazon.com/gp/product/1591846404?ie=
 
 In "Reiß das Ruder rum!” teilt Marquet seine Erfahrungen als U-Boot-Kapitän und die transformativen Führungsprinzipien, die er während seiner Zeit als Kommandant der USS Santa Fe angewandt hat. Er erkannte, dass das traditionelle Modell von Anführer und Anhänger nicht effektiv war in Situationen, in denen schnelle und genaue Entscheidungsfindung entscheidend war. Stattdessen musste er eine Umgebung schaffen, in der sich jedes Crewmitglied ermächtigt fühlte, Verantwortung zu übernehmen und Entscheidungen zu treffen, die der Gesamtmission zugutekommen würden. Diese Denkweise führte zur Entwicklung des Ansatzes der absichtsbasierten Führung.
 
-{{< responsive-image resource=images/turn-the-ship-around-l-david-marquet-cover alt="Umschlag des Buches 'Reiß das Ruder rum!' von L. David Marquet" title="Reiß das Ruder rum! von L. David Marquet" float=right relative-width="40" >}}
+{{< claris/render-image src=images/turn-the-ship-around-l-david-marquet-cover alt="Umschlag des Buches 'Reiß das Ruder rum!' von L. David Marquet" title="Reiß das Ruder rum! von L. David Marquet" float=right relative-width="40" >}}
 
 ## Absichtsbasierte Führung annehmen
 
