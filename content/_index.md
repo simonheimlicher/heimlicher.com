@@ -69,7 +69,7 @@ cascade:
 
 The crux with growing as a leader is that there is an overwhelming amount of literature, education and tips – yet when it comes to incorporating and applying new insights, we rely on our personal experience and judgment. Indeed, leaders develop their views on effective leadership based on how they felt when they were led and then either do the same thing or the polar opposite.{{% /lede-initial %}}
 
-{{< panel page="/leadership/impact-leadership-style-organizational-performance" float=right relativewidth=30 >}}
+{{< panel page="/leadership/impact-leadership-style-organizational-performance" float=right relativewidth=40 >}}
 
 However, this method of growth is limited to the diversity and quality of leadership the leader is exposed to, and there is a tendency for organizations to get stuck in a loop. 
 
@@ -81,7 +81,7 @@ Broadening our perspectives to include leaders in vastly different environments 
 
 Two models of leadership I find effective are *intent-based leadership* and *leadership based on freedom and responsibility* and challenge traditional paradigms.
 
-{{< panel page="/leadership/turn-the-ship-around-l-david-marquet" float=left relativewidth=30 >}}
+{{< panel page="/leadership/turn-the-ship-around-l-david-marquet" float=left relativewidth=40 >}}
 
 ### Intent-based leadership: giving control rather than taking control
 
@@ -93,7 +93,7 @@ Dive deeper into these transformative ideas with practical tools and techniques 
 
 {{< /panel >}}
 
-{{< panel page="/leadership/powerful-patty-mccord" float=right relativewidth=30 >}}
+{{< panel page="/leadership/powerful-patty-mccord" float=right relativewidth=40 >}}
 
 ### Leadership based on freedom and responsibility: unlocking the potential of powerful adults
 
@@ -111,7 +111,7 @@ Discover more about building trust and autonomy in the workplace and what a crit
 
 The operative words here are *focus* and *goals*. I have yet to see an organization whose leaders think that they lack goals or a strategy. What is rare, though, are organizations that achieve their goals and realize the benefits promised by their strategy. To evaluate whether the promised impact has been achieved exceeds the capacity of most organizations, as their focus is already on the projects that have been launched by promising even more benefits.{{% /lede-initial %}}
 
-{{< panel page="/transformation/how-objectives-key-results-facilitate-transformation" float=left relativewidth=30 >}}
+{{< panel page="/transformation/how-objectives-key-results-facilitate-transformation" float=left relativewidth=40 >}}
 
 ### Achieving the benefits promised by strategy
 
@@ -121,7 +121,7 @@ In my experience, Objectives and Key Results (OKRs) are a powerful tool to facil
 
 {{< /panel >}}
 
-{{< panel page="/transformation/why-okr-objectives-key-results-already-have-goals" float=right relativewidth=30 >}}
+{{< panel page="/transformation/why-okr-objectives-key-results-already-have-goals" float=right relativewidth=40 >}}
 
 ### Employee engagement
 
@@ -131,7 +131,7 @@ Even if you have looked at OKRs before, I invite you to take a fresh perspective
 
 {{< /panel >}}
 
-{{< panel page="/transformation/okrs-vs-performance-management" float=right relativewidth=30 >}}
+{{< panel page="/transformation/okrs-vs-performance-management" float=right relativewidth=40 >}}
 
 ### Performance management
 
