@@ -8,12 +8,12 @@ date: "2023-09-19"
 description: A deep dive into how different leadership styles can drastically affect an organization's performance, featuring two real-world case studies.
 image:
   excerpt:
-  - alt: Photo of three people at a leadership meeting
+  - alt: Photo of people at a leadership meeting
     src: images/leadership-meeting-excerpt
     title: Leadership meeting
     credit: "Photo by fauxels: https://www.pexels.com/photo/man-wearing-white-long-sleeved-shirt-holding-black-pen-3182781/"
   feature:
-  - alt: Photo of three people at a leadership meeting
+  - alt: Photo of people at a leadership meeting
     position: center 40%
     src: images/leadership-meeting-feature
     title: Leadership meeting
