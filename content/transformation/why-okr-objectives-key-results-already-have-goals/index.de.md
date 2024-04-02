@@ -12,7 +12,6 @@ image:
     alt: Photo of arrow plaquettes pointing upward attached to a wall
     title: While Management by Objectives (MbO) focuses on managing and assessing the individual, Objectives and Key Results (OKR) are concerned with results that are achievable only by team work
     credit: 'Photo by <a href="https://unsplash.com/@hjwinunsplsh">Jungwoo Hong</a> on <a href="https://unsplash.com/photos/cYUMaCqMYvI">Unsplash</a>'
-lastmod: "2023-03-20T10:49:25.667Z"
 series:
 - okr
 tags:
