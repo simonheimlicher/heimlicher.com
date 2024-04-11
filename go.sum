@@ -16,6 +16,8 @@ github.com/simonheimlicher/claris-resources v0.0.0-20240407183810-71305365484a h
 github.com/simonheimlicher/claris-resources v0.0.0-20240407183810-71305365484a/go.mod h1:fTsqjCD6od8sEyDl5akBH5YZhO6uQJzJX3HpPbmcHwY=
 github.com/simonheimlicher/claris-resources v0.0.0-20240409073150-e62cc3365919 h1:Cd5BJR0LsK4KFV/XNnuozvOx0cVZp4xL7Lat6qyAujs=
 github.com/simonheimlicher/claris-resources v0.0.0-20240409073150-e62cc3365919/go.mod h1:fTsqjCD6od8sEyDl5akBH5YZhO6uQJzJX3HpPbmcHwY=
+github.com/simonheimlicher/claris-resources v0.0.0-20240411050723-a869acba6b0e h1:i527GOiLdHyp2/0tIkXxv/KAN5FzlVqWca8jjvwtrHI=
+github.com/simonheimlicher/claris-resources v0.0.0-20240411050723-a869acba6b0e/go.mod h1:fTsqjCD6od8sEyDl5akBH5YZhO6uQJzJX3HpPbmcHwY=
 github.com/simonheimlicher/hugo-claris v0.0.0-20240311225010-3b8c82dd5c41 h1:XY7wPtRvLzdxNr9EVibHphHkWjyCJubfUjkP48i7Gig=
 github.com/simonheimlicher/hugo-claris v0.0.0-20240311225010-3b8c82dd5c41/go.mod h1:6XqszL9UR3AyRhE1ytcnIEjRzi1VeNBlPByzWqi7uCA=
 github.com/simonheimlicher/hugo-claris v0.0.0-20240312232328-0391aca95886 h1:m3aJeBLiOVGfmEW8TJCYx05lzki4vTIH5BiRmkDhDg4=
@@ -64,3 +66,5 @@ github.com/simonheimlicher/hugo-claris v0.0.0-20240407190005-1f0242689f73 h1:HYK
 github.com/simonheimlicher/hugo-claris v0.0.0-20240407190005-1f0242689f73/go.mod h1:ApyAIb2Iyxk2Twex2lOStJoUlbr8TusEtIlJquQhAo0=
 github.com/simonheimlicher/hugo-claris v0.0.0-20240409073222-1875167b428a h1:ecQXcUMD3wOmRwmDgFXRegSkRqT2KbnxsO2Wr4Dwa3g=
 github.com/simonheimlicher/hugo-claris v0.0.0-20240409073222-1875167b428a/go.mod h1:IDJ/cR7uLOgThJN0EHFBRJEl9k9LsFIw6pjfJ+wyJw4=
+github.com/simonheimlicher/hugo-claris v0.0.0-20240411050802-ac3f220ce43e h1:+JM/UaAeRK3Ujt05s9ZDA04P+dzaX2Hmvyb6h6BenYA=
+github.com/simonheimlicher/hugo-claris v0.0.0-20240411050802-ac3f220ce43e/go.mod h1:sYQMWf/Gnh3x40v6ovzv8Ul5efM1zzX/MAKL/LeBXaA=
