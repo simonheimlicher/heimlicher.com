@@ -1,12 +1,10 @@
 {
   "comments": {
     "dependencies": {
-      "@fullhuman/postcss-purgecss": "project",
       "autoprefixer": "project",
       "esbuild": "project",
       "lazysizes": "project",
       "medium-zoom": "project",
-      "postcss-cli": "project",
       "posthog-js": "project"
     },
     "devDependencies": {
@@ -19,12 +17,10 @@
     }
   },
   "dependencies": {
-    "@fullhuman/postcss-purgecss": "^5.0.0",
     "autoprefixer": "^10.4.14",
     "esbuild": "^0.12.5",
     "lazysizes": "^5.3.2",
     "medium-zoom": "^1.0.6",
-    "postcss-cli": "^8.3.1",
     "posthog-js": "^1.113.2"
   },
   "devDependencies": {
@@ -35,6 +31,6 @@
     "postcss-prune-var": "^1.1.1",
     "postcss-var-optimize": "^8.1.0"
   },
-  "name": "hugo-claris-demo",
+  "name": "heimlicher.com",
   "version": "0.1.0"
 }
