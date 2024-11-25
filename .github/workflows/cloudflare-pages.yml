@@ -11,7 +11,7 @@ jobs:
   cloudflare-pages:
     uses: simonheimlicher/claris-gh-actions/.github/workflows/cloudflare-pages.yml@main
     with:
-      hugo_version: 0.123.8
+      hugo_version: 0.139.2
       cloudflare_project_name: ${{ vars.CLOUDFLARE_PROJECT_NAME }}
       cloudflare_stage_project_name: ${{ vars.CLOUDFLARE_STAGE_PROJECT_NAME }}
     secrets:

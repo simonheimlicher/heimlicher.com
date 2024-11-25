@@ -6,9 +6,10 @@ image:
   thumbnail: images/ron-dyar-V29UWcALNko-unsplash-thumbnail
 subtitle: By Simon Heimlicher and co-authors
 title: Publications
-aliases:
-  - /publications/heimlicher-
-  - /research/publications/heimlicher_e2e-vs-hbh-transport_sigmetrics07.pdf/1000
+# aliases: 
+#   - /publications/heimlicher-
+# The following alias leads to an error: `Error: error building site: render: open /Users/shz/Resources/Websites/hugo/sites/heimlicher.com/public/research/publications/heimlicher_e2e-vs-hbh-transport_sigmetrics07.pdf/1000/index.html: not a directory`
+#   - /research/publications/heimlicher_e2e-vs-hbh-transport_sigmetrics07.pdf/1000
 ---
 
 ## Conference and Workshop Papers

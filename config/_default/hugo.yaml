@@ -12,6 +12,8 @@ disableAliases: true
 build:
   # Write statistics to enable post-processing of CSS
   writeStats: true
+  # Avoid continuous rebuild due to `assets/jsconfig.json` changing
+  noJSConfigInAssets: true
 
 timeout: 300s
 
@@ -32,7 +34,7 @@ disableKinds:
   # - robotsTXT
   # - 404
 
-paginate: 20
+pagination.pagerSize: 20
 
 outputs:
   home:
