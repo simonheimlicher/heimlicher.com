@@ -32,3 +32,5 @@ github.com/simonheimlicher/hugo-claris v0.0.0-20240505125009-0441eaecc284 h1:od7
 github.com/simonheimlicher/hugo-claris v0.0.0-20240505125009-0441eaecc284/go.mod h1:TjYfyM6YGGQFREqn071EtlEOfYPXiKpTvAqmgi2SYbQ=
 github.com/simonheimlicher/hugo-claris v0.0.0-20241125143840-4ef951aa19eb h1:CHXYfU/J1wqJ4i32BgfxormVx2ecOWW3H+IchQkqOLA=
 github.com/simonheimlicher/hugo-claris v0.0.0-20241125143840-4ef951aa19eb/go.mod h1:TjYfyM6YGGQFREqn071EtlEOfYPXiKpTvAqmgi2SYbQ=
+github.com/simonheimlicher/hugo-claris v0.0.0-20241125145343-9821a3e92479 h1:ryhVExsPiHIKRn7wQrjV8qpg22d+1y03A2MS7KhNAFQ=
+github.com/simonheimlicher/hugo-claris v0.0.0-20241125145343-9821a3e92479/go.mod h1:TjYfyM6YGGQFREqn071EtlEOfYPXiKpTvAqmgi2SYbQ=
