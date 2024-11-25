@@ -9,7 +9,8 @@ image:
   - alt: Portrait photo of Simon Heimlicher
     credit: Simon Heimlicher
     # src: images/070-6958_16x9
-    src: images/149-7238 azure blue wall background
+    # src: images/149-7238 azure blue wall background
+    src: images/149-7238 light grey background more centered 4x1
     title: Simon Heimlicher
     position: center 55%
 keywords:
