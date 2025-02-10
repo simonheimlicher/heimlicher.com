@@ -32,7 +32,7 @@ disableKinds:
   # - robotsTXT
   # - 404
 
-paginate: 20
+pagination.pagerSize: 20
 
 outputs:
   home:
@@ -127,7 +127,7 @@ module:
     - source: content
       target: content
       excludeFiles:
-        - '**/.DS_Store'
+        - "**/.DS_Store"
     # "**/*.yaml" # Don't exclude YAML files as they won't be available
     # as Page Bundle resources via resources.Get
 
