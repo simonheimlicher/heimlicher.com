@@ -12,8 +12,6 @@ disableAliases: true
 build:
   # Write statistics to enable post-processing of CSS
   writeStats: true
-  # Avoid continuous rebuild due to `assets/jsconfig.json` changing
-  noJSConfigInAssets: true
 
 timeout: 300s
 
@@ -129,7 +127,7 @@ module:
     - source: content
       target: content
       excludeFiles:
-        - '**/.DS_Store'
+        - "**/.DS_Store"
     # "**/*.yaml" # Don't exclude YAML files as they won't be available
     # as Page Bundle resources via resources.Get
 
