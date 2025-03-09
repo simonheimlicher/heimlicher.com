@@ -8,7 +8,8 @@ subtitle: By Simon Heimlicher and co-authors
 title: Publications
 aliases:
   - /publications/heimlicher-
-  - /research/publications/heimlicher_e2e-vs-hbh-transport_sigmetrics07.pdf/1000
+  # NOTE: The following alias leads to an error when generating HTML
+  # - /research/publications/heimlicher_e2e-vs-hbh-transport_sigmetrics07.pdf/1000
 ---
 
 ## Conference and Workshop Papers
