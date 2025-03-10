@@ -25,7 +25,7 @@ responsive:
       # and the full menu bar is shown
       mobileMenu: 60rem
       # From this width upward, font size is set to regular size
-      narrow: 32rem
+      narrow: 36rem
 
 assets:
   styles:
@@ -41,11 +41,11 @@ assets:
   scripts:
     mediumzoom: true
     posthog:
+      environments: production prod staging stage
       key: phc_uCbhFRCieH9tPYbmlaLPtW6pZaEgnOfGENNgcC1KdlA
       # host: https://eu.posthog.com
       host: https://localization.heimlicher.com
       site: heimlicher.com
-
 
 taxonomyMaxYears: 5
 recentMaxYears: 5
@@ -101,7 +101,7 @@ website:
   established: 1999
   profile:
     headline: About Simon Heimlicher
-    text: 'Passionate leader with a track record of leading change: from agile transformation to strategy execution at a global scale'
+    text: "Passionate leader with a track record of leading change: from agile transformation to strategy execution at a global scale"
     link: Simon Heimlicher
     url: about
 image:
