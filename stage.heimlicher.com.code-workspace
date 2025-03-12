@@ -1,0 +1,32 @@
+{
+  "folders": [
+    {
+      "path": "content"
+    },
+    {
+      "path": "config"
+    },
+    {
+      "path": "i18n"
+    },
+    {
+      "path": "."
+    },
+    {
+      "path": "../../modules/hugo-claris"
+    }
+  ],
+  "settings": {
+    "files.associations": {
+      "*.html": "gohtml",
+      "robots.txt": "gohtml",
+      "index.redir*": "gohtml",
+      "index.aliases": "gohtml",
+      "index.urls": "gohtml"
+    },
+    "emmet.includeLanguages": {
+      "gohtml": "html"
+    },
+    "frontMatter.content.autoUpdateDate": false
+  }
+}
