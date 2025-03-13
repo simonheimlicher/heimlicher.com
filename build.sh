@@ -43,8 +43,22 @@ echo "Checking Go version..."
 go version
 
 # Install NPM modules
+echo "Installing Node modules..."
 npm ci
+
+echo "Installing Node modules for CSS optimization..."
+npm install --save-dev postcss postcss-cli autoprefixer @fullhuman/postcss-purgecss postcss-var-optimize
 
 # Install Hugo modules
 echo "Installing Hugo modules..."
 hugo mod get
+
+if ! [ -f hugo_stats.json ]; then
+  echo "Running hugo to create 'hugo_stats.json' as this required file is missing."
+  hugo --gc --minify
+
+  if ! [ -f hugo_stats.json ]; then
+    echo "Fatal error: Hugo failed to create hugo_stats.json"
+    exit 1
+  fi
+fi
