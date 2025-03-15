@@ -11,9 +11,10 @@ jobs:
   cloudflare-pages:
     uses: simonheimlicher/claris-gh-actions/.github/workflows/cloudflare-pages.yml@main
     with:
-      hugo_version: "0.143.1"
-      cloudflare_project_name: ${{ vars.CLOUDFLARE_PROJECT_NAME }}
-      cloudflare_stage_project_name: ${{ vars.CLOUDFLARE_STAGE_PROJECT_NAME }}
+      HUGO_VERSION: '0.145.0'
+      HUGO_ENVIRONMENT: ${{ github.ref == 'refs/heads/main' && 'prod' || 'stage' }}
+      CLOUDFLARE_PROJECT_NAME: ${{ vars.CLOUDFLARE_PROJECT_NAME }}
+      CLOUDFLARE_STAGE_PROJECT_NAME: ${{ vars.CLOUDFLARE_STAGE_PROJECT_NAME }}
     secrets:
       HUGO_CLARIS_AUTHOR_EMAIL: ${{ secrets.HUGO_CLARIS_AUTHOR_EMAIL }}
       CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -22,4 +23,4 @@ jobs:
     permissions:
       contents: read
       deployments: write
-
+  

@@ -1,56 +1,37 @@
 {
-  "author": "",
   "comments": {
     "dependencies": {
-      "@babel/runtime": "project",
-      "@babel/runtime-corejs3": "project",
-      "@fullhuman/postcss-purgecss": "project",
       "autoprefixer": "project",
-      "core-js": "project",
       "esbuild": "project",
       "lazysizes": "project",
       "medium-zoom": "project",
-      "object-fit-images": "project",
-      "picturefill": "project",
-      "postcss-cli": "project",
-      "qrcode-svg": "project",
-      "regenerator-runtime": "project",
-      "web-vitals": "github.com/simonheimlicher/hugo-claris"
+      "posthog-js": "project"
     },
     "devDependencies": {
-      "@babel/cli": "project",
-      "@babel/core": "project",
-      "@babel/plugin-transform-runtime": "project",
-      "@babel/preset-env": "project",
+      "@fullhuman/postcss-purgecss": "project",
+      "autoprefixer": "project",
       "postcss": "project",
-      "postcss-aspect-ratio-polyfill": "project",
-      "postcss-custom-properties": "project",
-      "postcss-object-fit-images": "project"
+      "postcss-cli": "project",
+      "postcss-prune-var": "project",
+      "postcss-var-optimize": "project"
     }
   },
   "dependencies": {
-    "@fullhuman/postcss-purgecss": "^5.0.0",
     "autoprefixer": "^10.4.14",
     "esbuild": "^0.12.5",
     "lazysizes": "^5.3.2",
     "medium-zoom": "^1.0.6",
-    "picturefill": "^3.0.3",
-    "postcss-cli": "^8.3.1",
-    "posthog-js": "^1.100.0"
+    "posthog-js": "^1.113.2"
   },
-  "description": "This repository offers an example site for [Hugo](https://gohugo.io/) and also it provides the default content for demos hosted on the [Hugo Themes Showcase](https://themes.gohugo.io/).",
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "autoprefixer": "^10.4.14",
+    "cssnano": "^7.0.6",
     "postcss": "^8.4.23",
-    "postcss-aspect-ratio-polyfill": "^2.0.0",
+    "postcss-cli": "^8.3.1",
     "postcss-prune-var": "^1.1.1",
     "postcss-var-optimize": "^8.1.0"
   },
-  "keywords": [],
-  "license": "ISC",
-  "main": "babel.config.js",
-  "name": "claris",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "version": "1.0.0"
+  "name": "heimlicher.com",
+  "version": "0.1.0"
 }
