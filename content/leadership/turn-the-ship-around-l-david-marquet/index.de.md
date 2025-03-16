@@ -40,7 +40,7 @@ Das Buch [Reiß das Ruder rum!](https://www.amazon.com/gp/product/1591846404?ie=
 
 In "Reiß das Ruder rum!” teilt Marquet seine Erfahrungen als U-Boot-Kapitän und die transformativen Führungsprinzipien, die er während seiner Zeit als Kommandant der USS Santa Fe angewandt hat. Er erkannte, dass das traditionelle Modell von Anführer und Anhänger nicht effektiv war in Situationen, in denen schnelle und genaue Entscheidungsfindung entscheidend war. Stattdessen musste er eine Umgebung schaffen, in der sich jedes Crewmitglied ermächtigt fühlte, Verantwortung zu übernehmen und Entscheidungen zu treffen, die der Gesamtmission zugutekommen würden. Diese Denkweise führte zur Entwicklung des Ansatzes der absichtsbasierten Führung.
 
-{{< claris/render-image src=images/turn-the-ship-around-l-david-marquet-cover alt="Umschlag des Buches 'Reiß das Ruder rum!' von L. David Marquet" title="Reiß das Ruder rum! von L. David Marquet" float=right relative-width="40" >}}
+{{< claris/render-image src=images/turn-the-ship-around-l-david-marquet-cover alt="Umschlag des Buches 'Reiß das Ruder rum!' von L. David Marquet" title="Reiß das Ruder rum! von L. David Marquet" caption="Buch *Reiß das Ruder rum!* von L.&nbsp;David Marquet bei [Amazon](https://www.amazon.de/Rei%C3%9F-das-Ruder-rum-Mitgestaltern/dp/3864907373/?ie=UTF8&tag=shzq-20&camp=1789&linkCode=xm2&creativeASIN=1591846404 'Affiliate link to buy the book at Amazon') kaufen" float=right relative-width="40" >}}
 
 ## Absichtsbasierte Führung annehmen
 
