@@ -3,6 +3,6 @@ module github.com/simonheimlicher/heimlicher.com
 go 1.20
 
 require (
-	github.com/simonheimlicher/claris-resources v0.0.0-20240505124848-a527345b7de9 // indirect
-	github.com/simonheimlicher/hugo-claris v0.0.0-20250316131351-edc8edc99353 // indirect
+	github.com/simonheimlicher/claris-resources v0.0.0-20250316173141-298264b8428f // indirect
+	github.com/simonheimlicher/hugo-claris v0.0.0-20250321095658-8c1ca0849343 // indirect
 )
