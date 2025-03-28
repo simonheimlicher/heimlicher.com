@@ -13,7 +13,7 @@ image:
   - alt: A photo of vintage printing stencils
     credit: 'Photo by [Amador Loureiro](https://unsplash.com/photos/BVyNlchWqzs)'
     src: images/capitalization-feature
-    title: Capitalization if a matter of style — and if you are in charge, also one of personal preferences
+    title: Capitalization is a matter of style — and if you are in charge, also one of personal preferences
 lastmod: "2020-05-22T11:35:06.075Z"
 summary: A summary of the capitalization rules of the Microsoft Style Guide
 tags:
