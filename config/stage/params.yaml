@@ -2,7 +2,8 @@ canonicalBaseURL: https://stage.heimlicher.com/
 
 assets:
   scripts:
-    posthog:
-      environments: staging stage
-      key: phc_xxba6vNdKd1ua9obUMsEy1V08LhtXAIclyOC7XBEUcb
-      site: stage.heimlicher.com
+    optional:
+      posthog:
+        environments: staging stage
+        key: phc_xxba6vNdKd1ua9obUMsEy1V08LhtXAIclyOC7XBEUcb
+        site: stage.heimlicher.com
