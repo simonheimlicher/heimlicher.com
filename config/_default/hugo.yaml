@@ -132,7 +132,7 @@ module:
     # as Page Bundle resources via resources.Get
 
 permalinks:
-  articles: :sections/:filename
+  articles: :sections/:contentbasename
 taxonomies:
   category: categories
   tag: tags

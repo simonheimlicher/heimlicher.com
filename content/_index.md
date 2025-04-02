@@ -56,10 +56,10 @@ lastmod: 2023-09-20
 aliases:
   - /home/
   - /archive/
-_build:
+build:
   publishResources: false
 cascade:
-- _build:
+- build:
     publishResources: false
 ---
 
