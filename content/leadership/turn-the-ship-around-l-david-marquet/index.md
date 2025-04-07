@@ -35,7 +35,7 @@ tags:
 
 In his widely acclaimed book, L. David Marquet outlines in an autobiographic way his path from a leader that leads followers to a leader that creates more *leaders.*
 
-The book *Turn the Ship Around!* is worth reading cover-to-cover. While it has a tremendous breadth and exposes the topic skillfully, there is one sequence that summarizes the entire problem that is addressed by the [Intent-Based leadership](https://intentbasedleadership.com/ 'L. David Marquet’s website on Intent-Based Leadership') approach introduced in this book:
+The book *Turn the Ship Around!* is worth reading cover-to-cover. While it has a tremendous breadth and exposes the topic skillfully, there is one sequence that summarizes the entire problem that is addressed by the [Intent-Based leadership](https://www.ibli.com/ 'L. David Marquet’s website on Intent-Based Leadership') approach introduced in this book:
 
 > The captain ordered, “ahead two-thirds.” The officer on deck repeated the order, “ahead two-thirds.”
 >
@@ -117,6 +117,6 @@ A technology startup was facing challenges in scaling its operations and maintai
 
 ---
 
-For further reading, you may want to refer to the [Intent-Based leadership](https://intentbasedleadership.com/ 'L. David Marquet’s website on Intent-Based Leadership') website and the [home page of the author](https://davidmarquet.com/ 'Professional website of L. David Marquet').
+For further reading, you may want to refer to the [Intent-Based leadership](https://www.ibli.com/ 'L. David Marquet’s website on Intent-Based Leadership') website and the [home page of the author](https://davidmarquet.com/ 'Professional website of L. David Marquet').
 
 Feature image: Los Angeles-class ballistic nuclear missile submarine SSN 755 from [Seaforces.org](https://www.seaforces.org/usnships/ssn/Los-Angeles-class.htm)
