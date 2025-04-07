@@ -28,7 +28,7 @@ tags:
 
 In seinem hochgelobten Buch schildert L. David Marquet autobiografisch seinen Weg von einer Führungskraft, die Mitarbeitende führt, zu einer, die mehr *Mitgestaltende* schafft.
 
-Das Buch [Reiß das Ruder rum!](https://www.amazon.com/gp/product/1591846404?ie=UTF8&tag=shzq-20&camp=1789&linkCode=xm2&creativeASIN=1591846404 'Affiliate-Link zum Kauf des Buches bei Amazon') ist es wert, von Anfang bis Ende gelesen zu werden. Obwohl es ein breites Spektrum abdeckt und das Thema gekonnt darstellt, gibt es eine Sequenz, die das gesamte Problem zusammenfasst, welches mit dem im Buch vorgestellten Ansatz der [absichtsbasierten Führung](https://intentbasedleadership.com/ 'L. David Marquets Webseite zur absichtsbasierten Führung') behandelt wird:
+Das Buch [Reiß das Ruder rum!](https://www.amazon.com/gp/product/1591846404?ie=UTF8&tag=shzq-20&camp=1789&linkCode=xm2&creativeASIN=1591846404 'Affiliate-Link zum Kauf des Buches bei Amazon') ist es wert, von Anfang bis Ende gelesen zu werden. Obwohl es ein breites Spektrum abdeckt und das Thema gekonnt darstellt, gibt es eine Sequenz, die das gesamte Problem zusammenfasst, welches mit dem im Buch vorgestellten Ansatz der [absichtsbasierten Führung](https://www.ibli.com/ 'L. David Marquets Webseite zur absichtsbasierten Führung') behandelt wird:
 
 > Der Kapitän befahl: "Vorwärts zwei Drittel." Der Offizier an Deck wiederholte den Befehl: "Vorwärts zwei Drittel."
 >

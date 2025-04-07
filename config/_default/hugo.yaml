@@ -38,9 +38,6 @@ outputs:
   home:
     - HTML
     - redir
-    # - redir_canonical
-    # - redir_nginx
-    # - redir_canonical_nginx
   page:
     - HTML
   section:
@@ -48,13 +45,12 @@ outputs:
 mediaTypes:
   text/redirects:
     delimiter: ""
-  # text/nginx:
-  #   delimiter: ""
   text/urls:
     delimiter: ""
   text/aliases:
     delimiter: ""
 outputFormats:
+  _merge: deep
   redir:
     mediatype: text/redirects
     baseName: _redirects
@@ -65,16 +61,6 @@ outputFormats:
     baseName: _redirects_canonical
     isPlainText: true
     notAlternative: true
-  # redir_nginx:
-  #   mediatype: text/nginx
-  #   baseName: _redirects.nginx
-  #   isPlainText: true
-  #   notAlternative: true
-  # redir_canonical_nginx:
-  #   mediatype: text/nginx
-  #   baseName: _redirects_canonical.nginx
-  #   isPlainText: true
-  #   notAlternative: true
   urls:
     mediatype: text/urls
     baseName: _urls

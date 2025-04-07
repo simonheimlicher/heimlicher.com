@@ -16,7 +16,17 @@ mainSections:
   - digitization
   - research
   - technology
-# logo: images/simon_heimlicher_logo
+
+masthead:
+  # The masthead contains a link
+  # Default: "/" in the current language
+  # If you would like to link to a different page, provide the path of this page below.
+  # For example: if you would like the logo to link to `/post`, you would use:
+  # linkpath: /post
+  logo:
+    position: left
+    src: site-meta/sh.com-logo.svg
+  wordmark: Simon Heimlicher
 
 responsive:
   breakpoints:
@@ -25,7 +35,7 @@ responsive:
       # and the full menu bar is shown
       mobile_menu: 60rem
       # From this width upward, font size is set to regular size
-      narrow: 36rem
+      narrow: 32rem
 
 assets:
   styles:
