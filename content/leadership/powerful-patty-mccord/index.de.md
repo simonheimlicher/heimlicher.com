@@ -40,7 +40,7 @@ Im Gegensatz zur Ermächtigung von Mitarbeitenden – ein HR-Mantra, das seit ei
 > Ich hasse das Wort Ermächtigung einfach...
 > Was ich im Laufe der Zeit im rauer werdenden Startup-Umfeld tief verstanden habe, ist, dass Menschen Macht haben. Die Aufgabe eines Unternehmens besteht nicht darin, Menschen zu ermächtigen, sondern sie daran zu erinnern, dass sie mit Macht durch die Tür kommen und die Bedingungen dafür schaffen, dass sie sie ausüben können. Wenn Sie das tun, werden Sie erstaunt sein, welche grossartige Arbeit sie für Sie leisten werden.
 
-### Eine Kultur ohne Regeln
+## Eine Kultur ohne Regeln
 
 Laut McCord ist der Erfolg von Netflix grösstenteils darauf zurückzuführen, dass das Unternehmen Ebenen von Richtlinien, Prozessen und Regeln vermieden hat. Stattdessen hat das Unternehmen eine **Kultur ohne Regeln** eingeführt. Dies ermöglichte es den Mitarbeitenden, in einem Umfeld von Vertrauen, Autonomie und Verantwortung zu wachsen.
 
@@ -62,7 +62,7 @@ Um eine Kultur ohne Regeln zu schaffen, muss ein Unternehmen zunächst Vertrauen
 * Mitarbeitenden Autonomie in ihrer Arbeit geben
 * Mitarbeitende dazu befähigen, Risiken einzugehen, Entscheidungen zu treffen und aus Fehlern zu lernen
 
-### Die Rolle von Feedback in einer Kultur ohne Regeln
+## Die Rolle von Feedback in einer Kultur ohne Regeln
 
 Feedback ist eine entscheidende Komponente der Netflix-Kultur. Indem sowohl positives als auch konstruktives Feedback gegeben wird, können Mitarbeitende kontinuierlich wachsen und ihre Leistung verbessern. McCord schlägt vor, dass häufiges, ehrliches Feedback ein integraler Bestandteil der Kultur eines jeden Unternehmens sein sollte, damit Mitarbeitende ihre Stärken und Verbesserungspotenziale verstehen.
 
