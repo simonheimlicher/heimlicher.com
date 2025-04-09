@@ -14,7 +14,7 @@ image:
   feature:
     position: center center
     src: images/tape-measure-feature
-    alt: Photo of a tape measure
+    alt: A tape measure for performance
     title: Performance management and OKRs should both be quantitative — but they measure entirely different things
     credit: 'Photo by Ann H: https://www.pexels.com/photo/yellow-and-black-tape-measure-on-blue-surface-10895044/'
 keywords:

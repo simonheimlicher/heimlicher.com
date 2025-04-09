@@ -6,7 +6,7 @@ image:
   feature:
     src: images/growth-feature
     position: center 45%
-    alt: Photo of multiple stages of a growing plant
+    alt: Plants embrace transformation
     title: Growth implies transformation
     credit: Photo by [Allexxandar](https://www.shutterstock.com/g/Allexxandar) on [Shutterstock](https://www.shutterstock.com/image-photo/seedlings-growing-plants-grow-stages-growth-747135766)
 lastmod: 2023-06-15

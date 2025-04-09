@@ -5,7 +5,7 @@ image:
   feature: 
     src: images/robynne-hu-HOrhCnQsxnQ-unsplash-original
     credit: '<a href="https://unsplash.com/@robinne">Robynne Hu</a> on <a href="https://unsplash.com/photos/HOrhCnQsxnQ">Unsplash</a>'
-    alt: Eine Gruppe von Menschen, die beieinander stehen  
+    alt: Illustration von Machine Learning
   thumbnail: images/robynne-hu-HOrhCnQsxnQ-unsplash-square
 lastmod: "2023-03-16T17:58:36.115Z"
 title: Maschinelles Lernen

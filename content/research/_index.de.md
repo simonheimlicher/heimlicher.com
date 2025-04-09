@@ -1,13 +1,13 @@
 ---
 date: "2023-03-12T13:20:20Z"
-description: Über die Nutzung von maschinellem Lernen für Empfehlungssysteme für Filme und die Modellierung menschlicher Mobilität mit empirische Validierung
+description: Über die Nutzung Künstlicher Intelligenz (KI) um Filme zu empfehlen und die Modellierung menschlicher Mobilität mit empirische Validierung
 image:
   feature:
     src: images/research-feature
-    alt: Photo of a group of people in a pitch black room
+    alt: KI kann Licht ins Dunkel bringen
     title: Research
 lastmod: "2023-04-20T18:16:21.152Z"
-subtitle: Maschinelles Lernen und menschliche Mobilität
+subtitle: Künstliche Intelligenz (KI) und menschliche Mobilität
 title: Forschung
 weight: "400"
 ---

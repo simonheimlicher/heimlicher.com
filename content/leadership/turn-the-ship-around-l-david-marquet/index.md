@@ -14,7 +14,7 @@ image:
   feature:
     # alt: Cover of the book Turn the Ship Around! by L. David Marquet
     # alt: Artist's rendering of the planned Columbia-class submarine (Naval Sea Systems Command)
-    alt: Photo of a Los Angeles-class ballistic nuclear missile submarine SSN 755
+    alt: A Los Angeles-class ballistic nuclear missile submarine SSN 755
     position: center 50%
     # src: images/turn-the-ship-around-l-david-marquet-feature
     # src: images/columbia-class_ballistic_missile_submarine_2019

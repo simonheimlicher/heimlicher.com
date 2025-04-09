@@ -10,7 +10,7 @@ date: "2008-01-03T11:52:29Z"
 disqusurl: https://simon.heimlicher.com/articles/2008/01/03/capitalization
 image:
   feature:
-  - alt: A photo of vintage printing stencils
+  - alt: Capitalization is as old as the printing press
     credit: 'Photo by [Amador Loureiro](https://unsplash.com/photos/BVyNlchWqzs)'
     src: images/capitalization-feature
     title: Capitalization is a matter of style — and if you are in charge, also one of personal preferences
