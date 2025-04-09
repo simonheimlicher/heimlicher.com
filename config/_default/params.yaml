@@ -33,7 +33,7 @@ responsive:
     width:
       # From this width upward, the mobile menu is hidden
       # and the full menu bar is shown
-      mobile_menu: 60rem
+      mobile_menu: 64rem
       # From this width upward, font size is set to regular size
       narrow: 32rem
 
