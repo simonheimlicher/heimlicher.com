@@ -4,7 +4,6 @@ title: Simon Heimlicher
 baseURL: /
 
 defaultContentLanguage: en
-languageCode: en-us
 
 enableRobotsTXT: true
 disableAliases: true
