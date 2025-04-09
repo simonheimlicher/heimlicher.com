@@ -1,11 +1,12 @@
 ---
+clarisdebug: true
 date: "2012-12-11T15:39:01Z"
 description: Using machine learning to enable movie recommendations without the users having to exchange their personal ratings of the movies
 image:
   feature:
     src: images/robynne-hu-HOrhCnQsxnQ-unsplash-original
     credit: '<a href="https://unsplash.com/@robinne">Robynne Hu</a> on <a href="https://unsplash.com/photos/HOrhCnQsxnQ">Unsplash</a>'
-    alt: A group of people standing next to each other
+    alt: Illustration of machine learning
   thumbnail: images/robynne-hu-HOrhCnQsxnQ-unsplash-square
 lastmod: "2023-03-16T17:58:36.115Z"
 title: Machine learning

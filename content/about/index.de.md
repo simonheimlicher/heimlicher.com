@@ -3,7 +3,7 @@ description: Ein kurzes Profil von Simon Heimlicher, einem erfahrenen Leader mit
   Leidenschaft für Führung, Transformation und Strategieumsetzung.
 image:
   feature:
-  - alt: Porträtbild von Simon Heimlicher
+  - alt: Simon Heimlicher is ein begeisterter Leader
     credit: Simon Heimlicher
     src: images/149-7238 azure blue wall background
     title: Simon Heimlicher

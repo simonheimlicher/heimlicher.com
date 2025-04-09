@@ -6,7 +6,7 @@ description: About Simon Heimlicher, a senior manager with a passion for leaders
   transformation, and strategy execution
 image:
   feature:
-  - alt: Portrait photo of Simon Heimlicher
+  - alt: Simon Heimlicher is a passionate leader
     credit: Simon Heimlicher
     # src: images/070-6958_16x9
     src: images/149-7238 azure blue wall background

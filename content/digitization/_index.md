@@ -2,7 +2,7 @@
 description: On transforming the way we interact with clients and conduct business
 image:
   feature:
-  - alt: A photo of computer code projected on the face of a woman
+  - alt: Code is everywhere
     credit: 'Photo by ThisIsEngineering: https://www.pexels.com/photo/code-projected-over-woman-3861969/'
     src: images/digitization-feature
     title: On transforming the way we interact with clients and conduct business

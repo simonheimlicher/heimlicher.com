@@ -1,7 +1,10 @@
 en:
+  LanguageCode: en-us
   LanguageName: English
   weight: 1
+
 de:
+  LanguageCode: de-ch
   LanguageName: Deutsch
   weight: 2
   markup:
