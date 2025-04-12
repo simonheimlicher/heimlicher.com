@@ -5,22 +5,28 @@ on:
     branches:
       - main
       - stage
+  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
+  # Call the workflow to build with Hugo and deploy to Cloudflare Pages
   cloudflare-pages:
     uses: simonheimlicher/claris-gh-actions/.github/workflows/cloudflare-pages.yml@main
     with:
-      HUGO_VERSION: '0.145.0'
+      HUGO_VERSION: ${{ vars.HUGO_VERSION || '0.145.0' }}
+      BASE_URL: ${{ vars.BASE_URL }}
+      STAGE_BASE_URL: ${{ vars.STAGE_BASE_URL }}
+      CANONICAL_BASE_URL: ${{ vars.CANONICAL_BASE_URL || vars.BASE_URL }}
+      STAGE_CANONICAL_BASE_URL: ${{ vars.STAGE_CANONICAL_BASE_URL || vars.STAGE_BASE_URL }}
       HUGO_ENVIRONMENT: ${{ github.ref == 'refs/heads/main' && 'prod' || 'stage' }}
       CLOUDFLARE_PROJECT_NAME: ${{ vars.CLOUDFLARE_PROJECT_NAME }}
       CLOUDFLARE_STAGE_PROJECT_NAME: ${{ vars.CLOUDFLARE_STAGE_PROJECT_NAME }}
     secrets:
       HUGO_CLARIS_AUTHOR_EMAIL: ${{ secrets.HUGO_CLARIS_AUTHOR_EMAIL }}
+      CLOUDFLARE_ZONE_ID: ${{ secrets.CLOUDFLARE_ZONE_ID }}
       CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
       CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
       CLOUDFLARE_STAGE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_STAGE_ACCOUNT_ID }}
     permissions:
       contents: read
       deployments: write
-  
