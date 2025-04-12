@@ -1,7 +1,6 @@
 ---
 date: "2023-03-12T13:20:20Z"
-description: On using AI for movie recommendations, modeling human
-  mobility and mobile networking
+description: On using AI for movie recommendations, modeling human mobility and mobile networking
 image:
   feature:
     src: images/research-feature

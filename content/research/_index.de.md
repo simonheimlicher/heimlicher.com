@@ -5,9 +5,9 @@ image:
   feature:
     src: images/research-feature
     alt: KI kann Licht ins Dunkel bringen
-    title: Research
+    title: KI und Mobilität von Menschen
 lastmod: "2023-04-20T18:16:21.152Z"
-subtitle: Künstliche Intelligenz (KI) und menschliche Mobilität
+subtitle: KI und Mobilität von Menschen
 title: Forschung
 weight: "400"
 ---
