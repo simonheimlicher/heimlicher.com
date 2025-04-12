@@ -1,4 +1,5 @@
 ---
+clarisdebug: true
 title: Simon Heimlicher
 subtitle: Leadership & organizational transformation
 author: Simon Heimlicher
@@ -71,7 +72,7 @@ The crux with growing as a leader is that there is an overwhelming amount of lit
 
 {{< panel page="/leadership/impact-leadership-style-organizational-performance" float=right relativewidth=40 >}}
 
-However, this method of growth is limited to the diversity and quality of leadership the leader is exposed to, and there is a tendency for organizations to get stuck in a loop. 
+However, this method of growth is limited to the diversity and quality of leadership the leader is exposed to, and there is a tendency for organizations to get stuck in a loop.
 
 For example, once a leader is labeled a *micromanager*, they might become hesitant to hold the members of their team to account. Once a member of their team is a leader themselves, they will strive to avoid this label. These cycles crystallize into recognizable patterns, or [leadership styles, and impact the performance of organizations](leadership/impact-leadership-style-organizational-performance).
 
