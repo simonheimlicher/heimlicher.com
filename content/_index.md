@@ -1,5 +1,4 @@
 ---
-clarisdebug: true
 title: Simon Heimlicher
 subtitle: Leadership & organizational transformation
 author: Simon Heimlicher
