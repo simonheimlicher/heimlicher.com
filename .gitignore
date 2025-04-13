@@ -8,6 +8,7 @@
 /*.env
 /env.*
 /cache/
+/hugo_cache/
 /local/
 /state/
 /logs/
