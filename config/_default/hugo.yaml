@@ -86,6 +86,10 @@ security:
 minify:
   _merge: deep
 
+caches:
+  images:
+    dir: :cacheDir/images
+
 # NOTE: If using excludeFiles, these files are also not available for .Resources.Get
 module:
   imports:
