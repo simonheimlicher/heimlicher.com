@@ -35,7 +35,7 @@ tags:
 
 In his widely acclaimed book, L. David Marquet outlines in an autobiographic way his path from a leader that leads followers to a leader that creates more *leaders.*
 
-The book *Turn the Ship Around!* is worth reading cover-to-cover. While it has a tremendous breadth and exposes the topic skillfully, there is one sequence that summarizes the entire problem that is addressed by the [Intent-Based leadership](https://www.ibli.com/ 'L. David Marquet’s website on Intent-Based Leadership') approach introduced in this book:
+The book [*Turn the Ship Around!*](<https://www.amazon.com/gp/product/1591846404?ie=UTF8&tag=shzq-20&camp=1789&linkCode=xm2&creativeASIN=1591846404> 'Affiliate link to buy the book at Amazon') is worth reading cover-to-cover. While it has a tremendous breadth and exposes the topic skillfully, there is one sequence that summarizes the entire problem that is addressed by the [Intent-Based leadership](https://www.ibli.com/ 'L. David Marquet’s website on Intent-Based Leadership') approach introduced in this book:
 
 > The captain ordered, “ahead two-thirds.” The officer on deck repeated the order, “ahead two-thirds.”
 >
