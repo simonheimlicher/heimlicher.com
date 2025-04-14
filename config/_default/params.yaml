@@ -7,6 +7,7 @@ authors:
     first_name: Simon
     email: AUTHOR_EMAIL
     name: Simon Heimlicher
+    profilepage: about
 
 mainSections:
   - articles
