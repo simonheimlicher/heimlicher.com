@@ -8,7 +8,6 @@ authors:
     email: AUTHOR_EMAIL
     name: Simon Heimlicher
 
-showShare: false
 mainSections:
   - articles
   - leadership
@@ -89,7 +88,7 @@ navListCurrentSectionInSection:
 assetDownloadFolders:
   - downloads
 home:
-  section: _home
+  section: _index
 footer:
   section: _footer
   recentarticles: 3
@@ -100,7 +99,7 @@ footer:
 hidden:
   sections:
     - _error
-    - _home
+    - _index
     - _footer
   pathelements:
     - confidential
