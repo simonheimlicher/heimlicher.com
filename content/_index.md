@@ -38,15 +38,28 @@ image:
           position: "center center"
           # aspect: aspect_9x16
   search:
-    - images/simon_heimlicher_16x9
-    - images/simon_heimlicher_1x1
+    - alt: Professional website of Simon Heimlicher
+      src: images/simon heimlicher 149-7238 share 1x1
+    # - src: images/simon heimlicher profile 149-7238 share 1x1
+    - alt: Professional website of Simon Heimlicher
+      src: images/simon heimlicher 149-7238 share 4x3
+    # - src: images/simon heimlicher profile 149-7238 share 4x3
+    - alt: Professional website of Simon Heimlicher
+      src: images/simon heimlicher 149-7238 share 16x9
+    # - src: images/simon heimlicher profile 149-7238 share 16x9
   share:
     - alt: Professional website of Simon Heimlicher
-      src: images/simon_heimlicher_16x9
+      src: images/simon heimlicher 149-7238 share 1x1
+    # - src: images/simon heimlicher profile 149-7238 share 1x1
     - alt: Professional website of Simon Heimlicher
-      src: images/simon_heimlicher_1x1
+      src: images/simon heimlicher 149-7238 share 4x3
+    # - src: images/simon heimlicher profile 149-7238 share 4x3
+    - alt: Professional website of Simon Heimlicher
+      src: images/simon heimlicher 149-7238 share 16x9
+    # - src: images/simon heimlicher profile 149-7238 share 16x9
   thumbnail:
-    - images/simon_heimlicher_1x1
+    - alt: Professional website of Simon Heimlicher
+      src: images/simon heimlicher 149-7238 share 1x1
 keywords:
   - simon
   - heimlicher
