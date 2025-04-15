@@ -1,13 +1,39 @@
 ---
-description: Ein kurzes Profil von Simon Heimlicher, einem erfahrenen Leader mit einer
+description: Simon Heimlicher ist ein erfahrenen Leader mit einer
   Leidenschaft für Führung, Transformation und Strategieumsetzung.
 image:
   feature:
-  - alt: Simon Heimlicher is ein begeisterter Leader
-    credit: Simon Heimlicher
-    src: images/149-7238 azure blue wall background
-    title: Simon Heimlicher
-    position: center 55%
+    - alt: Simon Heimlicher ist ein begeisterter Leader
+      credit: Simon Heimlicher
+      # src: images/070-6958_16x9
+      # src: images/149-7238 azure blue wall background
+      # src: images/149-7238 light grey background more centered 4x1
+      src: images/149-7238 grey background 3x1.jpg
+      title: Simon Heimlicher
+      position: center 55%
+  search:
+    - alt: Professionelle Website von Simon Heimlicher
+      src: images/simon heimlicher 149-7238 share 1x1
+    # - src: images/simon heimlicher profile 149-7238 share 1x1
+    - alt: Professionelle Website von Simon Heimlicher
+      src: images/simon heimlicher 149-7238 share 4x3
+    # - src: images/simon heimlicher profile 149-7238 share 4x3
+    - alt: Professionelle Website von Simon Heimlicher
+      src: images/simon heimlicher 149-7238 share 16x9
+    # - src: images/simon heimlicher profile 149-7238 share 16x9
+  share:
+    - alt: Professionelle Website von Simon Heimlicher
+      src: images/simon heimlicher 149-7238 share 1x1
+    # - src: images/simon heimlicher profile 149-7238 share 1x1
+    - alt: Professionelle Website von Simon Heimlicher
+      src: images/simon heimlicher 149-7238 share 4x3
+    # - src: images/simon heimlicher profile 149-7238 share 4x3
+    - alt: Professionelle Website von Simon Heimlicher
+      src: images/simon heimlicher 149-7238 share 16x9
+    # - src: images/simon heimlicher profile 149-7238 share 16x9
+  thumbnail:
+    - alt: Professionelle Website von Simon Heimlicher
+      src: images/simon heimlicher 149-7238 share 1x1
 keywords:
 - heimlicher
 - simon
