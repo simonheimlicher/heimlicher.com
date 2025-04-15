@@ -6,28 +6,37 @@ description: About Simon Heimlicher, a senior manager with a passion for leaders
   transformation, and strategy execution
 image:
   feature:
-  - alt: Simon Heimlicher is a passionate leader
-    credit: Simon Heimlicher
-    # src: images/070-6958_16x9
-    # src: images/149-7238 azure blue wall background
-    # src: images/149-7238 light grey background more centered 4x1
-    src: images/149-7238 grey background 3x1.jpg
-    title: Simon Heimlicher
-    position: center 55%
-  share:
-  # - src: images/simon heimlicher 149-7238 share 1x1
-  # - src: images/simon heimlicher 149-7238 share 4x3
-  # - src: images/simon heimlicher 149-7238 share 16x9
-  - src: images/simon heimlicher profile 149-7238 share 1x1
-  - src: images/simon heimlicher profile 149-7238 share 4x3
-  - src: images/simon heimlicher profile 149-7238 share 16x9
+    - alt: Simon Heimlicher is a passionate leader
+      credit: Simon Heimlicher
+      # src: images/070-6958_16x9
+      # src: images/149-7238 azure blue wall background
+      # src: images/149-7238 light grey background more centered 4x1
+      src: images/149-7238 grey background 3x1.jpg
+      title: Simon Heimlicher
+      position: center 55%
   search:
-  # - src: images/simon heimlicher 149-7238 share 1x1
-  # - src: images/simon heimlicher 149-7238 share 4x3
-  # - src: images/simon heimlicher 149-7238 share 16x9
-  - src: images/simon heimlicher profile 149-7238 share 1x1
-  - src: images/simon heimlicher profile 149-7238 share 4x3
-  - src: images/simon heimlicher profile 149-7238 share 16x9
+    - alt: Professional website of Simon Heimlicher
+      src: images/simon heimlicher 149-7238 share 1x1
+    # - src: images/simon heimlicher profile 149-7238 share 1x1
+    - alt: Professional website of Simon Heimlicher
+      src: images/simon heimlicher 149-7238 share 4x3
+    # - src: images/simon heimlicher profile 149-7238 share 4x3
+    - alt: Professional website of Simon Heimlicher
+      src: images/simon heimlicher 149-7238 share 16x9
+    # - src: images/simon heimlicher profile 149-7238 share 16x9
+  share:
+    - alt: Professional website of Simon Heimlicher
+      src: images/simon heimlicher 149-7238 share 1x1
+    # - src: images/simon heimlicher profile 149-7238 share 1x1
+    - alt: Professional website of Simon Heimlicher
+      src: images/simon heimlicher 149-7238 share 4x3
+    # - src: images/simon heimlicher profile 149-7238 share 4x3
+    - alt: Professional website of Simon Heimlicher
+      src: images/simon heimlicher 149-7238 share 16x9
+    # - src: images/simon heimlicher profile 149-7238 share 16x9
+  thumbnail:
+    - alt: Professional website of Simon Heimlicher
+      src: images/simon heimlicher 149-7238 share 1x1
 keywords:
 - heimlicher
 - simon
