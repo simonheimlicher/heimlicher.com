@@ -64,7 +64,7 @@ Die treibende Kraft hinter meinem Engagement für Führung und organisatorisches
 
 Unabhängig von Alter, Hintergrund oder organisatorischer Rolle gibt es in jedem Einzelnen eine latente Kraft. Meine Passion war und ist es, meinen Kolleginnen und Kollegen zu helfen, diese Kraft zu erkennen und zu nutzen. Diese Überzeugung basiert auf dem Verständnis, dass es bei wahrer Führung nicht um Autorität geht, sondern darum, anderen zu ermöglichen, ihr bestes Selbst zu verwirklichen.
 
-In einer Zeit, in der Bereiche wie [Maschinelles Lernen](/research/machine-learning) Branchen über Nacht neu definieren, wird Anpassungsfähigkeit zu einer begehrten Eigenschaft. Es geht nicht nur darum, mit dem Tempo der Veränderung Schritt zu halten, sondern neue Möglichkeiten für sich zu nutzen. Die Führungskräfte von morgen sind diejenigen, die den Wandel nicht als Herausforderung, sondern als Chance sehen.
+In einer Zeit, in der Bereiche wie [Künstliche Intelligenz (KI)](/research/artificial-intelligence) Branchen über Nacht neu definieren, wird Anpassungsfähigkeit zu einer begehrten Eigenschaft. Es geht nicht nur darum, mit dem Tempo der Veränderung Schritt zu halten, sondern neue Möglichkeiten für sich zu nutzen. Die Führungskräfte von morgen sind diejenigen, die den Wandel nicht als Herausforderung, sondern als Chance sehen.
 
 ## Führungskräfte brauchen Sparringspartner
 

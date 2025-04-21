@@ -1,4 +1,5 @@
 ---
+clarisdebug: true
 title: Simon Heimlicher
 subtitle: Leadership & organizational transformation
 author: Simon Heimlicher
@@ -9,7 +10,7 @@ image:
   hero:
     style: background
     variant:
-      light-16x9:
+      default:
         - alt: The Inn river in La Punt, Switzerland
           media: "(prefers-color-scheme: light) and (min-width: 1280px)"
           src: images/la-punt_river_mirror_16x9

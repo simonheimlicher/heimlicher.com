@@ -5,11 +5,13 @@ image:
   feature: 
     src: images/robynne-hu-HOrhCnQsxnQ-unsplash-original
     credit: '<a href="https://unsplash.com/@robinne">Robynne Hu</a> on <a href="https://unsplash.com/photos/HOrhCnQsxnQ">Unsplash</a>'
-    alt: Illustration von Machine Learning
+    alt: Illustration von Künstlicher Intelligenz (KI)
   thumbnail: images/robynne-hu-HOrhCnQsxnQ-unsplash-square
 lastmod: "2023-03-16T17:58:36.115Z"
-title: Maschinelles Lernen
+title: Künstliche Intelligenz (KI)
 weight: 100
+aliases:
+- machine-learning
 ---
 
 Bei Technicolor haben wir ein verteiltes Empfehlungssystem entwickelt und evaluiert, um Empfehlungen für Medien wie Filme oder Fernsehsendungen zu generieren.
@@ -21,7 +23,7 @@ Um dies zu erreichen, haben wir uns auf zwei Kernwerkzeuge verlassen:
 1. Wir verwendeten [Belief Propagation](https://en.wikipedia.org/wiki/Belief_propagation) in Bayesian Networks, um die für die Empfehlungen notwendigen Berechnungen *zu verteilen*.
 2. Wir nutzten [Differential Privacy](https://de.wikipedia.org/wiki/Differential_Privacy), um die Wahrung der Privatspähre beweisbar gewährleisten zu können.
 
-Die differenzielle Privatsphäre wurde ursprünglich bei Microsoft Research entwickelt; in jüngerer Zeit hat [Apple die differenzielle Privatsphäre](https://machinelearning.apple.com/research/learning-with-privacy-at-scale) als Forschungsschwerpunkt übernommen.
+Differential Privacy wurde ursprünglich bei Microsoft Research entwickelt; in jüngerer Zeit hat [Apple Differential Privacy](https://machinelearning.apple.com/research/learning-with-privacy-at-scale) als Forschungsschwerpunkt übernommen.
 
 ## Ausgewählte Publikationen
 
