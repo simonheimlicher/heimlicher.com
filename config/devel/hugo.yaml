@@ -1,4 +1,3 @@
-baseurl: https://devel.heimlicher.com/
 disableAliases: false
 
 
@@ -22,5 +21,3 @@ outputs:
     - urls
     - aliases
     # - redir_canonical
-    # - redir_nginx
-    # - redir_canonical_nginx
