@@ -67,7 +67,7 @@ The driving force behind my commitment to leadership and organizational growth h
 
 Regardless of age, background, or organizational role, there lies a latent power within each individual. My passion has been to assist my colleagues in recognizing and harnessing this power. This belief is anchored in the understanding that true leadership isn't about authority but about enabling others to realize their best selves.
 
-In an era where fields like [machine learning](/research/machine-learning) redefine industries overnight, adaptability becomes a prized trait. It's not just about keeping up with the pace of change but leveraging it. Leaders of tomorrow are those who see change not as a challenge but an opportunity.
+In an era where fields like [artificial intelligence (AI)](/research/artificial-intelligence) redefine industries overnight, adaptability becomes a prized trait. It's not just about keeping up with the pace of change but leveraging it. Leaders of tomorrow are those who see change not as a challenge but an opportunity.
 
 ## Leaders need sparring partners
 
