@@ -13,8 +13,8 @@ jobs:
   cloudflare-pages:
     uses: simonheimlicher/claris-gh-actions/.github/workflows/cloudflare-pages.yml@main
     with:
-      HUGO_VERSION: ${{ vars.HUGO_VERSION || '0.145.0' }}
-      DART_SASS_VERSION: ${{ vars.DART_SASS_VERSION || '1.86.3' }}
+      HUGO_VERSION: ${{ vars.HUGO_VERSION || '0.153.5' }}
+      DART_SASS_VERSION: ${{ vars.DART_SASS_VERSION || '1.97.1' }}
       BASE_URL: ${{ vars.BASE_URL }}
       STAGE_BASE_URL: ${{ vars.STAGE_BASE_URL }}
       CANONICAL_BASE_URL: ${{ vars.CANONICAL_BASE_URL || vars.BASE_URL }}
