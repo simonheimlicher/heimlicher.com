@@ -39,8 +39,8 @@ responsive:
 
 assets:
   styles:
-    # Enable critical CSS code splitting for LCP optimization
-    critical: true
+    # Enable CSS splitting (critical + deferred bundles) for LCP optimization
+    split: true
     fonts:
       selfhosted: true
       type:
