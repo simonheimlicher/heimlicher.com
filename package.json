@@ -9,6 +9,7 @@
     "devDependencies": {
       "@fullhuman/postcss-purgecss": "project",
       "autoprefixer": "project",
+      "cssnano": "github.com/simonheimlicher/hugo-claris",
       "postcss": "project",
       "postcss-cli": "project",
       "postcss-prune-var": "project",
@@ -24,6 +25,7 @@
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "autoprefixer": "^10.4.14",
+    "cssnano": "^7.0.6",
     "postcss": "^8.4.23",
     "postcss-cli": "^8.3.1",
     "postcss-prune-var": "^1.1.1",
