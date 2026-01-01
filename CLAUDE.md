@@ -1,21 +1,50 @@
 # AI Agent Context Guide: heimlicher.com
 
+## Quick Start
+
+1. Read this file for site overview
+2. See `~/Sites/hugo/CLAUDE.md` for workspace-level context
+3. See `~/Sites/hugo/modules/hugo-claris/root/CLAUDE.md` for theme details
+
 ## Project Overview
-This project is a Hugo website utilizing the "Hugo Claris" theme, which is integrated as a Go module.
+
+This is a Hugo website using the "Hugo Claris" theme, integrated as a Go module.
+
+## Worktree Structure
+
+This site uses git worktrees:
+
+| Directory | Branch | Port | Purpose |
+|-----------|--------|------|---------|
+| `root/` | devel | 1315 | Active development (YOU ARE HERE) |
+| `main/` | main | 1313 | Read-only reference to production |
+| `stage/` | stage | 1314 | Read-only reference to staging |
+
+**Always work in `root/`** - the `main/` and `stage/` directories are for comparison only.
 
 ## Key Development Requirements
 
 ### Environment Variables
+
 - **`HUGO_CLARIS_AUTHOR_EMAIL`**: This environment variable is **REQUIRED**. It must be set to the author's email address (e.g., in `.env`).
+
+### Quick Start Commands
+
+```bash
+cd ~/Sites/hugo/sites/heimlicher.com/root
+set -a && source .env && set +a
+HUGO_MODULE_WORKSPACE=go.work hugo server --disableFastRender
+```
 
 ### Dependencies & Setup
 - **NPM Package Management**:
   - Run `npm ci` (preferred) or `npm install` to install necessary Node.js dependencies.
   - This step is **mandatory** before starting the development server.
 
-## Branching & Deployment Strategy
-
-The project uses a **Git Worktree** setup with three primary branches, each having its own configuration environment:
+```bash
+npm ci                    # Install Node.js dependencies (required)
+hugo mod npm pack         # Regenerate package.json from package.hugo.json
+```
 
 | Branch | Environment | Config Location | Deployment URL | Deployment Trigger |
 | :--- | :--- | :--- | :--- | :--- |
@@ -23,20 +52,30 @@ The project uses a **Git Worktree** setup with three primary branches, each havi
 | `stage` | Staging | `config/stage` | `stage.heimlicher.com` | Push to `origin/stage` (Cloudflare Pages) |
 | `devel` | Development | `config/devel` | Local setup | Push to `origin/devel` (Cloudflare Pages) |
 
-**Current Context**: You are currently operating in a worktree with the **`stage`** branch checked out.
+| Branch | Environment | Deployment URL | Trigger |
+|--------|-------------|----------------|---------|
+| `main` | Production | simon.heimlicher.com | Push to origin/main |
+| `stage` | Staging | stage.heimlicher.com | Push to origin/stage |
+| `devel` | Development | localhost:1315 | Local only |
 
-## Local Development & Modules (Stage Branch)
+## Local Development with Modules
 
-When working on the `stage` branch, the workflow supports simultaneous development of the site and its Go modules (specifically the theme `hugo-claris`).
+The `go.work` file references local module checkouts:
 
 ### Workflow Requirements
 1.  **Clone Modules**: Ensure the relevant Go modules are cloned into an accessible location (e.g., `../../../modules/hugo-claris`).
 2.  **`go.work` File**: A `go.work` file in the project root is used to reference these local module clones.
 3.  **Run with Workspace**: You **MUST** tell Hugo to use the workspace file by setting the `HUGO_MODULE_WORKSPACE` environment variable.
+```bash
 
 ### Command Example
 ```zsh
 HUGO_MODULE_WORKSPACE=go.work hugo server --port=$HUGO_SERVERPORT --disableFastRender
+# root/go.work
+go 1.21
+use ../../../modules/hugo-claris/root    # devel branch of theme
+use ../../../modules/claris-resources
+use ../../../modules/fontawesome
 ```
 *Alternatively, you can `export HUGO_MODULE_WORKSPACE=go.work` in your shell session.*
 
@@ -44,6 +83,7 @@ HUGO_MODULE_WORKSPACE=go.work hugo server --port=$HUGO_SERVERPORT --disableFastR
 - **Staging**: Any push to the `stage` remote branch (`origin/stage`) automatically triggers a deployment to Cloudflare Pages at [stage.heimlicher.com](https://stage.heimlicher.com).
 
 ## Technical Stack
+
 - **Static Site Generator**: Hugo
 - **Theme**: Hugo Claris (Go Module)
 - **Languages**: HTML, CSS, JavaScript, Go (templates)
