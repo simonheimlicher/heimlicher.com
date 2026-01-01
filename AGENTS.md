@@ -3,7 +3,7 @@
 ## Project Overview
 This project is a Hugo website utilizing the "Hugo Claris" theme, which is integrated as a Go module.
 
-## key Development Requirements
+## Key Development Requirements
 
 ### Environment Variables
 - **`HUGO_CLARIS_AUTHOR_EMAIL`**: This environment variable is **REQUIRED**. It must be set to the author's email address (e.g., in `.env`).
