@@ -32,9 +32,29 @@ This site uses git worktrees:
 
 ```bash
 cd ~/Sites/hugo/sites/heimlicher.com/root
-set -a && source .env && set +a
-HUGO_MODULE_WORKSPACE=go.work hugo server --disableFastRender
+
+# Development server (with local module changes)
+npm run dev
+
+# Production build (uses go.mod versions)
+npm run build
+
+# Production build (uses local module worktrees via go.work)
+npm run build:workspace
 ```
+
+Output goes to `public/`.
+
+### All Available Scripts
+
+| Script | Purpose |
+|--------|---------|
+| `dev` | Development server with hot reload using local modules (go.work) |
+| `build` | Production build using published module versions (go.mod) |
+| `build:workspace` | Production build using local module worktrees (go.work) |
+| `clean` | Remove `public/` and `resources/_gen/` directories |
+| `rebuild:workspace` | Shortcut for `clean` + `build:workspace` |
+| `lhci` | Run Lighthouse CI performance tests (will be replaced by hugolit) |
 
 ### Dependencies & Setup
 - **NPM Package Management**:
@@ -151,4 +171,72 @@ To clear the module cache (useful when local changes aren't being picked up):
 
 ```zsh
 hugo mod clean
+```
+
+**CRITICAL**: For running the server or building, ALWAYS use npm scripts:
+
+- `npm run dev` - Development server
+- `npm run build:workspace` - Production build with local modules
+
+**NEVER call `hugo server` or `hugo --gc --minify` directly** - they will fail without env vars loaded by dotenvx.
+
+### Image Processing (Hugo v0.153+)
+
+Hugo's WASM-based WebP encoder has a fixed memory ceiling (~6 megapixels). Configure via `site.Params.images.maxOutputMegapixels`.
+
+---
+
+## CSS/Font Performance Debugging
+
+### Configuration Location
+
+Style and font settings are in `config/_default/params.yaml`:
+
+```yaml
+assets:
+  styles:
+    split: true  # true = critical + deferred bundles, false = single main bundle
+    fonts:
+      selfhosted: true
+      family:
+        sans: "Source Sans 3"
+        serif: "Alegreya"
+        mono: "DM Mono"
+```
+
+### Inspecting Build Output
+
+After `npm run build:workspace`, inspect the generated HTML:
+
+```bash
+# Check CSS bundles
+find public/styles -name "*.css" -exec sh -c \
+  'echo "$1: $(wc -c < "$1") bytes"' _ {} \;
+
+# Check inline critical CSS (split mode)
+grep -o '<style[^>]*>' public/leadership/index.html
+
+# Check deferred CSS loading
+grep -o '<link[^>]*deferred[^>]*>' public/leadership/index.html
+
+# Check font preload links
+grep -o '<link[^>]*preload[^>]*font[^>]*>' public/leadership/index.html
+
+# Check all link tags in head
+grep -E '<link[^>]+>' public/leadership/index.html | head -20
+```
+
+### Comparing Stage vs Devel
+
+```bash
+# Build devel (local module worktrees)
+cd ~/Sites/hugo/sites/heimlicher.com/root
+npm run build:workspace
+
+# Analyze resources with TypeScript script
+npx tsx ../../../modules/hugo-claris/root/perf/analyze-resources.mts public --label devel
+
+# Compare with stage (already built on Cloudflare)
+npx tsx ../../../modules/hugo-claris/root/perf/analyze-resources.mts \
+  ~/Sites/hugo/sites/heimlicher.com/stage/public --label stage
 ```

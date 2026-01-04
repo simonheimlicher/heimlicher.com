@@ -25,3 +25,5 @@ go.work
 .python-virtualenv
 .ipynb_checkpoints
 .hvm
+.hugolit/
+!.hugolit/.gitkeep
