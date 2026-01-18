@@ -14,11 +14,11 @@ This is a Hugo website using the "Hugo Claris" theme, integrated as a Go module.
 
 This site uses git worktrees:
 
-| Directory | Branch | Port | Purpose |
-|-----------|--------|------|---------|
-| `root/` | devel | 1315 | Active development (YOU ARE HERE) |
-| `main/` | main | 1313 | Read-only reference to production |
-| `stage/` | stage | 1314 | Read-only reference to staging |
+| Directory | Branch | Port | Purpose                           |
+| --------- | ------ | ---- | --------------------------------- |
+| `root/`   | devel  | 1315 | Active development (YOU ARE HERE) |
+| `main/`   | main   | 1313 | Read-only reference to production |
+| `stage/`  | stage  | 1314 | Read-only reference to staging    |
 
 **Always work in `root/`** - the `main/` and `stage/` directories are for comparison only.
 
@@ -33,30 +33,38 @@ This site uses git worktrees:
 ```bash
 cd ~/Sites/hugo/sites/heimlicher.com/root
 
-# Development server (with local module changes)
-npm run dev
+# Development server
+npm run devel     # port 1313, uses go.mod versions
+npm run stage     # port 1314
+npm run prod      # port 1315
 
 # Production build (uses go.mod versions)
 npm run build
 
-# Production build (uses local module worktrees via go.work)
-npm run build:workspace
+# Production build with local module worktrees
+npm run build:workspace           # uses go.main.work (prod env)
+npm run build:workspace:stage     # uses go.stage.work
+npm run build:workspace:devel     # uses go.devel.work
 ```
 
 Output goes to `public/`.
 
 ### All Available Scripts
 
-| Script | Purpose |
-|--------|---------|
-| `dev` | Development server with hot reload using local modules (go.work) |
-| `build` | Production build using published module versions (go.mod) |
-| `build:workspace` | Production build using local module worktrees (go.work) |
-| `clean` | Remove `public/` and `resources/_gen/` directories |
-| `rebuild:workspace` | Shortcut for `clean` + `build:workspace` |
-| `lhci` | Run Lighthouse CI performance tests (will be replaced by hugolit) |
+| Script                  | Purpose                                                         |
+| ----------------------- | --------------------------------------------------------------- |
+| `devel`                 | Dev server (port 1313) with devel environment                   |
+| `stage`                 | Dev server (port 1314) with stage environment                   |
+| `prod`                  | Dev server (port 1315) with prod environment                    |
+| `build`                 | Production build using published module versions (go.mod)       |
+| `build:workspace`       | Production build using `go.main.work` (local modules, prod env) |
+| `build:workspace:stage` | Build using `go.stage.work` (local modules, stage env)          |
+| `build:workspace:devel` | Build using `go.devel.work` (local modules, devel env)          |
+| `clean`                 | Remove `public/` and `resources/_gen/` directories              |
+| `rebuild:workspace`     | Shortcut for `clean` + `build:workspace`                        |
 
 ### Dependencies & Setup
+
 - **NPM Package Management**:
   - Run `npm ci` (preferred) or `npm install` to install necessary Node.js dependencies.
   - This step is **mandatory** before starting the development server.
@@ -66,40 +74,35 @@ npm ci                    # Install Node.js dependencies (required)
 hugo mod npm pack         # Regenerate package.json from package.hugo.json
 ```
 
-| Branch | Environment | Config Location | Deployment URL | Deployment Trigger |
-| :--- | :--- | :--- | :--- | :--- |
-| `main` | Production | `config/prod` | `simon.heimlicher.com` | Push to `origin/main` (Cloudflare Pages) |
-| `stage` | Staging | `config/stage` | `stage.heimlicher.com` | Push to `origin/stage` (Cloudflare Pages) |
-| `devel` | Development | `config/devel` | Local setup | Push to `origin/devel` (Cloudflare Pages) |
-
-| Branch | Environment | Deployment URL | Trigger |
-|--------|-------------|----------------|---------|
-| `main` | Production | simon.heimlicher.com | Push to origin/main |
-| `stage` | Staging | stage.heimlicher.com | Push to origin/stage |
-| `devel` | Development | localhost:1315 | Local only |
+| Branch  | Environment | Config         | Deployment URL       | Trigger              |
+| ------- | ----------- | -------------- | -------------------- | -------------------- |
+| `main`  | Production  | `config/prod`  | simon.heimlicher.com | Push to origin/main  |
+| `stage` | Staging     | `config/stage` | stage.heimlicher.com | Push to origin/stage |
+| `devel` | Development | `config/devel` | localhost:1315       | Local only           |
 
 ## Local Development with Modules
 
-The `go.work` file references local module checkouts:
+Multiple `go.*.work` files reference local module checkouts at different branches:
 
-### Workflow Requirements
-1.  **Clone Modules**: Ensure the relevant Go modules are cloned into an accessible location (e.g., `../../../modules/hugo-claris`).
-2.  **`go.work` File**: A `go.work` file in the project root is used to reference these local module clones.
-3.  **Run with Workspace**: You **MUST** tell Hugo to use the workspace file by setting the `HUGO_MODULE_WORKSPACE` environment variable.
-```bash
+| File            | Module Worktree             | Use Case                          |
+| --------------- | --------------------------- | --------------------------------- |
+| `go.main.work`  | `modules/hugo-claris/main`  | Test with production module code  |
+| `go.stage.work` | `modules/hugo-claris/stage` | Test with staging module code     |
+| `go.devel.work` | `modules/hugo-claris/root`  | Develop with local module changes |
 
-### Command Example
-```zsh
-HUGO_MODULE_WORKSPACE=go.work hugo server --port=$HUGO_SERVERPORT --disableFastRender
-# root/go.work
+Example (`go.devel.work`):
+
+```go
 go 1.21
-use ../../../modules/hugo-claris/root    # devel branch of theme
+use ../../../modules/hugo-claris/root    // devel branch of theme
 use ../../../modules/claris-resources
 use ../../../modules/fontawesome
 ```
-*Alternatively, you can `export HUGO_MODULE_WORKSPACE=go.work` in your shell session.*
+
+The npm scripts automatically set `HUGO_MODULE_WORKSPACE` to the appropriate file.
 
 ## Deployment Notes
+
 - **Staging**: Any push to the `stage` remote branch (`origin/stage`) automatically triggers a deployment to Cloudflare Pages at [stage.heimlicher.com](https://stage.heimlicher.com).
 
 ## Technical Stack
@@ -116,10 +119,10 @@ use ../../../modules/fontawesome
 
 Hugo uses a **two-file system** for npm dependencies:
 
-| File | Purpose |
-| :--- | :--- |
-| `package.hugo.json` | **Source of truth** - Hugo reads dependencies from this file |
-| `package.json` | **Generated output** - Created by `hugo mod npm pack` from all `package.hugo.json` files |
+| File                | Purpose                                                                                  |
+| :------------------ | :--------------------------------------------------------------------------------------- |
+| `package.hugo.json` | **Source of truth** - Hugo reads dependencies from this file                             |
+| `package.json`      | **Generated output** - Created by `hugo mod npm pack` from all `package.hugo.json` files |
 
 **Critical**: To add or remove npm dependencies, edit `package.hugo.json`, NOT `package.json`. Running `hugo mod npm pack` regenerates `package.json` by merging:
 
@@ -173,16 +176,7 @@ To clear the module cache (useful when local changes aren't being picked up):
 hugo mod clean
 ```
 
-**CRITICAL**: For running the server or building, ALWAYS use npm scripts:
-
-- `npm run dev` - Development server
-- `npm run build:workspace` - Production build with local modules
-
-**NEVER call `hugo server` or `hugo --gc --minify` directly** - they will fail without env vars loaded by dotenvx.
-
-### Image Processing (Hugo v0.153+)
-
-Hugo's WASM-based WebP encoder has a fixed memory ceiling (~6 megapixels). Configure via `site.Params.images.maxOutputMegapixels`.
+**CRITICAL**: Always use npm scripts (`npm run devel`, `npm run build`, etc.) - never call `hugo` directly. The scripts load required env vars via dotenvx and use the correct Hugo version via HVM.
 
 ---
 
@@ -195,7 +189,7 @@ Style and font settings are in `config/_default/params.yaml`:
 ```yaml
 assets:
   styles:
-    split: true  # true = critical + deferred bundles, false = single main bundle
+    split: true # true = critical + deferred bundles, false = single main bundle
     fonts:
       selfhosted: true
       family:
@@ -229,14 +223,15 @@ grep -E '<link[^>]+>' public/leadership/index.html | head -20
 ### Comparing Stage vs Devel
 
 ```bash
-# Build devel (local module worktrees)
 cd ~/Sites/hugo/sites/heimlicher.com/root
-npm run build:workspace
 
-# Analyze resources with TypeScript script
+# Build with devel module worktrees
+npm run build:workspace:devel
+
+# Analyze resources
 npx tsx ../../../modules/hugo-claris/root/perf/analyze-resources.mts public --label devel
 
-# Compare with stage (already built on Cloudflare)
-npx tsx ../../../modules/hugo-claris/root/perf/analyze-resources.mts \
-  ~/Sites/hugo/sites/heimlicher.com/stage/public --label stage
+# Compare with stage
+npm run build:workspace:stage
+npx tsx ../../../modules/hugo-claris/root/perf/analyze-resources.mts public --label stage
 ```
