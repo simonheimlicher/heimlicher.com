@@ -30,5 +30,16 @@
     "postcss-var-optimize": "^8.1.0"
   },
   "name": "heimlicher.com",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "scripts": {
+    "build": "dotenvx run -- env HUGO_ENVIRONMENT=prod $(hvm status --printExecPathCached) --gc --minify",
+    "build:workspace:devel": "dotenvx run -- env HUGO_MODULE_WORKSPACE=go.devel.work HUGO_ENVIRONMENT=devel $(hvm status --printExecPathCached) --gc",
+    "build:workspace:stage": "dotenvx run -- env HUGO_MODULE_WORKSPACE=go.stage.work HUGO_ENVIRONMENT=stage $(hvm status --printExecPathCached) --gc",
+    "build:workspace": "dotenvx run -- env HUGO_MODULE_WORKSPACE=go.main.work HUGO_ENVIRONMENT=prod $(hvm status --printExecPathCached) --gc --minify",
+    "clean": "rm -rf public resources/_gen",
+    "devel": "dotenvx run -- env HUGO_ENVIRONMENT=devel $(hvm status --printExecPathCached) server --port=1313 --disableFastRender",
+    "stage": "dotenvx run -- env HUGO_ENVIRONMENT=stage $(hvm status --printExecPathCached) server --port=1314 --disableFastRender",
+    "prod": "dotenvx run -- env HUGO_ENVIRONMENT=prod $(hvm status --printExecPathCached) server --port=1315 --disableFastRender",
+    "rebuild:workspace": "npm run clean && npm run build:workspace"
+  }
 }

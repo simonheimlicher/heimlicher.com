@@ -1,0 +1,5 @@
+go 1.24
+
+use ../../../modules/hugo-claris/root
+use ../../../modules/claris-resources
+use ../../../modules/fontawesome

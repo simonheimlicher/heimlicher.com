@@ -7,10 +7,8 @@
       "posthog-js": "project"
     },
     "devDependencies": {
-      "@dotenvx/dotenvx": "github.com/simonheimlicher/hugo-claris",
       "@fullhuman/postcss-purgecss": "project",
       "autoprefixer": "project",
-      "cssnano": "github.com/simonheimlicher/hugo-claris",
       "postcss": "project",
       "postcss-cli": "project",
       "postcss-prune-var": "project",
@@ -24,10 +22,8 @@
     "posthog-js": "^1.113.2"
   },
   "devDependencies": {
-    "@dotenvx/dotenvx": "^1.34.0",
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "autoprefixer": "^10.4.14",
-    "cssnano": "^7.0.6",
     "postcss": "^8.4.23",
     "postcss-cli": "^8.3.1",
     "postcss-prune-var": "^1.1.1",
@@ -35,12 +31,15 @@
   },
   "name": "heimlicher.com",
   "scripts": {
-    "build": "dotenvx run -- hugo --gc --minify --environment=production",
-    "build:workspace": "dotenvx run -- env HUGO_MODULE_WORKSPACE=go.work hugo --gc --minify --environment=production",
+    "build": "dotenvx run -- env HUGO_ENVIRONMENT=prod $(hvm status --printExecPathCached) --gc --minify",
+    "build:workspace": "dotenvx run -- env HUGO_MODULE_WORKSPACE=go.main.work HUGO_ENVIRONMENT=prod $(hvm status --printExecPathCached) --gc --minify",
+    "build:workspace:devel": "dotenvx run -- env HUGO_MODULE_WORKSPACE=go.devel.work HUGO_ENVIRONMENT=devel $(hvm status --printExecPathCached) --gc",
+    "build:workspace:stage": "dotenvx run -- env HUGO_MODULE_WORKSPACE=go.stage.work HUGO_ENVIRONMENT=stage $(hvm status --printExecPathCached) --gc",
     "clean": "rm -rf public resources/_gen",
-    "dev": "dotenvx run -- env HUGO_MODULE_WORKSPACE=go.work hugo server --disableFastRender",
-    "lhci": "dotenvx run -- node ../../../modules/hugo-claris/root/perf/run-lhci.mjs",
-    "rebuild:workspace": "npm run clean && npm run build:workspace"
+    "devel": "dotenvx run -- env HUGO_ENVIRONMENT=devel $(hvm status --printExecPathCached) server --port=1313 --disableFastRender",
+    "prod": "dotenvx run -- env HUGO_ENVIRONMENT=prod $(hvm status --printExecPathCached) server --port=1315 --disableFastRender",
+    "rebuild:workspace": "npm run clean && npm run build:workspace",
+    "stage": "dotenvx run -- env HUGO_ENVIRONMENT=stage $(hvm status --printExecPathCached) server --port=1314 --disableFastRender"
   },
   "version": "0.1.0"
 }
