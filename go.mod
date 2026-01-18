@@ -6,5 +6,5 @@ toolchain go1.24.11
 
 require (
 	github.com/simonheimlicher/claris-resources v0.0.0-20251231131451-998b3a810dd9 // indirect
-	github.com/simonheimlicher/hugo-claris v0.0.0-20260118132526-bef9f8796146 // indirect
+	github.com/simonheimlicher/hugo-claris v0.0.0-20260118154625-7bbd1b25f018 // indirect
 )
