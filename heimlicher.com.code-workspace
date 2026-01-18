@@ -1,15 +1,6 @@
 {
   "folders": [
     {
-      "path": "content"
-    },
-    {
-      "path": "config"
-    },
-    {
-      "path": "i18n"
-    },
-    {
       "path": "."
     },
     {
@@ -24,9 +15,5 @@
       "index.aliases": "gohtml",
       "index.urls": "gohtml"
     },
-    "emmet.includeLanguages": {
-      "gohtml": "html"
-    },
-    "frontMatter.content.autoUpdateDate": false
   }
 }
