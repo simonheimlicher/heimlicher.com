@@ -10,7 +10,6 @@
       "@fullhuman/postcss-purgecss": "project",
       "autoprefixer": "project",
       "postcss": "github.com/simonheimlicher/hugo-claris",
-      "postcss-cli": "project",
       "postcss-prune-var": "project",
       "postcss-var-optimize": "project"
     }
@@ -27,7 +26,6 @@
     "autoprefixer": "^10.4.14",
     "cssnano": "^7.1.2",
     "postcss": "^8.4.23",
-    "postcss-cli": "^8.3.1",
     "postcss-prune-var": "^1.1.1",
     "postcss-var-optimize": "^8.1.0"
   },

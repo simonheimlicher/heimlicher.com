@@ -14,25 +14,21 @@ set -euo pipefail
 DART_SASS_VERSION="${DART_SASS_VERSION:-1.97.1}"
 GO_VERSION="${GO_VERSION:-1.25.5}"
 
-# Determine bin directory - use first writable PATH entry or create local bin
-BIN_DIR="${BIN_DIR:-$PWD/bin}"
-FIRST_PATH_DIR=$(echo $PATH | cut -d':' -f1)
-if [ -w "$FIRST_PATH_DIR" ]; then
-  BIN_DIR=$FIRST_PATH_DIR
-  echo "Using first directory in PATH as BIN_DIR='$BIN_DIR'"
-else
-  echo "First directory in PATH '$FIRST_PATH_DIR' is not writable. Using BIN_DIR='$BIN_DIR'"
-  mkdir -p "$BIN_DIR"
-  export PATH="$BIN_DIR:$PATH"
-fi
+# Install all dependencies to ${HOME}/.local following Hugo's official approach
+LOCAL_DIR="${HOME}/.local"
+mkdir -p "${LOCAL_DIR}"
 
-# Install Dart Sass
-echo "Installing Dart Sass ${DART_SASS_VERSION} to BIN_DIR=${BIN_DIR}..."
-
-# Download and extract Dart Sass directly into $BIN_DIR
-curl -LJO "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
-tar -xf "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz" -C "$BIN_DIR" --strip-components=1
+# Install Dart Sass (following Hugo's official Vercel guide)
+echo "Installing Dart Sass ${DART_SASS_VERSION}..."
+curl -sLJO "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
+tar -C "${LOCAL_DIR}" -xf "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
 rm -f "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
+export PATH="${LOCAL_DIR}/dart-sass:${PATH}"
+
+# Verify Dart Sass installation
+echo "Verifying Dart Sass installation..."
+ls -la "${LOCAL_DIR}/dart-sass/"
+echo "PATH=${PATH}"
 
 # Check if Dart Sass is found
 echo "Checking Dart Sass version..."
@@ -44,8 +40,8 @@ hugo env
 
 # Install Go (required for Hugo modules)
 echo "Installing Go ${GO_VERSION}..."
-curl -sL "https://go.dev/dl/go${GO_VERSION}.linux-amd64.tar.gz" | tar -xz -C "${HOME}"
-export PATH="${HOME}/go/bin:${PATH}"
+curl -sL "https://go.dev/dl/go${GO_VERSION}.linux-amd64.tar.gz" | tar -C "${LOCAL_DIR}" -xzf -
+export PATH="${LOCAL_DIR}/go/bin:${PATH}"
 
 # Check if go is found
 echo "Checking Go version..."
