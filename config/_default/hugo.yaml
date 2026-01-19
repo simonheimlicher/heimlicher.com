@@ -139,13 +139,3 @@ related:
       weight: 100
     - name: date
       weight: 10
-
-# Only enable indexing for production
-robots:
-  index: false
-  indeximages: false
-  follow: false
-  # Sections to be listed in robots.txt as being excluded from indexing CAUTION:
-  # This will cause attackers to look at these sections in particular, so do not
-  # use this parameter to hide your top secret sections
-  # robotsTxtDisallowSections: [_error]
