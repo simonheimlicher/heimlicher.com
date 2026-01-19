@@ -4,7 +4,6 @@ subtitle: Revolutionize organizational development
 description: How adopting OKRs can fuel organizational transformation and team performance for superior business outcomes.
 date: "2023-05-01T12:00:00+00:00"
 lastmod: "2023-08-26T12:00:00+00:00"
-draft: false
 featured: true
 image:
   feature:
