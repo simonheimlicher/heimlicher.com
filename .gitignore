@@ -28,4 +28,5 @@ go.work
 .hugolit/
 !.hugolit/.gitkeep
 .spx/sessions
-.vercel/
+.vercel/project.json
+.vercel/README.txt
