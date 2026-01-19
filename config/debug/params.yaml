@@ -1,0 +1,18 @@
+# Debug environment: identical to production but unminified for easier debugging
+# Uses stage PostHog account to keep debug analytics separate from production
+
+assets:
+  scripts:
+    optional:
+      posthog:
+        key: phc_xxba6vNdKd1ua9obUMsEy1V08LhtXAIclyOC7XBEUcb
+        host: https://localization.heimlicher.com
+        site: debug.heimlicher.com
+        environments: debug
+        person_profiles: always
+
+# Match production robots settings - protection handled by CF/Vercel access controls
+robots:
+  index: true
+  indeximages: true
+  follow: true

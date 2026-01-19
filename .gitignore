@@ -27,3 +27,5 @@ go.work
 .hvm
 .hugolit/
 !.hugolit/.gitkeep
+.spx/sessions
+.vercel/

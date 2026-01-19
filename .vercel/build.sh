@@ -7,19 +7,18 @@
 # hugo, because Vercel runs install and build commands in separate shells.
 # The PATH modifications don't persist between phases.
 #
-# CACHING: Vercel caches node_modules/ between builds. We leverage this by
-# storing Hugo's generated resources (processed images, CSS) in node_modules/.cache
-# to dramatically reduce build times for unchanged assets.
+# CACHING: Vercel caches node_modules/ between builds. We set Hugo's cacheDir
+# to node_modules/.cache/hugo so processed images persist across builds.
 
 set -euo pipefail
 
 # Version defaults (can be overridden via environment variables)
-DART_SASS_VERSION="${DART_SASS_VERSION:-1.97.1}"
+DART_SASS_VERSION="${DART_SASS_VERSION:-1.97.2}"
 GO_VERSION="${GO_VERSION:-1.25.5}"
 
-# Caching directories - Vercel caches node_modules/ between builds
-CACHE_DIR="./node_modules/.cache/hugo-resources"
-GEN_DIR="./resources/_gen"
+# Hugo cache directory - Vercel caches node_modules/ between builds
+# Export as HUGO_CACHEDIR so all hugo commands use it automatically
+export HUGO_CACHEDIR="${PWD}/node_modules/.cache/hugo"
 
 # Install all dependencies to ${HOME}/.local following Hugo's official approach
 LOCAL_DIR="${HOME}/.local"
@@ -50,30 +49,6 @@ install_go() {
   go version
 }
 
-restore_cache() {
-  if [ -d "${CACHE_DIR}" ]; then
-    echo "Restoring cached resources from ${CACHE_DIR}..."
-    rm -rf "${GEN_DIR}"
-    mkdir -p "${GEN_DIR}"
-    cp -a "${CACHE_DIR}/." "${GEN_DIR}/"
-    echo "Restored $(find "${GEN_DIR}" -type f | wc -l) cached files."
-  else
-    echo "No cached resources found at ${CACHE_DIR}, starting fresh."
-  fi
-}
-
-save_cache() {
-  if [ -d "${GEN_DIR}" ]; then
-    echo "Saving generated resources to cache..."
-    rm -rf "${CACHE_DIR}"
-    mkdir -p "${CACHE_DIR}"
-    cp -a "${GEN_DIR}/." "${CACHE_DIR}/"
-    echo "Cached $(find "${CACHE_DIR}" -type f | wc -l) files to ${CACHE_DIR}."
-  else
-    echo "No generated resources found at ${GEN_DIR}, skipping cache."
-  fi
-}
-
 run_hugo_build() {
   local hugo_env="$1"
   echo "Building with environment: ${hugo_env}"
@@ -100,8 +75,14 @@ npm ci
 echo "Installing Hugo modules..."
 hugo mod get
 
-# Restore cached resources BEFORE building
-restore_cache
+# Ensure cache directory exists and report status
+mkdir -p "${HUGO_CACHEDIR}"
+CACHED_FILES=$(find "${HUGO_CACHEDIR}" -type f 2>/dev/null | wc -l | tr -d ' ')
+if [ "${CACHED_FILES}" -gt 0 ]; then
+  echo "Found ${CACHED_FILES} cached files in ${HUGO_CACHEDIR}"
+else
+  echo "No cached files found, starting fresh build."
+fi
 
 # Create hugo_stats.json if missing (required for CSS purging)
 if ! [ -f hugo_stats.json ]; then
@@ -128,7 +109,6 @@ fi
 echo "Running production build..."
 run_hugo_build "${HUGO_ENV}"
 
-# Save generated resources to cache AFTER building
-save_cache
-
-echo "Build complete!"
+# Report cache status after build
+CACHED_FILES=$(find "${HUGO_CACHEDIR}" -type f 2>/dev/null | wc -l | tr -d ' ')
+echo "Build complete! Cache now contains ${CACHED_FILES} files."
