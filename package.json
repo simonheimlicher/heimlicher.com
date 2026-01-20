@@ -31,10 +31,10 @@
   },
   "name": "heimlicher.com",
   "scripts": {
-    "build": "dotenvx run -- env HUGO_ENVIRONMENT=production $(hvm status --printExecPathCached) --gc --minify",
-    "build:workspace": "dotenvx run -- env HUGO_MODULE_WORKSPACE=go.work HUGO_ENVIRONMENT=development $(hvm status --printExecPathCached) --gc",
+    "build": "dotenvx run -- $(hvm status --printExecPathCached) --gc --minify",
+    "build:workspace": "dotenvx run -- env HUGO_MODULE_WORKSPACE=go.work $(hvm status --printExecPathCached) --gc",
     "clean": "rm -rf public resources/_gen",
-    "dev": "dotenvx run -- env HUGO_MODULE_WORKSPACE=go.work HUGO_ENVIRONMENT=development $(hvm status --printExecPathCached) server --port=1313 --disableFastRender",
+    "dev": "dotenvx run -- env HUGO_MODULE_WORKSPACE=go.work $(hvm status --printExecPathCached) server --port=1313 --disableFastRender",
     "mod-pack": "$(hvm status --printExecPathCached) mod npm pack",
     "mod-pack:workspace": "HUGO_MODULE_WORKSPACE=go.work $(hvm status --printExecPathCached) mod npm pack",
     "rebuild:workspace": "npm run clean && npm run build:workspace"

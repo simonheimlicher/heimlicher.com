@@ -53,6 +53,11 @@ assets:
   scripts:
     optional:
       mediumzoom: true
+      posthog:
+        key: phc_uCbhFRCieH9tPYbmlaLPtW6pZaEgnOfGENNgcC1KdlA
+        host: https://localization.heimlicher.com
+        site: heimlicher.com
+        person_profiles: always
 
 taxonomyMaxYears: 5
 recentMaxYears: 5
