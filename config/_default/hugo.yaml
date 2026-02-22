@@ -91,7 +91,7 @@ caches:
 
 # The only purpose of mounting Hugo's default directories below
 # is to filter `.DS_Store` files
-# NOTE: If using excludeFiles, these files are also not available for .Resources.Get
+# NOTE: Files excluded via 'files' are also not available for .Resources.Get
 module:
   imports:
     - path: github.com/simonheimlicher/hugo-claris
@@ -99,26 +99,24 @@ module:
   mounts:
     - source: assets
       target: assets
-      excludeFiles:
-        - .DS_Store
+      files:
+        - "! .DS_Store"
     - source: data
       target: data
-      excludeFiles:
-        - .DS_Store
+      files:
+        - "! .DS_Store"
     - source: static
       target: static
-      excludeFiles:
-        - .DS_Store
+      files:
+        - "! .DS_Store"
     - source: i18n
       target: i18n
-      excludeFiles:
-        - .DS_Store
+      files:
+        - "! .DS_Store"
     - source: content
       target: content
-      excludeFiles:
-        - "**/.DS_Store"
-    # "**/*.yaml" # Don't exclude YAML files as they won't be available
-    # as Page Bundle resources via resources.Get
+      files:
+        - "! **/.DS_Store"
 
 permalinks:
   articles: :sections/:contentbasename
