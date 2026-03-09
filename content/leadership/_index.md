@@ -1,105 +1,69 @@
 ---
 aliases:
-- /articles/
-- /series/leadership/
-- /categories/management/
-- /categories/leadership/
-- /categories/performance-management/
-- /tags/performance-management/
-- /_footer/recent/
-- /_error/401/
-description: On leadership that combines authenticity with compassion to drive impact
-  and navigate complexity, ambiguity and conflicts successfully
+  - /articles/
+  - /series/leadership/
+  - /categories/management/
+  - /categories/leadership/
+  - /categories/performance-management/
+  - /tags/performance-management/
+  - /_footer/recent/
+  - /_error/401/
+description: Why the motivation and empowerment frames get leadership backwards,
+  and what systems-level change looks like in practice
 image:
   feature:
     alt: A flock of birds flying in formation
     src: images/flock-of-birds-feature
     title: Leadership is about both structure of the team and autonomy of the individuals
-lastmod: 2023-06-15
+lastmod: 2026-03-09
 supertitle: Rethinking Leadership
 subtitle: Lessons from Netflix and the USS Santa Fe
 title: From followers to leaders
 weight: 100
 ---
 
-If you think that a leader is responsible to motivate their team and that empowerment of subordinates is the modern way to accomplish this, you are not alone
+Most leaders believe their job is to motivate. The contemporary version of this belief goes by a friendlier name: empowerment. But the assumption is the same. Drive originates with the leader and flows downward to the team.
 
-Most leaders in large organizationas formed their perspective of what entails great leadership from their own experience. And they pride themselves in all the ways that they act differently when finally leading a team on their own.
+Both frames get the direction of causality wrong.
 
-Unfortunately, this approach to improve over what one has experienced based on one's own preferences is a very local perspective.
+## Three layers of leadership
 
-## Leadership styles
+Leadership operates across three layers. The first is *problems*: the actual work a team exists to do, whether that is shipping software or landing reusable rockets. The second is *systems*: how decisions get made, how information flows, what rules govern daily work. The third is *people*: the human beings who bring their full selves to every problem they approach, including their fears, ambitions, and habits of thought.
 
-I like to characterize leaders based on three aspects they need to address: 
-
-* **Problems:** every human being has to overcome actual problems, be it to hang a picture in the wall or to build re-usable rockets.
-* **Systems:** as soon as more than one person is involved in solving a single problem, interactions are required.
-* **Human:** whether we like to admit it or not, every problem we approach, we approach as a complete human being. How we hammer that nail into the wall or what idea we attempt next to land that rocket coming back from space: our human nature influences our thoughts and thus our actions.
-
-As a leader, I feel responsible for all three layers. However, leadership literature focuses on the human aspect – and with good reason. 
-
-The highest calling for leaders is to be *transformative*. A metaphor to illustrate this is the transformation of a caterpillar into a beautiful butterfly: a butterfly is not only entirely different from a caterpillar – what is key is that there is *no going back:* a butterfly remains a butterfly and will never live in the shape of a caterpillar again.
+Most leadership writing focuses on the people layer, and for good reason. But that focus is incomplete. Systems determine whether good intentions survive contact with the organization. A leader who inspires people but leaves broken systems in place has changed nothing that lasts.
 
 {{< content-excerpt page="impact-leadership-style-organizational-performance/" float=right relativewidth=40 >}}
 
-To be transformative, then, a leader needs to accomplish change that not only lasts after they leave the room or go on vacation.  No, the transformation needs to change the team in such a way that it can no longer fall back to who it was before. And while cultural change plays an important role, it is only one side of the coin. On the other side are the systems that form the backbone of lasting change.
+The mark of transformative leadership is irreversible change. Like a caterpillar becoming a butterfly, there is no going back. Change that persists when the leader goes on vacation has met that bar. Cultural change matters, but culture without supporting systems is fragile. The goal is a learning organization with the structural backbone to sustain itself.
 
-In that sense, the goal of any leader must be to shape the backbone and grow the culture into a *learning organization*. Only then has their leadership been transformational.
+Two books make this case from opposite ends of the organizational spectrum: one from Silicon Valley, the other from the deck of a nuclear submarine. What makes them worth reading together is that they solve different layers of the same problem.
 
-Let's turn our attention to two remarkable leadership models: one from the realms of Silicon Valley and the other from the deck of a nuclear-powered submarine.
+## Netflix: the systems are the problem
 
-## The Power of Powerful Adults: A Page from Netflix's Playbook
-
-In her book [*Powerful*](./powerful-patty-mccord/), former Netflix Chief Talent Officer Patty McCord shares the company’s radical approach to corporate culture. At the heart of this model is a simple, yet profound concept: treating employees as adults. But not just any adults, they are to be treated as **powerful** adults, possessing the power to make choices and drive results.
+In [*Powerful*](./powerful-patty-mccord/), former Netflix Chief Talent Officer Patty McCord argues that Netflix did not empower anyone. They hired capable people and removed the systems that would have constrained them: no vacation tracking, no travel expense approvals, no formal performance review process.
 
 {{< content-excerpt page="powerful-patty-mccord" float=right relativewidth=40 >}}
 
-McCord asserts that empowerment isn't something an organization bestows upon its employees; rather, it is inherent in them. It's up to the company to create an environment that lets employees exercise their power. By doing so, you, as a leader, can unlock astonishing results.
+The radical move was not giving people power. It was dismantling the machinery that had been taking it away. McCord's core observation: most corporate policies exist to manage the small percentage of employees who would take advantage of their absence. Those same policies slow down everyone else. Netflix chose to hire only people it trusted to operate without guardrails, then eliminated the guardrails.
 
-How do you shape such an environment? Here are some key insights:
+This is primarily a systems intervention. But it comes with a cost. Without policies as defaults, alignment has to come from somewhere else. At Netflix, that somewhere was radical transparency: every employee understood the company's financials, strategy, and competitive threats in detail. The communication burden increased precisely because the rule burden decreased. McCord treats this as a trade worth making: a team of informed adults making judgment calls outperforms a team of constrained employees following procedures.
 
-### Create a No-Rules Culture
+## The USS Santa Fe: growing decision-makers
 
-Netflix's success largely hinges on its avoidance of unnecessary policies, processes, and rules. Instead, Netflix has created a culture where employees thrive in an environment of trust, autonomy, and responsibility. As leaders, our challenge is to strip away unnecessary bureaucracy and create spaces where talented employees can do their best work.
-
-### Champion Transparency and Communication
-
-Transparent communication underpins Netflix's no-rules culture. An open environment leads to a more collaborative and informed workforce. As leaders, let's open the channels of communication, make data and decision-making processes accessible, and foster a culture that values input from all.
-
-### Aligning Employees with Company Goals
-
-Successful leaders at Netflix align employees with the company's goals. By focusing on high performance and ensuring each individual understands their role, everyone contributes to the company's success. Clearly setting expectations and objectives, then giving employees the autonomy to achieve them is key.
-
-## A Submarine Captain's Leadership Lesson: Intent-Based Leadership
-
-While the high-tech corporate environment provides valuable insights, valuable leadership lessons also come from seemingly unrelated fields. L. David Marquet’s [*Turn the Ship Around!*](./turn-the-ship-around-l-david-marquet/) is one such treasure-trove. In it, Marquet shares his experience as a submarine captain and how it led to the development of the Intent-Based Leadership approach.
+L. David Marquet faced a different constraint. As captain of the submarine USS Santa Fe, he could not choose his crew. He inherited the worst-performing submarine in the fleet and had to work with the sailors already aboard. Where Netflix could select for capable adults at the hiring stage, Marquet had to develop them.
 
 {{< content-excerpt page="turn-the-ship-around-l-david-marquet" float=right relativewidth=40 >}}
 
-Marquet's core insight is that the traditional leader-follower model can lead to inefficiencies, lack of innovation, and disengagement. His solution? Turn followers into leaders by empowering decision-making at all levels.
+His intervention, described in [*Turn the Ship Around!*](./turn-the-ship-around-l-david-marquet/), combined systems and people. The system change: replace the command-and-control language. Instead of "Captain, request permission to submerge the ship," crew members said "Captain, I intend to submerge the ship." The captain's role shifted from directing every action to certifying that the person taking action had considered the relevant factors.
 
-Here are some strategies to implement this model:
+Language alone would have been theater. Marquet paired the new communication protocol with deliberate competence-building. Each crew member needed enough technical knowledge to make sound decisions in their domain. The "I intend to..." formula worked only when the person speaking it could back it up with understanding.
 
-### Giving Control, Rather Than Taking Control
+This is where the people layer becomes essential. By giving control and building competence simultaneously, Marquet changed how his crew understood their own role. Sailors who had spent their careers waiting for orders began thinking as decision-makers. The Santa Fe went from worst to first in its fleet and sustained that performance after Marquet left. The change was structural, not personal.
 
-Instead of directing every action, set expectations and trust your team members to make decisions. This approach allows for greater autonomy and promotes a sense of ownership, leading to increased motivation and engagement.
+## The wrong question
 
-### Foster a Culture of Learning and Continuous Improvement
+Both books reject the motivation frame, but from different directions. McCord's position: the problem is not unmotivated employees; it is systems that treat motivated adults like children. Marquet's position: the problem is not passive followers; it is a command structure that trains passivity into capable people.
 
-Creating an environment where mistakes are viewed as opportunities for growth rather than failures to be punished is essential. Encouraging feedback helps to identify areas for improvement and promotes a growth mindset among team members.
+Leaders who try to motivate are working on the wrong layer. An organization's systems either suppress the capability that already exists or develop capability that wasn't there before. A leader who changes those systems, and builds the competence to operate within them, creates an organization that no longer depends on any single person's presence to perform.
 
-### Implement a Questioning Attitude
-
-Promote a culture where individuals are encouraged to ask questions, challenge assumptions, and seek clarification when needed. This helps ensure that decisions are based on accurate information and fosters a more open, collaborative working environment.
-
-### Prioritize Transparency and Open Communication
-
-Share information freely within the team, ensuring everyone has access to the knowledge they need to make informed decisions. Transparent communication helps to build trust, foster collaboration, and promote a more effective decision-making process.
-
-## A Call to Action
-
-The power of these innovative leadership models cannot be overstated. However, they aren't about quick fixes or temporary changes. They require a complete shift in mindset, a willingness to challenge traditional leadership models, and an openness to experiment.
-
-As a senior leader or executive, you have the ability to shape your organization's future. Will you continue down the same path, or will you take the bold step to transform your leadership style and your organization's culture?
-
-In this category, we'll dive deeper into these concepts, offering case studies, practical applications, and strategies to help you implement these ideas. Together, we'll embark on this journey of transformative leadership, seeking to create organizations where everyone has the power to innovate, to lead, and to succeed.
+That is the transformation worth pursuing. Not inspiration from above, but structure that makes leadership everyone's work.
