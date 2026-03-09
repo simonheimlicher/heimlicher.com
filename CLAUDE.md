@@ -3,24 +3,11 @@
 ## Quick Start
 
 1. Read this file for site overview
-2. See `~/Sites/hugo/CLAUDE.md` for workspace-level context
-3. See `~/Sites/hugo/modules/hugo-claris/root/CLAUDE.md` for theme details
+2. See `~/Code/hugo/modules/hugo-claris/hugo-claris/CLAUDE.md` for theme details
 
 ## Project Overview
 
-This is a Hugo website using the "Hugo Claris" theme, integrated as a Go module.
-
-## Worktree Structure
-
-This site uses git worktrees:
-
-| Directory | Branch | Port | Purpose                           |
-| --------- | ------ | ---- | --------------------------------- |
-| `root/`   | devel  | 1315 | Active development (YOU ARE HERE) |
-| `main/`   | main   | 1313 | Read-only reference to production |
-| `stage/`  | stage  | 1314 | Read-only reference to staging    |
-
-**Always work in `root/`** - the `main/` and `stage/` directories are for comparison only.
+This is a Hugo website using the "Hugo Claris" theme, integrated as a Go module. The project follows a trunk-based workflow on the `main` branch.
 
 ## Key Development Requirements
 
@@ -31,37 +18,29 @@ This site uses git worktrees:
 ### Quick Start Commands
 
 ```bash
-cd ~/Sites/hugo/sites/heimlicher.com/root
+# Development server (port 1313, uses local modules via go.work)
+npm run dev
 
-# Development server
-npm run devel     # port 1313, uses go.mod versions
-npm run stage     # port 1314
-npm run prod      # port 1315
-
-# Production build (uses go.mod versions)
+# Production build (uses published module versions from go.mod)
 npm run build
 
-# Production build with local module worktrees
-npm run build:workspace           # uses go.main.work (prod env)
-npm run build:workspace:stage     # uses go.stage.work
-npm run build:workspace:devel     # uses go.devel.work
+# Production build with local modules (uses go.work)
+npm run build:workspace
 ```
 
 Output goes to `public/`.
 
 ### All Available Scripts
 
-| Script                  | Purpose                                                         |
-| ----------------------- | --------------------------------------------------------------- |
-| `devel`                 | Dev server (port 1313) with devel environment                   |
-| `stage`                 | Dev server (port 1314) with stage environment                   |
-| `prod`                  | Dev server (port 1315) with prod environment                    |
-| `build`                 | Production build using published module versions (go.mod)       |
-| `build:workspace`       | Production build using `go.main.work` (local modules, prod env) |
-| `build:workspace:stage` | Build using `go.stage.work` (local modules, stage env)          |
-| `build:workspace:devel` | Build using `go.devel.work` (local modules, devel env)          |
-| `clean`                 | Remove `public/` and `resources/_gen/` directories              |
-| `rebuild:workspace`     | Shortcut for `clean` + `build:workspace`                        |
+| Script               | Purpose                                                   |
+| -------------------- | --------------------------------------------------------- |
+| `dev`                | Dev server (port 1313) with local modules via `go.work`   |
+| `build`              | Production build using published module versions (go.mod) |
+| `build:workspace`    | Production build using local modules via `go.work`        |
+| `clean`              | Remove `public/` and `resources/_gen/` directories        |
+| `rebuild:workspace`  | Shortcut for `clean` + `build:workspace`                  |
+| `mod-pack`           | Run `hugo mod npm pack` to regenerate `package.json`      |
+| `mod-pack:workspace` | Run `hugo mod npm pack` with local modules via `go.work`  |
 
 ### Dependencies & Setup
 
@@ -71,39 +50,26 @@ Output goes to `public/`.
 
 ```bash
 npm ci                    # Install Node.js dependencies (required)
-hugo mod npm pack         # Regenerate package.json from package.hugo.json
+npm run mod-pack          # Regenerate package.json from package.hugo.json
 ```
 
-| Branch  | Environment | Config         | Deployment URL       | Trigger              |
-| ------- | ----------- | -------------- | -------------------- | -------------------- |
-| `main`  | Production  | `config/prod`  | simon.heimlicher.com | Push to origin/main  |
-| `stage` | Staging     | `config/stage` | stage.heimlicher.com | Push to origin/stage |
-| `devel` | Development | `config/devel` | localhost:1315       | Local only           |
+| Branch | Environment | Config            | Deployment URL       | Trigger             |
+| ------ | ----------- | ----------------- | -------------------- | ------------------- |
+| `main` | Production  | `config/_default` | simon.heimlicher.com | Push to origin/main |
 
 ## Local Development with Modules
 
-Multiple `go.*.work` files reference local module checkouts at different branches:
-
-| File            | Module Worktree             | Use Case                          |
-| --------------- | --------------------------- | --------------------------------- |
-| `go.main.work`  | `modules/hugo-claris/main`  | Test with production module code  |
-| `go.stage.work` | `modules/hugo-claris/stage` | Test with staging module code     |
-| `go.devel.work` | `modules/hugo-claris/root`  | Develop with local module changes |
-
-Example (`go.devel.work`):
+A single `go.work` file references local module checkouts:
 
 ```go
-go 1.21
-use ../../../modules/hugo-claris/root    // devel branch of theme
-use ../../../modules/claris-resources
-use ../../../modules/fontawesome
+go 1.24
+
+use /Users/shz/Code/hugo/modules/hugo-claris/hugo-claris
+use /Users/shz/Code/hugo/modules/claris-resources
+use /Users/shz/Code/hugo/modules/fontawesome
 ```
 
-The npm scripts automatically set `HUGO_MODULE_WORKSPACE` to the appropriate file.
-
-## Deployment Notes
-
-- **Staging**: Any push to the `stage` remote branch (`origin/stage`) automatically triggers a deployment to Cloudflare Pages at [stage.heimlicher.com](https://stage.heimlicher.com).
+The `dev` and `build:workspace` npm scripts automatically set `HUGO_MODULE_WORKSPACE=go.work`.
 
 ## Technical Stack
 
@@ -176,7 +142,7 @@ To clear the module cache (useful when local changes aren't being picked up):
 hugo mod clean
 ```
 
-**CRITICAL**: Always use npm scripts (`npm run devel`, `npm run build`, etc.) - never call `hugo` directly. The scripts load required env vars via dotenvx and use the correct Hugo version via HVM.
+**CRITICAL**: Always use npm scripts (`npm run dev`, `npm run build`, etc.) - never call `hugo` directly. The scripts load required env vars via dotenvx and use the correct Hugo version via HVM.
 
 ---
 
@@ -220,18 +186,12 @@ grep -o '<link[^>]*preload[^>]*font[^>]*>' public/leadership/index.html
 grep -E '<link[^>]+>' public/leadership/index.html | head -20
 ```
 
-### Comparing Stage vs Devel
+### Analyzing Build Output
 
 ```bash
-cd ~/Sites/hugo/sites/heimlicher.com/root
-
-# Build with devel module worktrees
-npm run build:workspace:devel
+# Build with local modules
+npm run build:workspace
 
 # Analyze resources
-npx tsx ../../../modules/hugo-claris/root/perf/analyze-resources.mts public --label devel
-
-# Compare with stage
-npm run build:workspace:stage
-npx tsx ../../../modules/hugo-claris/root/perf/analyze-resources.mts public --label stage
+npx tsx ~/Code/hugo/modules/hugo-claris/hugo-claris/perf/analyze-resources.mts public
 ```
