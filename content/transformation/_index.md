@@ -1,7 +1,7 @@
 ---
 title: Embrace transformation
 subtitle: Standing still is the greatest of all risks
-description: On transforming the way people and teams communicate, collaborate and measure success in organizations
+description: Most organizations have goals that don't connect, don't adapt, and don't guide daily work. Objectives and Key Results (OKRs) solve these problems.
 image:
   feature:
     src: images/growth-feature
@@ -9,7 +9,7 @@ image:
     alt: Plants embrace transformation
     title: Growth implies transformation
     credit: Photo by [Allexxandar](https://www.shutterstock.com/g/Allexxandar) on [Shutterstock](https://www.shutterstock.com/image-photo/seedlings-growing-plants-grow-stages-growth-747135766)
-lastmod: 2023-06-15
+lastmod: 2026-03-09
 weight: 200
 aliases:
   - /organizational-transformation/
@@ -17,27 +17,22 @@ aliases:
   - /categories/okr/
 ---
 
-In the swiftly changing modern business landscape, the only constant is change. As a senior leader or executive, you understand the necessity of staying at the cutting edge. You know that success requires a comprehensive approach to performance management, aligning individual and organizational goals, and fostering an environment of continuous improvement.
+Most organizations already have goals. The problem is rarely a lack of goals — it is that the goals don’t connect to each other, don’t adapt when conditions change, and don’t help people decide what to work on next. Objectives and Key Results (OKRs) address these problems directly.
 
-## Objectives and Key Results (OKRs): a catalyst for change
+## What OKRs add to goal-setting
 
-We invite you to explore Objectives and Key Results (OKRs). OKRs offer a powerful goal-setting framework that is [independent of performance management](./okrs-vs-performance-management/), fuels [employee engagement](./why-okr-objectives-key-results-already-have-goals/), and [drives organizational transformation](./how-objectives-key-results-facilitate-transformation/). This methodology, which has been successfully implemented by tech industry giants like Google, LinkedIn, and Twitter, can be instrumental in steering your enterprise towards sustained growth.
+OKRs are [independent of performance management](./okrs-vs-performance-management/) — they belong to the organization, not to individuals. They [define not just what to achieve but how to measure progress](./why-okr-objectives-key-results-already-have-goals/), and they [create alignment across teams](./how-objectives-key-results-facilitate-transformation/) by making objectives visible to everyone.
 
 {{< content-excerpt page="how-objectives-key-results-facilitate-transformation" float=right relativewidth=40 >}}
 
-OKRs foster rapid alignment by one key feature: instead of cascading goals from the organizational level down to the individual, the OKR methodology is based on simultaneous creation and alignment of OKRs both from the top down and from the bottom up. This promotes a culture of not just transparency but ownership and accountability of every individual. Accountability inspires a growth mindset, inspiring employees to extend beyond their comfort zones and into their individual learning zone.
+The key difference from traditional goal-setting: OKRs are created both top-down and bottom-up at the same time. Leadership sets organizational objectives. Teams propose their own OKRs based on what they see from their position. The two meet in the middle through negotiation. This produces alignment that accounts for information at every level of the organization, not just the top.
 
-## OKRs are more than an evolutionary step beyond MBOs
+## Beyond Management by Objectives
 
-OKRs are often compared with [Management by Objectives (MBOs)](https://www.investopedia.com/terms/m/management-by-objectives.asp) yet I consider OKrs more than just an evolution of MBOs. Rather than merely defining goals, OKRs outline how to achieve them, thereby helping teams and organizations align their efforts towards a unified vision of success.
+OKRs evolved from [Management by Objectives (MBOs)](https://www.investopedia.com/terms/m/management-by-objectives.asp), but they differ in a way that matters. MBOs define goals and leave the path to the individual. OKRs define measurable key results that make progress visible across teams — which is what allows hundreds of people to work in concert rather than in parallel.
 
 {{< content-excerpt page="why-okr-objectives-key-results-already-have-goals" float=right relativewidth=40 >}}
 
-Google’s game-changing strategy based on OKRs has demonstrated time and again that a cohesive team can revolutionize an entire industry within a few years. Their focus on strategic alignment and goal-setting has addressed common corporate challenges such as misaligned efforts, project delays due to overlooked dependencies, and unsuccessful project execution.
-
-### The role of OKRs for strategy execution
-
-As highlighted by Michael E. Porter, "The essence of strategy is choosing what not to do." A similar focus on strategic choices is inherent to successful OKR implementation. As leaders, making tough decisions and saying 'no' is crucial to ensuring strategic alignment and efficiency in our organizations.
+Google has used OKRs to coordinate the work that built Search, Chrome, and Android — each of which reshaped its industry within a few years. The method works because it forces choices: with a limited number of objectives per cycle, leadership must decide what not to pursue. As Michael E. Porter put it, "The essence of strategy is choosing what not to do."
 
 {{< content-excerpt page="okrs-vs-performance-management" float=right relativewidth=40 >}}
-
