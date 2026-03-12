@@ -6,25 +6,25 @@ lastmod: 2024-01-27T22:02:07+01:00
 description: "A Hugo partial that vastly improves resource management in Hugo sites by avoiding duplicate images in your content based on Page Bundles and Headless Bundles"
 featured: false
 image:
-  feature: 
+  feature:
     src: "images/keith-misner-h0Vxgz5tyXA-unsplash"
-    alt: 
-    title: 
-    credit: ''
-  # excerpt: 
+    alt:
+    title:
+    credit: ""
+  # excerpt:
   #   src: "images/hugo_theme_claris-thumbnail"
-  #   alt: 
-  #   title: 
+  #   alt:
+  #   title:
   #   credit: ''
-  # share: 
+  # share:
   #   src: "images/hugo_theme_claris-share"
-  #   alt: 
-  #   title: 
+  #   alt:
+  #   title:
   #   credit: ''
-  # search: 
+  # search:
   #   src: "images/hugo_theme_claris-share"
-  #   alt: 
-  #   title: 
+  #   alt:
+  #   title:
   #   credit: ''
 tags:
   - hugo partial
@@ -32,9 +32,9 @@ series:
   - hugo snippets
 ---
 
-A Hugo partial that vastly improves resource management in Hugo sites by avoiding duplicate images in your content based on Page Bundles and Headless Bundles
+Hugo’s Page Bundle model keeps content and its resources together, but it doesn’t help when multiple pages need the same image. The standard approach — duplicating the file in each bundle — works until it doesn’t: one update missed, one path wrong, and things break quietly.
 
-This partial is designed for retrieving resources from a page bundle in Hugo, where resources refer to files like images, or data files. The partial is used for obtaining resources from Page Bundles, with a unique feature of traversing upwards to parent page bundles if the resource isn’t found in the current page's bundle. This is especially useful for managing resources that are inherited on child pages or shared across multiple sections.
+This partial retrieves resources from a page bundle but walks up the content hierarchy if the resource isn’t in the current page’s bundle, stopping at site assets if nothing is found closer. A single shared image in a section’s `images/` directory becomes accessible to every page in that section with the same call used to fetch a page-local resource.
 
 ## Illustrative example
 
@@ -98,7 +98,7 @@ Perhaps surprisingly, the call to the `resources` partial is almost the same, ev
 
 ### Accessing the logo image from the global `assets` folder
 
-Finally, the site's logo image will be the same for all articles. Hence, it makes sense to either put it into a headless bundle at the top of the `content` directory, or into the `assets` directory. 
+Finally, the site's logo image will be the same for all articles. Hence, it makes sense to either put it into a headless bundle at the top of the `content` directory, or into the `assets` directory.
 
 To access the share image, we use the following invocation of the `resources` partial:
 
@@ -155,8 +155,4 @@ module:
     - path: github.com/simonheimlicher/claris-resources
 ```
 
-## Conclusion
-
-This custom Hugo partial offers enhanced resource management, ensuring efficient resource utilization in Hugo websites. Its ability to navigate through different types of Page Bundles and leverage Headless Bundles for Branch Bundles is particularly valuable.
-
-This partial is the result of my continuous experimentation and adaptation to my own use case. Please let me know about {{< obfuscated-email "your own experiences with the partial" >}}. I would be happy to further improve it to handle additional use cases.
+This partial grew out of my own site's needs. {{< obfuscated-email "Let me know if you run into cases it doesn't handle" >}} — I'm happy to extend it.
