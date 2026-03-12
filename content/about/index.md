@@ -1,7 +1,7 @@
 ---
 aliases:
-- /home/about/
-- /_media/heimlicher_cv.pdf
+  - /home/about/
+  - /_media/heimlicher_cv.pdf
 description: Simon Heimlicher is a senior leader with a passion for leadership,
   transformation, and strategy execution
 image:
@@ -38,11 +38,11 @@ image:
     - alt: Professional website of Simon Heimlicher
       src: images/simon heimlicher 149-7238 share 1x1
 keywords:
-- heimlicher
-- simon
-- simon heimlicher
-- about
-- professional website
+  - heimlicher
+  - simon
+  - simon heimlicher
+  - about
+  - professional website
 lastmod: "2023-08-28T00:00:00Z"
 schemaOrg:
   entityType: ProfilePage
@@ -53,34 +53,24 @@ title: Simon Heimlicher
 weight: 10
 ---
 
-Over the past decade, the business and technology landscape has been evolving at an unprecedented pace. I have had the privilege of contributing to the transformation of multiple organizations as they leveraged the opportunities that arose.
+My career has moved across contexts that don't obviously fit together: a PhD in computer networking at ETH Zurich, a post-doc at the University of Massachusetts studying how people move through cities, then a pivot into organizational leadership — first at [stimmt](https://stimmt.ch/), a customer experience consultancy, then at [UBS](https://www.ubs.com), where I led large-scale transformation programs. What carried across all of it was an interest in how systems behave under pressure: networks, organizations, teams.
 
-Through my experiences, ranging from [startups](https://stimmt.ch/) to [multi-nationals](https://www.ubs.com), I've accumulated knowledge, strategies, and perspectives that form the crux of leadership, organizational transformation, and global strategy execution. In the modern era, the chasm between a budding startup and a multinational conglomerate is vast, but they share common threads. At startups, agility is the cornerstone. Here, innovation is rapid, and adaptability is key. Conversely, at multi-nationals, the challenge lies in navigating complex regulatory landscapes, managing vast resources, and ensuring consistent growth.
+The research background turned out to be useful in ways I didn't expect. Studying [how mobile networks form connected clusters](/research/artificial-intelligence) trained me to look for structure where things appear chaotic, and to be skeptical of models that work in theory but not against real data. I apply the same skepticism to strategy work. A plan that can't survive contact with the people expected to carry it out isn't a plan — it's a proposal.
 
-Yet, the lessons of leadership remain consistent. Whether you're leading a team of ten or ten thousand, the principles of clear vision, effective communication, and people-first strategies remain paramount.
+## What I've seen in people
 
-Strategy is no longer confined to boardrooms and closed-door meetings. With the global marketplace's interconnectedness, strategy execution transcends borders, cultures, and time zones. This demands leaders who are not only adept at crafting strategies but also at ensuring they resonate with diverse teams across continents.
+The most consistent thing I've noticed across organizations is how much capability goes unused — not because people lack it, but because the structures around them don't create space for it. Processes designed for a different era, incentives that reward caution, managers who mistake coordination for leadership. The people aren't the constraint.
 
-## Hidden Potential
+My work has been to change those conditions. That means being specific about what's actually blocking people, rather than diagnosing vaguely and intervening generically. It also means being willing to say what's not working to the people who most need to hear it.
 
-The driving force behind my commitment to leadership and organizational growth has always been the potential I see in my colleagues. It's a potential that often remains untapped, suppressed by rigid organizational structures or self-doubt.
+## Sparring over advice
 
-Regardless of age, background, or organizational role, there lies a latent power within each individual. My passion has been to assist my colleagues in recognizing and harnessing this power. This belief is anchored in the understanding that true leadership isn't about authority but about enabling others to realize their best selves.
+The leaders I've learned most from were direct with me when I was wrong. Not unkind — direct. There's a difference, and it matters. I didn't always appreciate it in the moment, but the feedback that shaped how I work came from people who cared more about being useful than being comfortable.
 
-In an era where fields like [artificial intelligence (AI)](/research/artificial-intelligence) redefine industries overnight, adaptability becomes a prized trait. It's not just about keeping up with the pace of change but leveraging it. Leaders of tomorrow are those who see change not as a challenge but an opportunity.
+Over time, more people have sought me out for that kind of conversation — usually when something is stuck and the standard playbook isn't helping. I find those conversations genuinely useful for me too. The problems people bring are specific and hard, and working through them honestly keeps my own thinking sharp.
 
-## Leaders need sparring partners
+## Writing as a way to think
 
-The path to excellence in leadership is rarely straightforward. Rather, it is a journey that is marked by challenges, uncertainties, and moments of doubt. I have found that having a mentor as a guide, coach and sparring partner on one's side is invaluable. While I not always enjoyed hearing what I needed to hear, I know that I have benefitted tremendously from honest feedback and actionable suggestions for future improvements.
+I write about leadership and transformation because writing forces clarity I don't always have beforehand. If I can't explain why something worked, I probably don't understand it well enough. The [book reviews and articles](/categories/book) on this site are part of that process — a record of what I've read, what I've tested, and what I've revised.
 
-Over the past years, I have more and more had the honor of aspiring leaders reaching out to me, seeking advice or insights, especially during challenging times. These interactions aren't just an opportunity for them to learn but also for me. Every conversation, every problem shared, broadens my understanding of leadership's multifaceted nature.
-
-## Writing is learning and sharing
-
-One of my most cherished endeavors has been sharing my insights on leadership and transformation through my writing. My recommendations of books and articles, available on this website, serve as a repository of knowledge for those eager to delve deeper into the nuances of leadership.
-
-As an avid reader, books have been windows to worlds of knowledge, offering perspectives and insights that have shaped my leadership journey. Through sharing reviews and takeaways from books on [leadership and transformation](/categories/book), I hope to ignite the same passion for learning in others.
-
-In the ever-evolving landscape of leadership and transformation, complacency is the antithesis of growth and I invite you to {{< obfuscated-email "share your perspectives, insights, and ideas with me" >}}.
-
-Thank you!
+If something here is useful to you, or if you disagree with it, {{< obfuscated-email "I'd like to hear from you" >}}.
