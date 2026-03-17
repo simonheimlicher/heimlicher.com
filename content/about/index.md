@@ -55,9 +55,7 @@ weight: 10
 
 In my dissertation at ETH Zurich, I found that a few local parameters determine whether a mobile network forms connected clusters or stays fragmented. The same turns out to hold for people in organizations.
 
-The PhD was in electrical engineering. I studied how [connected clusters emerge in mobile wireless networks](/research/characterizing-networks), validating the mathematical model against GPS traces from taxi cabs in San Francisco and Shanghai. From there, I worked at Technicolor in Paris on [privacy-preserving machine learning](/research/artificial-intelligence) and at the University of Massachusetts on [human mobility and Internet architecture](/research/human-mobility).
-
-At [UBS](https://www.ubs.com), I invented and patented a cryptographic scheme for remote identity verification that unlocked Switzerland's first paperless client onboarding. As CIO of [Basler Kantonalbank](https://www.bkb.ch/), I ran IT for two banks, reorganized 75 people from a dev/ops split into product and platform teams, and cut incident recovery time by more than half. At [SonarSource](https://www.sonarsource.com/), I led product engineering for the SaaS platform and two AI products: [AI CodeFix](https://www.sonarsource.com/solutions/ai/ai-codefix/) and [AI Code Assurance](https://www.sonarsource.com/solutions/ai/ai-code-assurance/).
+After the dissertation and postdoctoral research on [privacy-preserving machine learning](/research/artificial-intelligence) and [human mobility](/research/human-mobility), I moved into product and organizational leadership. At [UBS](https://www.ubs.com), I invented and patented a cryptographic scheme for remote identity verification that unlocked Switzerland's first paperless client onboarding. As CIO of [Basler Kantonalbank](https://www.bkb.ch/), I ran IT for two banks, reorganized 75 people from a dev/ops split into product and platform teams, and cut incident recovery time by more than half. At [SonarSource](https://www.sonarsource.com/), I led product engineering for the SaaS platform and two AI products: [AI CodeFix](https://www.sonarsource.com/solutions/ai/ai-codefix/) and [AI Code Assurance](https://www.sonarsource.com/solutions/ai/ai-code-assurance/).
 
 ## What I've seen in people
 
@@ -67,7 +65,7 @@ I change those conditions. That means being specific about what's blocking peopl
 
 ## Direct over comfortable
 
-The leaders I've learned most from were direct with me when I was wrong. Not unkind — direct. There's a difference, and it matters. I didn't always appreciate it in the moment, but the feedback that shaped how I work came from people who cared more about being useful than being comfortable.
+The leaders I've learned most from were direct with me when I was wrong. I didn't always appreciate it in the moment, but the feedback that shaped how I work came from people who cared more about being useful than being comfortable.
 
 Over time, more people have sought me out for that kind of conversation, usually when something is stuck and the standard playbook isn't helping. I find those conversations useful for me too. The problems people bring are specific and hard, and working through them honestly keeps my own thinking sharp.
 
