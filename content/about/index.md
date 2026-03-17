@@ -53,17 +53,19 @@ title: Simon Heimlicher
 weight: 10
 ---
 
-My career has moved across contexts that don't obviously fit together: a PhD in computer networking at ETH Zurich, a post-doc at the University of Massachusetts studying how people move through cities, then a pivot into organizational leadership, first at [stimmt](https://stimmt.ch/), a customer experience consultancy, then at [UBS](https://www.ubs.com), where I led large-scale transformation programs. What carried across all of it was an interest in how systems behave under pressure: networks, organizations, teams.
+In my dissertation at ETH Zurich, I found that a few local parameters determine whether a mobile network forms connected clusters or stays fragmented. The same turns out to hold for people in organizations.
 
-The research background turned out to be useful in ways I didn't expect. Studying [how mobile networks form connected clusters](/research/artificial-intelligence) trained me to look for structure where things appear chaotic, and to be skeptical of models that work in theory but not against real data. I apply the same skepticism to strategy work. A plan that can't survive contact with the people expected to carry it out isn't a plan — it's a proposal.
+The PhD was in electrical engineering. I studied how [connected clusters emerge in mobile wireless networks](/research/characterizing-networks), validating the mathematical model against GPS traces from taxi cabs in San Francisco and Shanghai. From there, I worked at Technicolor in Paris on [privacy-preserving machine learning](/research/artificial-intelligence) and at the University of Massachusetts on [human mobility and Internet architecture](/research/human-mobility).
+
+At [UBS](https://www.ubs.com), I invented and patented a cryptographic scheme for remote identity verification that unlocked Switzerland's first paperless client onboarding. As CIO of [Basler Kantonalbank](https://www.bkb.ch/), I ran IT for two banks, reorganized 75 people from a dev/ops split into product and platform teams, and cut incident recovery time by more than half. At [SonarSource](https://www.sonarsource.com/), I led product engineering for the SaaS platform and two AI products: [AI CodeFix](https://www.sonarsource.com/solutions/ai/ai-codefix/) and [AI Code Assurance](https://www.sonarsource.com/solutions/ai/ai-code-assurance/).
 
 ## What I've seen in people
 
 The most consistent thing I've noticed across organizations is how much capability goes unused — not because people lack it, but because the structures around them don't create space for it. Processes designed for a different era, incentives that reward caution, managers who mistake coordination for leadership. The people aren't the constraint.
 
-My work has been to change those conditions. That means being specific about what's blocking people, rather than diagnosing vaguely and intervening generically. It also means being willing to say what's not working to the people who most need to hear it.
+I change those conditions. That means being specific about what's blocking people, rather than diagnosing vaguely and intervening generically. It also means being willing to say what's not working to the people who most need to hear it.
 
-## Sparring over advice
+## Direct over comfortable
 
 The leaders I've learned most from were direct with me when I was wrong. Not unkind — direct. There's a difference, and it matters. I didn't always appreciate it in the moment, but the feedback that shaped how I work came from people who cared more about being useful than being comfortable.
 
