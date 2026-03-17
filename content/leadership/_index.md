@@ -28,13 +28,13 @@ Both frames get the direction of causality wrong.
 
 ## Three layers of leadership
 
-Leadership operates across three layers. The first is *problems*: the actual work a team exists to do, whether that is shipping software or landing reusable rockets. The second is *systems*: how decisions get made, how information flows, what rules govern daily work. The third is *people*: the human beings who bring their full selves to every problem they approach, including their fears, ambitions, and habits of thought.
+Leadership operates across three layers. The first is *problems*: the actual work a team exists to do, whether that is shipping software or landing reusable rockets. The second is *systems*: how decisions get made, how information flows, what rules govern daily work. The third is *people*: the human beings doing the work, with their fears, ambitions, and habits of thought.
 
 Most leadership writing focuses on the people layer, and for good reason. But that focus is incomplete. Systems determine whether good intentions survive contact with the organization. A leader who inspires people but leaves broken systems in place has changed nothing that lasts.
 
 {{< content-excerpt page="impact-leadership-style-organizational-performance/" float=right relativewidth=40 >}}
 
-The mark of transformative leadership is irreversible change. Like a caterpillar becoming a butterfly, there is no going back. Change that persists when the leader goes on vacation has met that bar. Cultural change matters, but culture without supporting systems is fragile. The goal is a learning organization with the structural backbone to sustain itself.
+The mark of transformative leadership is irreversible change. Change that persists when the leader goes on vacation has met that bar. Cultural change matters, but culture without supporting systems is fragile. The goal is a learning organization with the structural backbone to sustain itself.
 
 Two books make this case from opposite ends of the organizational spectrum: one from Silicon Valley, the other from the deck of a nuclear submarine. What makes them worth reading together is that they solve different layers of the same problem.
 
@@ -62,8 +62,8 @@ This is where the people layer becomes essential. By giving control and building
 
 ## The wrong question
 
-Both books reject the motivation frame, but from different directions. McCord's position: the problem is not unmotivated employees; it is systems that treat motivated adults like children. Marquet's position: the problem is not passive followers; it is a command structure that trains passivity into capable people.
+Both books reject the motivation frame, but from different directions. McCord points to systems that treat motivated adults like children; Marquet, to a command structure that trains passivity into capable people.
 
 Leaders who try to motivate are working on the wrong layer. An organization's systems either suppress the capability that already exists or develop capability that wasn't there before. A leader who changes those systems, and builds the competence to operate within them, creates an organization that no longer depends on any single person's presence to perform.
 
-That is the transformation worth pursuing. Not inspiration from above, but structure that makes leadership everyone's work.
+That is the transformation worth pursuing: structure that makes leadership everyone's work.
