@@ -2,11 +2,11 @@
 aliases:
   - /home/about/
   - /_media/heimlicher_cv.pdf
-description: Simon Heimlicher is a senior leader with a passion for leadership,
-  transformation, and strategy execution
+description: Simon Heimlicher is a technology executive and founder. CIO of a top-ten
+  Swiss bank, AI product leader at SonarSource, now building CraftFinal.
 image:
   feature:
-    - alt: Simon Heimlicher is a passionate leader
+    - alt: Simon Heimlicher
       credit: Simon Heimlicher
       # src: images/070-6958_16x9
       # src: images/149-7238 azure blue wall background
@@ -47,30 +47,22 @@ lastmod: "2023-08-28T00:00:00Z"
 schemaOrg:
   entityType: ProfilePage
 section: About
-subtitle: A passionate leader
+subtitle: Technology executive and founder
 supertitle: About
 title: Simon Heimlicher
 weight: 10
 ---
 
-In my dissertation at ETH Zurich, I found that a few local parameters determine whether a mobile network forms connected clusters or stays fragmented. The same turns out to hold for people in organizations.
+I've been CIO of the eighth-largest Swiss bank, run the monetization platform and led the engineering of the first two AI products at [SonarSource](https://www.sonarsource.com/), and invented the cryptographic scheme that made paperless client onboarding legal in Switzerland at [UBS](https://www.ubs.com). Now I'm building [CraftFinal](https://craftfinal.com), an AI platform for document generation.
 
-After the dissertation and postdoctoral research on [privacy-preserving machine learning](/research/artificial-intelligence) and [human mobility](/research/human-mobility), I moved into product and organizational leadership. At [UBS](https://www.ubs.com), I invented and patented a cryptographic scheme for remote identity verification that unlocked Switzerland's first paperless client onboarding. As CIO of [Basler Kantonalbank](https://www.bkb.ch/), I ran IT for two banks, reorganized 75 people from a dev/ops split into product and platform teams, and cut incident recovery time by more than half. At [SonarSource](https://www.sonarsource.com/), I led product engineering for the SaaS platform and two AI products: [AI CodeFix](https://www.sonarsource.com/solutions/ai/ai-codefix/) and [AI Code Assurance](https://www.sonarsource.com/solutions/ai/ai-code-assurance/).
-
-## What I've seen in people
-
-The most consistent thing I've noticed across organizations is how much capability goes unused — not because people lack it, but because the structures around them don't create space for it. Processes designed for a different era, incentives that reward caution, managers who mistake coordination for leadership. The people aren't the constraint.
-
-I change those conditions. That means being specific about what's blocking people, rather than diagnosing vaguely and intervening generically. It also means being willing to say what's not working to the people who most need to hear it.
+In each case, the problem was structural: a dev/ops split that turned IT into firefighters, incentives that rewarded caution, decision rights stuck in committees instead of with the people who had context.
 
 ## Direct over comfortable
 
-The leaders I've learned most from were direct with me when I was wrong. I didn't always appreciate it in the moment, but the feedback that shaped how I work came from people who cared more about being useful than being comfortable.
-
-Over time, more people have sought me out for that kind of conversation, usually when something is stuck and the standard playbook isn't helping. I find those conversations useful for me too. The problems people bring are specific and hard, and working through them honestly keeps my own thinking sharp.
+I keep single-person accountability and push decision authority to whoever has the context and competence to decide. Hiring, promotion, and exit decisions should match what the team already sees — surprises mean someone avoided a hard conversation. The people worth keeping prefer it that way.
 
 ## Writing as a way to think
 
-I write about leadership and transformation because writing forces clarity I don't always have beforehand. If I can't explain why something worked, I probably don't understand it well enough. The [book reviews and articles](/categories/book) on this site are part of that process: a record of what I've read and what I've revised.
+I write about leadership and transformation because explaining why something worked — or didn't — exposes reasoning I wouldn't otherwise examine. The [book reviews and articles](/categories/book) on this site are part of that process.
 
 If something here is useful to you, or if you disagree with it, {{< obfuscated-email "I'd like to hear from you" >}}.
