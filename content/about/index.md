@@ -63,6 +63,6 @@ I keep single-person accountability and push decision authority to whoever has t
 
 ## Writing as a way to think
 
-I write about leadership and transformation because explaining why something worked — or didn't — exposes reasoning I wouldn't otherwise examine. The [book reviews and articles](/categories/book) on this site are part of that process.
+I write about leadership and transformation because explaining why something worked, or failed, exposes reasoning I wouldn't otherwise examine. The [book reviews and articles](/categories/book) on this site are part of that process.
 
 If something here is useful to you, or if you disagree with it, {{< obfuscated-email "I'd like to hear from you" >}}.
