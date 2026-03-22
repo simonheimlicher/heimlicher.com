@@ -1,0 +1,166 @@
+#
+# Professional experience — redacted for public repo
+# Stripped: dimension blocks (revenue, budgets, headcount), exact period dates
+#
+
+- organization: CraftFinal
+  website: https://craftfinal.com/
+  country: Switzerland
+  location: Zurich
+  appendix: AI-powered document generation from fact repository
+
+  roles:
+    - role: Founder
+      function: CEO
+      type: professional
+      period: ["2023"]
+
+      achievements:
+        - title: Hands-On AI Platform & Tooling Development
+          content:
+            - Accelerated AI-assisted product delivery by developing a spec-driven development framework based on a hierarchical outcome decomposition tree and a command-line interface for agentic AI [(available at spx.sh)](https://spx.sh)
+            - Established quality gains in LLM-driven document generation from a structured fact repository vs. plain text
+
+- organization: SonarSource SA
+  website: https://www.sonarsource.com/
+  country: Switzerland
+  location: Geneva
+  appendix: Creator of SonarQube
+
+  roles:
+    - role: Product Engineering Director
+      details: AI Products & SaaS Platform
+      function: Department Leader
+      type: professional
+      period: ["2024", "2025"]
+      skills:
+        - Platform Product Management
+        - APIs, IAM & Entitlements
+        - AI Product Enablement
+        - Cloud-Native SaaS (AWS)
+        - Enterprise Adoption & Simplification
+
+      achievements:
+        - title: AI Platform Enablement
+          content:
+            - Repositioned the market-defining static code analysis product line as AI-enabled by delivering 2 generative AI products in 3 months with a deployable enterprise rollout narrative
+            - Enabled generative AI adoption in regulated industries through systematic human-in-the-loop evaluation that preserved an industry-leading false-positive rate and drove platform hardening priorities
+
+        - title: Platform Modernization & Simplification
+          content:
+            - Delivered a new enterprise SaaS plan and migrated 30k customers to Stripe within 2 weeks by sequencing work across 3 teams over 6 months using feature flags and a cross-team, API-first entitlements service
+            - Cut packaging and pricing time-to-market from 2 months and involvement of 3 teams to a same-day change by moving plan configuration from release cycles to runtime controls and entitlement rules
+            - Unlocked 10% additional market share by migrating 100k SaaS customers from a homegrown IAM platform to Okta with zero downtime
+            - Sustained 99.5% uptime while operating the SaaS monetization platform (IAM, subscriptions, billing, entitlements) for 100k SaaS customers across 2 AWS regions
+
+        - title: Cross-Functional Delivery & Customer Empathy
+          content:
+            - Raised on-time completion of divisional objectives from 70% to 90% by scaling a standardized operating model from 5 to 15 teams (200 FTE) and introducing outcome-driven refinement that cut time-to-value from 12 weeks to 4-6 weeks
+
+- organization: Basler Kantonalbank
+  website: https://www.bkb.ch/
+  country: Switzerland
+  location: Basel
+  appendix: Basler Kantonalbank & Bank Cler
+
+  roles:
+    - role: Chief Information Officer (CIO)
+      function: Department Leader
+      type: professional
+      period: ["2021", "2023"]
+      skills:
+        - Platform & IT Strategy
+        - Digital Employee Experience
+        - Cloud Migration & Modernization
+        - Enterprise Architecture
+        - Stakeholder Management
+
+      achievements:
+        - title: Reliability, Resilience & Cost Efficiency
+          content:
+            - Improved digital employee experience for 1500 users and cut incident recovery time 2.5x by shifting IT from firefighting to root-cause elimination, reducing team overtime 25% within 6 months
+            - Reduced change-related outages by reorganizing from a dev/ops split into product and platform teams and establishing DevSecOps ownership and release controls
+            - Sustained availability, resilience, and data integrity for 250+ applications across 2 banks, meeting or exceeding SLA targets through weekly simulated outages and systematic runbook and recovery hardening
+            - Eliminated the top 4 IT security and resilience risks within 18 months by defining and executing a focused remediation program and reserving operational capacity for continuous risk mitigation
+
+        - title: Cloud Modernization & Board Governance
+          content:
+            - Enabled execution of the 4-year corporate strategy by securing board approval to migrate all 250 applications to the cloud after a 6-month pilot validated business outcomes, feasibility, and cost-effectiveness
+            - Optimized strategy budget allocation by replacing 14 strategic plans with 7 strategic thrusts prioritized by quarterly outcomes
+
+- organization: UBS Switzerland AG
+  website: https://www.ubs.com/
+  country: Switzerland
+  location: Zurich
+
+  roles:
+    - role: Product Director
+      type: professional
+      details: Digitization of client onboarding
+      period: ["2019", "2021"]
+      skills:
+        - Platform Product Management
+        - Cross-Functional Leadership
+        - Outcome-Based Delivery
+        - Enterprise Adoption
+        - Regulatory Compliance
+
+      achievements:
+        - title: Product Discovery & Customer Insights
+          content:
+            - Moved from quarterly planning to 2-week iterations by aligning 3 value streams on product outcomes and institutionalizing rapid customer validation to steer platform priorities
+
+        - title: Platform Architecture & Business Impact
+          content:
+            - Compressed client onboarding from days to 10 minutes by rolling out a shared client-journey architecture (common components and shared service APIs) across 3 customer segments
+
+        - title: Metrics-Driven Product Delivery
+          content:
+            - Improved on-time delivery of onboarding milestones 20% by shifting prioritization from output tracking to outcome-based metrics
+
+    - role: Product Manager
+      function: Project Manager
+      type: professional
+      details: Digital onboarding and messaging platforms
+      period: ["2014", "2019"]
+
+      achievements:
+        - title: WhatsApp/WeChat Messaging Platform (APAC)
+          content:
+            - Scoped APAC messaging demand by confirming ~90% of clients preferred WhatsApp/WeChat over email and translating it into requirements for 1000+ bankers
+            - Delivered compliant WhatsApp/WeChat messaging for APAC clients within 6 months under a board mandate, satisfying regulator expectations and implementing controls later mirrored in SEC/CFTC enforcement
+
+        - title: Paperless Digital Onboarding (Switzerland)
+          content:
+            - Unlocked digital onboarding by designing a patented cryptographic scheme linking remote ID verification with e-signature, meeting regulatory requirements that blocked competitors
+            - Delivered Switzerland's first paperless onboarding within 6 months, cutting client onboarding from 5 days to 1 day
+
+- organization: University of Massachusetts
+  website: https://www.umass.edu
+  country: USA
+  location: Amherst, MA
+
+  roles:
+    - role: Senior Research Fellow
+      type: professional
+      period: ["2012", "2014"]
+      achievements:
+        - Collected real-world mobility and connectivity measurements from 372 volunteers by building and operating an Android app and AWS-based analytics pipeline
+        - Published mobility-informed network modeling findings at ACM SIGCOMM based on empirical validation using real Internet topologies, router routing tables, and measured workloads
+
+- organization: Technicolor SA
+  website: https://www.technicolor.com
+  country: France
+  location: Paris
+  appendix: Research & Innovation
+
+  roles:
+    - role: Research Scientist
+      type: professional
+      period: ["2011", "2012"]
+
+      achievements:
+        - title: Privacy-Preserving Machine Learning
+          content:
+            - Identified privacy concerns as the primary barrier to customer adoption of recommender systems in European markets
+            - Developed a distributed ML algorithm for privacy-preserving recommendations using differential privacy, publishing at NeurIPS and filing a patent on quantifiable privacy guarantees
