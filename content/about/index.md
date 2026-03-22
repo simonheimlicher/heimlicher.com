@@ -53,13 +53,15 @@ title: Simon Heimlicher
 weight: 10
 ---
 
-I've been CIO of the eighth-largest Swiss bank, run the monetization platform and led the engineering of the first two AI products at [SonarSource](https://www.sonarsource.com/), and invented the cryptographic scheme that made paperless client onboarding legal in Switzerland at [UBS](https://www.ubs.com). Now I'm building [CraftFinal](https://craftfinal.com), an AI platform for document generation.
+“Communicate, communicate, communicate” is a leadership trope that is as helpful to fledgling leaders as “location, location, location” in real estate and “always be closing” in sales. What I have found to be effective is changing the context the organization operates with.
 
-In each case, the problem was structural: a dev/ops split that turned IT into firefighters, incentives that rewarded caution, decision rights stuck in committees instead of with the people who had context.
+People always do the right thing. And often without thinking. That’s why these leadership tropes are doubly insiduous. First, they only work if applied in the right situation and executed properly. And second, these tropes don’t provide the kind of lasting change that every aspiring leader is hoping for. How many leaders have you been led by who measured whether they were effective? I had the pleasure of being led by exactly one person who measured their effectiveness. And the feedback my teammates and I provided led to impactful changes, such as replacing a weekly one-hour team meeting with a monthly two-hour meeting followed by a team dinner.
 
-## Direct over comfortable
+The first time I understood that I could not rely on my powers of influencing and positional power was when I took over half the team and half the responsibilities of my manager. As opposed to him, I lacked the positional authority and the experience required to lead by declaration. I realized that my opinion was worthless to steer the ten cross-functional teams funded by dozens of projects from initiatives across the globe. I needed to get it right but could not rely on being right. And this led me to work backward from a friendly colleague in India publishing the latest version of our mobile app all the way back to my direct reports, which were product managers née project managers. I created just enough documentation of how we worked together and this allowed me to bring everyone into the decision making process before changing the ways of working.
 
-I keep single-person accountability and push decision authority to whoever has the context and competence to decide. Hiring, promotion, and exit decisions should match what the team already sees — surprises mean someone avoided a hard conversation. The people worth keeping prefer it that way.
+In subsequent instances, I converted a bank’s IT department working in the traditional development vs. operations split into two loosely coupled product and platform engineering teams. I also established a divison-wide two-week cadence in a company who had been incredibly successful with their own approach based on what were called “sprints” but which were actually mini projects.
+
+In each case, the problem was structural: disenabled product owners who were not empowered to act on what they saw happening in front of their eyes. Then a dev/ops split that resulted in overtime, firefighting and animosities, and finally an organization who needed to let go of long established custom ways of working and adopt an industry standard that also happened to work well for them.
 
 ## Writing as a way to think
 
