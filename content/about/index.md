@@ -2,8 +2,9 @@
 aliases:
   - /home/about/
   - /_media/heimlicher_cv.pdf
-description: Simon Heimlicher is a technology executive and founder. CIO of a top-ten
-  Swiss bank, AI product leader at SonarSource, now building CraftFinal.
+description: Simon Heimlicher has led organizational transformations at UBS, Basler
+  Kantonalbank, and SonarSource. Now building CraftFinal, an AI platform for document
+  generation.
 image:
   feature:
     - alt: Simon Heimlicher
@@ -53,15 +54,19 @@ title: Simon Heimlicher
 weight: 10
 ---
 
-“Communicate, communicate, communicate” is a leadership trope that is as helpful to fledgling leaders as “location, location, location” in real estate and “always be closing” in sales. What I have found to be effective is changing the context the organization operates with.
+“Communicate, communicate, communicate” is a leadership trope as helpful to fledgling leaders as “location, location, location” in real estate and “always be closing” in sales. What I have found to be effective is redesigning the structure people work in so that doing the right thing becomes the path of least resistance.
 
-People always do the right thing. And often without thinking. That’s why these leadership tropes are doubly insiduous. First, they only work if applied in the right situation and executed properly. And second, these tropes don’t provide the kind of lasting change that every aspiring leader is hoping for. How many leaders have you been led by who measured whether they were effective? I had the pleasure of being led by exactly one person who measured their effectiveness. And the feedback my teammates and I provided led to impactful changes, such as replacing a weekly one-hour team meeting with a monthly two-hour meeting followed by a team dinner.
+People always do the right thing. And often without thinking. That is why these leadership tropes miss the mark: they try to change what people do instead of changing what they see. I learned this at [UBS](https://www.ubs.com), then again as CIO of [Basler Kantonalbank](https://www.bkb.ch), and most recently as engineering director at [SonarSource](https://www.sonarsource.com). In each case, the problem was structural and so was the fix.
 
-The first time I understood that I could not rely on my powers of influencing and positional power was when I took over half the team and half the responsibilities of my manager. As opposed to him, I lacked the positional authority and the experience required to lead by declaration. I realized that my opinion was worthless to steer the ten cross-functional teams funded by dozens of projects from initiatives across the globe. I needed to get it right but could not rely on being right. And this led me to work backward from a friendly colleague in India publishing the latest version of our mobile app all the way back to my direct reports, which were product managers née project managers. I created just enough documentation of how we worked together and this allowed me to bring everyone into the decision making process before changing the ways of working.
+At UBS, I took over half the team and half the responsibilities of my manager. Unlike him, I had neither the positional authority nor the track record to lead by declaration. My opinion alone was not going to align ten cross-functional teams delivering across three continents.
 
-In subsequent instances, I converted a bank’s IT department working in the traditional development vs. operations split into two loosely coupled product and platform engineering teams. I also established a divison-wide two-week cadence in a company who had been incredibly successful with their own approach based on what were called “sprints” but which were actually mini projects.
+I needed to get it right but could not rely on being right. So I worked backward through the delivery chain: from a colleague in India publishing the latest version of our mobile app, through every handoff, all the way to my direct reports — product managers who until recently had been project managers. I documented just enough of how we worked together to bring everyone into decision-making before changing it.
 
-In each case, the problem was structural: disenabled product owners who were not empowered to act on what they saw happening in front of their eyes. Then a dev/ops split that resulted in overtime, firefighting and animosities, and finally an organization who needed to let go of long established custom ways of working and adopt an industry standard that also happened to work well for them.
+As CIO of Basler Kantonalbank, I inherited 75 engineers split along the classic dev/ops line: developers shipped code, operations caught the fallout in overtime and weekend firefighting. I reorganized them into product and platform teams, each owning their own delivery. Overtime dropped 25% within six months.
+
+At SonarSource, I scaled a two-week cadence from 5 teams to 15 — 200 engineers in total — across a division that had been running what they called “sprints” but were actually month-long mini-projects with a demo at the end. On-time completion of divisional objectives went from 70% to 90%.
+
+Now I am building [CraftFinal](https://craftfinal.com), an AI platform for document generation — applying the same structural thinking to how organizations produce written work.
 
 ## Writing as a way to think
 
