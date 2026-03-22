@@ -1,5 +1,50 @@
 # AI Agent Context Guide: heimlicher.com
 
+## Critical Rules
+
+- ⚠️ **NEVER write or edit prose without invoking a skill first** - Content is the primary output of this project. Invoke `prose:writing-prose` BEFORE writing and `prose:reviewing-prose` AFTER. No exceptions.
+- ⚠️ **NEVER use Claude as commit author** - All commits must use the repository owner's git identity (`Simon Heimlicher <simon.github@heimlicher.com>`), not Claude or any AI assistant. This applies to all commits, including initial commits, amendments, and rebases.
+- ⚠️ **NEVER commit without invoking a skill first** - Use `spec-tree:committing-changes` for every commit. Never run bare `git commit`.
+- ⚠️ **NEVER call `hugo` directly** - Always use npm scripts (`npm run dev`, `npm run build`, etc.). The scripts load required env vars via dotenvx and use the correct Hugo version via HVM.
+- ⚠️ **NEVER use agents to create or modify files** - Agents must only be used for read-only research. All file creation, editing, and writing must happen in the main conversation context.
+- ✅ **When uncertain, ASK. Never guess content intent, tone, or audience.**
+
+## committing
+
+## MANDATORY: Use Skills for ALL Work
+
+**THIS IS NON-NEGOTIABLE.** Before performing ANY task, invoke the appropriate skill.
+
+### Required Skills
+
+| User asks to...                                       | Skill to Invoke                |
+| ----------------------------------------------------- | ------------------------------ |
+| Write or edit content pages, blog posts, or any prose | `prose:writing-prose`          |
+| Review or improve prose quality                       | `prose:reviewing-prose`        |
+| Commit changes                                        | `spec-tree:committing-changes` |
+
+### Required Skills by Situation
+
+| You're thinking...                             | Skill to invoke                | Why                                         |
+| ---------------------------------------------- | ------------------------------ | ------------------------------------------- |
+| "I need to draft or rewrite a content section" | `prose:writing-prose`          | All prose must go through the writing skill |
+| "This draft is done, let me commit"            | `prose:reviewing-prose`        | Review quality BEFORE committing            |
+| "Time to commit"                               | `spec-tree:committing-changes` | Follows Conventional Commits conventions    |
+
+## Enforcement: STOP Triggers
+
+If you find yourself doing any of these, **STOP immediately**:
+
+- Writing or editing Markdown content without invoking `prose:writing-prose` → STOP, invoke skill
+- Considering prose "done" without `prose:reviewing-prose` → STOP, invoke skill
+- Running `git commit` without `spec-tree:committing-changes` → STOP, invoke skill
+- Calling `hugo` directly instead of using npm scripts → STOP, use `npm run ...`
+- Using an Agent to create, edit, or write ANY file → STOP, agents are read-only research tools
+
+**Load the skill FIRST, then proceed.**
+
+---
+
 ## Quick Start
 
 1. Read this file for site overview
@@ -142,7 +187,7 @@ To clear the module cache (useful when local changes aren't being picked up):
 hugo mod clean
 ```
 
-**CRITICAL**: Always use npm scripts (`npm run dev`, `npm run build`, etc.) - never call `hugo` directly. The scripts load required env vars via dotenvx and use the correct Hugo version via HVM.
+Always use npm scripts (`npm run dev`, `npm run build`, etc.) — never call `hugo` directly. See Critical Rules above.
 
 ---
 
