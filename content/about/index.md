@@ -54,9 +54,9 @@ title: Simon Heimlicher
 weight: 10
 ---
 
-“Communicate, communicate, communicate” is a leadership trope as helpful to fledgling leaders as “location, location, location” in real estate and “always be closing” in sales. What I have found to be effective is redesigning the structure people work in so that doing the right thing becomes the path of least resistance.
+“Communicate, communicate, communicate” ranks with “location, location, location” and “always be closing” as advice that sounds wise until you try to act on it. Changing an organization means changing not only hearts and minds but also perceived context: what people believe, what they know to be true, and what they experience day to day. The third is what most makes the first two stick.
 
-People always do the right thing. And often without thinking. That is why these leadership tropes miss the mark: they try to change what people do instead of changing what they see. Each time, I paired a change in beliefs and behaviors with a change in structure.
+People always do the right thing for their read of the situation. Perceived context does not change on facts alone, and beliefs do not survive a structure that contradicts them. The three work together or none of them stick.
 
 At [UBS](https://www.ubs.com), I took over half the team and half the responsibilities of my manager. Unlike him, I had neither the positional authority nor the track record to lead by declaration. My opinion alone was not going to align ten cross-functional teams delivering across three continents.
 
