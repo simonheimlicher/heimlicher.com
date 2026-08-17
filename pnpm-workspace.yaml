@@ -1,0 +1,12 @@
+# pnpm 11 reads these settings here rather than from .npmrc.
+#
+# scriptShell:         pnpm runs scripts through its own POSIX shell emulator by
+#                      default, which does not support the bash array syntax in
+#                      the `dev:kill` script.
+# verifyDepsBeforeRun: `mod-pack` rewrites package.json, so pnpm must not run an
+#                      implicit install and dependency check before every script.
+# ignoreScripts:       no dependency runs install or build scripts, ever. This
+#                      project has no install lifecycle scripts of its own.
+scriptShell: /bin/bash
+verifyDepsBeforeRun: false
+ignoreScripts: true

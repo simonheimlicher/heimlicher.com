@@ -26,18 +26,21 @@
     "cssnano": "^7.1.2",
     "postcss": "^8.4.23",
     "postcss-cli": "^11.0.1",
-    "postcss-prune-var": "1.1.0",
+    "postcss-prune-var": "^1.1.1",
     "postcss-var-optimize": "^8.1.0"
   },
   "name": "heimlicher.com",
+  "packageManager": "pnpm@11.5.0",
   "scripts": {
     "build": "dotenvx run -- $(hvm status --printExecPathCached) --gc --minify",
     "build:workspace": "dotenvx run -- env HUGO_MODULE_WORKSPACE=go.work $(hvm status --printExecPathCached) --gc",
     "clean": "rm -rf public resources/_gen",
     "dev": "dotenvx run -- env HUGO_MODULE_WORKSPACE=go.work $(hvm status --printExecPathCached) server --port=1313 --disableFastRender",
+    "dev:kill": "pids=($(lsof -t -sTCP:LISTEN -iTCP:1313 2>/dev/null | sort -u)); if (( ${#pids[@]} )); then echo \"Found PIDs: ${pids[*]}\"; echo \"Sending SIGTERM...\"; kill -- \"${pids[@]}\"; sleep 3; remaining_pids=(); for pid in \"${pids[@]}\"; do if kill -0 $pid 2>/dev/null; then remaining_pids+=($pid); fi; done; if (( ${#remaining_pids[@]} )); then echo \"Sending SIGKILL to remaining PIDs: ${remaining_pids[*]}\"; kill -9 -- \"${remaining_pids[@]}\"; echo \"Done.\"; else echo \"All processes terminated gracefully.\"; fi; else echo \"No processes found on port 1313.\"; fi",
+    "dev:restart": "pnpm run dev:kill; pnpm run dev",
     "mod-pack": "$(hvm status --printExecPathCached) mod npm pack",
     "mod-pack:workspace": "HUGO_MODULE_WORKSPACE=go.work $(hvm status --printExecPathCached) mod npm pack",
-    "rebuild:workspace": "npm run clean && npm run build:workspace"
+    "rebuild:workspace": "pnpm run clean && pnpm run build:workspace"
   },
   "version": "0.1.0"
 }

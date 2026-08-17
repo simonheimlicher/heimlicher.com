@@ -15,6 +15,7 @@ set -euo pipefail
 # Version defaults (can be overridden via environment variables)
 DART_SASS_VERSION="${DART_SASS_VERSION:-1.97.2}"
 GO_VERSION="${GO_VERSION:-1.25.5}"
+PNPM_VERSION="${PNPM_VERSION:-11.5.0}"
 
 # Hugo cache directory - Vercel caches node_modules/ between builds
 # Export as HUGO_CACHEDIR so all hugo commands use it automatically
@@ -49,6 +50,28 @@ install_go() {
   go version
 }
 
+install_pnpm() {
+  if command -v pnpm >/dev/null 2>&1; then
+    echo "pnpm $(pnpm --version) already available."
+    return
+  fi
+
+  if command -v corepack >/dev/null 2>&1; then
+    echo "Installing pnpm ${PNPM_VERSION} via corepack..."
+    # Tolerate failure here; the npm fallback below covers it
+    corepack enable pnpm && corepack prepare "pnpm@${PNPM_VERSION}" --activate || true
+  fi
+
+  # corepack is absent on some images and can fail without a writable global bin
+  if ! command -v pnpm >/dev/null 2>&1; then
+    echo "corepack unavailable or failed; installing pnpm ${PNPM_VERSION} via npm..."
+    npm install -g "pnpm@${PNPM_VERSION}"
+  fi
+
+  echo "Verifying pnpm installation..."
+  pnpm --version
+}
+
 run_hugo_build() {
   local hugo_env="$1"
   echo "Building with environment: ${hugo_env}"
@@ -67,9 +90,12 @@ install_go
 echo "Checking Hugo environment..."
 hugo env
 
-# Install NPM modules
+# Install Node modules
+# Vercel's build image ships npm, not pnpm, and this project's Install Command is
+# set to None, so pnpm has to be bootstrapped here before it can be used.
 echo "Installing Node modules..."
-npm ci
+install_pnpm
+pnpm install --frozen-lockfile
 
 # Install Hugo modules
 echo "Installing Hugo modules..."
