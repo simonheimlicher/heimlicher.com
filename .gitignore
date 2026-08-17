@@ -30,3 +30,4 @@ go.work
 .spx/sessions
 .vercel/project.json
 .vercel/README.txt
+dogfood/screenshots
