@@ -4,5 +4,13 @@
     "typescript@outcomeeng": true,
     "prose@outcomeeng": true,
     "spec-tree@outcomeeng": true
+  },
+  "extraKnownMarketplaces": {
+    "outcomeeng": {
+      "source": {
+        "source": "github",
+        "repo": "outcomeeng/plugins"
+      }
+    }
   }
 }
