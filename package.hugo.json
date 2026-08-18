@@ -24,6 +24,9 @@
   "name": "heimlicher.com",
   "version": "0.1.0",
   "packageManager": "pnpm@11.5.0",
+  "engines": {
+    "node": "24.x"
+  },
   "scripts": {
     "build": "dotenvx run -- $(hvm status --printExecPathCached) --gc --minify",
     "build:workspace": "dotenvx run -- env HUGO_MODULE_WORKSPACE=go.work $(hvm status --printExecPathCached) --gc",
