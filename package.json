@@ -29,6 +29,9 @@
     "postcss-prune-var": "^1.1.1",
     "postcss-var-optimize": "^8.1.0"
   },
+  "engines": {
+    "node": "24.x"
+  },
   "name": "heimlicher.com",
   "packageManager": "pnpm@11.5.0",
   "scripts": {
