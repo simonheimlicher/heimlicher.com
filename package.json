@@ -30,7 +30,7 @@
     "postcss-var-optimize": "^8.1.0"
   },
   "engines": {
-    "node": "24.x"
+    "node": ">=24"
   },
   "name": "heimlicher.com",
   "packageManager": "pnpm@11.5.0",
