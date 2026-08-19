@@ -111,26 +111,54 @@ them there, not from `.npmrc`:
 
 ### Deployment
 
-Vercel project `simonheimlicher/heimlicher`, linked via `.vercel/project.json` (gitignored).
-`vercel.json` overrides the build with `.vercel/build.sh`; the project's own Install Command
-is `None`, so that script installs every dependency itself.
+**Two pipelines build this site. Both must be green before a merge.**
 
-| Branch     | `VERCEL_ENV` | `--environment` | Deployment URL       | Trigger                   |
-| ---------- | ------------ | --------------- | -------------------- | ------------------------- |
-| `main`     | production   | `prod`          | simon.heimlicher.com | Push to `origin/main`     |
-| any branch | preview      | `stage`         | per-deployment URL   | Push to `origin/<branch>` |
+| Pipeline                        | Serves                     | Config                                     | Trigger              |
+| ------------------------------- | -------------------------- | ------------------------------------------ | -------------------- |
+| **Cloudflare Pages** (traffic)  | `simon.heimlicher.com`     | `.github/workflows/cloudflare-pages.yml`   | Push to any branch   |
+| Vercel (parallel target)        | `heimlicher-com.vercel.app`| `vercel.json` -> `.vercel/build.sh`        | Push to any branch   |
+
+Cloudflare Pages is what visitors hit. Verify a change there first. `curl -sI
+https://simon.heimlicher.com` returns `server: cloudflare`, never a Vercel header.
+
+#### Cloudflare Pages
+
+The workflow is a thin caller; the real logic is the reusable workflow
+`simonheimlicher/claris-gh-actions/.github/workflows/build-hugo.yml@main`. Two Pages projects
+are deployed per run:
+
+| Pages project       | URL                    | Variable                        |
+| ------------------- | ---------------------- | ------------------------------- |
+| `heimlicher`        | simon.heimlicher.com   | `CLOUDFLARE_PROJECT_NAME`       |
+| `heimlicher-debug`  | debug.heimlicher.com   | `CLOUDFLARE_PROJECT_NAME_DEBUG` |
+
+`HUGO_VERSION` is a **repository variable** here, not a Vercel setting. The reusable workflow
+installs dependencies from whichever lockfile is present -- `pnpm-lock.yaml` via corepack,
+otherwise `npm ci`. A missing lockfile skips the install and Hugo's esbuild then fails with an
+opaque `Could not resolve "posthog-js"` rather than an install error.
+
+`CLOUDFLARE_API_TOKEN` needs two permissions: account-scoped **Cloudflare Pages: Edit** for the
+deploy, and zone-scoped **Cache Purge: Purge** for `purge-modified.py`.
+
+#### Vercel
+
+Project `simonheimlicher/heimlicher`, linked via `.vercel/project.json` (gitignored).
+`vercel.json` overrides the build with `.vercel/build.sh`. `VERCEL_ENV=production` maps to
+`--environment=prod`, `preview` to `stage`.
+
+Vercel-only settings that the repository cannot express:
+
+- **`ENABLE_EXPERIMENTAL_COREPACK=1`** is required, or Vercel picks a pnpm version from the
+  project creation date, ignores `packageManager`, and fails on the settings-only
+  `pnpm-workspace.yaml`. Currently scoped to the `build/tooling` branch only.
+- **`HUGO_VERSION`** is a Vercel env var, separate from the Cloudflare repository variable of
+  the same name. The two drift independently.
+- **Node.js Version** must satisfy `engines.node` in `package.json`; pnpm 11 needs >= 22.13.
 
 Preview deployments are `noindex, nofollow`: the theme defaults `robots.index`/`follow` to
-`false` and only its `config/production/hugo.yaml` turns indexing on.
-
-Two settings live in the Vercel project rather than the repo, and both need attention before
-any Hugo upgrade:
-
-- **`HUGO_VERSION`** is a Vercel env var set to `0.153.5` for all three environments. Since the
-  Framework Preset is Hugo, Vercel installs that binary; `.vercel/build.sh` never references it.
-  `.hvm` pins `0.156.0` locally, so local and deployed builds run different Hugo versions.
-- **Node.js Version is 20.x.** Hugo v0.161+ runs PostCSS under `--permission`, which requires
-  Node >= 22. Raise this before bumping Hugo past v0.160 or the CSS step fails.
+`false` and only `config/production/hugo.yaml` turns indexing on. Vercel previews are also
+behind SSO (`prod_deployment_urls_and_all_previews`) with no bypass secret, so preview URLs
+return a Vercel login page rather than the site.
 
 ## Local Development with Modules
 
